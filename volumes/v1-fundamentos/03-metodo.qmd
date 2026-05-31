@@ -1,0 +1,150 @@
+---
+title: "Método científico e modelagem em química"
+---
+
+# Método científico e modelagem em química {#sec-metodo}
+
+## Como a química decide o que é verdade
+
+Os dois capítulos anteriores deram o vocabulário (matéria, propriedades) e a
+disciplina de medir (unidades, significativos). Falta a peça que transforma medidas
+soltas em **conhecimento**: o método pelo qual a química propõe explicações, testa-as
+contra a natureza e as substitui quando falham. Este capítulo descreve esse método e
+introduz a ideia de **modelo** — a ferramenta central de raciocínio do químico, que
+reaparecerá explicitamente nos modelos atômicos, no gás ideal e na química quântica.
+
+## Observação, hipótese, lei e teoria
+
+A ciência não segue uma receita rígida, mas há um ciclo reconhecível: observa-se um
+fenômeno, propõe-se uma explicação provisória, deduzem-se consequências testáveis e
+confronta-se com o experimento. Quatro palavras desse ciclo têm sentido técnico
+preciso e costumam ser confundidas.
+
+::: {#def-hipotese}
+## Hipótese
+Uma **hipótese** é uma explicação provisória e **testável** para uma observação,
+formulada de modo que o experimento possa contradizê-la. "O gás escapou porque o
+frasco estava mal vedado" é hipótese; "havia má sorte" não é, pois nada poderia
+refutá-la.
+:::
+
+::: {#def-lei-teoria}
+## Lei e teoria científicas
+Uma **lei** descreve *o que* acontece — um padrão regular da natureza, em geral
+quantitativo (a lei da conservação da massa, a lei dos gases ideais). Uma **teoria**
+explica *por que* acontece — um arcabouço conceitual, amplamente testado, que unifica
+muitas observações e leis (a teoria atômica, a teoria cinética dos gases).
+:::
+
+::: {.callout-warning}
+No uso cotidiano "teoria" sugere palpite incerto. Na ciência é o oposto: uma teoria é
+uma explicação madura, repetidamente corroborada. E uma teoria **não** "vira" lei com
+o tempo — são coisas de naturezas diferentes (explicação × descrição), não estágios de
+uma mesma escada.
+:::
+
+## A medida da boa ciência: a refutabilidade
+
+O que separa uma afirmação científica de uma não científica não é estar certa, mas
+poder estar **errada** de um modo detectável. Uma hipótese que nenhum experimento
+imaginável poderia contradizer está fora do alcance do método.
+
+::: {#def-refutabilidade}
+## Refutabilidade (falseabilidade)
+Uma afirmação é **refutável** quando existe ao menos um resultado experimental
+possível que, se observado, a tornaria falsa. A força de uma teoria está em
+sobreviver a muitas tentativas honestas de refutá-la.
+:::
+
+Disso decorre uma assimetria importante: nenhum número de experimentos *prova*
+definitivamente uma teoria — sempre pode haver o experimento futuro que a derrube —,
+mas um único resultado bem estabelecido e reprodutível pode **refutá-la**. A ciência
+progride mais por descartar o que é falso do que por "provar" o que é verdadeiro.
+
+## Modelos: úteis, não verdadeiros
+
+A química raramente lida diretamente com a realidade microscópica; lida com
+**modelos** dela. Um modelo é uma representação simplificada — deixa de fora detalhes
+julgados irrelevantes para ganhar poder de cálculo e de intuição.
+
+::: {#def-modelo}
+## Modelo científico
+Um **modelo** é uma descrição simplificada de um sistema que reproduz seus aspectos
+essenciais e permite fazer previsões. Avalia-se um modelo não por ser "verdadeiro",
+mas por seu **domínio de validade**: a faixa de condições em que suas previsões
+concordam com a medida.
+:::
+
+::: {.callout-note}
+Modelos diferentes do mesmo objeto convivem, cada um útil em seu domínio. O elétron
+é tratado como partícula pontual na eletrostática, como onda na difração e como
+nuvem de probabilidade no orbital atômico — três modelos, três faixas de validade,
+nenhum "o verdadeiro". Saber qual usar é parte do ofício.
+:::
+
+::: {#exm-modelo}
+## Reconhecendo um domínio de validade
+A lei do gás ideal, $pV = nRT$, prevê muito bem o comportamento do ar a pressões
+moderadas e temperaturas ambientes. Por que ela falha para um gás muito comprimido e
+frio?
+
+**Solução.** O modelo ideal supõe partículas pontuais que não interagem. Sob alta
+pressão o volume próprio das moléculas deixa de ser desprezível, e a baixa temperatura
+as forças atrativas entre elas passam a importar — duas simplificações que saem do seu
+domínio de validade. A discordância com a medida não "derruba" a lei; apenas marca
+onde ela vale e onde é preciso um modelo mais rico (gás real).
+:::
+
+## A medida em si é uma teoria mínima
+
+Vale fechar o ciclo com os dois capítulos anteriores. Relatar uma densidade com três
+algarismos significativos é, implicitamente, uma afirmação refutável: "este valor é
+confiável até o terceiro dígito". A disciplina das unidades e dos significativos não é
+burocracia — é o modo de tornar cada medida uma **asserção testável**, que outro
+laboratório pode reproduzir e, se for o caso, contradizer.
+
+## Exercícios
+
+::: {#exr-1}
+Classifique cada afirmação como *lei* ou *teoria*: (a) "a massa total se conserva
+numa reação química"; (b) "a matéria é feita de átomos que se rearranjam nas reações".
+:::
+
+::: {#exr-2}
+Diga se cada hipótese é **refutável** e justifique: (a) "este sólido branco é cloreto
+de sódio"; (b) "existe uma substância que não interage com nada e é indetectável".
+:::
+
+::: {#exr-3}
+Um modelo prevê o ponto de ebulição da água em $\pu{100 ^\circ C}$ ao nível do mar,
+mas erra por $\pu{30 ^\circ C}$ no alto de uma montanha. O modelo deve ser descartado?
+Discuta em termos de *domínio de validade*.
+:::
+
+::: {#exr-4}
+Por que repetir uma medida e tomar a média **não** corrige um erro sistemático, mas
+atenua um erro aleatório? (Relacione com o capítulo de medidas.)
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) lei — descreve um padrão quantitativo observado. (b) teoria — explica
+*por que* a massa se conserva, com um arcabouço (átomos) que unifica muitas leis.
+
+**@exr-2.** (a) refutável: basta um teste de identificação (chama, solubilidade,
+ponto de fusão) capaz de dar resultado negativo. (b) não refutável: por construção,
+nenhum experimento poderia detectá-la — está fora do método científico.
+
+**@exr-3.** Não. O modelo supõe pressão ao nível do mar; na montanha a pressão é
+menor e o ponto de ebulição cai. A discordância apenas delimita o domínio de validade
+— o modelo continua útil dentro dele, e um modelo que inclua a pressão (Clausius–
+Clapeyron, em volumes adiante) cobre o resto.
+
+**@exr-4.** O erro sistemático desloca todas as medidas no mesmo sentido, então a
+média herda o mesmo desvio; só calibrar o instrumento o remove. O erro aleatório
+flutua para mais e para menos, e a média de muitas medidas tende a cancelar essas
+flutuações.
+:::
