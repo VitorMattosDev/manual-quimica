@@ -27,7 +27,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v1-fundamentos/03-metodo.qmd` — Método científico e modelagem em química.
 - [x] `volumes/v1-fundamentos/04-misturas.qmd` — Substâncias puras, misturas e separação de misturas.
 - [x] `volumes/v1-fundamentos/05-transformacoes.qmd` — Fenômenos físicos e químicos.
-- [ ] `volumes/v1-fundamentos/06-modelos-atomicos.qmd` — Modelos atômicos: de Dalton a Bohr.
+- [x] `volumes/v1-fundamentos/06-modelos-atomicos.qmd` — Modelos atômicos: de Dalton a Bohr.
 - [ ] `volumes/v1-fundamentos/07-linguagem.qmd` — Símbolos, fórmulas e equações químicas.
 
 ### Volume II — Estrutura Atômica e Periodicidade

@@ -24,6 +24,7 @@ book:
         - volumes/v1-fundamentos/03-metodo.qmd
         - volumes/v1-fundamentos/04-misturas.qmd
         - volumes/v1-fundamentos/05-transformacoes.qmd
+        - volumes/v1-fundamentos/06-modelos-atomicos.qmd
     # Conforme você avança, crie o .qmd e descomente / acrescente aqui.
     # - part: "Volume II — Estrutura Atômica e Periodicidade"
     #   chapters:

@@ -25,6 +25,9 @@ $$ d = \frac{m}{V}. $$
 **Temperatura (Celsius ↔ Kelvin)**
 $$ T/\mathrm{K} = \theta/\mathrm{^\circ C} + 273{,}15. $$
 
+**Energia de um fóton (Planck / Bohr)**
+$$ \Delta E = h\nu = \frac{hc}{\lambda}. $$
+
 **Mol e estequiometria**
 $$ n = \frac{m}{M}, \qquad N = n\,N_A. $$
 

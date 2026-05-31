@@ -1,0 +1,153 @@
+---
+title: "Modelos atômicos: de Dalton a Bohr"
+---
+
+# Modelos atômicos: de Dalton a Bohr {#sec-modelos-atomicos}
+
+## Uma ideia velha, refinada por experimentos
+
+A hipótese de que a matéria é feita de partículas indivisíveis é antiga, mas só virou
+ciência quando passou a ser **medida**. Cada modelo atômico desta história nasceu de
+um experimento que o anterior não conseguia explicar — e foi substituído pelo seguinte
+pelo mesmo motivo. É o método científico do capítulo anterior em ação: modelos com
+domínio de validade, descartados quando a natureza os contradiz. Vamos de Dalton a
+Bohr, e o Volume II retomará daí rumo ao átomo quântico.
+
+## Dalton: o átomo indivisível
+
+::: {#def-dalton}
+## Modelo de Dalton (1808)
+A matéria é feita de **átomos**, partículas maciças, indivisíveis e indestrutíveis.
+Átomos de um mesmo elemento são idênticos em massa e propriedades; os de elementos
+diferentes diferem. Reações químicas apenas **rearranjam** átomos, sem criá-los ou
+destruí-los.
+:::
+
+O modelo de Dalton (a "bola de bilhar") explica de imediato as leis ponderais — a
+conservação da massa de Lavoisier e as proporções fixas. Sua limitação: trata o átomo
+como maciço e sem estrutura interna, e nada diz sobre eletricidade. Os fenômenos
+elétricos forçariam sua revisão.
+
+## Thomson: cargas dentro do átomo
+
+Os experimentos com tubos de raios catódicos revelaram partículas de carga **negativa**
+— os **elétrons** — arrancadas da matéria. Logo, o átomo não era indivisível: tinha
+partes carregadas.
+
+::: {#def-thomson}
+## Modelo de Thomson (1897)
+O átomo é uma esfera de carga **positiva** difusa, na qual os **elétrons** (negativos)
+estão incrustados, como passas num pudim, de modo a tornar o conjunto eletricamente
+**neutro**. O átomo deixa de ser indivisível: passa a ter estrutura interna e cargas.
+:::
+
+## Rutherford: o núcleo
+
+O experimento da folha de ouro — bombardear uma fina lâmina com partículas $\alpha$
+(positivas) — produziu um resultado incompatível com o "pudim": a maioria das
+partículas atravessava sem desvio, mas **poucas voltavam**. Carga positiva difusa não
+poderia repelir tão fortemente; ela tinha de estar **concentrada**.
+
+::: {#def-rutherford}
+## Modelo de Rutherford (1911)
+O átomo é **majoritariamente vazio**. Quase toda a sua massa e **toda** a carga
+positiva concentram-se num **núcleo** minúsculo e denso; os elétrons ocupam a vasta
+região externa (a **eletrosfera**), orbitando o núcleo como planetas em torno do Sol.
+:::
+
+::: {.callout-warning}
+O modelo planetário de Rutherford tinha um defeito fatal segundo a física clássica:
+uma carga acelerada (o elétron na órbita curva) **irradia energia** continuamente e
+deveria espiralar até cair no núcleo em fração de segundo. O átomo seria instável — o
+que contradiz sua existência. Era preciso uma ideia nova sobre a energia do elétron.
+:::
+
+## Bohr: órbitas quantizadas
+
+Bohr salvou o átomo de Rutherford importando a ideia, então recente, de que a energia
+não é contínua, mas vem em "pacotes". Os elétrons só poderiam ocupar **órbitas
+permitidas**, de energia bem definida, sem irradiar enquanto nelas permanecessem.
+
+::: {#def-bohr}
+## Modelo de Bohr (1913)
+Os elétrons giram em torno do núcleo apenas em **órbitas circulares de energia
+quantizada** (níveis ou camadas). Numa órbita estável o elétron **não** irradia. Ele
+só emite ou absorve energia ao **saltar** entre níveis, e essa energia é trocada em
+quantidades discretas — um **fóton** — de valor igual à diferença entre os níveis:
+$$ \Delta E = E_{\text{final}} - E_{\text{inicial}} = h\nu. $$ {#eq-bohr}
+:::
+
+A grande vitória de Bohr foi explicar os **espectros de emissão** descontínuos: ao
+ser excitado e depois decair, o elétron emite fótons de energias específicas, gerando
+as raias coloridas características de cada elemento — exatamente o que se observava e
+o modelo anterior não explicava.
+
+::: {#exm-foton}
+## Energia de um salto eletrônico
+Um elétron decai de um nível de energia $E_2 = -\pu{2,42e-19 J}$ para
+$E_1 = -\pu{5,45e-19 J}$. Qual a energia do fóton emitido e sua frequência?
+($h = \pu{6,626e-34 J.s}$.)
+
+**Solução.** A energia liberada é $|\Delta E| = |E_1 - E_2| = |-5{,}45 - (-2{,}42)|
+\times 10^{-19} = \pu{3,03e-19 J}$. Pela @eq-bohr,
+$$ \nu = \frac{|\Delta E|}{h} = \frac{3{,}03\times10^{-19}}{6{,}626\times10^{-34}}
+\approx \pu{4,57e14 Hz}, $$
+na faixa da luz visível — daí a raia colorida observada no espectro.
+:::
+
+## O fio da história
+
+```{mermaid}
+flowchart LR
+  D["Dalton<br/>bola maciça"] --> T["Thomson<br/>pudim de passas"]
+  T --> R["Rutherford<br/>núcleo + eletrosfera"]
+  R --> B["Bohr<br/>órbitas quantizadas"]
+```
+
+Cada seta é um experimento que o modelo anterior não explicava: a eletricidade
+(raios catódicos) levou de Dalton a Thomson; o espalhamento $\alpha$, de Thomson a
+Rutherford; a estabilidade e os espectros, de Rutherford a Bohr. O próprio Bohr seria
+superado — suas órbitas fixas não sobrevivem ao princípio da incerteza —, dando lugar
+ao **modelo quântico** (orbitais), tema do Volume II.
+
+## Exercícios
+
+::: {#exr-1}
+Que observação experimental cada transição exigiu? Associe: (a) Dalton → Thomson;
+(b) Thomson → Rutherford; (c) Rutherford → Bohr.
+:::
+
+::: {#exr-2}
+No experimento de Rutherford, por que a maioria das partículas $\alpha$ atravessava a
+folha sem desvio, e por que pouquíssimas voltavam?
+:::
+
+::: {#exr-3}
+Por que o modelo de Rutherford, segundo a física clássica, previa um átomo instável?
+:::
+
+::: {#exr-4}
+Um elétron absorve um fóton de energia $\pu{4,0e-19 J}$ e salta para um nível
+superior. Qual a diferença de energia $\Delta E$ entre os níveis envolvidos?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) os raios catódicos, que revelaram o elétron (carga negativa dentro do
+átomo); (b) o espalhamento de partículas $\alpha$ na folha de ouro, que revelou o
+núcleo; (c) a estabilidade do átomo e os espectros de emissão descontínuos.
+
+**@exr-2.** O átomo é quase todo vazio (Rutherford): a maioria das $\alpha$ passa
+longe do núcleo e não se desvia. As pouquíssimas que voltam acertaram de frente o
+núcleo, pequeno mas de carga positiva concentrada, que as repele fortemente.
+
+**@exr-3.** Um elétron em órbita está acelerado; pela eletrodinâmica clássica, uma
+carga acelerada irradia energia continuamente. Perdendo energia, o elétron
+espiralaria até o núcleo — o átomo colapsaria.
+
+**@exr-4.** Pela @eq-bohr, a energia absorvida é a diferença entre os níveis, logo
+$\Delta E = \pu{4,0e-19 J}$ (o nível final está acima do inicial por essa quantia).
+:::
