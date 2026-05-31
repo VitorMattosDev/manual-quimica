@@ -28,6 +28,9 @@ $$ T/\mathrm{K} = \theta/\mathrm{^\circ C} + 273{,}15. $$
 **Energia de um fóton (Planck / Bohr)**
 $$ \Delta E = h\nu = \frac{hc}{\lambda}. $$
 
+**Onda de matéria (De Broglie) e incerteza (Heisenberg)**
+$$ \lambda = \frac{h}{mv}, \qquad \Delta x\,\Delta p \gtrsim \frac{h}{4\pi}. $$
+
 **Mol e estequiometria**
 $$ n = \frac{m}{M}, \qquad N = n\,N_A. $$
 

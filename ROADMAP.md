@@ -33,7 +33,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 ### Volume II — Estrutura Atômica e Periodicidade
 *Objetivo:* o átomo quântico e a periodicidade. *Pré-requisito:* Vol. I.
 
-- [ ] `volumes/v2-atomistica/01-modelo-quantico.qmd` — Modelo quântico; dualidade; orbitais.
+- [x] `volumes/v2-atomistica/01-modelo-quantico.qmd` — Modelo quântico; dualidade; orbitais.
 - [ ] `volumes/v2-atomistica/02-numeros-quanticos.qmd` — Números quânticos e exclusão de Pauli.
 - [ ] `volumes/v2-atomistica/03-config-eletronica.qmd` — Configuração eletrônica (Aufbau, Hund).
 - [ ] `volumes/v2-atomistica/04-tabela-periodica.qmd` — Organização e história da tabela periódica.

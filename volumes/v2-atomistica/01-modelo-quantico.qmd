@@ -1,0 +1,132 @@
+---
+title: "O modelo quântico do átomo"
+---
+
+# O modelo quântico do átomo {#sec-modelo-quantico}
+
+## Por que abandonar as órbitas de Bohr
+
+O modelo de Bohr (@def-bohr) explicava o espectro do hidrogênio, mas falhava para
+átomos com mais de um elétron e repousava sobre uma hipótese arbitrária: órbitas
+circulares de raio fixo. O golpe definitivo veio de duas ideias do início do século
+XX — a de que o elétron tem **comportamento ondulatório** e a de que não se pode
+conhecer simultaneamente sua posição e seu movimento com precisão arbitrária. Juntas,
+elas dissolvem a própria noção de "órbita" e a substituem por algo mais sutil: uma
+**região de probabilidade**, o orbital. Este capítulo abre o Volume II montando esse
+modelo quântico, base de toda a estrutura atômica e da periodicidade que vêm a seguir.
+
+## A dualidade onda-partícula
+
+A luz, antes vista como onda, mostrou comportamento de partícula (o fóton, no efeito
+fotoelétrico). De Broglie propôs a simetria inversa: se a luz tem faceta corpuscular,
+a matéria deve ter faceta **ondulatória**.
+
+::: {#def-debroglie}
+## Hipótese de De Broglie
+A toda partícula de massa $m$ e velocidade $v$ associa-se um **comprimento de onda**
+$$ \lambda = \frac{h}{mv} = \frac{h}{p}, $$ {#eq-debroglie}
+onde $p = mv$ é o momento e $h$ é a constante de Planck. Quanto maior o momento, menor
+o comprimento de onda.
+:::
+
+Para objetos macroscópicos $\lambda$ é absurdamente pequeno e o caráter ondulatório é
+imperceptível; para o elétron, leve e veloz, $\lambda$ tem dimensões atômicas — e a
+natureza ondulatória torna-se decisiva. A difração de elétrons, observada
+experimentalmente, confirmou a hipótese.
+
+::: {#exm-debroglie}
+## Comprimento de onda de um elétron
+Estime $\lambda$ de um elétron ($m_e = \pu{9,11e-31 kg}$) a $v = \pu{2,2e6 m/s}$.
+($h = \pu{6,626e-34 J.s}$.)
+
+**Solução.** Pela @eq-debroglie,
+$$ \lambda = \frac{6{,}626\times10^{-34}}{(9{,}11\times10^{-31})(2{,}2\times10^{6})}
+\approx \pu{3,3e-10 m} = \pu{0,33 nm}, $$
+da ordem do tamanho de um átomo — por isso o caráter ondulatório do elétron domina a
+estrutura atômica.
+:::
+
+## O princípio da incerteza
+
+::: {#def-incerteza}
+## Princípio da incerteza de Heisenberg
+Não é possível conhecer simultaneamente, com precisão arbitrária, a **posição** e o
+**momento** de uma partícula. As incertezas obedecem a
+$$ \Delta x \, \Delta p \gtrsim \frac{h}{4\pi}. $$ {#eq-incerteza}
+Quanto mais bem definida a posição, mais incerto o momento, e vice-versa.
+:::
+
+A consequência é demolidora para Bohr: uma "órbita" exigiria conhecer ao mesmo tempo
+onde o elétron está e como se move — exatamente o que a incerteza proíbe. A trajetória
+definida perde sentido em escala atômica. O que resta é uma descrição **probabilística**.
+
+## Função de onda e orbital
+
+Schrödinger traduziu o caráter ondulatório do elétron numa equação cuja solução é a
+**função de onda** $\psi$. Ela não localiza o elétron, mas codifica a probabilidade de
+encontrá-lo em cada ponto.
+
+::: {#def-orbital}
+## Orbital atômico
+A função de onda $\psi$ descreve o estado do elétron; o quadrado de seu módulo,
+$|\psi|^2$, é a **densidade de probabilidade** de encontrá-lo em cada ponto do espaço.
+Um **orbital** é a região ao redor do núcleo onde essa probabilidade é alta (em geral,
+$\geq 90\%$). O elétron não percorre uma órbita: ocupa um orbital, uma "nuvem" de
+probabilidade.
+:::
+
+::: {.callout-note}
+A diferença de vocabulário não é trivial. **Órbita** (Bohr) é uma trajetória definida,
+um fio de arame por onde o elétron passa. **Orbital** (quântico) é uma distribuição de
+probabilidade, uma nuvem sem bordas nítidas. O modelo quântico abandona a primeira em
+favor da segunda — e é essa nuvem que dá forma e tamanho aos átomos.
+:::
+
+A solução da equação de Schrödinger para o átomo não fornece um orbital único, mas um
+conjunto deles, rotulados por **números quânticos** — que determinam sua energia,
+forma e orientação. Esses números, e as regras que governam como os elétrons os
+preenchem, são o tema dos dois próximos capítulos; aqui fica estabelecido o quadro
+conceitual em que eles se inserem.
+
+## Exercícios
+
+::: {#exr-1}
+Por que não percebemos o comprimento de onda de De Broglie de uma bola de futebol em
+movimento, mas ele é decisivo para um elétron?
+:::
+
+::: {#exr-2}
+Calcule o comprimento de onda associado a um nêutron ($m = \pu{1,67e-27 kg}$) a
+$v = \pu{4,0e3 m/s}$.
+:::
+
+::: {#exr-3}
+Explique, com base no princípio da incerteza, por que o conceito de "órbita" de Bohr é
+insustentável no modelo quântico.
+:::
+
+::: {#exr-4}
+Qual a diferença conceitual entre *órbita* e *orbital*? O que representa $|\psi|^2$?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Pela @eq-debroglie, $\lambda = h/mv$. A bola tem massa enorme frente ao
+elétron, então seu momento $mv$ é gigantesco e $\lambda$ fica absurdamente pequeno
+(muito abaixo de qualquer escala mensurável). O elétron, leve, tem $\lambda$ de
+dimensões atômicas.
+
+**@exr-2.** $\lambda = \dfrac{6{,}626\times10^{-34}}{(1{,}67\times10^{-27})(4{,}0\times10^{3})}
+\approx \pu{9,9e-11 m} \approx \pu{0,099 nm}$.
+
+**@exr-3.** Uma órbita supõe conhecer simultaneamente posição e momento do elétron a
+cada instante; a @eq-incerteza proíbe esse conhecimento conjunto com precisão
+arbitrária. Sem trajetória bem definida, "órbita" perde sentido.
+
+**@exr-4.** Órbita é uma trajetória definida (Bohr); orbital é uma região de alta
+probabilidade de encontrar o elétron (modelo quântico). $|\psi|^2$ é a densidade de
+probabilidade de encontrar o elétron em cada ponto.
+:::
