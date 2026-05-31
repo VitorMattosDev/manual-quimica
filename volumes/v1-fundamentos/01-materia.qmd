@@ -4,25 +4,218 @@ title: "Matéria, propriedades e estados"
 
 # Matéria, propriedades e estados {#sec-materia}
 
-::: {.callout-note}
-**Capítulo em esboço.** Estrutura prevista: o que é matéria; propriedades gerais e
-específicas; estados físicos e mudanças de estado; propriedades intensivas e
-extensivas; densidade. Escrever espelhando o capítulo-gabarito
-`volumes/v4-estequiometria/04-estequiometria.qmd`.
+## Por que organizar o mundo material
+
+A química é, na origem, um esforço de **classificação**. Antes de medir, prever ou
+transformar, o químico precisa de um vocabulário comum: o que conta como *matéria*,
+o que distingue uma *substância* de outra, e por que ferro, água e ar se comportam
+de modos tão diferentes. Sem esse alicerce, nenhuma lei posterior — conservação de
+massa, proporções fixas, periodicidade — teria sobre o que se apoiar.
+
+Este capítulo monta esse alicerce. Vamos definir matéria, separar suas
+**propriedades** em categorias úteis (o que serve para *identificar* uma substância
+e o que apenas mede *quanto* dela existe) e descrever os **estados físicos** com um
+único modelo mental — o de partículas em movimento — que reaparecerá em todos os
+volumes seguintes, dos gases à química quântica.
+
+## O que é matéria
+
+::: {#def-materia}
+## Matéria
+**Matéria** é tudo aquilo que tem **massa** e ocupa **espaço** (isto é, tem
+volume). Uma porção limitada e individualizada de matéria é um **corpo**; um corpo
+fabricado para uma função é um **objeto**.
 :::
 
-## Motivação
+A definição é deliberadamente ampla: água, ar, uma pedra e o próprio leitor são
+matéria. O que a química acrescenta é a pergunta sobre a *composição* — e aí entra
+o conceito central de substância.
 
-<!-- Por que classificar a matéria importa para tudo que vem depois. -->
+::: {#def-substancia}
+## Substância
+Uma **substância** (ou substância pura) é uma porção de matéria com **composição
+definida** e **propriedades características constantes**. A água pura, o ferro
+metálico ($\ce{Fe}$) e o gás carbônico ($\ce{CO2}$) são substâncias; a água do mar,
+sendo mistura de várias, não é.
+:::
 
-## Conteúdo a desenvolver
+A distinção entre substância e mistura — e como separá-las — é o tema de um
+capítulo próprio. Por ora basta a ideia de que uma substância é a unidade material
+cujas propriedades podemos tabelar e usar para identificá-la.
 
-- Definição de matéria e de substância.
-- Propriedades gerais (massa, volume, inércia) e específicas (densidade, ponto de
-  fusão/ebulição, dureza).
-- Estados físicos e o modelo de partículas; mudanças de estado.
-- Propriedades intensivas vs. extensivas.
+## Propriedades da matéria
+
+Nem toda propriedade serve para reconhecer uma substância. Massa e volume, por
+exemplo, qualquer porção de matéria tem — eles não distinguem ouro de areia. Já o
+ponto de fusão e a densidade são "impressões digitais": valem para *aquela*
+substância. Daí a primeira classificação.
+
+::: {#def-propriedades}
+## Propriedades gerais e específicas
+**Propriedades gerais** são comuns a toda matéria, independentemente de qual seja:
+massa, volume, **inércia** (resistência a mudar o estado de movimento) e
+**impenetrabilidade** (dois corpos não ocupam o mesmo lugar ao mesmo tempo).
+**Propriedades específicas** dependem da natureza da substância e servem para
+identificá-la: **densidade**, **ponto de fusão**, **ponto de ebulição**, dureza,
+cor, solubilidade.
+:::
+
+Há um segundo corte, ortogonal ao primeiro, igualmente útil: algumas propriedades
+mudam quando se muda a *quantidade* de matéria; outras, não.
+
+::: {#def-intensiva-extensiva}
+## Propriedades intensivas e extensivas
+Uma propriedade é **extensiva** quando seu valor depende da **quantidade** de
+matéria (massa, volume, quantidade de calor). É **intensiva** quando **não**
+depende da quantidade — tem o mesmo valor para uma gota ou um tanque da mesma
+substância nas mesmas condições (densidade, temperatura, ponto de fusão).
+:::
+
+::: {.callout-note}
+As duas classificações não são a mesma coisa. Massa é geral *e* extensiva;
+densidade é específica *e* intensiva. A densidade é justamente útil para
+identificação **porque** é intensiva: não importa o tamanho da amostra.
+:::
+
+A densidade merece destaque porque é a propriedade específica mais usada para
+caracterizar e comparar materiais. Ela relaciona duas propriedades extensivas —
+massa e volume — em uma razão intensiva:
+
+$$ d = \frac{m}{V}. $$ {#eq-densidade}
+
+No SI a densidade sai em $\pu{kg/m^3}$, mas na prática de laboratório usa-se quase
+sempre $\pu{g/cm^3}$ (equivalente a $\pu{g/mL}$). A água líquida, perto de
+$\pu{4 ^\circ C}$, tem $d \approx \pu{1,00 g/cm^3}$ — um valor de referência que
+convém memorizar.
+
+## Estados físicos e o modelo de partículas
+
+Uma mesma substância pode se apresentar em diferentes **estados físicos** (ou
+estados de agregação). O que muda não é a substância, mas o **arranjo e a energia
+de movimento** de suas partículas — o modelo cinético-particulado que adotaremos no
+livro todo.
+
+::: {#def-estados}
+## Estados físicos
+- **Sólido:** partículas muito próximas, em posições fixas, vibrando em torno de um
+  arranjo ordenado. Tem **forma e volume próprios**; é praticamente
+  incompressível.
+- **Líquido:** partículas próximas, mas com liberdade para deslizar umas sobre as
+  outras. Tem **volume próprio**, mas assume a **forma do recipiente**; quase
+  incompressível.
+- **Gasoso:** partículas muito afastadas, em movimento desordenado e veloz. **Não
+  tem forma nem volume próprios** (ocupa todo o recipiente) e é facilmente
+  compressível.
+:::
+
+A tabela resume o contraste:
+
+| Estado | Forma | Volume | Compressibilidade | Arranjo das partículas |
+|---|---|---|---|---|
+| Sólido | própria | próprio | desprezível | ordenado, fixo |
+| Líquido | do recipiente | próprio | pequena | desordenado, móvel |
+| Gasoso | do recipiente | do recipiente | grande | muito disperso, livre |
+
+O fio condutor é a **energia cinética** das partículas frente às forças que as
+mantêm unidas: aquecer fornece energia, vence parcialmente essas forças e leva a
+matéria de estados mais organizados para mais dispersos.
+
+## Mudanças de estado
+
+Cada transição entre estados tem nome próprio. Aquecer percorre o sentido
+sólido → líquido → gás; resfriar percorre o inverso. O diagrama reúne as seis
+transformações:
+
+```{mermaid}
+flowchart LR
+  S["Sólido"]
+  L["Líquido"]
+  G["Gasoso"]
+  S -- fusão --> L
+  L -- solidificação --> S
+  L -- vaporização --> G
+  G -- condensação --> L
+  S -- sublimação --> G
+  G -- ressublimação --> S
+```
+
+- **Fusão:** sólido → líquido (ex.: gelo derretendo).
+- **Solidificação:** líquido → sólido.
+- **Vaporização:** líquido → gás. Pode ser lenta e superficial (**evaporação**) ou
+  tumultuosa em toda a massa, a uma temperatura fixa (**ebulição**).
+- **Condensação** (ou **liquefação**): gás → líquido.
+- **Sublimação:** sólido → gás diretamente, sem passar pelo líquido (ex.: gelo-seco,
+  $\ce{CO2(s) -> CO2(g)}$, e a naftalina).
+- **Ressublimação** (ou **deposição**): gás → sólido.
+
+::: {.callout-warning}
+Dois enganos comuns. **(1)** "Vapor" e "gás" não são intercambiáveis num texto
+rigoroso: chamamos de *vapor* o estado gasoso de uma substância que, nas condições
+ambientes, seria tipicamente líquida ou sólida (vapor d'água). **(2)** Evaporação e
+ebulição são ambas vaporização, mas a evaporação ocorre só na superfície e em
+qualquer temperatura, enquanto a ebulição ocorre em toda a massa do líquido e a uma
+temperatura definida (o ponto de ebulição, sob dada pressão).
+:::
+
+## Exemplos resolvidos
+
+::: {#exm-densidade}
+## Identificando um metal pela densidade
+Uma peça metálica tem massa $\pu{77,7 g}$ e, mergulhada numa proveta, desloca
+$\pu{9,9 cm^3}$ de água. Qual sua densidade, e de que metal provavelmente se trata?
+(Densidades de referência: alumínio $\pu{2,70 g/cm^3}$, ferro $\pu{7,87 g/cm^3}$,
+chumbo $\pu{11,3 g/cm^3}$.)
+
+**Solução.** Pela @eq-densidade,
+$$ d = \frac{m}{V} = \frac{77{,}7}{9{,}9} \approx \pu{7,85 g/cm^3}. $$
+O valor coincide com o do **ferro**. Note que a densidade não dependeu do tamanho
+da peça — por ser intensiva, ela identifica a substância.
+:::
+
+::: {#exm-classificacao}
+## Classificando propriedades
+Classifique cada propriedade de uma barra de cobre como *geral* ou *específica* e
+como *intensiva* ou *extensiva*: (a) massa; (b) densidade; (c) volume; (d) ponto de
+fusão.
+
+**Solução.** (a) massa — geral e extensiva. (b) densidade — específica e intensiva.
+(c) volume — geral e extensiva. (d) ponto de fusão — específico e intensivo.
+Cortar a barra ao meio muda (a) e (c), mas não (b) nem (d).
+:::
 
 ## Exercícios
 
-<!-- A preencher. -->
+::: {#exr-1}
+Um cubo maciço de alumínio tem aresta $\pu{2,0 cm}$ e massa $\pu{21,6 g}$. Calcule
+sua densidade e confirme se é compatível com o alumínio ($\pu{2,70 g/cm^3}$).
+:::
+
+::: {#exr-2}
+Três líquidos imiscíveis são colocados no mesmo tubo: A ($d = \pu{0,79 g/cm^3}$),
+B ($d = \pu{1,00 g/cm^3}$) e C ($d = \pu{1,26 g/cm^3}$). Em que ordem, de baixo
+para cima, eles se dispõem?
+:::
+
+::: {#exr-3}
+Dê o nome de cada mudança de estado: (a) o orvalho que se forma de manhã; (b) a
+naftalina que some do guarda-roupa sem molhar nada; (c) a água que congela no
+freezer.
+:::
+
+::: {#exr-4}
+Classifique como *intensiva* ou *extensiva*: (a) temperatura; (b) comprimento;
+(c) cor; (d) quantidade de calor liberada numa combustão.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Volume do cubo: $V = (2{,}0)^3 = \pu{8,0 cm^3}$. Pela @eq-densidade,
+$d = 21{,}6/8{,}0 = \pu{2,70 g/cm^3}$ — compatível com o alumínio.
+
+**@exr-3.** (a) condensação (ou liquefação); (b) sublimação; (c) solidificação.
+
+**@exr-4.** (a) intensiva; (b) extensiva; (c) intensiva; (d) extensiva.
+:::

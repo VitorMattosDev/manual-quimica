@@ -22,7 +22,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 ### Volume I — Fundamentos da Química
 *Objetivo:* a linguagem e as ferramentas básicas. *Pré-requisito:* nenhum.
 
-- [~] `volumes/v1-fundamentos/01-materia.qmd` — Matéria, propriedades e estados.
+- [x] `volumes/v1-fundamentos/01-materia.qmd` — Matéria, propriedades e estados.
 - [~] `volumes/v1-fundamentos/02-medidas.qmd` — Medidas, unidades (SI) e algarismos significativos.
 - [ ] `volumes/v1-fundamentos/03-metodo.qmd` — Método científico e modelagem em química.
 - [ ] `volumes/v1-fundamentos/04-misturas.qmd` — Substâncias puras, misturas e separação de misturas.
