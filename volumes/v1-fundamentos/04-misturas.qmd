@@ -1,0 +1,146 @@
+---
+title: "Substâncias puras, misturas e separação"
+---
+
+# Substâncias puras, misturas e separação {#sec-misturas}
+
+## Quase nada na natureza é puro
+
+A água do mar, o ar, o aço, o sangue, o petróleo — quase tudo o que encontramos é
+**mistura**. A química, porém, formula suas leis para **substâncias puras**, cujas
+propriedades são constantes e tabeláveis. Conciliar as duas coisas exige dois
+movimentos: saber **classificar** um material como substância ou mistura, e dominar
+as técnicas que **separam** os componentes de uma mistura sem alterá-los. Este
+capítulo trata dos dois — e prepara o terreno para distinguir, no próximo, as
+transformações que apenas separam das que de fato criam substâncias novas.
+
+## Substância, mistura e fases
+
+No capítulo de matéria definimos *substância* pela composição definida. O contraponto
+é a mistura.
+
+::: {#def-mistura}
+## Mistura
+Uma **mistura** é a reunião de duas ou mais substâncias que **conservam suas
+identidades** e podem, em princípio, ser separadas por **processos físicos**. Suas
+propriedades (densidade, ponto de fusão) variam com a proporção dos componentes — ao
+contrário das de uma substância pura.
+:::
+
+Para descrever o aspecto de uma mistura, usa-se a noção de fase.
+
+::: {#def-fase}
+## Fase
+Uma **fase** é uma porção de matéria **uniforme** em toda a sua extensão, com as
+mesmas propriedades e composição (um aspecto visual contínuo). Água e óleo formam
+**duas** fases; água e sal totalmente dissolvido, **uma**.
+:::
+
+::: {#def-homogenea-heterogenea}
+## Misturas homogêneas e heterogêneas
+Uma mistura é **homogênea** quando apresenta **uma única fase** — é uniforme até a
+escala que o olho (e o microscópio comum) alcança; também se chama **solução**. É
+**heterogênea** quando apresenta **duas ou mais fases**. O número de fases conta o
+que se vê; o número de componentes conta quantas substâncias há — são contagens
+independentes.
+:::
+
+::: {.callout-warning}
+"Homogêneo" não quer dizer "um só componente". O ar limpo é mistura **homogênea** de
+vários gases ($\ce{N2}$, $\ce{O2}$, $\ce{Ar}$, $\ce{CO2}$): uma fase, muitos
+componentes. Já água com gelo é **uma** substância (água) em **duas** fases — logo,
+heterogênea, apesar de um só componente.
+:::
+
+## Substâncias simples e compostas
+
+Entre as substâncias puras, ainda cabe um corte conforme o número de elementos
+químicos envolvidos — antecipando a linguagem que o capítulo de símbolos formaliza.
+
+::: {#def-simples-composta}
+## Substância simples e composta
+Uma **substância simples** é formada por um único elemento químico ($\ce{O2}$,
+$\ce{Fe}$, $\ce{O3}$). Uma **substância composta** (ou composto) é formada por dois ou
+mais elementos em proporção fixa ($\ce{H2O}$, $\ce{CO2}$, $\ce{NaCl}$) e só se separa
+em seus elementos por processos **químicos**, não físicos.
+:::
+
+A distinção entre o que se separa por processo *físico* (mistura → substâncias) e o
+que só se separa por processo *químico* (composto → elementos) é o divisor de águas
+deste volume.
+
+## Técnicas de separação
+
+Separar uma mistura é explorar uma **diferença de propriedade** entre seus
+componentes: tamanho, densidade, ponto de ebulição, solubilidade, magnetismo. A
+tabela associa cada técnica à propriedade que ela explora e ao tipo de mistura.
+
+| Técnica | Explora a diferença de | Aplica-se a |
+|---|---|---|
+| Filtração | tamanho de partícula | sólido + líquido (ou gás) |
+| Decantação | densidade | sólido + líquido, ou líquidos imiscíveis |
+| Centrifugação | densidade (acelerada) | suspensões finas |
+| Destilação simples | ponto de ebulição | sólido dissolvido em líquido |
+| Destilação fracionada | pontos de ebulição próximos | líquidos miscíveis |
+| Evaporação/cristalização | volatilidade / solubilidade | sólido dissolvido |
+| Separação magnética | resposta a ímã | um componente ferromagnético |
+
+::: {#exm-separacao}
+## Escolhendo a técnica
+Como separar uma mistura de areia, limalha de ferro, sal de cozinha e água?
+
+**Solução.** Em sequência, explorando uma propriedade de cada vez: **(1)** um ímã
+retira a limalha de ferro (separação magnética); **(2)** a filtração retém a areia
+(insolúvel) e deixa passar a solução de sal em água; **(3)** a destilação simples (ou
+evaporação) recupera a água e deixa o sal cristalizado. Nenhuma etapa altera as
+substâncias — são todos processos físicos.
+:::
+
+::: {.callout-note}
+A **destilação fracionada** é a versão da destilação para líquidos miscíveis de
+pontos de ebulição próximos, separados ao longo de uma coluna. É como se obtêm o
+oxigênio e o nitrogênio do ar liquefeito e as frações do petróleo — uma das operações
+industriais mais importantes da química.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Classifique cada material como substância pura ou mistura e, se mistura, como
+homogênea ou heterogênea: (a) água destilada; (b) granito; (c) vinagre (ácido acético
+em água); (d) gás carbônico.
+:::
+
+::: {#exr-2}
+Quantas fases e quantos componentes há em um copo com água, gelo e algumas gotas de
+óleo flutuando?
+:::
+
+::: {#exr-3}
+Que técnica você usaria para separar (a) água e álcool (miscíveis, pontos de ebulição
+$\pu{100 ^\circ C}$ e $\pu{78 ^\circ C}$); (b) água e gasolina (imiscíveis)?
+:::
+
+::: {#exr-4}
+$\ce{O2}$ e $\ce{O3}$ (ozônio) são a mesma substância? E uma mistura desses dois gases
+é simples ou composta? Justifique.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) substância pura; (b) mistura heterogênea (vários minerais visíveis);
+(c) mistura homogênea; (d) substância pura (composto).
+
+**@exr-2.** Três fases (gelo sólido, água líquida, óleo líquido) e dois componentes
+(água — em duas fases — e óleo). Mistura heterogênea.
+
+**@exr-3.** (a) destilação fracionada (miscíveis, pontos de ebulição próximos);
+(b) decantação com funil de separação (imiscíveis, densidades diferentes).
+
+**@exr-4.** Não são a mesma substância: têm fórmulas e propriedades distintas, embora
+sejam do mesmo elemento (são **alótropos**). A mistura dos dois é uma mistura de duas
+substâncias **simples** — cada uma feita de um só elemento.
+:::
