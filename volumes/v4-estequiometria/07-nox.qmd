@@ -1,0 +1,130 @@
+---
+title: "Número de oxidação e oxirredução"
+---
+
+# Número de oxidação e oxirredução {#sec-nox}
+
+## Seguindo os elétrons
+
+Entre os tipos de reação do Cap. 5, alguns têm uma natureza especial que a simples
+contagem de átomos não revela: nelas, **elétrons são transferidos** de uma espécie para
+outra. São as reações de **oxirredução** (redox) — a combustão, a ferrugem, as pilhas,
+a respiração celular. Para rastrear essa transferência precisamos de um contador de
+elétrons: o **número de oxidação**. Este capítulo, que fecha o Volume IV, define esse
+número, mostra como atribuí-lo e usa-o para identificar oxidação e redução — abrindo a
+porta para o balanceamento redox e a eletroquímica dos Volumes IX.
+
+## Número de oxidação
+
+::: {#def-nox}
+## Número de oxidação (Nox)
+O **número de oxidação** de um átomo é a carga que ele **teria** se todos os elétrons
+das suas ligações fossem atribuídos ao átomo mais eletronegativo de cada ligação. É uma
+**carga formal de contabilidade**: real nos compostos iônicos, hipotética nos
+covalentes, mas sempre útil para acompanhar elétrons.
+:::
+
+As regras de atribuição, aplicadas em ordem de prioridade:
+
+1. Substância **simples**: Nox $= 0$ (em $\ce{O2}$, $\ce{Fe}$, $\ce{H2}$).
+2. Íon **monoatômico**: Nox $=$ sua carga ($\ce{Na+}$ é $+1$, $\ce{S^2-}$ é $-2$).
+3. **Hidrogênio**: $+1$ (exceto em hidretos metálicos, $\ce{NaH}$, onde é $-1$).
+4. **Oxigênio**: $-2$ (exceto em peróxidos, $-1$, e ligado ao flúor, positivo).
+5. A **soma** dos Nox é $0$ numa molécula neutra e igual à **carga** num íon composto.
+
+::: {#exm-nox-h2so4}
+## Nox do enxofre no H₂SO₄
+Determine o Nox do enxofre no $\ce{H2SO4}$.
+
+**Solução.** $\ce{H} = +1$ (são 2: $+2$); $\ce{O} = -2$ (são 4: $-8$). A molécula é
+neutra, então $(+2) + x + (-8) = 0 \Rightarrow x = +6$. O enxofre tem Nox $+6$.
+:::
+
+::: {#exm-nox-ion}
+## Nox em um íon composto
+Qual o Nox do cromo no íon dicromato $\ce{Cr2O7^2-}$?
+
+**Solução.** $\ce{O} = -2$ (são 7: $-14$). A soma deve igualar a carga, $-2$:
+$2x + (-14) = -2 \Rightarrow 2x = 12 \Rightarrow x = +6$. Cada cromo tem Nox $+6$.
+:::
+
+## Oxidação, redução e os agentes
+
+::: {#def-oxirreducao}
+## Oxidação e redução
+**Oxidação** é a **perda** de elétrons, acompanhada de **aumento** do Nox. **Redução**
+é o **ganho** de elétrons, com **diminuição** do Nox. As duas ocorrem **sempre juntas**
+(uma reação redox): os elétrons perdidos por uma espécie são ganhos por outra.
+:::
+
+::: {.callout-note}
+Mnemônico clássico: **PE-O-R-G** — "**P**erde **E**létrons, **O**xida; **R**ecebe
+elétrons, ... " na versão "**Ox**ida = **perde**; **Red**uz = **ganha**". Outra forma:
+"oxidação é aumento de Nox; redução é redução de Nox". A espécie que **sofre** oxidação
+é o **agente redutor** (ela reduz a outra); a que sofre redução é o **agente oxidante**.
+:::
+
+::: {#def-agentes}
+## Agente oxidante e redutor
+O **agente oxidante** é a espécie que **se reduz** (ganha elétrons) e provoca a oxidação
+da outra. O **agente redutor** é a que **se oxida** (perde elétrons) e provoca a redução
+da outra. O nome de cada agente é o **oposto** do que acontece com ele.
+:::
+
+::: {#exm-identificar-redox}
+## Identificando oxidação e redução
+Na reação $\ce{Zn + Cu^2+ -> Zn^2+ + Cu}$, identifique quem se oxida, quem se reduz e os
+agentes.
+
+**Solução.** O zinco passa de Nox $0$ (substância simples) a $+2$: **aumenta** → oxida-se
+(perde 2 elétrons). O cobre passa de $+2$ a $0$: **diminui** → reduz-se (ganha 2
+elétrons). Logo, o $\ce{Zn}$ é o **agente redutor** e o $\ce{Cu^2+}$, o **agente
+oxidante**. Os 2 elétrons perdidos pelo zinco são exatamente os ganhos pelo cobre.
+:::
+
+## A ponte para a eletroquímica
+
+Reconhecer uma reação como redox e contar os elétrons trocados é o primeiro passo de
+dois temas centrais adiante. No **balanceamento por semirreações** (Volume IX),
+separa-se a oxidação da redução e igualam-se os elétrons. Nas **pilhas e na eletrólise**,
+essa transferência de elétrons é canalizada por um fio para gerar (ou consumir)
+corrente elétrica. Tudo começa aqui, com o número de oxidação como contador.
+
+## Exercícios
+
+::: {#exr-1}
+Determine o Nox do elemento em destaque: (a) $\ce{N}$ em $\ce{HNO3}$; (b) $\ce{Mn}$ em
+$\ce{KMnO4}$; (c) $\ce{Cl}$ em $\ce{NaCl}$.
+:::
+
+::: {#exr-2}
+Na reação $\ce{2 Na + Cl2 -> 2 NaCl}$, identifique a oxidação, a redução e os agentes.
+:::
+
+::: {#exr-3}
+Qual o Nox do carbono em (a) $\ce{CH4}$; (b) $\ce{CO2}$? O carbono se oxidou ou se
+reduziu ao passar de $\ce{CH4}$ a $\ce{CO2}$ (combustão)?
+:::
+
+::: {#exr-4}
+A reação $\ce{H2 + Cl2 -> 2 HCl}$ é de oxirredução? Identifique as variações de Nox.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\ce{N}$: $+1 + x + 3(-2) = 0 \Rightarrow x = +5$. (b) $\ce{Mn}$:
+$+1 + x + 4(-2) = 0 \Rightarrow x = +7$. (c) $\ce{Cl}$: $-1$ (íon do $\ce{NaCl}$).
+
+**@exr-2.** $\ce{Na}$: $0 \to +1$, oxida-se (agente redutor). $\ce{Cl}$: $0 \to -1$,
+reduz-se (agente oxidante, $\ce{Cl2}$).
+
+**@exr-3.** (a) $\ce{C}$ em $\ce{CH4}$: $x + 4(+1) = 0 \Rightarrow x = -4$. (b) $\ce{C}$
+em $\ce{CO2}$: $x + 2(-2) = 0 \Rightarrow x = +4$. O Nox **aumentou** de $-4$ para $+4$:
+o carbono **se oxidou**.
+
+**@exr-4.** Sim. O $\ce{H}$ vai de $0$ (em $\ce{H2}$) a $+1$ (oxida-se); o $\ce{Cl}$ vai
+de $0$ (em $\ce{Cl2}$) a $-1$ (reduz-se). Há transferência de elétrons → é redox.
+:::

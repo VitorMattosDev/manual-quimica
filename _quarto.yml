@@ -51,6 +51,7 @@ book:
         - volumes/v4-estequiometria/04-estequiometria.qmd   # capítulo-gabarito
         - volumes/v4-estequiometria/05-tipos-reacoes.qmd
         - volumes/v4-estequiometria/06-solucao-aquosa.qmd
+        - volumes/v4-estequiometria/07-nox.qmd
   appendices:
     - constantes.qmd
 
