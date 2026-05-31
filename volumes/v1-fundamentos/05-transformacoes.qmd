@@ -1,0 +1,137 @@
+---
+title: "Fenômenos físicos e químicos"
+---
+
+# Fenômenos físicos e químicos {#sec-transformacoes}
+
+## Quando a matéria muda — e quando vira outra coisa
+
+Derreter gelo e queimar um palito de fósforo são ambas transformações, mas de
+naturezas profundamente diferentes. No primeiro caso a água continua água, apenas
+muda de estado; no segundo, a madeira desaparece e surgem gases e cinzas — substâncias
+novas. Distinguir essas duas categorias é o coração da química: ela estuda, acima de
+tudo, as transformações em que **substâncias se convertem em outras**. Este capítulo
+fixa o critério da distinção, lista os sinais que sugerem uma reação e enuncia a lei
+que rege toda transformação química — a conservação da massa.
+
+## Fenômeno físico e fenômeno químico
+
+::: {#def-fenomeno-fisico}
+## Fenômeno físico
+Um **fenômeno físico** é uma transformação em que **não há mudança na identidade das
+substâncias**: muda-se o estado, a forma ou o estado de agregação, mas a composição
+permanece. São reversíveis em princípio e exemplificados pelas mudanças de estado,
+dissolução e ações mecânicas (quebrar, moldar).
+:::
+
+::: {#def-fenomeno-quimico}
+## Fenômeno químico (reação)
+Um **fenômeno químico**, ou **reação química**, é uma transformação em que
+**substâncias se convertem em outras**, com composição e propriedades diferentes. Os
+átomos se conservam, mas **rearranjam suas ligações**: os reagentes desaparecem e
+surgem os produtos.
+:::
+
+::: {.callout-warning}
+O teste decisivo é sempre: *as substâncias presentes no fim são as mesmas do início?*
+Dissolver sal em água é físico (o sal pode ser recuperado intacto por evaporação);
+eletrolisar a água em $\ce{H2}$ e $\ce{O2}$ é químico (surgem substâncias novas).
+Mudança de estado nunca é, por si só, uma reação — derreter, ferver e sublimar são
+físicos.
+:::
+
+## Evidências de uma reação química
+
+Não há um único sinal infalível, mas certas observações **sugerem** que houve reação.
+Convém tratá-las como indícios, não como prova: só a verificação de que surgiram
+substâncias novas é conclusiva.
+
+- **Liberação ou absorção de calor/luz** apreciável (combustão, reações exotérmicas).
+- **Mudança de cor** não atribuível a simples mistura.
+- **Formação de gás** (efervescência) que não seja mera mudança de estado.
+- **Formação de um precipitado** — sólido que surge ao misturar duas soluções.
+- **Mudança de odor** pela formação de uma substância volátil nova.
+
+::: {.callout-note}
+Cuidado com os falsos indícios. A efervescência de um refrigerante aberto é a
+**liberação física** de $\ce{CO2}$ dissolvido, não uma reação. O vapor branco sobre a
+água fervente é água condensada — mudança de estado. Os indícios orientam a suspeita;
+a confirmação vem de identificar produtos diferentes dos reagentes.
+:::
+
+## A lei que rege toda reação: conservação da massa
+
+A primeira lei quantitativa da química, devida a Lavoisier, afirma que numa reação
+nada de matéria se perde nem se cria — apenas se rearranja.
+
+::: {#thm-lavoisier}
+## Lei da conservação da massa (Lavoisier)
+Em um sistema **fechado**, a massa total dos reagentes é igual à massa total dos
+produtos:
+$$ \sum m_{\text{reagentes}} = \sum m_{\text{produtos}}. $$
+:::
+
+::: {.proof}
+Uma reação apenas rearranja as ligações entre átomos; nenhum átomo é criado ou
+destruído. Como a massa de cada átomo se mantém, a soma das massas é invariante. A
+restrição "sistema fechado" é essencial: se um gás escapa (ou entra), a balança
+registra perda (ou ganho) **aparente** de massa, porque parte do sistema saiu da
+contagem. $\square$
+:::
+
+::: {#exm-lavoisier}
+## Aplicando a conservação
+Queima-se $\pu{12 g}$ de carbono que consomem $\pu{32 g}$ de oxigênio segundo
+$\ce{C + O2 -> CO2}$. Que massa de $\ce{CO2}$ se forma?
+
+**Solução.** Em sistema fechado, $m_{\ce{CO2}} = m_{\ce{C}} + m_{\ce{O2}} = 12 + 32 =
+\pu{44 g}$. Toda a massa dos reagentes reaparece no produto. (Num recipiente aberto,
+o $\ce{CO2}$ escaparia e a balança pareceria registrar perda — mas a massa total se
+conservou.)
+:::
+
+Lavoisier abre o caminho; a contabilidade detalhada de quanto reage com quanto — as
+proporções fixas e os cálculos de massa — é o tema do Volume IV (estequiometria),
+para o qual este capítulo é a porta de entrada conceitual.
+
+## Exercícios
+
+::: {#exr-1}
+Classifique como fenômeno físico ou químico: (a) amassar uma folha de papel;
+(b) queimar essa folha; (c) o ferro enferrujando; (d) o álcool evaporando.
+:::
+
+::: {#exr-2}
+Ao misturar duas soluções incolores, surge um sólido amarelo e o tubo esquenta. Que
+indícios de reação você identifica? Eles **provam** que houve reação?
+:::
+
+::: {#exr-3}
+Um palito de aço (lã de aço) é queimado e, em seguida, pesado: sua massa **aumentou**.
+Isso viola a lei de Lavoisier? Explique.
+:::
+
+::: {#exr-4}
+Numa reação em recipiente fechado, $\pu{4,0 g}$ de hidrogênio reagem completamente
+com oxigênio para formar $\pu{36 g}$ de água. Que massa de oxigênio foi consumida?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) físico (mesma substância, outra forma); (b) químico (surgem gases e
+cinzas); (c) químico (forma-se óxido de ferro); (d) físico (mudança de estado).
+
+**@exr-2.** Indícios: formação de precipitado (sólido amarelo) e liberação de calor.
+Eles **sugerem** fortemente, mas não provam — a confirmação exige verificar que o
+sólido é uma substância nova, distinta das dissolvidas inicialmente.
+
+**@exr-3.** Não viola. O ferro reagiu com o oxigênio do ar ($\ce{O2}$), incorporando
+massa ao formar óxido. O sistema não estava fechado: a massa que "apareceu" veio do
+oxigênio captado do ambiente. A massa total (aço + oxigênio) se conservou.
+
+**@exr-4.** Por Lavoisier (@thm-lavoisier), $m_{\ce{O2}} = m_{\text{água}} -
+m_{\ce{H2}} = 36 - 4{,}0 = \pu{32 g}$.
+:::
