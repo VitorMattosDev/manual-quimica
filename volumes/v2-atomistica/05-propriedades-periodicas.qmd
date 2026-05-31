@@ -1,0 +1,169 @@
+---
+title: "Propriedades periódicas"
+---
+
+# Propriedades periódicas {#sec-propriedades-periodicas}
+
+## Tendências que se leem na tabela
+
+A tabela periódica não apenas agrupa elementos parecidos — ela organiza variações
+**graduais** de propriedades ao longo de períodos e grupos. Tamanho do átomo,
+facilidade de perder ou ganhar elétron, tendência de atrair elétrons numa ligação:
+todas variam de modo previsível, segundo dois fatores em disputa. Entender essas
+tendências é o que permite, no Volume III, antecipar que tipo de ligação dois
+elementos formarão. Este capítulo identifica os fatores e deriva, a partir deles, as
+quatro propriedades periódicas centrais.
+
+## Os dois fatores em disputa
+
+Quase toda tendência periódica resulta do equilíbrio entre duas grandezas:
+
+::: {#def-fatores}
+## Carga nuclear efetiva e blindagem
+A **carga nuclear efetiva** $Z_{\text{ef}}$ é a atração líquida que um elétron de
+valência sente do núcleo, depois de descontada a **blindagem** exercida pelos elétrons
+mais internos, que repelem o elétron externo e "escondem" parte da carga nuclear.
+Ao longo de um **período**, $Z_{\text{ef}}$ cresce (mais prótons, mesma camada
+interna); ao descer um **grupo**, predomina o aumento do número de camadas.
+:::
+
+Com esses dois fatores — $Z_{\text{ef}}$ e número de camadas — todas as tendências
+seguintes se explicam.
+
+## Raio atômico
+
+::: {#def-raio}
+## Raio atômico
+Medida do tamanho do átomo (em geral, metade da distância entre núcleos de átomos
+vizinhos ligados). **Tendência:** *diminui* da esquerda para a direita num período
+(cresce $Z_{\text{ef}}$, que puxa a nuvem para dentro) e *aumenta* de cima para baixo
+num grupo (mais camadas eletrônicas).
+:::
+
+O raio é a propriedade-mãe: as demais tendências em boa parte a acompanham. Átomo
+pequeno com núcleo "exposto" segura seus elétrons com firmeza; átomo grande, com a
+valência distante e blindada, os segura frouxamente.
+
+## Energia de ionização
+
+::: {#def-ionizacao}
+## Energia de ionização
+A **energia de ionização** (EI) é a energia mínima para **remover** um elétron de um
+átomo gasoso no estado fundamental: $\ce{X(g) -> X+(g) + e^-}$. **Tendência:**
+*aumenta* da esquerda para a direita (átomo menor, maior $Z_{\text{ef}}$, elétron mais
+preso) e *diminui* de cima para baixo (elétron de valência mais distante e blindado).
+:::
+
+::: {.callout-note}
+As ionizações **sucessivas** crescem sempre ($\text{EI}_1 < \text{EI}_2 < \cdots$),
+pois remover elétron de um íon já positivo custa mais. Há **saltos** bruscos quando se
+começa a retirar elétrons de uma camada interna completa — sinal da estabilidade do
+cerne de gás nobre. O sódio ($\ce{[\ce{Ne}]}3s^1$) tem $\text{EI}_2 \gg \text{EI}_1$,
+porque o segundo elétron já viria do cerne de neônio.
+:::
+
+## Afinidade eletrônica
+
+::: {#def-afinidade}
+## Afinidade eletrônica
+A **afinidade eletrônica** (AE) é a energia envolvida quando um átomo gasoso **recebe**
+um elétron: $\ce{X(g) + e^- -> X^-(g)}$. Quanto mais negativa (mais energia liberada),
+maior a tendência a formar ânion. **Tendência:** torna-se mais acentuada da esquerda
+para a direita e de baixo para cima — os halogênios têm as maiores afinidades, pois
+falta-lhes um único elétron para completar a camada.
+:::
+
+## Eletronegatividade
+
+::: {#def-eletronegatividade}
+## Eletronegatividade
+A **eletronegatividade** mede a tendência de um átomo a **atrair para si os elétrons
+de uma ligação** química. **Tendência:** *aumenta* da esquerda para a direita e de
+baixo para cima; o **flúor** é o elemento mais eletronegativo. Ao contrário da EI e da
+AE (definidas para átomos isolados), a eletronegatividade refere-se ao átomo **ligado**.
+:::
+
+A eletronegatividade é a propriedade mais usada do capítulo, porque é ela que, no
+Volume III, decide se uma ligação será iônica, covalente polar ou apolar — conforme a
+**diferença** de eletronegatividade entre os átomos.
+
+::: {.callout-warning}
+Não confunda as três grandezas. **EI** é sobre *perder* elétron (átomo isolado);
+**AE** é sobre *ganhar* elétron (átomo isolado); **eletronegatividade** é sobre
+*atrair* os elétrons de uma ligação (átomo ligado). As três crescem no mesmo sentido
+geral na tabela (→ e ↑), mas descrevem situações distintas.
+:::
+
+## Resumo das tendências
+
+```{mermaid}
+flowchart TB
+  P["→ ao longo do período:<br/>raio diminui ·<br/>EI, AE, eletroneg. aumentam"]
+  G["↓ ao descer o grupo:<br/>raio aumenta ·<br/>EI, AE, eletroneg. diminuem"]
+```
+
+O canto **superior direito** (excluídos os gases nobres) reúne os átomos pequenos, de
+alta EI e alta eletronegatividade — o flúor é o caso extremo. O canto **inferior
+esquerdo** reúne os grandes, de baixa EI — os metais alcalinos pesados, que perdem
+elétrons com facilidade.
+
+## Exemplos resolvidos
+
+::: {#exm-comparar-raio}
+## Comparando raios
+Ordene por raio atômico crescente: $\ce{Na}$, $\ce{Mg}$, $\ce{K}$.
+
+**Solução.** $\ce{Na}$ e $\ce{Mg}$ estão no mesmo período; $\ce{Mg}$ está à direita,
+logo é menor. $\ce{K}$ está abaixo do $\ce{Na}$ (período seguinte), logo é o maior.
+Ordem crescente: $\ce{Mg} < \ce{Na} < \ce{K}$.
+:::
+
+::: {#exm-comparar-ei}
+## Comparando energias de ionização
+Qual tem maior EI: $\ce{Cl}$ ou $\ce{I}$?
+
+**Solução.** Ambos são halogênios (grupo 17); o $\ce{Cl}$ está acima do $\ce{I}$. EI
+diminui de cima para baixo, então o **$\ce{Cl}$** tem maior energia de ionização — seu
+elétron de valência está mais próximo e menos blindado.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Ordene por raio atômico decrescente: $\ce{F}$, $\ce{O}$, $\ce{S}$.
+:::
+
+::: {#exr-2}
+Qual elemento tem maior energia de ionização: $\ce{Li}$ ou $\ce{F}$? Justifique pelos
+dois fatores.
+:::
+
+::: {#exr-3}
+Por que a segunda energia de ionização do magnésio ($\text{EI}_2$) é apenas um pouco
+maior que a primeira, enquanto a $\text{EI}_3$ é muitíssimo maior?
+:::
+
+::: {#exr-4}
+Em uma ligação entre $\ce{H}$ e $\ce{F}$, para qual átomo os elétrons da ligação são
+mais atraídos? Que propriedade periódica decide isso?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\ce{S}$ está num período abaixo (maior), e entre $\ce{F}$ e $\ce{O}$ (mesmo
+período), o $\ce{O}$ é maior (mais à esquerda). Decrescente: $\ce{S} > \ce{O} > \ce{F}$.
+
+**@exr-2.** $\ce{F}$. Está mais à direita no período 2: maior $Z_{\text{ef}}$ e raio
+menor, então o elétron de valência é mais fortemente preso e custa mais removê-lo.
+
+**@exr-3.** $\ce{Mg}$ é $[\ce{Ne}]\,3s^2$. A $\text{EI}_1$ e a $\text{EI}_2$ removem os
+dois elétrons do $3s$ (mesma camada), com aumento moderado. A $\text{EI}_3$ teria de
+remover um elétron do **cerne de neônio** (camada interna completa), o que custa
+enormemente mais — daí o salto.
+
+**@exr-4.** Para o **flúor**, mais eletronegativo. A **eletronegatividade** é a
+propriedade que decide a atração dos elétrons numa ligação.
+:::
