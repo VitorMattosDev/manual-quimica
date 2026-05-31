@@ -1,0 +1,130 @@
+---
+title: "Fórmula mínima, molecular e composição percentual"
+---
+
+# Fórmula mínima, molecular e composição percentual {#sec-formulas}
+
+## Da balança à fórmula
+
+O capítulo anterior nos deu o mol e a massa molar. Com eles, podemos fazer o caminho
+inverso ao do químico do laboratório: em vez de partir da fórmula para calcular massas,
+**partir das massas medidas para descobrir a fórmula** de um composto desconhecido. É
+assim que se determina a composição de uma substância nova: queima-se, pesa-se,
+analisa-se — e a aritmética do mol revela quantos átomos de cada elemento há. Este
+capítulo trata da composição percentual e das fórmulas mínima e molecular, ferramentas
+que o capítulo-gabarito assume conhecidas.
+
+## Composição percentual
+
+::: {#def-composicao-percentual}
+## Composição percentual (em massa)
+A **composição percentual** de um composto é a porcentagem, em massa, com que cada
+elemento entra na fórmula:
+$$ \%\,\text{do elemento} = \frac{\text{massa do elemento em 1 mol}}{\text{massa molar
+do composto}} \times 100\%. $$ {#eq-composicao}
+:::
+
+::: {#exm-percentual-agua}
+## Composição da água
+Qual a porcentagem em massa de hidrogênio e de oxigênio na água?
+($M_{\ce{H2O}} = \pu{18 g/mol}$.)
+
+**Solução.** Em 1 mol de $\ce{H2O}$ há $\pu{2 g}$ de H e $\pu{16 g}$ de O. Pela
+@eq-composicao:
+$$ \%\ce{H} = \frac{2}{18}\times100\% \approx 11{,}1\%, \qquad
+\%\ce{O} = \frac{16}{18}\times100\% \approx 88{,}9\%. $$
+A soma confere: $11{,}1 + 88{,}9 = 100\%$.
+:::
+
+## Fórmula mínima e fórmula molecular
+
+::: {#def-formula-minima}
+## Fórmula mínima (empírica) e molecular
+A **fórmula mínima** (ou empírica) indica a **menor proporção inteira** entre os átomos
+dos elementos de um composto. A **fórmula molecular** indica o número **real** de átomos
+de cada elemento na molécula. A molecular é sempre um múltiplo inteiro da mínima:
+$$ \text{fórmula molecular} = (\text{fórmula mínima})_n, \qquad n = \frac{M_{\text{molecular}}}{M_{\text{mínima}}}. $$ {#eq-fator-n}
+:::
+
+Por exemplo, a glicose tem fórmula molecular $\ce{C6H12O6}$ e mínima $\ce{CH2O}$ — a
+proporção $1:2:1$ repetida seis vezes. O peróxido de hidrogênio é $\ce{H2O2}$ (molecular)
+e $\ce{HO}$ (mínima).
+
+## Determinando a fórmula mínima a partir de dados
+
+O procedimento, dada a composição percentual (ou massas), é sempre o mesmo:
+
+1. Tome $\pu{100 g}$ de amostra: as porcentagens viram massas em gramas.
+2. Converta cada massa em **mols** ($n = m/M$).
+3. **Divida todos** os números de mols pelo **menor** deles.
+4. Se restarem números não inteiros, **multiplique** todos por um fator que os torne
+   inteiros.
+
+::: {#exm-formula-minima}
+## Achando a fórmula mínima
+Um composto contém $\pu{40 \%}$ de C, $\pu{6,7 \%}$ de H e $\pu{53,3 \%}$ de O (em
+massa). Qual sua fórmula mínima? ($\ce{C}=12$, $\ce{H}=1$, $\ce{O}=16$.)
+
+**Solução.** Em $\pu{100 g}$: $\pu{40 g}$ C, $\pu{6,7 g}$ H, $\pu{53,3 g}$ O. Em mols:
+$$ n_{\ce{C}} = \tfrac{40}{12} = 3{,}33, \quad n_{\ce{H}} = \tfrac{6{,}7}{1} = 6{,}7,
+\quad n_{\ce{O}} = \tfrac{53{,}3}{16} = 3{,}33. $$
+Dividindo pelo menor ($3{,}33$): $\ce{C} = 1$, $\ce{H} = 2{,}0$, $\ce{O} = 1$. Fórmula
+mínima: $\ce{CH2O}$.
+:::
+
+::: {#exm-formula-molecular}
+## Da mínima à molecular
+O composto do exemplo anterior tem massa molar $\pu{180 g/mol}$. Qual sua fórmula
+molecular?
+
+**Solução.** A massa da fórmula mínima $\ce{CH2O}$ é $12 + 2 + 16 = \pu{30 g/mol}$. Pela
+@eq-fator-n, $n = 180/30 = 6$. Logo a fórmula molecular é $(\ce{CH2O})_6 = \ce{C6H12O6}$
+— a glicose.
+:::
+
+::: {.callout-warning}
+Ao dividir pelos mols não saia arredondando cedo demais. Se um resultado der $1{,}5$,
+$1{,}33$ ou $2{,}5$, **não** arredonde para o inteiro mais próximo — multiplique
+**todos** por $2$, $3$ ou $2$ respectivamente, para chegar a inteiros. Por exemplo,
+proporção $1 : 1{,}5$ vira $2 : 3$, não $1 : 2$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Calcule a composição percentual em massa do $\ce{CO2}$. ($\ce{C}=12$, $\ce{O}=16$.)
+:::
+
+::: {#exr-2}
+Um óxido de enxofre contém $\pu{40 \%}$ de S e $\pu{60 \%}$ de O em massa. Determine sua
+fórmula mínima. ($\ce{S}=32$, $\ce{O}=16$.)
+:::
+
+::: {#exr-3}
+A fórmula mínima de um composto é $\ce{NO2}$ e sua massa molar é $\pu{92 g/mol}$. Qual a
+fórmula molecular? ($\ce{N}=14$, $\ce{O}=16$.)
+:::
+
+::: {#exr-4}
+Um hidrocarboneto tem $\pu{85,7 \%}$ de C e $\pu{14,3 \%}$ de H. Ache a fórmula mínima.
+Se a massa molar for $\pu{42 g/mol}$, qual a molecular?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $M_{\ce{CO2}} = 44$. $\%\ce{C} = \tfrac{12}{44}\times100 \approx 27{,}3\%$;
+$\%\ce{O} = \tfrac{32}{44}\times100 \approx 72{,}7\%$.
+
+**@exr-2.** Em $\pu{100 g}$: $n_{\ce{S}} = 40/32 = 1{,}25$; $n_{\ce{O}} = 60/16 = 3{,}75$.
+Dividindo por $1{,}25$: $\ce{S}=1$, $\ce{O}=3$. Fórmula mínima $\ce{SO3}$.
+
+**@exr-3.** Massa da mínima $\ce{NO2}$: $14 + 32 = 46$. $n = 92/46 = 2$. Molecular:
+$\ce{N2O4}$.
+
+**@exr-4.** Em $\pu{100 g}$: $n_{\ce{C}} = 85{,}7/12 = 7{,}14$; $n_{\ce{H}} = 14{,}3/1 =
+14{,}3$. Dividindo por $7{,}14$: $\ce{C}=1$, $\ce{H}=2$ → mínima $\ce{CH2}$ (massa $14$).
+$n = 42/14 = 3$ → molecular $\ce{C3H6}$.
+:::
