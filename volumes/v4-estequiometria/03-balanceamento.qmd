@@ -1,0 +1,128 @@
+---
+title: "Equações químicas e balanceamento"
+---
+
+# Equações químicas e balanceamento {#sec-balanceamento}
+
+## A receita precisa estar correta
+
+O capítulo-gabarito deste volume trata uma equação balanceada como uma "receita em
+proporções fixas". Mas de onde vêm os coeficientes corretos? Uma equação só descreve a
+realidade se estiver **balanceada** — com o mesmo número de átomos de cada elemento nos
+dois lados, como exige a lei de Lavoisier. Vimos o balanceamento por tentativa no
+Volume I; aqui o sistematizamos, incluindo um método algébrico que nunca falha e o
+caso especial das reações de combustão. Dominar isso é pré-requisito imediato para os
+cálculos estequiométricos.
+
+## O princípio: conservar átomos
+
+::: {#def-balanceamento}
+## Balanceamento
+**Balancear** uma equação é ajustar os **coeficientes estequiométricos** (os números à
+frente das fórmulas) de modo que cada elemento tenha o mesmo número de átomos entre
+reagentes e produtos. Os **índices** das fórmulas **nunca** mudam — alterá-los trocaria
+as substâncias. A exigência decorre da conservação da massa (@thm-lavoisier).
+:::
+
+::: {.callout-note}
+Os coeficientes podem ser lidos em **dois níveis**: microscopicamente, contam moléculas
+(ou fórmulas); macroscopicamente, contam **mols**. Por isso $\ce{2 H2 + O2 -> 2 H2O}$
+lê-se "2 mols de $\ce{H2}$ reagem com 1 mol de $\ce{O2}$ formando 2 mols de $\ce{H2O}$"
+— a leitura que o capítulo-gabarito usa nos cálculos.
+:::
+
+## Método por tentativa (inspeção)
+
+Para a maioria das equações, ajustar por inspeção é o mais rápido. Estratégia eficiente:
+
+1. Comece pelo elemento que aparece em **menos** substâncias (deixe $\ce{O}$ e $\ce{H}$
+   por último, pois costumam aparecer em várias).
+2. Ajuste um coeficiente de cada vez, recontando os átomos afetados.
+3. Ao final, se houver coeficientes fracionários, **multiplique tudo** pelo menor
+   inteiro que os elimine.
+4. Confira: os coeficientes devem ser os **menores inteiros** possíveis.
+
+::: {#exm-tentativa}
+## Balanceando por inspeção
+Balanceie $\ce{C3H8 + O2 -> CO2 + H2O}$ (combustão do propano).
+
+**Solução.** Carbono: 3 à esquerda → $\ce{3 CO2}$. Hidrogênio: 8 → $\ce{4 H2O}$.
+Oxigênio à direita: $3\times2 + 4\times1 = 10$ → $\ce{5 O2}$. Resultado:
+$$ \ce{C3H8 + 5 O2 -> 3 CO2 + 4 H2O}. $$
+Conferindo: C $3=3$, H $8=8$, O $10=10$.
+:::
+
+## Método algébrico
+
+Quando a inspeção emperra, o método algébrico resolve mecanicamente: atribuem-se
+**incógnitas** aos coeficientes e montam-se equações de conservação por elemento.
+
+::: {#exm-algebrico}
+## Balanceando por álgebra
+Balanceie $\ce{a\, KMnO4 + b\, HCl -> c\, KCl + d\, MnCl2 + e\, H2O + f\, Cl2}$.
+
+**Solução.** Conservação por elemento: K: $a=c$; Mn: $a=d$; O: $4a=e$; H: $b=2e$;
+Cl: $b = c + 2d + 2f$. Tome $a=2$: então $c=2$, $d=2$, $e=8$, $b=16$, e
+$16 = 2 + 4 + 2f \Rightarrow f=5$. Resultado:
+$$ \ce{2 KMnO4 + 16 HCl -> 2 KCl + 2 MnCl2 + 8 H2O + 5 Cl2}. $$
+Sempre que a inspeção é trabalhosa (caso típico de reações de oxirredução), o método
+algébrico fornece a resposta sem adivinhação.
+:::
+
+::: {.callout-warning}
+Há reações de oxirredução tão complexas que mesmo a álgebra fica trabalhosa; para elas
+existe o **método do íon-elétron** (balanceamento por semirreações), desenvolvido no
+Volume IX (eletroquímica). Aqui, inspeção e álgebra dão conta de praticamente todas as
+equações dos Volumes IV a VIII.
+:::
+
+## Combustão completa
+
+::: {#def-combustao}
+## Combustão completa
+Na **combustão completa** de um hidrocarboneto (ou de composto $\ce{C}$, $\ce{H}$,
+$\ce{O}$), o combustível reage com $\ce{O2}$ produzindo **somente** $\ce{CO2}$ e
+$\ce{H2O}$. O balanceamento segue sempre a ordem: acerte **C**, depois **H**, e por
+último **O** (via $\ce{O2}$).
+:::
+
+Esse padrão fixo torna a combustão um caso fácil: todo o carbono vira $\ce{CO2}$, todo
+o hidrogênio vira $\ce{H2O}$, e o oxigênio fecha a conta por último.
+
+## Exercícios
+
+::: {#exr-1}
+Balanceie: (a) $\ce{H2 + N2 -> NH3}$; (b) $\ce{Al + HCl -> AlCl3 + H2}$.
+:::
+
+::: {#exr-2}
+Balanceie a combustão completa do etanol: $\ce{C2H5OH + O2 -> CO2 + H2O}$.
+:::
+
+::: {#exr-3}
+Balanceie $\ce{Fe2O3 + CO -> Fe + CO2}$.
+:::
+
+::: {#exr-4}
+Quantos mols de $\ce{O2}$ são consumidos por mol de $\ce{C4H10}$ (butano) na combustão
+completa? (Balanceie $\ce{C4H10 + O2 -> CO2 + H2O}$.)
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\ce{3 H2 + N2 -> 2 NH3}$. (b) $\ce{2 Al + 6 HCl -> 2 AlCl3 + 3 H2}$.
+
+**@exr-2.** C: 2 → $\ce{2 CO2}$. H: 6 → $\ce{3 H2O}$. O à direita: $4 + 3 = 7$; à
+esquerda há 1 O do etanol, faltam 6 → $\ce{3 O2}$. Resultado:
+$\ce{C2H5OH + 3 O2 -> 2 CO2 + 3 H2O}$.
+
+**@exr-3.** $\ce{Fe2O3 + 3 CO -> 2 Fe + 3 CO2}$.
+
+**@exr-4.** C: 4 → $\ce{4 CO2}$; H: 10 → $\ce{5 H2O}$; O à direita $8+5 = 13$ →
+$\tfrac{13}{2}\,\ce{O2}$. Multiplicando tudo por 2:
+$\ce{2 C4H10 + 13 O2 -> 8 CO2 + 10 H2O}$. Por mol de butano, consomem-se
+$13/2 = \pu{6,5 mol}$ de $\ce{O2}$.
+:::
