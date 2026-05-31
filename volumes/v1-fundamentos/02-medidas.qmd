@@ -1,0 +1,26 @@
+---
+title: "Medidas, unidades e algarismos significativos"
+---
+
+# Medidas em química {#sec-medidas}
+
+::: {.callout-note}
+**Capítulo em esboço.** Estrutura prevista: grandezas e o SI; conversão de
+unidades por análise dimensional; precisão e exatidão; algarismos significativos e
+regras de arredondamento; notação científica. Espelhar o capítulo-gabarito.
+:::
+
+## Motivação
+
+<!-- Toda a química quantitativa depende de medir e relatar bem. -->
+
+## Conteúdo a desenvolver
+
+- O Sistema Internacional (SI) e as unidades de uso em química.
+- Análise dimensional como método de conversão.
+- Precisão vs. exatidão; tipos de erro.
+- Algarismos significativos: identificação, operações e arredondamento.
+
+## Exercícios
+
+<!-- A preencher. -->

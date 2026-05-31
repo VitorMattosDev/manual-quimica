@@ -1,0 +1,28 @@
+---
+title: "Matéria, propriedades e estados"
+---
+
+# Matéria, propriedades e estados {#sec-materia}
+
+::: {.callout-note}
+**Capítulo em esboço.** Estrutura prevista: o que é matéria; propriedades gerais e
+específicas; estados físicos e mudanças de estado; propriedades intensivas e
+extensivas; densidade. Escrever espelhando o capítulo-gabarito
+`volumes/v4-estequiometria/04-estequiometria.qmd`.
+:::
+
+## Motivação
+
+<!-- Por que classificar a matéria importa para tudo que vem depois. -->
+
+## Conteúdo a desenvolver
+
+- Definição de matéria e de substância.
+- Propriedades gerais (massa, volume, inércia) e específicas (densidade, ponto de
+  fusão/ebulição, dureza).
+- Estados físicos e o modelo de partículas; mudanças de estado.
+- Propriedades intensivas vs. extensivas.
+
+## Exercícios
+
+<!-- A preencher. -->

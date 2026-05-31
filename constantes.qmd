@@ -1,0 +1,46 @@
+---
+title: "Constantes e formulário"
+---
+
+# Constantes físico-químicas {.unnumbered}
+
+| Constante | Símbolo | Valor |
+|---|---|---|
+| Número de Avogadro | $N_A$ | $6{,}022 \times 10^{23}\ \mathrm{mol^{-1}}$ |
+| Constante dos gases | $R$ | $8{,}314\ \mathrm{J\,mol^{-1}\,K^{-1}} = 0{,}08206\ \mathrm{atm\,L\,mol^{-1}\,K^{-1}}$ |
+| Constante de Boltzmann | $k_B$ | $1{,}381 \times 10^{-23}\ \mathrm{J\,K^{-1}}$ |
+| Constante de Faraday | $F$ | $96485\ \mathrm{C\,mol^{-1}}$ |
+| Constante de Planck | $h$ | $6{,}626 \times 10^{-34}\ \mathrm{J\,s}$ |
+| Velocidade da luz | $c$ | $2{,}998 \times 10^{8}\ \mathrm{m\,s^{-1}}$ |
+| Carga elementar | $e$ | $1{,}602 \times 10^{-19}\ \mathrm{C}$ |
+| Massa do elétron | $m_e$ | $9{,}109 \times 10^{-31}\ \mathrm{kg}$ |
+| Volume molar (CNTP) | $V_m$ | $22{,}414\ \mathrm{L\,mol^{-1}}$ |
+| Constante de ionização da água (25 °C) | $K_w$ | $1{,}0 \times 10^{-14}$ |
+
+# Formulário essencial {.unnumbered}
+
+**Mol e estequiometria**
+$$ n = \frac{m}{M}, \qquad N = n\,N_A. $$
+
+**Gás ideal**
+$$ pV = nRT. $$
+
+**Concentração**
+$$ c = \frac{n_{\text{soluto}}}{V_{\text{solução}}}, \qquad C_1 V_1 = C_2 V_2 \ (\text{diluição}). $$
+
+**Termoquímica**
+$$ \Delta H^\circ_{\text{reação}} = \sum \Delta H^\circ_f(\text{produtos}) - \sum \Delta H^\circ_f(\text{reagentes}). $$
+
+**Energia livre e equilíbrio**
+$$ \Delta G = \Delta H - T\Delta S, \qquad \Delta G^\circ = -RT \ln K. $$
+
+**Equilíbrio iônico da água**
+$$ \mathrm{pH} = -\log[\mathrm{H^+}], \qquad \mathrm{pH} + \mathrm{pOH} = 14 \ (25\,^\circ\mathrm{C}). $$
+
+**Eletroquímica (Nernst)**
+$$ E = E^\circ - \frac{RT}{nF}\ln Q. $$
+
+::: {.callout-note}
+Mantenha esta tabela atualizada ao introduzir constantes ou fórmulas novas em
+qualquer capítulo (regra registrada no `PLANO.md`).
+:::

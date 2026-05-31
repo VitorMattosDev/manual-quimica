@@ -1,0 +1,76 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: pt
+
+book:
+  title: "Manual de Química"
+  subtitle: "Da matéria à química quântica"
+  author: "Série Manuais de Ciências"
+  date: today
+  search: true
+  repo-url: https://github.com/SEU-USUARIO/manual-quimica
+  repo-actions: [edit, issue]
+  page-footer:
+    left: "Manual de Química — Série Manuais de Ciências"
+    right: "Construído com [Quarto](https://quarto.org)."
+  chapters:
+    - index.qmd
+    - part: "Volume I — Fundamentos da Química"
+      chapters:
+        - volumes/v1-fundamentos/01-materia.qmd
+        - volumes/v1-fundamentos/02-medidas.qmd
+    # Conforme você avança, crie o .qmd e descomente / acrescente aqui.
+    # - part: "Volume II — Estrutura Atômica e Periodicidade"
+    #   chapters:
+    #     - volumes/v2-atomistica/01-modelo-quantico.qmd
+    - part: "Volume IV — Estequiometria e Reações"
+      chapters:
+        - volumes/v4-estequiometria/04-estequiometria.qmd   # capítulo-gabarito
+  appendices:
+    - constantes.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Nesta página"
+    number-sections: true
+    include-in-header:
+      # Carrega a extensão mhchem no MathJax para \ce{...} e \pu{...} no site.
+      text: |
+        <script>
+        window.MathJax = {
+          loader: { load: ['[tex]/mhchem'] },
+          tex: { packages: { '[+]': ['mhchem'] } }
+        };
+        </script>
+  pdf:
+    documentclass: scrreport
+    papersize: a4
+    toc: true
+    number-sections: true
+    include-in-header:
+      # mhchem (\ce, \pu) e siunitx para o PDF.
+      text: |
+        \usepackage[version=4]{mhchem}
+        \usepackage{siunitx}
+
+# Rótulos em português dos ambientes de teorema/definição etc.
+crossref:
+  custom:
+    - kind: float
+      key: rxn
+      reference-prefix: "Reação"
+      caption-prefix: "Reação"
+  thm-title: "Teorema"
+  lem-title: "Lema"
+  cor-title: "Corolário"
+  prp-title: "Proposição"
+  def-title: "Definição"
+  exm-title: "Exemplo"
+  exr-title: "Exercício"
+  fig-title: "Figura"
+  tbl-title: "Tabela"
+  eq-prefix: "Eq."

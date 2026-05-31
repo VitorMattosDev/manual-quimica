@@ -1,0 +1,58 @@
+---
+title: "Apresentação"
+---
+
+# Sobre este manual {.unnumbered}
+
+Este é o **Manual de Química** da série *Manuais de Ciências*, irmão dos manuais
+de Matemática e de Física. Ele percorre a química **do básico ao avançado**: começa
+no conceito de matéria e medida, atravessa a química geral, a físico-química, a
+química orgânica e a inorgânica, e termina na química quântica, na espectroscopia e
+na química de materiais.
+
+O texto é didático antes de formal: cada capítulo **motiva** antes de definir,
+traz **exemplos resolvidos com números e unidades**, equações químicas escritas
+com `\ce{...}`, e **exercícios com solução**.
+
+## Como a obra é organizada
+
+A leitura é linear por padrão, organizada em cinco fases e dezesseis volumes.
+O grafo abaixo mostra as principais dependências entre os volumes.
+
+```{mermaid}
+flowchart TD
+  V1[I. Fundamentos] --> V2[II. Atomística e Periodicidade]
+  V2 --> V3[III. Ligações e Geometria]
+  V1 --> V4[IV. Estequiometria e Reações]
+  V3 --> V4
+  V4 --> V5[V. Estados e Soluções]
+  V5 --> V6[VI. Termodinâmica]
+  V6 --> V7[VII. Cinética]
+  V6 --> V8[VIII. Equilíbrio]
+  V8 --> V9[IX. Eletroquímica]
+  V3 --> V10[X. Orgânica: Fundamentos]
+  V10 --> V11[XI. Reações Orgânicas]
+  V11 --> V12[XII. Aromáticos e Biomoléculas]
+  V2 --> V13[XIII. Inorgânica e Coordenação]
+  V8 --> V14[XIV. Analítica]
+  V2 --> V15[XV. Quântica e Espectroscopia]
+  V15 --> V16[XVI. Nuclear, Materiais e Estado Sólido]
+```
+
+## Pré-requisitos cruzados com os outros manuais
+
+A química avançada apoia-se em ferramentas já desenvolvidas nos manuais irmãos —
+o `ROADMAP.md` registra esses ganchos para **não reensinar** aqui o que já existe lá:
+
+- **Química Quântica (Vol. XV)** usa a mecânica quântica do *Manual de Física* e a
+  álgebra linear / equações diferenciais do *Manual de Matemática*.
+- **Simetria molecular / teoria de grupos (Vol. XV)** conecta-se à álgebra
+  abstrata (grupos) do *Manual de Matemática*.
+- **Termodinâmica química (Vol. VI)** dialoga com a termodinâmica do *Manual de
+  Física*; aqui o foco é a aplicação a reações.
+
+## Convenções rápidas
+
+- Fórmulas e equações químicas: `\ce{2 H2 + O2 -> 2 H2O}`.
+- Grandezas e unidades com `\,` e `\mathrm{}` no texto; `\pu{...}` quando útil.
+- Constantes e formulário no apêndice [Constantes](constantes.qmd).

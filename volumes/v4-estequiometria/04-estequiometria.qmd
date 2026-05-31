@@ -1,0 +1,143 @@
+---
+title: "Estequiometria: cálculos, reagente limitante e rendimento"
+---
+
+# Estequiometria {#sec-estequiometria}
+
+> **Capítulo-gabarito.** Este capítulo é o modelo de estilo da obra. Ao escrever
+> qualquer capítulo novo, espelhe a estrutura, os ambientes e o tom usados aqui.
+
+## Por que precisamos contar átomos
+
+Uma equação química balanceada é, antes de tudo, uma **receita em proporções
+fixas**. Quando escrevemos
+
+$$ \ce{2 H2 + O2 -> 2 H2O}, $$
+
+não estamos dizendo apenas *o que* reage, mas *em que proporção*: duas "porções"
+de hidrogênio para uma de oxigênio. O problema prático é que não contamos
+moléculas uma a uma — pesamos massas em gramas. A estequiometria é a ponte entre a
+proporção microscópica (moléculas) e a grandeza que medimos no laboratório (massa,
+volume). Essa ponte tem um único pilar: o **mol**.
+
+## O mol como unidade de contagem
+
+::: {#def-mol}
+## Mol
+O **mol** é a quantidade de matéria que contém tantas entidades elementares
+quantas há em exatamente $N_A = 6{,}022\times 10^{23}$ unidades (número de
+Avogadro). A massa de um mol de uma substância, em gramas, é numericamente igual à
+sua massa molar $M$ (em $\mathrm{g\,mol^{-1}}$).
+:::
+
+A relação entre massa $m$, número de mols $n$ e massa molar $M$ é a equação de
+trabalho de todo o capítulo:
+
+$$ n = \frac{m}{M}. $$ {#eq-mol}
+
+::: {#exm-mol}
+Quantos mols há em $\pu{36 g}$ de água ($M_{\ce{H2O}} = \pu{18 g/mol}$)?
+Pela @eq-mol, $n = 36/18 = \pu{2 mol}$, ou seja, $2\,N_A \approx 1{,}2\times10^{24}$
+moléculas.
+:::
+
+## A lei que sustenta os cálculos
+
+::: {#prp-proporcao}
+## Proporção estequiométrica
+Numa equação balanceada, a razão entre os números de mols de quaisquer duas
+espécies é igual à razão entre seus coeficientes. Para $\ce{aA + bB -> cC}$,
+$$ \frac{n_A}{a} = \frac{n_B}{b} = \frac{n_C}{c}. $$
+:::
+
+::: {.proof}
+A equação balanceada respeita a conservação de massa (Lavoisier): cada coeficiente
+conta entidades, e entidades não são criadas nem destruídas. Logo, a quantidade
+consumida ou produzida de cada espécie é proporcional ao seu coeficiente. $\square$
+:::
+
+## Roteiro de um cálculo estequiométrico
+
+Quase todo problema segue o mesmo trajeto, que vale memorizar:
+
+$$ \text{massa dada} \;\xrightarrow{\div M}\; \text{mols} \;\xrightarrow{\text{coef.}}\; \text{mols do alvo} \;\xrightarrow{\times M}\; \text{massa do alvo}. $$
+
+::: {#exm-massa}
+## Massa de produto a partir de massa de reagente
+Na combustão do metano, $\ce{CH4 + 2 O2 -> CO2 + 2 H2O}$, quantos gramas de
+$\ce{CO2}$ se formam a partir de $\pu{8 g}$ de $\ce{CH4}$?
+($M_{\ce{CH4}}=\pu{16 g/mol}$, $M_{\ce{CO2}}=\pu{44 g/mol}$.)
+
+**Solução.** Mols de $\ce{CH4}$: $n = 8/16 = \pu{0,5 mol}$. A proporção
+$\ce{CH4}:\ce{CO2}$ é $1:1$, logo formam-se $\pu{0,5 mol}$ de $\ce{CO2}$, isto é,
+$m = 0{,}5 \times 44 = \pu{22 g}$ de $\ce{CO2}$.
+:::
+
+## Reagente limitante
+
+Quando os reagentes não estão em proporção estequiométrica, um deles acaba
+primeiro e **limita** o quanto de produto se forma; o outro sobra (está em
+excesso).
+
+::: {#def-limitante}
+## Reagente limitante
+É o reagente que se esgota primeiro. Identifica-se dividindo o número de mols de
+cada reagente pelo seu coeficiente: **o menor quociente indica o limitante**.
+:::
+
+::: {#exm-limitante}
+## Identificando o limitante
+Misturam-se $\pu{2 mol}$ de $\ce{H2}$ e $\pu{2 mol}$ de $\ce{O2}$ segundo
+$\ce{2 H2 + O2 -> 2 H2O}$. Quem limita?
+
+**Solução.** Para o $\ce{H2}$: $2/2 = 1$. Para o $\ce{O2}$: $2/1 = 2$. O menor
+quociente é o do $\ce{H2}$, então **o hidrogênio é o limitante**; ele produz
+$\pu{2 mol}$ de água e sobra $\pu{1 mol}$ de $\ce{O2}$.
+:::
+
+## Rendimento
+
+O **rendimento teórico** é a massa máxima de produto prevista pela estequiometria.
+Na prática, perdas e reações incompletas reduzem esse valor; a fração efetivamente
+obtida é o **rendimento percentual**:
+
+$$ \eta = \frac{\text{rendimento real}}{\text{rendimento teórico}} \times 100\%. $$ {#eq-rendimento}
+
+::: {.callout-warning}
+Rendimento sempre se calcula em relação ao **reagente limitante** — nunca ao que
+está em excesso. Esse é o erro mais comum do capítulo.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Calcule a massa de $\ce{NH3}$ produzida a partir de $\pu{28 g}$ de $\ce{N2}$ em
+excesso de $\ce{H2}$, na síntese $\ce{N2 + 3 H2 -> 2 NH3}$.
+($M_{\ce{N2}}=\pu{28 g/mol}$, $M_{\ce{NH3}}=\pu{17 g/mol}$.)
+:::
+
+::: {#exr-2}
+$\pu{5 mol}$ de $\ce{Al}$ reagem com $\pu{6 mol}$ de $\ce{O2}$ em
+$\ce{4 Al + 3 O2 -> 2 Al2O3}$. Identifique o reagente limitante e diga quantos
+mols de $\ce{Al2O3}$ se formam.
+:::
+
+::: {#exr-3}
+Uma reação tem rendimento teórico de $\pu{50 g}$, mas obtêm-se apenas $\pu{42 g}$.
+Qual o rendimento percentual?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $n_{\ce{N2}} = 28/28 = \pu{1 mol}$. Proporção $\ce{N2}:\ce{NH3} = 1:2$,
+logo $\pu{2 mol}$ de $\ce{NH3}$, isto é, $2 \times 17 = \pu{34 g}$.
+
+**@exr-2.** $\ce{Al}$: $5/4 = 1{,}25$; $\ce{O2}$: $6/3 = 2$. O menor é o do
+$\ce{Al}$, que **limita**. Proporção $\ce{Al}:\ce{Al2O3} = 4:2$, então
+$5 \times \tfrac{2}{4} = \pu{2,5 mol}$ de $\ce{Al2O3}$.
+
+**@exr-3.** Pela @eq-rendimento, $\eta = 42/50 \times 100\% = 84\%$.
+:::
