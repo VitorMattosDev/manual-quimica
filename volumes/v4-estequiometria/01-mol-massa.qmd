@@ -1,0 +1,147 @@
+---
+title: "Massa atômica, massa molar e o mol"
+---
+
+# Massa atômica, massa molar e o mol {#sec-mol-massa}
+
+## Pesar o que não se pode contar
+
+Reações acontecem entre **números** de átomos e moléculas — duas de hidrogênio para uma
+de oxigênio. Mas no laboratório medimos **massas**, em gramas, não contamos partículas
+uma a uma. O Volume IV inteiro é a contabilidade que liga essas duas escalas, e tudo
+repousa sobre um único conceito: o **mol**. Este capítulo, que abre o volume, constrói
+as ideias de massa atômica, massa molar e mol com cuidado, para que o capítulo-gabarito
+(cálculos estequiométricos) possa usá-las à vontade. É a base de tudo o que vem a
+seguir.
+
+## Massa atômica e a escala relativa
+
+Átomos são leves demais para uma balança ($\sim\!10^{-23}\,\mathrm{g}$). Por isso suas
+massas são dadas em uma **escala relativa**, comparando-as a um padrão.
+
+::: {#def-massa-atomica}
+## Unidade de massa atômica e massa atômica
+A **unidade de massa atômica** ($\mathrm{u}$) é definida como $\tfrac{1}{12}$ da massa
+de um átomo de carbono-12. A **massa atômica** de um elemento é a massa de seus átomos
+nessa escala. O valor tabelado é a **média ponderada** das massas dos isótopos pelas
+respectivas abundâncias naturais — por isso o cloro tem massa $\pu{35,5 u}$, e não um
+número inteiro.
+:::
+
+::: {#exm-massa-media}
+## Massa atômica média
+O cloro tem dois isótopos: $\ce{^{35}Cl}$ ($\pu{75 \%}$, massa $\pu{35 u}$) e
+$\ce{^{37}Cl}$ ($\pu{25 \%}$, massa $\pu{37 u}$). Calcule sua massa atômica média.
+
+**Solução.** Média ponderada:
+$$ \bar{A} = 0{,}75\times35 + 0{,}25\times37 = 26{,}25 + 9{,}25 = \pu{35,5 u}, $$
+exatamente o valor da tabela periódica.
+:::
+
+A **massa molecular** de uma substância é a soma das massas atômicas dos átomos da sua
+fórmula. Para a água: $2\times1 + 16 = \pu{18 u}$.
+
+## O mol e o número de Avogadro
+
+A ponte entre a massa em $\mathrm{u}$ (microscópica) e a massa em gramas (laboratório) é
+escolher um número de partículas tão grande que sua massa total seja palpável. Esse
+número é o de Avogadro.
+
+::: {#def-mol-massa}
+## Mol e número de Avogadro
+O **mol** é a quantidade de matéria que contém exatamente
+$N_A = 6{,}022\times10^{23}$ entidades elementares (o **número de Avogadro**). Esse
+valor é escolhido de modo que a massa de **um mol** de uma substância, em gramas,
+coincida numericamente com sua massa molecular em $\mathrm{u}$.
+:::
+
+::: {.callout-note}
+A escolha de $N_A$ não é arbitrária: ela faz a ponte de escalas "fechar". Como
+$\pu{1 u} = 1/N_A\ \mathrm{g}$, um mol de qualquer substância de massa molecular $M_r$
+(em $\mathrm{u}$) pesa $M_r$ gramas. Um átomo de carbono-12 pesa $\pu{12 u}$; um mol
+deles pesa $\pu{12 g}$. É isso que torna o mol tão útil.
+:::
+
+## Massa molar
+
+::: {#def-massa-molar}
+## Massa molar
+A **massa molar** $M$ é a massa de um mol de uma substância, em $\mathrm{g\,mol^{-1}}$.
+Numericamente, é igual à massa atômica ou molecular em $\mathrm{u}$. A relação entre
+massa $m$, quantidade de matéria $n$ (em mols) e massa molar é
+$$ n = \frac{m}{M}. $$ {#eq-n-massa-molar}
+O número de entidades segue de $N = n\,N_A$.
+:::
+
+::: {#exm-mols-agua}
+## Da massa ao número de moléculas
+Quantas moléculas há em $\pu{9 g}$ de água? ($M_{\ce{H2O}} = \pu{18 g/mol}$.)
+
+**Solução.** Pela @eq-n-massa-molar, $n = 9/18 = \pu{0,5 mol}$. O número de moléculas é
+$N = n\,N_A = 0{,}5\times6{,}022\times10^{23} \approx \pu{3,0e23}$ moléculas. (Dentro
+delas há o dobro de átomos de hidrogênio e metade de oxigênio.)
+:::
+
+::: {#exm-massa-de-mols}
+## Do número de mols à massa
+Qual a massa de $\pu{3 mol}$ de $\ce{CO2}$? ($M_{\ce{CO2}} = \pu{44 g/mol}$.)
+
+**Solução.** Isolando na @eq-n-massa-molar, $m = n\,M = 3\times44 = \pu{132 g}$.
+:::
+
+## Volume molar dos gases
+
+Para gases, há um atalho útil que o Volume V justificará: nas **CNTP** (condições
+normais, $\pu{0 ^\circ C}$ e $\pu{1 atm}$), um mol de **qualquer** gás ocupa o mesmo
+volume.
+
+::: {#def-volume-molar}
+## Volume molar (CNTP)
+Nas CNTP, um mol de qualquer gás ideal ocupa o **volume molar**
+$V_m = \pu{22,4 L/mol}$. Logo, para gases nessas condições, $n = V/V_m$.
+:::
+
+::: {#exm-volume-gas}
+## Volume de um gás nas CNTP
+Que volume ocupam $\pu{0,25 mol}$ de $\ce{O2}$ nas CNTP?
+
+**Solução.** $V = n\,V_m = 0{,}25\times22{,}4 = \pu{5,6 L}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Calcule a massa molar de (a) $\ce{H2SO4}$; (b) $\ce{Ca(OH)2}$. (Massas atômicas:
+$\ce{H}=1$, $\ce{O}=16$, $\ce{S}=32$, $\ce{Ca}=40$.)
+:::
+
+::: {#exr-2}
+Quantos mols há em $\pu{88 g}$ de $\ce{CO2}$? E quantas moléculas?
+:::
+
+::: {#exr-3}
+O bromo tem dois isótopos de massas $\pu{79 u}$ e $\pu{81 u}$, em abundâncias iguais
+($\pu{50 \%}$ cada). Qual sua massa atômica média?
+:::
+
+::: {#exr-4}
+Que volume ocupam, nas CNTP, $\pu{2 mol}$ de gás nitrogênio $\ce{N2}$? Quantas moléculas
+são?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\ce{H2SO4}$: $2\times1 + 32 + 4\times16 = 2 + 32 + 64 = \pu{98 g/mol}$.
+(b) $\ce{Ca(OH)2}$: $40 + 2\times(16+1) = 40 + 34 = \pu{74 g/mol}$.
+
+**@exr-2.** $n = 88/44 = \pu{2 mol}$. Moléculas: $N = 2\times6{,}022\times10^{23}
+\approx \pu{1,2e24}$.
+
+**@exr-3.** $\bar{A} = 0{,}5\times79 + 0{,}5\times81 = \pu{80 u}$.
+
+**@exr-4.** $V = n\,V_m = 2\times22{,}4 = \pu{44,8 L}$; $N = 2\,N_A \approx \pu{1,2e24}$
+moléculas.
+:::
