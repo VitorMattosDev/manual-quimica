@@ -1,0 +1,135 @@
+---
+title: "Leis dos gases e a equação do gás ideal"
+---
+
+# Leis dos gases e a equação do gás ideal {#sec-gases-ideais}
+
+## O estado mais simples da matéria
+
+Dos três estados físicos, o gasoso é o mais simples de descrever quantitativamente —
+e, não por acaso, o primeiro a ceder a leis matemáticas. Num gás, as moléculas estão
+tão afastadas e em movimento tão livre que seu comportamento independe quase totalmente
+de **qual** gás é: só importam pressão, volume, temperatura e quantidade. O Volume IV já
+usou o volume molar ($\pu{22,4 L}$ nas CNTP); aqui entendemos de onde ele vem. Este
+capítulo, que abre o Volume V, reúne as leis dos gases numa única equação — a do gás
+ideal — modelo cujo domínio de validade discutimos lá no Volume I.
+
+## As grandezas e suas leis
+
+Quatro variáveis descrevem uma amostra de gás: pressão $p$, volume $V$, temperatura
+**absoluta** $T$ (em kelvin, sempre) e quantidade de matéria $n$. Mantendo duas fixas,
+observa-se como as outras se relacionam.
+
+::: {#def-leis-gases}
+## Leis empíricas dos gases
+- **Boyle** ($T$, $n$ constantes): $pV = \text{constante}$ — pressão e volume são
+  **inversamente** proporcionais.
+- **Charles** ($p$, $n$ constantes): $V/T = \text{constante}$ — volume e temperatura
+  absoluta são **diretamente** proporcionais.
+- **Gay-Lussac** ($V$, $n$ constantes): $p/T = \text{constante}$.
+- **Avogadro** ($p$, $T$ constantes): $V/n = \text{constante}$ — volumes iguais de
+  gases, nas mesmas condições, têm o mesmo número de moléculas.
+:::
+
+Combinando Boyle, Charles e Gay-Lussac obtém-se a **lei combinada**, útil para
+comparar dois estados de uma mesma amostra:
+$$ \frac{p_1 V_1}{T_1} = \frac{p_2 V_2}{T_2}. $$ {#eq-lei-combinada}
+
+::: {.callout-warning}
+Nas leis dos gases, a temperatura é **sempre** a absoluta, em **kelvin**. Usar Celsius
+leva a absurdos — dobrar de $\pu{10 ^\circ C}$ para $\pu{20 ^\circ C}$ **não** dobra o
+volume, mas dobrar de $\pu{283 K}$ para $\pu{566 K}$ sim. Converta com
+$T/\mathrm{K} = \theta/\mathrm{^\circ C} + 273{,}15$ antes de qualquer conta.
+:::
+
+## A equação do gás ideal
+
+Reunindo as quatro proporcionalidades numa só constante, chega-se à equação de estado.
+
+::: {#def-gas-ideal}
+## Equação do gás ideal
+Para um gás ideal,
+$$ pV = nRT, $$ {#eq-gas-ideal}
+onde $R$ é a **constante dos gases**: $R = \pu{0,08206 atm.L.mol-1.K-1}$ ou
+$R = \pu{8,314 J.mol-1.K-1}$. A equação engloba todas as leis empíricas como casos
+particulares (fixando as variáveis adequadas).
+:::
+
+A escolha da unidade de $R$ deve casar com as de $p$ e $V$: use
+$\pu{0,08206 atm.L.mol-1.K-1}$ quando a pressão estiver em atm e o volume em litros.
+
+::: {#exm-gas-ideal}
+## Aplicando pV = nRT
+Que volume ocupam $\pu{2,0 mol}$ de gás a $\pu{27 ^\circ C}$ e $\pu{1,5 atm}$?
+
+**Solução.** $T = 27 + 273 = \pu{300 K}$. Pela @eq-gas-ideal,
+$$ V = \frac{nRT}{p} = \frac{2{,}0\times0{,}08206\times300}{1{,}5} \approx \pu{32,8 L}. $$
+:::
+
+::: {#exm-cntp}
+## Recuperando o volume molar
+Mostre que 1 mol de gás ideal ocupa $\approx\pu{22,4 L}$ nas CNTP
+($\pu{0 ^\circ C} = \pu{273 K}$, $\pu{1 atm}$).
+
+**Solução.** $V = \dfrac{nRT}{p} = \dfrac{1\times0{,}08206\times273}{1} \approx
+\pu{22,4 L}$ — exatamente o volume molar usado no Volume IV. A equação do gás ideal
+**explica** aquele número.
+:::
+
+## Densidade e massa molar de um gás
+
+Da equação de estado deriva-se a densidade de um gás. Como $n = m/M$, substituindo em
+$pV = nRT$:
+$$ d = \frac{m}{V} = \frac{pM}{RT}. $$ {#eq-densidade-gas}
+Isso permite, por exemplo, identificar um gás medindo sua densidade — ou prever que o
+ar quente é menos denso (sobe) que o frio.
+
+::: {#exm-massa-molar-gas}
+## Massa molar a partir da densidade
+Um gás tem densidade $\pu{1,96 g/L}$ a $\pu{0 ^\circ C}$ e $\pu{1 atm}$. Qual sua massa
+molar?
+
+**Solução.** Isolando na @eq-densidade-gas:
+$M = \dfrac{dRT}{p} = \dfrac{1{,}96\times0{,}08206\times273}{1} \approx \pu{43,9 g/mol}$
+— compatível com o $\ce{CO2}$ ($\pu{44 g/mol}$).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Um gás ocupa $\pu{4,0 L}$ a $\pu{2,0 atm}$. Mantida a temperatura, que volume ocupará a
+$\pu{1,0 atm}$? (Lei de Boyle.)
+:::
+
+::: {#exr-2}
+$\pu{3,0 mol}$ de um gás estão a $\pu{127 ^\circ C}$ num recipiente de $\pu{10 L}$. Qual
+a pressão? ($R = \pu{0,08206 atm.L.mol-1.K-1}$.)
+:::
+
+::: {#exr-3}
+Uma amostra de gás a $\pu{300 K}$ e $\pu{1 atm}$ ocupa $\pu{6 L}$. Qual o volume a
+$\pu{600 K}$ e $\pu{2 atm}$? (Lei combinada.)
+:::
+
+::: {#exr-4}
+Calcule a densidade do gás oxigênio ($M = \pu{32 g/mol}$) a $\pu{25 ^\circ C}$ e
+$\pu{1 atm}$.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Boyle: $p_1V_1 = p_2V_2 \Rightarrow V_2 = \dfrac{2{,}0\times4{,}0}{1{,}0} =
+\pu{8,0 L}$.
+
+**@exr-2.** $T = 400\,\mathrm{K}$. $p = \dfrac{nRT}{V} =
+\dfrac{3{,}0\times0{,}08206\times400}{10} \approx \pu{9,8 atm}$.
+
+**@exr-3.** Pela @eq-lei-combinada, $V_2 = V_1\dfrac{p_1 T_2}{p_2 T_1} =
+6\times\dfrac{1\times600}{2\times300} = \pu{6 L}$ (os efeitos se cancelam).
+
+**@exr-4.** $T = 298\,\mathrm{K}$. $d = \dfrac{pM}{RT} =
+\dfrac{1\times32}{0{,}08206\times298} \approx \pu{1,31 g/L}$.
+:::

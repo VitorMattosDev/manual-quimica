@@ -52,6 +52,9 @@ book:
         - volumes/v4-estequiometria/05-tipos-reacoes.qmd
         - volumes/v4-estequiometria/06-solucao-aquosa.qmd
         - volumes/v4-estequiometria/07-nox.qmd
+    - part: "Volume V — Estados da Matéria e Soluções"
+      chapters:
+        - volumes/v5-estados-solucoes/01-gases-ideais.qmd
   appendices:
     - constantes.qmd
 

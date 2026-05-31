@@ -35,7 +35,7 @@ $$ \lambda = \frac{h}{mv}, \qquad \Delta x\,\Delta p \gtrsim \frac{h}{4\pi}. $$
 $$ n = \frac{m}{M}, \qquad N = n\,N_A. $$
 
 **Gás ideal**
-$$ pV = nRT. $$
+$$ pV = nRT, \qquad \frac{p_1V_1}{T_1} = \frac{p_2V_2}{T_2}, \qquad d = \frac{pM}{RT}. $$
 
 **Concentração**
 $$ c = \frac{n_{\text{soluto}}}{V_{\text{solução}}}, \qquad C_1 V_1 = C_2 V_2 \ (\text{diluição}). $$
