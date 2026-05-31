@@ -4,23 +4,174 @@ title: "Medidas, unidades e algarismos significativos"
 
 # Medidas em química {#sec-medidas}
 
-::: {.callout-note}
-**Capítulo em esboço.** Estrutura prevista: grandezas e o SI; conversão de
-unidades por análise dimensional; precisão e exatidão; algarismos significativos e
-regras de arredondamento; notação científica. Espelhar o capítulo-gabarito.
+## Toda química quantitativa começa por medir bem
+
+A química deixou de ser arte e virou ciência quando passou a **medir**. Mas uma
+medida sem unidade é um número órfão — "a massa é 5" não diz nada — e uma medida
+relatada com mais dígitos do que o instrumento permite é uma mentira disfarçada de
+precisão. Este capítulo organiza três hábitos que acompanharão todos os cálculos do
+livro: usar o **Sistema Internacional**, **converter unidades** sem erro por análise
+dimensional, e relatar resultados com o número honesto de **algarismos
+significativos**.
+
+## Grandezas e o Sistema Internacional
+
+::: {#def-grandeza}
+## Grandeza física
+Uma **grandeza física** é uma propriedade que se pode medir, expressa sempre como o
+produto de um **valor numérico** por uma **unidade**: $\text{grandeza} =
+\{\text{número}\}\times[\text{unidade}]$. Trocar a unidade muda o número, não a
+grandeza ($\pu{1 kg} = \pu{1000 g}$ descrevem a mesma massa).
 :::
 
-## Motivação
+O **Sistema Internacional de Unidades (SI)** define sete unidades de base. As de
+uso constante em química são:
 
-<!-- Toda a química quantitativa depende de medir e relatar bem. -->
+| Grandeza | Unidade SI | Símbolo |
+|---|---|---|
+| Comprimento | metro | $\mathrm{m}$ |
+| Massa | quilograma | $\mathrm{kg}$ |
+| Tempo | segundo | $\mathrm{s}$ |
+| Temperatura termodinâmica | kelvin | $\mathrm{K}$ |
+| Quantidade de matéria | mol | $\mathrm{mol}$ |
+| Corrente elétrica | ampère | $\mathrm{A}$ |
 
-## Conteúdo a desenvolver
+Demais unidades são **derivadas** (combinam as de base): volume em $\mathrm{m^3}$
+— mas o laboratório prefere o litro, $\pu{1 L} = \pu{1 dm^3} = \pu{1000 cm^3}$ —;
+densidade em $\pu{kg/m^3}$ ou $\pu{g/cm^3}$; força em newton, $\pu{1 N} =
+\pu{1 kg.m/s^2}$.
 
-- O Sistema Internacional (SI) e as unidades de uso em química.
-- Análise dimensional como método de conversão.
-- Precisão vs. exatidão; tipos de erro.
-- Algarismos significativos: identificação, operações e arredondamento.
+::: {.callout-note}
+**Prefixos** multiplicam a unidade por potências de dez e evitam números enormes:
+$\mathrm{k}$ (quilo, $10^{3}$), $\mathrm{d}$ (deci, $10^{-1}$), $\mathrm{c}$ (centi,
+$10^{-2}$), $\mathrm{m}$ (mili, $10^{-3}$), $\mu$ (micro, $10^{-6}$), $\mathrm{n}$
+(nano, $10^{-9}$), $\mathrm{p}$ (pico, $10^{-12}$). Assim $\pu{1 nm} = \pu{e-9 m}$.
+:::
+
+A temperatura merece nota à parte. A escala Celsius e a Kelvin têm o mesmo
+*tamanho* de grau; diferem apenas na origem:
+
+$$ T/\mathrm{K} = \theta/\mathrm{^\circ C} + 273{,}15. $$ {#eq-kelvin}
+
+## Conversão por análise dimensional
+
+Converter unidades não exige decorar fórmulas: basta **multiplicar pela unidade**.
+Um **fator de conversão** é uma razão que vale $1$ porque numerador e denominador
+representam a mesma quantidade, como $\dfrac{\pu{1000 g}}{\pu{1 kg}}$. Multiplicar
+por $1$ não muda a grandeza, só a unidade — e as unidades se cancelam como números.
+
+::: {#exm-conversao}
+## Cadeia de fatores
+Converta $\pu{2,5 g/cm^3}$ para $\pu{kg/m^3}$.
+
+**Solução.** Encaixe os fatores de modo que as unidades indesejadas se cancelem:
+$$ 2{,}5\,\frac{\mathrm{g}}{\mathrm{cm^3}}
+\times \frac{\pu{1 kg}}{\pu{1000 g}}
+\times \left(\frac{\pu{100 cm}}{\pu{1 m}}\right)^3
+= 2{,}5\times\frac{10^{6}}{10^{3}}\ \frac{\mathrm{kg}}{\mathrm{m^3}}
+= \pu{2500 kg/m^3}. $$
+O cubo no fator de comprimento é essencial: a unidade aparece elevada ao cubo no
+volume.
+:::
+
+## Precisão e exatidão
+
+Medir envolve erro. Convém separar dois aspectos que o uso cotidiano confunde.
+
+::: {#def-precisao-exatidao}
+## Exatidão e precisão
+**Exatidão** é a proximidade entre o valor medido e o valor **verdadeiro**.
+**Precisão** é a concordância entre medidas **repetidas** (sua reprodutibilidade).
+Uma série de medidas pode ser precisa (muito próximas entre si) e ainda assim
+inexata (todas erradas no mesmo sentido — *erro sistemático*); ou exata em média,
+porém pouco precisa (muito espalhadas — *erro aleatório*).
+:::
+
+::: {.callout-note}
+Erros **sistemáticos** têm causa identificável (balança descalibrada, menisco lido
+de viés) e deslocam todas as medidas no mesmo sentido — combatem-se calibrando.
+Erros **aleatórios** flutuam para mais e para menos e atenuam-se repetindo a medida
+e tomando a média.
+:::
+
+## Algarismos significativos
+
+Um resultado deve carregar apenas os dígitos que a medida realmente sustenta. Esses
+são os **algarismos significativos**: todos os que se conhecem com certeza, mais o
+primeiro duvidoso.
+
+::: {#def-significativos}
+## Algarismos significativos
+São significativos: todos os dígitos diferentes de zero; os zeros **entre** dígitos
+significativos; e os zeros **à direita** quando há vírgula decimal. **Não** são
+significativos os zeros à esquerda, que só marcam a posição da vírgula.
+:::
+
+Exemplos: $\pu{1,205 g}$ tem 4 significativos; $\pu{0,00340 m}$ tem 3 (o $3$, o $4$
+e o $0$ final); $\pu{1500}$ é ambíguo — a **notação científica** resolve:
+$1{,}5\times10^{3}$ tem 2, e $1{,}500\times10^{3}$ tem 4.
+
+::: {#prp-operacoes}
+## Significativos em operações
+- **Multiplicação e divisão:** o resultado tem tantos algarismos significativos
+  quantos o fator com **menos** significativos.
+- **Adição e subtração:** o resultado é arredondado à mesma **casa decimal** da
+  parcela com menos casas decimais.
+:::
+
+Para arredondar, olhe o primeiro dígito descartado: se for menor que $5$,
+trunca-se; se for maior que $5$, arredonda-se para cima; se for exatamente $5$ sem
+nada depois, a convenção comum é arredondar para o algarismo **par** mais próximo.
+
+::: {#exm-significativos}
+## Operando com a regra
+Calcule $\dfrac{\pu{12,01 g}}{\pu{2,1 cm^3}}$ e some $\pu{12,01 g} + \pu{0,3 g}$.
+
+**Solução.** Na divisão, $12{,}01/2{,}1 = 5{,}719\ldots$; o fator $2{,}1$ tem só 2
+significativos, então o resultado é $\pu{5,7 g/cm^3}$. Na soma, $12{,}01 + 0{,}3 =
+12{,}31$, mas a parcela $0{,}3$ tem uma só casa decimal, logo $\pu{12,3 g}$.
+:::
+
+::: {.callout-warning}
+Arredonde **apenas no resultado final**. Arredondar valores intermediários propaga
+erro e pode mudar o último dígito da resposta. Guarde dígitos extras durante a
+conta e ajuste só no fim.
+:::
 
 ## Exercícios
 
-<!-- A preencher. -->
+::: {#exr-1}
+Converta $\pu{750 mL}$ para $\mathrm{m^3}$, expressando em notação científica.
+:::
+
+::: {#exr-2}
+Quantos algarismos significativos há em: (a) $\pu{0,0608 g}$; (b) $\pu{40,00 mL}$;
+(c) $4{,}0\times10^{2}\ \mathrm{cm}$?
+:::
+
+::: {#exr-3}
+Uma temperatura de $\pu{25 ^\circ C}$ corresponde a quantos kelvin? E $\pu{0 K}$ em
+$\mathrm{^\circ C}$?
+:::
+
+::: {#exr-4}
+Efetue, com o número correto de significativos: (a) $\pu{3,14 cm} \times
+\pu{2,0 cm}$; (b) $\pu{100,0 g} - \pu{2,53 g}$.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\pu{750 mL} = \pu{750 cm^3}$; como $\pu{1 m^3} = \pu{e6 cm^3}$,
+$750\times10^{-6} = 7{,}5\times10^{-4}\ \mathrm{m^3}$.
+
+**@exr-2.** (a) 3; (b) 4; (c) 2.
+
+**@exr-3.** Pela @eq-kelvin, $25 + 273{,}15 = \pu{298,15 K}$; e
+$0 - 273{,}15 = \pu{-273,15 ^\circ C}$ (o zero absoluto).
+
+**@exr-4.** (a) $3{,}14\times2{,}0 = 6{,}28 \to \pu{6,3 cm^2}$ (2 significativos).
+(b) $100{,}0 - 2{,}53 = 97{,}47 \to \pu{97,5 g}$ (uma casa decimal).
+:::

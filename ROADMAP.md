@@ -23,7 +23,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 *Objetivo:* a linguagem e as ferramentas básicas. *Pré-requisito:* nenhum.
 
 - [x] `volumes/v1-fundamentos/01-materia.qmd` — Matéria, propriedades e estados.
-- [~] `volumes/v1-fundamentos/02-medidas.qmd` — Medidas, unidades (SI) e algarismos significativos.
+- [x] `volumes/v1-fundamentos/02-medidas.qmd` — Medidas, unidades (SI) e algarismos significativos.
 - [ ] `volumes/v1-fundamentos/03-metodo.qmd` — Método científico e modelagem em química.
 - [ ] `volumes/v1-fundamentos/04-misturas.qmd` — Substâncias puras, misturas e separação de misturas.
 - [ ] `volumes/v1-fundamentos/05-transformacoes.qmd` — Fenômenos físicos e químicos.

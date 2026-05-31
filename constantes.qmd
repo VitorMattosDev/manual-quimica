@@ -22,6 +22,9 @@ title: "Constantes e formulário"
 **Matéria e densidade**
 $$ d = \frac{m}{V}. $$
 
+**Temperatura (Celsius ↔ Kelvin)**
+$$ T/\mathrm{K} = \theta/\mathrm{^\circ C} + 273{,}15. $$
+
 **Mol e estequiometria**
 $$ n = \frac{m}{M}, \qquad N = n\,N_A. $$
 
