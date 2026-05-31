@@ -1,0 +1,133 @@
+---
+title: "Símbolos, fórmulas e equações químicas"
+---
+
+# Símbolos, fórmulas e equações químicas {#sec-linguagem}
+
+## A química tem uma escrita própria
+
+Tudo o que vimos até aqui — substâncias, transformações, átomos — precisa de uma
+**notação** para ser comunicado sem ambiguidade. A química desenvolveu uma linguagem
+universal em que cada elemento tem um **símbolo**, cada substância uma **fórmula**, e
+cada reação uma **equação**. Dominá-la é pré-requisito de tudo o que vem nos próximos
+volumes: sem saber ler $\ce{2 H2 + O2 -> 2 H2O}$, não há como falar de
+estequiometria, equilíbrio ou eletroquímica. Este capítulo, que encerra o Volume I,
+ensina a ler e escrever essa língua.
+
+## Símbolos dos elementos
+
+::: {#def-simbolo}
+## Símbolo químico
+Cada elemento é representado por um **símbolo**: uma ou duas letras, a primeira
+**maiúscula** e a segunda (quando existe) **minúscula** ($\ce{H}$, $\ce{He}$,
+$\ce{Ca}$, $\ce{Na}$). Muitos derivam do nome latino — $\ce{Na}$ de *natrium* (sódio),
+$\ce{Fe}$ de *ferrum* (ferro), $\ce{Au}$ de *aurum* (ouro).
+:::
+
+::: {.callout-warning}
+A caixa das letras importa: $\ce{Co}$ é o elemento cobalto, mas $\ce{CO}$ (duas
+maiúsculas) é a substância monóxido de carbono — um átomo de carbono e um de oxigênio.
+Trocar maiúscula por minúscula muda completamente o significado.
+:::
+
+## Fórmulas químicas
+
+::: {#def-formula}
+## Fórmula química
+Uma **fórmula** indica, pelos símbolos e por **índices** subscritos, quais elementos
+e em que proporção formam uma substância. O índice à direita conta os átomos daquele
+elemento na unidade da substância; ausência de índice significa $1$. Em $\ce{H2SO4}$
+há 2 hidrogênios, 1 enxofre e 4 oxigênios.
+:::
+
+Distinga **índice** de **coeficiente**: o índice (subscrito) faz parte da fórmula e
+não pode ser mudado sem mudar a substância; o coeficiente (à frente da fórmula)
+multiplica a unidade inteira. Em $\ce{2 H2O}$, o $2$ da frente é coeficiente (duas
+moléculas) e o $2$ subscrito é índice (dois hidrogênios por molécula).
+
+Grupos entre **parênteses** seguidos de índice multiplicam todo o grupo: em
+$\ce{Ca(OH)2}$ há 1 cálcio, 2 oxigênios e 2 hidrogênios. Cargas elétricas aparecem
+sobrescritas, como nos íons $\ce{Na+}$, $\ce{SO4^2-}$ e no complexo $\ce{[Cu(NH3)4]^2+}$.
+
+## Equações químicas
+
+::: {#def-equacao}
+## Equação química
+Uma **equação química** representa uma reação: os **reagentes** à esquerda e os
+**produtos** à direita, separados por uma **seta** ($\ce{->}$) que indica o sentido da
+transformação. Estados de agregação vão entre parênteses: $(s)$ sólido, $(l)$ líquido,
+$(g)$ gasoso, $(aq)$ em solução aquosa.
+$$ \ce{CaCO3(s) ->[\Delta] CaO(s) + CO2(g)}. $$
+:::
+
+Notações úteis sobre a seta e entre as espécies: $\ce{->[\Delta]}$ indica
+aquecimento; $\ce{<=>}$ indica reação reversível (equilíbrio, Volume VIII); uma seta
+para baixo ($\downarrow$) ou para cima ($\uparrow$) marca, respectivamente,
+precipitado e gás desprendido.
+
+::: {#def-balanceada}
+## Equação balanceada
+Uma equação está **balanceada** quando o número de átomos de cada elemento é igual
+nos dois lados — exigência direta da conservação da massa (@thm-lavoisier). O ajuste
+é feito **só com coeficientes**, nunca alterando índices.
+:::
+
+::: {.callout-warning}
+Balancear **jamais** muda índices. Para acertar o oxigênio em $\ce{H2 + O2 -> H2O}$,
+escreve-se $\ce{2 H2 + O2 -> 2 H2O}$ (coeficientes) — e não $\ce{H2O2}$, que seria
+outra substância (água oxigenada). Mexer no índice troca a substância; mexer no
+coeficiente troca só a quantidade.
+:::
+
+::: {#exm-balanceamento}
+## Balanceando por contagem
+Balanceie a combustão do metano: $\ce{CH4 + O2 -> CO2 + H2O}$.
+
+**Solução.** Comece pelo carbono: 1 de cada lado, ok. Hidrogênio: 4 à esquerda
+($\ce{CH4}$), então preciso de $\ce{2 H2O}$ à direita (4 H). Agora conte o oxigênio à
+direita: $2$ (do $\ce{CO2}$) $+ 2$ (das duas águas) $= 4$; logo, $\ce{2 O2}$ à
+esquerda. Resultado:
+$$ \ce{CH4 + 2 O2 -> CO2 + 2 H2O}. $$
+Conferindo: C $1=1$, H $4=4$, O $4=4$. Balanceada.
+:::
+
+O balanceamento sistemático — inclusive de reações complexas e por oxirredução — é
+desenvolvido no Volume IV. Aqui basta o método por **tentativa e contagem**, suficiente
+para a grande maioria das equações simples.
+
+## Exercícios
+
+::: {#exr-1}
+Quantos átomos de cada elemento há em uma unidade de (a) $\ce{Al2(SO4)3}$;
+(b) $\ce{Ca3(PO4)2}$?
+:::
+
+::: {#exr-2}
+Qual a diferença, em significado, entre $\ce{2 NO}$, $\ce{N2O}$ e $\ce{NO2}$?
+:::
+
+::: {#exr-3}
+Balanceie: (a) $\ce{N2 + H2 -> NH3}$; (b) $\ce{Fe + O2 -> Fe2O3}$.
+:::
+
+::: {#exr-4}
+Reescreva em equação química, com estados de agregação: "carbonato de cálcio sólido,
+ao ser aquecido, produz óxido de cálcio sólido e gás carbônico".
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\ce{Al2(SO4)3}$: 2 Al, 3 S, 12 O. (b) $\ce{Ca3(PO4)2}$: 3 Ca, 2 P,
+8 O.
+
+**@exr-2.** $\ce{2 NO}$ são duas moléculas de monóxido de nitrogênio (coeficiente 2).
+$\ce{N2O}$ é uma molécula com 2 N e 1 O (óxido nitroso). $\ce{NO2}$ é uma molécula com
+1 N e 2 O (dióxido de nitrogênio) — substâncias diferentes.
+
+**@exr-3.** (a) $\ce{N2 + 3 H2 -> 2 NH3}$. (b) $\ce{4 Fe + 3 O2 -> 2 Fe2O3}$.
+
+**@exr-4.** $\ce{CaCO3(s) ->[\Delta] CaO(s) + CO2(g)}$.
+:::
