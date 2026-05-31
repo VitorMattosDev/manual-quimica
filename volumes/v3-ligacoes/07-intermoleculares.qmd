@@ -1,0 +1,151 @@
+---
+title: "Forças intermoleculares e propriedades"
+---
+
+# Forças intermoleculares e propriedades {#sec-intermoleculares}
+
+## O que mantém as moléculas juntas
+
+As ligações dos capítulos anteriores — iônica, covalente — unem **átomos dentro** de
+uma molécula. Mas o que mantém as moléculas **umas perto das outras**, fazendo a água
+ser líquida e o gelo, sólido? São as **forças intermoleculares**: atrações mais fracas
+que as ligações, porém decisivas para as propriedades físicas — ponto de fusão e
+ebulição, solubilidade, tensão superficial, viscosidade. Este capítulo, que fecha o
+Volume III, classifica essas forças e mostra como elas decorrem diretamente da
+polaridade vista antes, fazendo a ponte para os estados da matéria do Volume V.
+
+## Intramolecular vs. intermolecular
+
+::: {.callout-warning}
+A distinção fundamental: **forças intramoleculares** (ligações iônica e covalente)
+mantêm os átomos unidos *dentro* da molécula e são **fortes**; **forças
+intermoleculares** atuam *entre* moléculas e são **bem mais fracas**. Ao ferver a água,
+quebram-se as forças **inter**moleculares (as moléculas se separam) — **não** as
+ligações $\ce{O-H}$. Por isso o vapor d'água ainda é $\ce{H2O}$. Confundir as duas leva
+a erros grosseiros sobre o que acontece numa mudança de estado.
+:::
+
+## Os três tipos principais
+
+As forças intermoleculares, coletivamente chamadas **forças de van der Waals** (com a
+ligação de hidrogênio como caso especial e mais forte), ordenam-se por intensidade
+crescente:
+
+::: {#def-dispersao}
+## Forças de dispersão de London
+Presentes em **todas** as moléculas, são atrações entre **dipolos instantâneos**: o
+movimento dos elétrons cria, a cada instante, uma distribuição assimétrica de carga que
+induz dipolos nas vizinhas. São as **únicas** forças entre moléculas apolares
+($\ce{H2}$, $\ce{CH4}$, $\ce{I2}$). Sua intensidade **cresce com o tamanho** (massa e
+número de elétrons) da molécula — moléculas maiores são mais "polarizáveis".
+:::
+
+::: {#def-dipolo-dipolo}
+## Forças dipolo-dipolo
+Atrações entre moléculas **polares** permanentes: o polo $\delta^+$ de uma molécula
+atrai o $\delta^-$ de outra. São mais intensas que as de dispersão para moléculas de
+tamanho comparável. Ocorrem em $\ce{HCl}$, $\ce{SO2}$, acetona.
+:::
+
+::: {#def-ligacao-hidrogenio}
+## Ligação de hidrogênio
+Caso extremo de dipolo-dipolo, é a atração entre o hidrogênio ligado a um átomo **muito
+eletronegativo e pequeno** ($\ce{F}$, $\ce{O}$, $\ce{N}$) e um par isolado de outro
+átomo $\ce{F}$, $\ce{O}$ ou $\ce{N}$ vizinho. É a **mais forte** das forças
+intermoleculares. Responde pelas propriedades anômalas da água, do $\ce{HF}$ e do
+$\ce{NH3}$.
+:::
+
+## Como prever qual força domina
+
+```{mermaid}
+flowchart TB
+  A{"A molécula é polar?"}
+  A -- não --> D["só dispersão de London"]
+  A -- sim --> B{"Há H ligado a F, O ou N?"}
+  B -- não --> C["dipolo-dipolo (+ dispersão)"]
+  B -- sim --> E["ligação de hidrogênio (+ dipolo-dipolo + dispersão)"]
+```
+
+Quanto **mais forte** a força intermolecular predominante, **mais alto** o ponto de
+ebulição (é preciso mais energia para separar as moléculas).
+
+::: {#exm-ebulicao-agua}
+## Por que a água ferve tão alto
+O $\ce{H2O}$ ($M = \pu{18 g/mol}$) ferve a $\pu{100 ^\circ C}$, enquanto o $\ce{H2S}$
+($M = \pu{34 g/mol}$), mais pesado, ferve a $\pu{-60 ^\circ C}$. Como explicar?
+
+**Solução.** Pelo tamanho/dispersão, o $\ce{H2S}$ deveria ferver mais alto. Mas a água
+faz **ligações de hidrogênio** ($\ce{O-H}\cdots\ce{O}$) — fortes —, ausentes no
+$\ce{H2S}$ (o enxofre não é eletronegativo o bastante). A energia extra para romper
+essas ligações eleva enormemente o ponto de ebulição da água. A ligação de hidrogênio
+supera o efeito da massa.
+:::
+
+::: {#exm-halogenios-estado}
+## Estado físico dos halogênios
+Por que, à temperatura ambiente, o $\ce{F2}$ e o $\ce{Cl2}$ são gases, o $\ce{Br2}$ é
+líquido e o $\ce{I2}$ é sólido, todos apolares?
+
+**Solução.** Sendo apolares, agem apenas forças de **dispersão de London**, que crescem
+com o tamanho/número de elétrons. Do $\ce{F2}$ ao $\ce{I2}$ a molécula fica maior e mais
+polarizável; a dispersão se intensifica, elevando o ponto de ebulição/fusão e levando do
+estado gasoso ao sólido.
+:::
+
+## Propriedades governadas pelas forças intermoleculares
+
+- **Ponto de ebulição/fusão:** maiores quanto mais fortes as forças.
+- **Solubilidade:** "semelhante dissolve semelhante" (Cap. 5) é, no fundo, compatibilidade
+  de forças intermoleculares — polar com polar, apolar com apolar.
+- **Tensão superficial e capilaridade:** a água sobe em tubos finos e forma gotas por
+  causa das ligações de hidrogênio.
+- **Viscosidade:** líquidos com forças mais intensas escoam mais devagar.
+
+A densidade anômala do gelo (sólido **menos** denso que a água líquida, por isso o gelo
+flutua) também vem das ligações de hidrogênio, que forçam um arranjo aberto no cristal —
+um dos fatos mais importantes para a vida na Terra.
+
+## Exercícios
+
+::: {#exr-1}
+Que tipo(s) de força intermolecular atua(m) em: (a) $\ce{CH4}$; (b) $\ce{HCl}$;
+(c) $\ce{NH3}$; (d) $\ce{CO2}$?
+:::
+
+::: {#exr-2}
+Entre $\ce{CH4}$ e $\ce{C4H10}$ (butano), ambos apolares, qual tem maior ponto de
+ebulição? Por quê?
+:::
+
+::: {#exr-3}
+Explique por que o etanol ($\ce{C2H5OH}$) tem ponto de ebulição muito maior que o
+éter dimetílico ($\ce{CH3OCH3}$), embora tenham a mesma fórmula molecular.
+:::
+
+::: {#exr-4}
+Ao ferver água, quais ligações/forças são rompidas: as $\ce{O-H}$ ou as forças entre
+moléculas? Justifique.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) só dispersão (apolar); (b) dipolo-dipolo + dispersão; (c) ligação de
+hidrogênio (+ dipolo-dipolo + dispersão); (d) só dispersão ($\ce{CO2}$ é apolar).
+
+**@exr-2.** O **butano**. Sendo ambos apolares, valem só as forças de dispersão, que
+crescem com o tamanho; o butano é maior e mais polarizável, logo ferve a temperatura
+mais alta.
+
+**@exr-3.** O etanol tem o grupo $\ce{-OH}$, com hidrogênio ligado ao oxigênio, e faz
+**ligações de hidrogênio** entre suas moléculas. O éter dimetílico não tem $\ce{O-H}$
+(o H está ligado a carbono) e só faz dipolo-dipolo/dispersão. As ligações de hidrogênio
+elevam muito o ponto de ebulição do etanol.
+
+**@exr-4.** Rompem-se as **forças intermoleculares** entre as moléculas de água; as
+ligações covalentes $\ce{O-H}$ permanecem intactas — por isso o vapor ainda é $\ce{H2O}$.
+A ebulição separa moléculas, não quebra ligações internas.
+:::
