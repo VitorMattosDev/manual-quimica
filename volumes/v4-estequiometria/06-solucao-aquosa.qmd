@@ -1,0 +1,135 @@
+---
+title: "Reações em solução aquosa e equações iônicas"
+---
+
+# Reações em solução aquosa e equações iônicas {#sec-solucao-aquosa}
+
+## A química acontece na água
+
+A imensa maioria das reações importantes — no laboratório, na indústria, no corpo —
+ocorre em **solução aquosa**. Quando um sal se dissolve, ele se dissocia em **íons**
+livres que nadam na água, e são esses íons, não as fórmulas neutras, que de fato reagem.
+Descrever o que realmente acontece exige uma linguagem nova: as **equações iônicas**.
+Este capítulo mostra como eletrólitos se comportam na água, quando uma dupla troca
+ocorre (regras de solubilidade) e como escrever a equação iônica que revela os
+verdadeiros protagonistas da reação.
+
+## Eletrólitos e dissociação
+
+::: {#def-eletrolito}
+## Eletrólito
+**Eletrólito** é a substância que, dissolvida em água, produz **íons** e torna a solução
+**condutora** de eletricidade. É **forte** quando se ioniza praticamente por completo
+(sais solúveis, ácidos e bases fortes) e **fraco** quando se ioniza apenas em parte
+(ácido acético, amônia). Substâncias que não geram íons (açúcar, etanol) são **não
+eletrólitos**.
+:::
+
+A dissolução de um eletrólito forte representa-se pela dissociação:
+$$ \ce{NaCl(s) ->[\text{H2O}] Na+(aq) + Cl^-(aq)}, \qquad
+\ce{CaCl2(s) ->[\text{H2O}] Ca^2+(aq) + 2 Cl^-(aq)}. $$
+
+## Regras de solubilidade
+
+Para prever se uma dupla troca ocorre (Cap. 5), é preciso saber **o que precipita**. As
+regras de solubilidade resumem isso:
+
+::: {#def-solubilidade}
+## Regras de solubilidade (em água, principais)
+- **Solúveis:** compostos de metais alcalinos ($\ce{Na+}$, $\ce{K+}$) e de $\ce{NH4+}$;
+  nitratos ($\ce{NO3-}$) e acetatos; a maioria dos cloretos, brometos e iodetos
+  (**exceto** os de $\ce{Ag+}$, $\ce{Pb^2+}$); a maioria dos sulfatos (**exceto**
+  $\ce{BaSO4}$, $\ce{PbSO4}$, $\ce{CaSO4}$).
+- **Insolúveis (em geral):** a maioria dos carbonatos ($\ce{CO3^2-}$), fosfatos,
+  sulfetos e hidróxidos — **exceto** quando o cátion é alcalino ou $\ce{NH4+}$.
+:::
+
+::: {.callout-note}
+A regra mais útil de cabeça: **tudo de sódio, potássio, amônio e nitrato é solúvel**.
+Se um produto da dupla troca for um carbonato, fosfato, sulfeto ou hidróxido de um metal
+**não** alcalino, ele provavelmente **precipita** — e a reação ocorre.
+:::
+
+## Equações molecular, iônica completa e iônica simplificada
+
+Uma reação em solução pode ser escrita em três níveis de detalhe.
+
+::: {#def-equacao-ionica}
+## Equação iônica
+- **Molecular:** todas as substâncias como fórmulas neutras.
+- **Iônica completa:** os eletrólitos **fortes solúveis** escritos como **íons
+  separados**; precipitados, gases, água e eletrólitos fracos permanecem na forma
+  neutra.
+- **Iônica simplificada (líquida):** elimina os **íons espectadores** — os que aparecem
+  iguais nos dois lados e não participam —, restando só as espécies que de fato reagem.
+:::
+
+::: {#exm-equacao-ionica}
+## Os três níveis
+Escreva as três equações para $\ce{AgNO3 + NaCl -> AgCl(v) + NaNO3}$.
+
+**Solução.** **Molecular:**
+$$ \ce{AgNO3(aq) + NaCl(aq) -> AgCl(s) + NaNO3(aq)}. $$
+**Iônica completa** (fortes solúveis dissociados; $\ce{AgCl}$ é precipitado, fica
+neutro):
+$$ \ce{Ag+ + NO3^- + Na+ + Cl^- -> AgCl(s) + Na+ + NO3^-}. $$
+**Iônica simplificada** (cancelando os espectadores $\ce{Na+}$ e $\ce{NO3-}$):
+$$ \ce{Ag+(aq) + Cl^-(aq) -> AgCl(s)}. $$
+A última revela o que realmente acontece: a prata encontra o cloreto e precipita — o
+sódio e o nitrato são meros expectadores.
+:::
+
+::: {#def-espectador}
+## Íon espectador
+**Íon espectador** é aquele que está presente em solução mas **não participa** da
+reação — aparece inalterado nos dois lados da equação iônica completa e é cancelado na
+simplificada.
+:::
+
+## Neutralização em forma iônica
+
+A neutralização de ácido forte por base forte, vista como dupla troca, tem uma equação
+iônica simplificada universal e elegante:
+$$ \ce{H+(aq) + OH^-(aq) -> H2O(l)}. $$
+Qualquer que seja o ácido e a base fortes, o que ocorre no fundo é sempre isto: $\ce{H+}$
+e $\ce{OH-}$ se combinam para formar água. Os íons do sal são espectadores. Esse será o
+ponto de partida do estudo de pH e equilíbrio iônico no Volume VIII.
+
+## Exercícios
+
+::: {#exr-1}
+Escreva a dissociação em água de (a) $\ce{K2SO4}$; (b) $\ce{Al(NO3)3}$.
+:::
+
+::: {#exr-2}
+Use as regras de solubilidade para dizer se há precipitado ao misturar:
+(a) $\ce{Na2CO3 + CaCl2}$; (b) $\ce{KNO3 + NaCl}$.
+:::
+
+::: {#exr-3}
+Escreva a equação iônica simplificada da reação entre $\ce{Pb(NO3)2}$ e $\ce{KI}$
+(forma-se $\ce{PbI2}$, insolúvel).
+:::
+
+::: {#exr-4}
+Na reação $\ce{HNO3 + KOH -> KNO3 + H2O}$, identifique os íons espectadores e escreva a
+equação iônica simplificada.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\ce{K2SO4 -> 2 K+ + SO4^2-}$. (b) $\ce{Al(NO3)3 -> Al^3+ + 3 NO3^-}$.
+
+**@exr-2.** (a) **Sim**: forma-se $\ce{CaCO3}$ (carbonato de metal não alcalino,
+insolúvel) → precipita. (b) **Não**: $\ce{KNO3}$ e $\ce{NaCl}$ são ambos solúveis;
+nenhum produto sai do meio.
+
+**@exr-3.** $\ce{Pb^2+(aq) + 2 I^-(aq) -> PbI2(s)}$. (Espectadores: $\ce{NO3-}$ e
+$\ce{K+}$.)
+
+**@exr-4.** Espectadores: $\ce{K+}$ e $\ce{NO3-}$. Simplificada:
+$\ce{H+(aq) + OH^-(aq) -> H2O(l)}$.
+:::

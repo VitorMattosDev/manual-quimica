@@ -59,7 +59,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v4-estequiometria/03-balanceamento.qmd` — Equações químicas e balanceamento.
 - [x] `volumes/v4-estequiometria/04-estequiometria.qmd` — Cálculos, reagente limitante e rendimento. **(GABARITO)**
 - [x] `volumes/v4-estequiometria/05-tipos-reacoes.qmd` — Tipos de reações químicas.
-- [ ] `volumes/v4-estequiometria/06-solucao-aquosa.qmd` — Reações em solução aquosa e equações iônicas.
+- [x] `volumes/v4-estequiometria/06-solucao-aquosa.qmd` — Reações em solução aquosa e equações iônicas.
 - [ ] `volumes/v4-estequiometria/07-nox.qmd` — Números de oxidação e introdução à oxirredução.
 
 ### Volume V — Estados da Matéria e Soluções
