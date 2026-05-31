@@ -1,0 +1,134 @@
+---
+title: "Tipos de reações químicas"
+---
+
+# Tipos de reações químicas {#sec-tipos-reacoes}
+
+## Organizar para prever
+
+Já sabemos balancear equações e calcular massas. Mas diante de "o que acontece se eu
+misturar A com B?", precisamos de algo mais: reconhecer **padrões**. As reações
+químicas, em sua enorme variedade, agrupam-se em poucos **tipos** com comportamento
+previsível. Classificá-las permite antecipar produtos sem decorar cada caso. Este
+capítulo apresenta os quatro grandes tipos clássicos e a ferramenta que prevê quando uma
+reação de deslocamento ocorre — a fila de reatividade. É a transição entre a
+contabilidade (estequiometria) e a química descritiva dos próximos capítulos.
+
+## Síntese e decomposição
+
+::: {#def-sintese}
+## Reação de síntese (adição)
+Na **síntese**, duas ou mais substâncias se combinam para formar **um único** produto:
+$\ce{A + B -> AB}$. Exemplos:
+$$ \ce{2 H2 + O2 -> 2 H2O}, \qquad \ce{CaO + CO2 -> CaCO3}. $$
+:::
+
+::: {#def-decomposicao}
+## Reação de decomposição (análise)
+Na **decomposição**, uma única substância se desdobra em duas ou mais:
+$\ce{AB -> A + B}$. Em geral exige energia (calor, luz, eletricidade):
+$$ \ce{CaCO3(s) ->[\Delta] CaO(s) + CO2(g)}, \qquad \ce{2 H2O ->[\text{eletrólise}] 2 H2 + O2}. $$
+:::
+
+Síntese e decomposição são processos **inversos**: uma monta, a outra desmonta.
+
+## Deslocamento (substituição) simples
+
+::: {#def-deslocamento-simples}
+## Deslocamento simples
+Uma substância **simples** desloca um elemento de uma substância **composta**:
+$$ \ce{A + BC -> AC + B}. $$
+Um metal mais reativo desloca um menos reativo (ou o hidrogênio) de seus compostos;
+analogamente para não metais. Exemplo: $\ce{Zn + 2 HCl -> ZnCl2 + H2}$.
+:::
+
+A ocorrência depende da **reatividade relativa**, organizada na fila (série) de
+reatividade.
+
+::: {#def-fila-reatividade}
+## Fila de reatividade dos metais
+Os metais ordenam-se por tendência a perder elétrons (do mais ao menos reativo):
+$$ \ce{K > Ca > Na > Mg > Al > Zn > Fe > Pb > H > Cu > Ag > Au}. $$
+Um metal **desloca** da solução os íons de qualquer metal (ou o $\ce{H+}$) situado à sua
+**direita** na fila; à esquerda, **não** reage.
+:::
+
+::: {#exm-deslocamento}
+## Prevendo o deslocamento
+O zinco metálico reage com solução de sulfato de cobre? E o cobre com solução de
+sulfato de zinco?
+
+**Solução.** $\ce{Zn}$ está à **esquerda** do $\ce{Cu}$ na fila → é mais reativo e
+**desloca** o cobre: $\ce{Zn + CuSO4 -> ZnSO4 + Cu}$ (o cobre metálico deposita-se).
+Já o $\ce{Cu}$ está à direita do $\ce{Zn}$ → **não** o desloca: $\ce{Cu + ZnSO4 ->}$
+não há reação.
+:::
+
+## Dupla troca
+
+::: {#def-dupla-troca}
+## Reação de dupla troca
+Dois compostos trocam seus íons (ou radicais):
+$$ \ce{AB + CD -> AD + CB}. $$
+A reação **ocorre efetivamente** quando ao menos um dos produtos **sai do meio**: um
+**precipitado** (sólido insolúvel), um **gás**, ou uma substância **pouco ionizada**
+(água, ácido/base fraca).
+:::
+
+::: {#exm-dupla-troca}
+## Quando a dupla troca acontece
+A mistura de $\ce{NaCl}$ e $\ce{AgNO3}$ (ambos solúveis) reage?
+
+**Solução.** Sim: forma-se $\ce{AgCl}$, **insolúvel**, que precipita —
+$$ \ce{NaCl(aq) + AgNO3(aq) -> AgCl(v) + NaNO3(aq)}. $$
+A saída do $\ce{AgCl}$ do meio "puxa" a reação. Se nenhum produto saísse (ambos
+solúveis e fortes), os íons apenas conviveriam em solução, sem reação efetiva.
+:::
+
+::: {.callout-note}
+A reação de **neutralização** ácido-base é um caso especial de dupla troca, em que um
+dos produtos é a água (pouco ionizada): $\ce{HCl + NaOH -> NaCl + H2O}$. Ela e as regras
+de solubilidade que decidem o que precipita são aprofundadas no próximo capítulo
+(reações em solução aquosa).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Classifique cada reação: (a) $\ce{2 Mg + O2 -> 2 MgO}$; (b) $\ce{CaCO3 -> CaO + CO2}$;
+(c) $\ce{Fe + CuSO4 -> FeSO4 + Cu}$; (d) $\ce{HCl + NaOH -> NaCl + H2O}$.
+:::
+
+::: {#exr-2}
+Usando a fila de reatividade, diga se ocorre: (a) $\ce{Cu + 2 AgNO3 ->}$;
+(b) $\ce{Ag + Cu(NO3)2 ->}$.
+:::
+
+::: {#exr-3}
+Complete e balanceie a dupla troca, indicando o que sai do meio:
+$\ce{BaCl2 + Na2SO4 ->}$ ($\ce{BaSO4}$ é insolúvel).
+:::
+
+::: {#exr-4}
+A reação $\ce{Au + HCl ->}$ ocorre? Justifique pela fila de reatividade.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) síntese; (b) decomposição; (c) deslocamento simples; (d) dupla troca
+(neutralização).
+
+**@exr-2.** (a) **Ocorre**: $\ce{Cu}$ está à esquerda da $\ce{Ag}$, desloca-a —
+$\ce{Cu + 2 AgNO3 -> Cu(NO3)2 + 2 Ag}$. (b) **Não ocorre**: $\ce{Ag}$ está à direita do
+$\ce{Cu}$, é menos reativa.
+
+**@exr-3.** $\ce{BaCl2(aq) + Na2SO4(aq) -> BaSO4(v) + 2 NaCl(aq)}$; sai do meio o
+$\ce{BaSO4}$ (precipitado).
+
+**@exr-4.** **Não ocorre**: o ouro está à **direita** do hidrogênio na fila (é menos
+reativo que o $\ce{H}$), logo não desloca o $\ce{H+}$ do ácido. Por isso o ouro não é
+atacado por ácidos comuns.
+:::

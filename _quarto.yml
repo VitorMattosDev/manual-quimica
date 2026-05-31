@@ -49,6 +49,7 @@ book:
         - volumes/v4-estequiometria/02-formulas.qmd
         - volumes/v4-estequiometria/03-balanceamento.qmd
         - volumes/v4-estequiometria/04-estequiometria.qmd   # capítulo-gabarito
+        - volumes/v4-estequiometria/05-tipos-reacoes.qmd
   appendices:
     - constantes.qmd
 
