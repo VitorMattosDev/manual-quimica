@@ -1,0 +1,132 @@
+---
+title: "Números quânticos e o princípio de Pauli"
+---
+
+# Números quânticos e o princípio de Pauli {#sec-numeros-quanticos}
+
+## O endereço de cada elétron
+
+O capítulo anterior trocou a órbita pela nuvem de probabilidade — o orbital. Mas a
+equação de Schrödinger não devolve um orbital só: devolve uma família inteira deles,
+cada um identificado por um conjunto de **números quânticos**. Esses números são o
+"endereço" de um elétron no átomo: dizem em que nível de energia ele está, que forma
+tem sua nuvem, como ela se orienta no espaço e qual o seu *spin*. Somados a uma única
+regra de proibição — o princípio de Pauli —, eles determinam **quantos** elétrons cabem
+em cada região e, por consequência, toda a arquitetura da tabela periódica.
+
+## Os quatro números quânticos
+
+::: {#def-numeros-quanticos}
+## Números quânticos
+Cada elétron num átomo é descrito por quatro números quânticos:
+
+- **Principal** $n$ ($1, 2, 3, \dots$): define o **nível** de energia e o tamanho do
+  orbital. Quanto maior $n$, mais energético e mais afastado do núcleo.
+- **Azimutal** (ou secundário) $\ell$ ($0, 1, \dots, n-1$): define o **subnível** e a
+  **forma** do orbital. Os valores recebem letras: $\ell=0\,(s)$, $1\,(p)$, $2\,(d)$,
+  $3\,(f)$.
+- **Magnético** $m_\ell$ ($-\ell, \dots, 0, \dots, +\ell$): define a **orientação**
+  do orbital no espaço. Há $2\ell+1$ valores, logo $2\ell+1$ orbitais por subnível.
+- **Spin** $m_s$ ($+\tfrac{1}{2}$ ou $-\tfrac{1}{2}$): descreve o sentido do **spin**
+  do elétron, suas duas orientações possíveis.
+:::
+
+A hierarquia é de encaixe: cada $n$ comporta $n$ subníveis ($\ell$); cada subnível,
+$2\ell+1$ orbitais ($m_\ell$); cada orbital, no máximo 2 elétrons (de spins opostos).
+
+| $\ell$ | Subnível | $m_\ell$ | Nº de orbitais | Máx. de elétrons |
+|---|---|---|---|---|
+| 0 | $s$ | $0$ | 1 | 2 |
+| 1 | $p$ | $-1,0,+1$ | 3 | 6 |
+| 2 | $d$ | $-2,\dots,+2$ | 5 | 10 |
+| 3 | $f$ | $-3,\dots,+3$ | 7 | 14 |
+
+## Formas dos orbitais
+
+O número azimutal $\ell$ governa a geometria da nuvem de probabilidade. O orbital
+$s$ ($\ell=0$) é **esférico**; os três orbitais $p$ ($\ell=1$) têm forma de
+**halteres** orientados segundo os eixos $x$, $y$, $z$; os orbitais $d$ e $f$ têm
+formas mais complexas, com mais lobos. O número $m_\ell$ apenas escolhe a orientação
+de uma dessas formas no espaço.
+
+::: {.callout-note}
+Vale reforçar a contagem por nível $n$. O número total de orbitais num nível é $n^2$,
+e o número máximo de elétrons é $2n^2$. Assim: $n=1$ tem 1 orbital (2 e⁻); $n=2$ tem 4
+orbitais (8 e⁻); $n=3$ tem 9 orbitais (18 e⁻). Essa fórmula reaparece na largura dos
+períodos da tabela.
+:::
+
+## O princípio da exclusão de Pauli
+
+::: {#thm-pauli}
+## Princípio da exclusão de Pauli
+Em um mesmo átomo, **não existem dois elétrons com os quatro números quânticos
+iguais**. Como num dado orbital os três primeiros números ($n, \ell, m_\ell$) já estão
+fixos, os dois elétrons que o ocupam devem diferir no **spin** — um com
+$m_s = +\tfrac12$, outro com $-\tfrac12$.
+:::
+
+Daí a regra prática mais usada da química: **cada orbital comporta no máximo 2
+elétrons, de spins opostos**. É essa proibição que impede todos os elétrons de se
+amontoarem no nível mais baixo e que, ao forçá-los a ocupar níveis sucessivos, gera a
+estrutura em camadas responsável pela periodicidade.
+
+::: {#exm-conjunto-valido}
+## Conjuntos válidos e proibidos
+Quais destes conjuntos $(n,\ell,m_\ell,m_s)$ são possíveis?
+(a) $(2,1,-1,+\tfrac12)$; (b) $(3,3,0,-\tfrac12)$; (c) $(2,0,1,+\tfrac12)$.
+
+**Solução.** (a) **válido**: $\ell=1<n=2$, $m_\ell=-1$ está em $\{-1,0,+1\}$.
+(b) **proibido**: $\ell$ deve ser menor que $n$, e $\ell=3$ exigiria $n\geq4$.
+(c) **proibido**: para $\ell=0$ só existe $m_\ell=0$; $m_\ell=1$ é impossível.
+:::
+
+::: {#exm-eletrons-nivel}
+## Capacidade de um nível
+Quantos elétrons cabem, no máximo, no nível $n=3$?
+
+**Solução.** Os subníveis são $3s$ (1 orbital), $3p$ (3 orbitais) e $3d$ (5 orbitais),
+total $9 = n^2$ orbitais. Com 2 elétrons por orbital, $2\times9 = 18 = 2n^2$ elétrons.
+:::
+
+A **ordem** em que esses orbitais são efetivamente preenchidos — que não segue
+simplesmente $n$ crescente — é o assunto do próximo capítulo (configuração eletrônica).
+
+## Exercícios
+
+::: {#exr-1}
+Quantos orbitais há no subnível $4d$? Quantos elétrons ele comporta?
+:::
+
+::: {#exr-2}
+Liste todos os valores possíveis de $\ell$ e de $m_\ell$ para $n=2$.
+:::
+
+::: {#exr-3}
+Diga se cada conjunto $(n,\ell,m_\ell,m_s)$ é válido: (a) $(4,2,-2,+\tfrac12)$;
+(b) $(1,0,0,-\tfrac12)$; (c) $(3,2,3,+\tfrac12)$.
+:::
+
+::: {#exr-4}
+Com base no princípio de Pauli, explique por que um orbital não pode conter dois
+elétrons de mesmo spin.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Subnível $d$ tem $\ell=2$, logo $2\ell+1 = 5$ orbitais e $5\times2 = 10$
+elétrons.
+
+**@exr-2.** Para $n=2$: $\ell$ pode ser $0$ ou $1$. Para $\ell=0$, $m_\ell=0$; para
+$\ell=1$, $m_\ell \in \{-1,0,+1\}$.
+
+**@exr-3.** (a) válido; (b) válido; (c) proibido — para $\ell=2$, $m_\ell$ vai de
+$-2$ a $+2$, então $m_\ell=3$ é impossível.
+
+**@exr-4.** Dois elétrons no mesmo orbital já compartilham $n$, $\ell$ e $m_\ell$. Se
+tivessem o mesmo spin, teriam os quatro números quânticos idênticos, o que o princípio
+de Pauli (@thm-pauli) proíbe. Logo, devem ter spins opostos.
+:::

@@ -34,7 +34,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 *Objetivo:* o átomo quântico e a periodicidade. *Pré-requisito:* Vol. I.
 
 - [x] `volumes/v2-atomistica/01-modelo-quantico.qmd` — Modelo quântico; dualidade; orbitais.
-- [ ] `volumes/v2-atomistica/02-numeros-quanticos.qmd` — Números quânticos e exclusão de Pauli.
+- [x] `volumes/v2-atomistica/02-numeros-quanticos.qmd` — Números quânticos e exclusão de Pauli.
 - [ ] `volumes/v2-atomistica/03-config-eletronica.qmd` — Configuração eletrônica (Aufbau, Hund).
 - [ ] `volumes/v2-atomistica/04-tabela-periodica.qmd` — Organização e história da tabela periódica.
 - [ ] `volumes/v2-atomistica/05-propriedades-periodicas.qmd` — Raio, ionização, afinidade, eletronegatividade.
