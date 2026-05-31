@@ -1,0 +1,133 @@
+---
+title: "Geometria molecular (VSEPR)"
+---
+
+# Geometria molecular (VSEPR) {#sec-vsepr}
+
+## A forma importa
+
+A estrutura de Lewis diz *quais* átomos estão ligados, mas não *que forma* a molécula
+adquire no espaço — e a forma é decisiva. É a geometria que torna a água polar e o gás
+carbônico apolar, que dá à molécula de DNA sua hélice e que faz uma enzima reconhecer
+seu substrato. Felizmente, prever a geometria é simples: basta uma ideia — pares de
+elétrons se repelem e procuram ficar o mais longe possível uns dos outros. Esse é o
+modelo **VSEPR**, que este capítulo desenvolve a partir das estruturas de Lewis e que
+prepara o capítulo de polaridade.
+
+## O princípio da repulsão
+
+::: {#def-vsepr}
+## Modelo VSEPR
+O modelo **VSEPR** (*Valence Shell Electron Pair Repulsion* — repulsão dos pares
+eletrônicos da camada de valência) afirma que os **domínios eletrônicos** ao redor de um
+átomo central se arranjam de modo a **minimizar a repulsão** mútua, ficando o mais
+afastados possível. Um **domínio** é um par isolado, uma ligação simples, dupla ou
+tripla — cada um conta como **um** domínio.
+:::
+
+A contagem de domínios em torno do átomo central determina a **geometria eletrônica**
+(disposição de todos os domínios); descontando os pares isolados, obtém-se a **geometria
+molecular** (disposição apenas dos átomos), que é o que se "vê".
+
+## As geometrias fundamentais
+
+| Domínios | Geometria eletrônica | Ângulo ideal |
+|---|---|---|
+| 2 | linear | $180^\circ$ |
+| 3 | trigonal plana | $120^\circ$ |
+| 4 | tetraédrica | $109{,}5^\circ$ |
+| 5 | bipirâmide trigonal | $120^\circ / 90^\circ$ |
+| 6 | octaédrica | $90^\circ$ |
+
+A geometria **molecular** que se observa depende de quantos desses domínios são pares
+isolados, porque os pares isolados ocupam espaço mas não aparecem como átomos:
+
+| Domínios | Pares isolados | Geometria molecular | Exemplo |
+|---|---|---|---|
+| 2 | 0 | linear | $\ce{CO2}$ |
+| 3 | 0 | trigonal plana | $\ce{BF3}$ |
+| 3 | 1 | angular | $\ce{SO2}$ |
+| 4 | 0 | tetraédrica | $\ce{CH4}$ |
+| 4 | 1 | piramidal | $\ce{NH3}$ |
+| 4 | 2 | angular | $\ce{H2O}$ |
+
+## Pares isolados distorcem os ângulos
+
+::: {.callout-note}
+Pares isolados repelem **mais** que pares ligantes (estão presos a um só núcleo e
+ocupam mais espaço angular). Por isso eles **comprimem** os ângulos entre as ligações.
+Partindo do tetraedro ideal de $109{,}5^\circ$: o metano $\ce{CH4}$ (0 pares isolados)
+fica exatamente em $109{,}5^\circ$; a amônia $\ce{NH3}$ (1 par isolado) cai para
+$\approx 107^\circ$; a água $\ce{H2O}$ (2 pares isolados) cai para $\approx 104{,}5^\circ$.
+:::
+
+::: {#exm-agua-geometria}
+## Por que a água é angular
+A água tem quatro domínios no oxigênio (2 ligações + 2 pares isolados). Qual sua
+geometria?
+
+**Solução.** Quatro domínios → geometria eletrônica **tetraédrica**. Mas dois deles são
+pares isolados; descontando-os, os dois hidrogênios ficam em dois vértices do tetraedro
+— geometria molecular **angular**, com ângulo $\approx 104{,}5^\circ$. Não fosse pelos
+pares isolados, a molécula seria linear e a água teria propriedades completamente
+diferentes.
+:::
+
+::: {#exm-metano-amonia}
+## Comparando CH₄ e NH₃
+Por que o metano é tetraédrico e a amônia, piramidal, se ambos têm quatro domínios?
+
+**Solução.** No $\ce{CH4}$, os quatro domínios são ligações $\ce{C-H}$: geometria
+molecular tetraédrica. No $\ce{NH3}$, um dos quatro domínios é par isolado; sobram três
+ligações $\ce{N-H}$ que, com o vértice "ocupado" pelo par isolado, formam uma
+**pirâmide** de base triangular. Mesma geometria eletrônica (tetraédrica), geometrias
+moleculares distintas.
+:::
+
+## Ligações múltiplas contam como um domínio
+
+Uma ligação dupla ou tripla, embora envolva mais de um par, ocupa **uma única direção**
+no espaço — logo, conta como **um** domínio. No $\ce{CO2}$ ($\ce{O=C=O}$) o carbono tem
+2 domínios (duas duplas), geometria **linear**. Por isso o $\ce{CO2}$ é linear apesar
+das ligações duplas.
+
+## Exercícios
+
+::: {#exr-1}
+Determine a geometria molecular do $\ce{BF3}$ e do $\ce{SO2}$. Por que diferem, se
+ambos têm o átomo central com três domínios?
+:::
+
+::: {#exr-2}
+Quantos domínios há no carbono do $\ce{CH4}$ e qual o ângulo de ligação?
+:::
+
+::: {#exr-3}
+Preveja a geometria do íon $\ce{NH4+}$ e do $\ce{H2O}$. Compare os ângulos de ligação.
+:::
+
+::: {#exr-4}
+O $\ce{CO2}$ e o $\ce{SO2}$ têm fórmula análoga ($\ce{AX2}$), mas geometrias
+diferentes. Explique por quê.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\ce{BF3}$: 3 domínios, 0 pares isolados → **trigonal plana**
+($120^\circ$). $\ce{SO2}$: 3 domínios, mas 1 é par isolado → **angular**. O par isolado
+do enxofre "dobra" a molécula.
+
+**@exr-2.** Quatro domínios (4 ligações $\ce{C-H}$), nenhum par isolado: geometria
+tetraédrica, ângulo $109{,}5^\circ$.
+
+**@exr-3.** $\ce{NH4+}$: 4 domínios, 0 isolados → tetraédrica ($109{,}5^\circ$).
+$\ce{H2O}$: 4 domínios, 2 isolados → angular ($\approx 104{,}5^\circ$). Os pares
+isolados da água comprimem o ângulo abaixo do tetraédrico.
+
+**@exr-4.** No $\ce{CO2}$ o carbono tem 2 domínios e **nenhum** par isolado → linear.
+No $\ce{SO2}$ o enxofre tem 3 domínios (incluindo 1 par isolado) → angular. A diferença
+está no par isolado do enxofre.
+:::
