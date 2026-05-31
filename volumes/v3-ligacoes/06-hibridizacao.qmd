@@ -1,0 +1,129 @@
+---
+title: "Ligação de valência e hibridização"
+---
+
+# Ligação de valência e hibridização {#sec-hibridizacao}
+
+## Conciliando os orbitais com a geometria
+
+O VSEPR prevê *que forma* uma molécula tem, mas não diz *como* os orbitais atômicos do
+Volume II produzem essa forma. Há um problema concreto: o carbono tem configuração
+$2s^2\,2p^2$ — apenas dois elétrons desemparelhados —, e ainda assim forma **quatro**
+ligações equivalentes no metano, dispostas em tetraedro perfeito. Os orbitais $s$ e $p$
+puros, com formas e energias diferentes, não explicam isso. A **teoria da ligação de
+valência**, com o conceito de **hibridização**, resolve o impasse e reconcilia os
+orbitais com a geometria observada. É o tema deste capítulo.
+
+## A teoria da ligação de valência
+
+::: {#def-ligacao-valencia}
+## Ligação de valência
+Pela **teoria da ligação de valência (TLV)**, uma ligação covalente forma-se pela
+**superposição (overlap)** de orbitais atômicos de dois átomos, cada um contribuindo
+com um elétron de spin oposto. Quanto maior a superposição, mais forte a ligação. O
+emparelhamento dos elétrons ocorre na região entre os núcleos.
+:::
+
+## Hibridização
+
+::: {#def-hibridizacao}
+## Hibridização
+**Hibridização** é a combinação (mistura) de orbitais atômicos de um mesmo átomo para
+formar novos orbitais — os **orbitais híbridos** —, equivalentes entre si, com energia
+intermediária e orientação adequada à geometria das ligações. O número de orbitais
+híbridos formados é **igual** ao número de orbitais atômicos combinados.
+:::
+
+A regra que conecta tudo: **o número de domínios do VSEPR é igual ao número de orbitais
+híbridos**, e isso fixa o tipo de hibridização.
+
+| Domínios | Hibridização | Geometria | Exemplo |
+|---|---|---|---|
+| 2 | $sp$ | linear | $\ce{CO2}$, $\ce{BeCl2}$ |
+| 3 | $sp^2$ | trigonal plana | $\ce{BF3}$, eteno |
+| 4 | $sp^3$ | tetraédrica | $\ce{CH4}$, $\ce{NH3}$, $\ce{H2O}$ |
+
+::: {#exm-metano-sp3}
+## O carbono no metano
+Explique, via hibridização, as quatro ligações idênticas do $\ce{CH4}$.
+
+**Solução.** O carbono ($2s^2\,2p^2$) promove um elétron do $2s$ para o $2p$ vazio,
+ficando com quatro orbitais semipreenchidos ($2s$, $2p_x$, $2p_y$, $2p_z$). Esses quatro
+se **combinam** em quatro orbitais híbridos $sp^3$, equivalentes e orientados aos
+vértices de um tetraedro ($109{,}5^\circ$). Cada um superpõe-se a um orbital $1s$ do
+hidrogênio → quatro ligações $\ce{C-H}$ idênticas, exatamente como o VSEPR prevê.
+:::
+
+## Ligações sigma e pi
+
+A hibridização explica ainda a diferença entre ligações simples e múltiplas, por meio de
+dois modos de superposição.
+
+::: {#def-sigma-pi}
+## Ligações σ e π
+Uma ligação **sigma** ($\sigma$) resulta da superposição **frontal** de orbitais, ao
+longo do eixo que une os núcleos; permite rotação livre. Uma ligação **pi** ($\pi$)
+resulta da superposição **lateral** de orbitais $p$ não hibridizados, acima e abaixo do
+eixo; impede a rotação. Toda ligação simples é uma $\sigma$; uma **dupla** é
+$1\sigma + 1\pi$; uma **tripla** é $1\sigma + 2\pi$.
+:::
+
+::: {#exm-eteno-etino}
+## Ligações no eteno e no etino
+Quantas ligações $\sigma$ e $\pi$ há no eteno ($\ce{C2H4}$) e no etino ($\ce{C2H2}$)?
+Qual a hibridização do carbono em cada um?
+
+**Solução.** No **eteno** ($\ce{H2C=CH2}$): a dupla $\ce{C=C}$ é $1\sigma + 1\pi$, e há
+4 ligações $\ce{C-H}$ ($\sigma$); total $5\sigma + 1\pi$. Cada carbono tem 3 domínios →
+hibridização $sp^2$, com o orbital $p$ restante formando a $\pi$. No **etino**
+($\ce{HC#CH}$): a tripla $\ce{C#C}$ é $1\sigma + 2\pi$, mais 2 ligações $\ce{C-H}$
+($\sigma$); total $3\sigma + 2\pi$. Cada carbono tem 2 domínios → hibridização $sp$, com
+dois orbitais $p$ formando as duas $\pi$.
+:::
+
+::: {.callout-note}
+A impossibilidade de girar em torno de uma ligação $\pi$ tem consequência química
+direta: é o que dá origem à **isomeria geométrica** (*cis/trans*) dos alcenos, tema do
+Volume X. A ligação dupla "trava" a molécula, e as posições relativas dos grupos ficam
+fixas.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Determine a hibridização do átomo central em (a) $\ce{BeCl2}$; (b) $\ce{BF3}$;
+(c) $\ce{CH4}$.
+:::
+
+::: {#exr-2}
+Quantas ligações $\sigma$ e $\pi$ há numa ligação tripla? E numa dupla?
+:::
+
+::: {#exr-3}
+O nitrogênio na amônia ($\ce{NH3}$) tem hibridização $sp^3$. Quantos orbitais híbridos
+ele tem e como estão ocupados (ligantes / par isolado)?
+:::
+
+::: {#exr-4}
+Por que é possível girar livremente em torno de uma ligação simples $\ce{C-C}$, mas não
+em torno de uma dupla $\ce{C=C}$?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) 2 domínios → $sp$; (b) 3 domínios → $sp^2$; (c) 4 domínios → $sp^3$.
+
+**@exr-2.** Tripla: $1\sigma + 2\pi$. Dupla: $1\sigma + 1\pi$. (A primeira ligação entre
+dois átomos é sempre $\sigma$; as adicionais são $\pi$.)
+
+**@exr-3.** Quatro orbitais híbridos $sp^3$: três formam ligações $\sigma$ com os
+hidrogênios e um abriga o **par isolado** do nitrogênio — o que explica a geometria
+piramidal.
+
+**@exr-4.** A ligação simples é uma $\sigma$ (superposição frontal), que permite
+rotação. A dupla tem, além da $\sigma$, uma ligação $\pi$ (superposição lateral dos
+orbitais $p$); girar quebraria a superposição lateral, então a rotação fica impedida.
+:::

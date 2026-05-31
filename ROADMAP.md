@@ -48,7 +48,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v3-ligacoes/03-ressonancia.qmd` — Ressonância e carga formal.
 - [x] `volumes/v3-ligacoes/04-vsepr.qmd` — Geometria molecular (VSEPR).
 - [x] `volumes/v3-ligacoes/05-polaridade.qmd` — Polaridade molecular.
-- [ ] `volumes/v3-ligacoes/06-hibridizacao.qmd` — Ligação de valência e hibridização.
+- [x] `volumes/v3-ligacoes/06-hibridizacao.qmd` — Ligação de valência e hibridização.
 - [ ] `volumes/v3-ligacoes/07-intermoleculares.qmd` — Forças intermoleculares e propriedades.
 
 ### Volume IV — Estequiometria e Reações
