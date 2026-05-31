@@ -1,0 +1,136 @@
+---
+title: "A tabela periódica: organização e história"
+---
+
+# A tabela periódica: organização e história {#sec-tabela-periodica}
+
+## A grande síntese da química
+
+A tabela periódica é o mapa mais condensado de toda a química: numa única folha,
+organiza a centena de elementos de modo que sua posição **prevê** propriedades. Ela
+não foi imposta de cima — emergiu da observação de que, ordenando os elementos, certas
+características se **repetem em intervalos regulares**. O capítulo anterior nos dá a
+explicação profunda dessa repetição: ela é o reflexo direto da configuração eletrônica.
+Aqui vemos como a tabela se organiza, de onde veio e por que sua estrutura é exatamente
+a "fotografia" do preenchimento dos orbitais.
+
+## De Mendeleev à lei periódica
+
+Mendeleev (1869) ordenou os elementos por **massa atômica** crescente e percebeu que
+propriedades semelhantes reapareciam periodicamente. Sua ousadia foi **deixar lacunas**
+para elementos ainda não descobertos e **prever** suas propriedades — previsões depois
+confirmadas (como o gálio e o germânio), o que consagrou a tabela. Restavam, porém,
+algumas inversões: pares em que ordenar por massa contrariava as propriedades.
+
+::: {#thm-lei-periodica}
+## Lei periódica
+As propriedades dos elementos são **funções periódicas do número atômico** $Z$
+(número de prótons). Ao dispor os elementos em ordem crescente de $Z$, propriedades
+semelhantes se repetem a intervalos regulares.
+:::
+
+Moseley (1913) mostrou que o critério correto é o **número atômico** $Z$, não a massa
+— o que eliminou as inversões de Mendeleev. A lei periódica moderna é enunciada em
+termos de $Z$, e a explicação de *por que* há periodicidade é eletrônica: elementos na
+mesma coluna têm a **mesma configuração de valência**.
+
+## Períodos, grupos e blocos
+
+::: {#def-periodo-grupo}
+## Períodos e grupos
+Os **períodos** são as **linhas** horizontais (são 7); o número do período é o maior
+$n$ ocupado pelo elemento. Os **grupos** (ou famílias) são as **colunas** verticais
+(são 18); elementos do mesmo grupo têm a **mesma configuração eletrônica de valência**
+e, por isso, propriedades químicas semelhantes.
+:::
+
+A largura de cada período não é arbitrária: reflete a capacidade dos subníveis que ali
+se preenchem ($2n^2$ do capítulo anterior). Por isso a tabela se divide em **blocos**,
+cada um correspondendo ao subnível que está sendo preenchido:
+
+::: {#def-blocos}
+## Blocos da tabela
+- **Bloco $s$** (grupos 1–2): valência $ns^{1\text{–}2}$ — metais alcalinos e
+  alcalinoterrosos.
+- **Bloco $p$** (grupos 13–18): valência $np^{1\text{–}6}$ — não metais, semimetais e
+  gases nobres.
+- **Bloco $d$** (grupos 3–12): preenchimento dos $(n-1)d$ — metais de transição.
+- **Bloco $f$**: preenchimento dos $(n-2)f$ — lantanídeos e actinídeos.
+:::
+
+::: {.callout-note}
+A tabela é, literalmente, um diagrama de preenchimento de orbitais. Percorrê-la da
+esquerda para a direita, linha a linha, reproduz a ordem do Aufbau (@eq-aufbau): 2
+colunas do bloco $s$, 6 do bloco $p$, 10 do bloco $d$, 14 do bloco $f$ — exatamente as
+capacidades $2$, $6$, $10$, $14$ dos subníveis $s$, $p$, $d$, $f$.
+:::
+
+## Lendo a posição na configuração
+
+A posição determina a configuração, e vice-versa. Conhecida a configuração de valência,
+localiza-se o elemento sem decorar a tabela.
+
+::: {#exm-posicao}
+## Da configuração à posição
+Em que período e grupo está o elemento $1s^2\,2s^2\,2p^6\,3s^2\,3p^3$?
+
+**Solução.** O maior $n$ ocupado é $3$ → **período 3**. A valência $3s^2\,3p^3$ tem 5
+elétrons no nível externo e termina no bloco $p$; somando $2$ (do $s$) com $3$ (do
+$p$) e a convenção dos grupos do bloco $p$, cai no **grupo 15**. Trata-se do fósforo
+($Z=15$).
+:::
+
+## Principais famílias
+
+| Grupo | Nome | Valência | Traço marcante |
+|---|---|---|---|
+| 1 | Metais alcalinos | $ns^1$ | muito reativos; formam cátions $+1$ |
+| 2 | Alcalinoterrosos | $ns^2$ | reativos; cátions $+2$ |
+| 17 | Halogênios | $ns^2np^5$ | muito reativos; ânions $-1$ |
+| 18 | Gases nobres | $ns^2np^6$ | inertes; camada de valência completa |
+
+A estabilidade do grupo 18 — a camada de valência completa, $ns^2np^6$ — é o
+referencial em torno do qual o capítulo seguinte (propriedades periódicas) e todo o
+Volume III (ligações) se organizam: os átomos tendem a ganhar, perder ou compartilhar
+elétrons para **alcançar a configuração de gás nobre**.
+
+## Exercícios
+
+::: {#exr-1}
+A que bloco, período e grupo pertence o elemento de configuração
+$[\ce{Ar}]\,4s^2\,3d^{10}\,4p^4$?
+:::
+
+::: {#exr-2}
+Por que o sódio ($Z=11$) e o potássio ($Z=19$) têm propriedades químicas semelhantes?
+:::
+
+::: {#exr-3}
+Qual a relação entre a largura dos blocos $s$, $p$, $d$, $f$ (2, 6, 10, 14 colunas) e
+os números quânticos?
+:::
+
+::: {#exr-4}
+Mendeleev ordenou por massa atômica; a tabela moderna ordena por número atômico. Que
+problema da ordenação por massa o critério de $Z$ resolveu?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Termina em $4p^4$ → bloco $p$. Maior $n=4$ → período 4. Valência
+$4s^2\,4p^4$ (6 elétrons externos) → grupo 16. É o selênio ($Z=34$).
+
+**@exr-2.** Estão no mesmo grupo (1, metais alcalinos), com a mesma valência $ns^1$.
+Como as propriedades químicas dependem da configuração de valência, ambos reagem de
+modo semelhante (formam cátions $+1$).
+
+**@exr-3.** Cada bloco corresponde a um subnível ($s,p,d,f$ com $\ell = 0,1,2,3$), que
+comporta $2(2\ell+1)$ elétrons: $2, 6, 10, 14$ — exatamente as larguras dos blocos.
+
+**@exr-4.** Havia inversões: em alguns pares, ordenar por massa colocava o elemento
+"errado" antes, contrariando as propriedades. Ordenar por $Z$ (Moseley) elimina essas
+inversões, pois é $Z$ — não a massa — que determina a configuração eletrônica.
+:::
