@@ -1,0 +1,132 @@
+---
+title: "Ressonância e carga formal"
+---
+
+# Ressonância e carga formal {#sec-ressonancia}
+
+## Quando uma estrutura não basta
+
+As estruturas de Lewis do capítulo anterior funcionam bem para muitas moléculas — mas
+algumas teimam em não caber numa só representação. No íon nitrato $\ce{NO3-}$, por
+exemplo, poderíamos colocar a ligação dupla em qualquer um dos três oxigênios; nada na
+molécula privilegia um deles, e medidas mostram que as três ligações $\ce{N-O}$ são
+**idênticas**. A química resolve isso com duas ferramentas complementares: a
+**ressonância**, que reconcilia estruturas equivalentes, e a **carga formal**, que ajuda
+a escolher entre estruturas alternativas. São o tema deste capítulo.
+
+## Ressonância
+
+::: {#def-ressonancia}
+## Ressonância
+Quando uma molécula ou íon pode ser representada por **duas ou mais estruturas de Lewis
+válidas** que diferem apenas na **posição dos elétrons** (não dos átomos), a estrutura
+real é um **híbrido de ressonância** de todas elas. As estruturas individuais
+(**formas canônicas**) são ligadas por uma seta de duas pontas ($\leftrightarrow$).
+:::
+
+::: {.callout-warning}
+A ressonância **não** significa que a molécula oscila entre as formas, nem que existe
+como uma mistura delas. A molécula real é **uma só** estrutura intermediária — o
+híbrido —, da mesma forma que uma mula não é um cavalo às vezes e um burro às vezes. As
+formas canônicas são limitações do *nosso* desenho de Lewis, não estados reais da
+molécula.
+:::
+
+No nitrato, as três formas canônicas (dupla em cada oxigênio) contribuem igualmente; o
+resultado é que cada ligação $\ce{N-O}$ tem caráter intermediário entre simples e dupla,
+e a carga negativa se **distribui** pelos três oxigênios. Essa deslocalização **estabiliza**
+a molécula — daí a chamada "energia de ressonância".
+
+::: {#exm-ozonio}
+## Ressonância no ozônio
+Por que as duas ligações do ozônio $\ce{O3}$ têm o mesmo comprimento, intermediário
+entre simples e dupla?
+
+**Solução.** O $\ce{O3}$ admite duas formas de Lewis, com a dupla ora num oxigênio
+terminal, ora no outro: $\ce{O=O-O^-} \leftrightarrow \ce{^-O-O=O}$. A molécula real é
+o híbrido, em que cada ligação é "uma e meia" — nem simples nem dupla —, o que explica
+o comprimento intermediário medido.
+:::
+
+## Carga formal
+
+Quando há várias estruturas de Lewis **possíveis** (não equivalentes), a carga formal
+indica qual é a mais provável.
+
+::: {#def-carga-formal}
+## Carga formal
+A **carga formal** de um átomo numa estrutura de Lewis é
+$$ \text{CF} = (\text{e}^- \text{de valência}) - (\text{e}^- \text{de pares isolados})
+- \tfrac{1}{2}(\text{e}^- \text{de pares ligantes}). $$ {#eq-carga-formal}
+Em palavras: conta-se cada elétron isolado como inteiro e cada elétron de ligação como
+"meio" para o átomo. A soma das cargas formais de uma molécula neutra é zero (e iguala
+a carga do íon, se houver).
+:::
+
+A regra de seleção: a **melhor** estrutura de Lewis é a que tem **cargas formais mais
+próximas de zero** e, quando houver carga formal negativa, ela deve recair sobre o átomo
+**mais eletronegativo**.
+
+::: {#exm-carga-formal-co2}
+## Cargas formais no CO₂
+Verifique as cargas formais na estrutura $\ce{O=C=O}$.
+
+**Solução.** Carbono: 4 de valência, 0 isolados, 8 ligantes → $\text{CF} = 4 - 0 -
+\tfrac12(8) = 0$. Cada oxigênio: 6 de valência, 4 isolados (2 pares), 4 ligantes →
+$\text{CF} = 6 - 4 - \tfrac12(4) = 0$. Todas as cargas formais são zero — por isso essa
+é a melhor estrutura, melhor que alternativas com ligações simples e cargas separadas.
+:::
+
+::: {#exm-escolha-estrutura}
+## Escolhendo entre estruturas
+Para o $\ce{CO2}$ poderíamos imaginar $\ce{O#C-O}$ (tripla + simples). Por que
+$\ce{O=C=O}$ é preferida?
+
+**Solução.** Em $\ce{O#C-O}$, o oxigênio com ligação simples teria $\text{CF} = 6 - 6 -
+\tfrac12(2) = -1$ e o da tripla, $6 - 2 - \tfrac12(6) = +1$; o carbono, $0$. Há
+separação de cargas formais ($+1$ e $-1$). A estrutura $\ce{O=C=O}$ tem todas nulas,
+logo é a preferida.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Quantas formas canônicas de ressonância tem o íon carbonato $\ce{CO3^2-}$? O que se
+pode dizer sobre as três ligações $\ce{C-O}$?
+:::
+
+::: {#exr-2}
+Calcule a carga formal de cada átomo no íon $\ce{NH4+}$ (nitrogênio central, 4 ligações
+$\ce{N-H}$).
+:::
+
+::: {#exr-3}
+A ressonância significa que a molécula "vibra" entre as estruturas canônicas? Explique.
+:::
+
+::: {#exr-4}
+Para o $\ce{N2O}$, duas estruturas possíveis são $\ce{N#N-O}$ e $\ce{N=N=O}$. Use a
+carga formal para discutir qual contribui mais ao híbrido.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Três formas canônicas (a dupla em cada um dos três oxigênios). Logo, as três
+ligações $\ce{C-O}$ são **equivalentes**, com caráter intermediário entre simples e
+dupla, e a carga $2-$ distribui-se pelos três oxigênios.
+
+**@exr-2.** Nitrogênio: $5 - 0 - \tfrac12(8) = +1$. Cada hidrogênio: $1 - 0 -
+\tfrac12(2) = 0$. Soma $= +1$, igual à carga do íon.
+
+**@exr-3.** Não. A molécula real é **um único** híbrido, estrutura intermediária e
+estável; as formas canônicas são apenas representações parciais que o desenho de Lewis
+exige. Não há oscilação física entre elas.
+
+**@exr-4.** Pela @eq-carga-formal, ambas têm cargas formais não nulas, mas em
+$\ce{N#N-O}$ a carga $-1$ fica no oxigênio (mais eletronegativo) e $+1$ no N central,
+enquanto $\ce{N=N=O}$ coloca $-1$ no N terminal. A primeira ($\ce{N#N-O}$), com a carga
+negativa no átomo mais eletronegativo, contribui mais ao híbrido.
+:::
