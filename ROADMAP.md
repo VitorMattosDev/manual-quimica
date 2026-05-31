@@ -38,7 +38,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v2-atomistica/03-config-eletronica.qmd` — Configuração eletrônica (Aufbau, Hund).
 - [x] `volumes/v2-atomistica/04-tabela-periodica.qmd` — Organização e história da tabela periódica.
 - [x] `volumes/v2-atomistica/05-propriedades-periodicas.qmd` — Raio, ionização, afinidade, eletronegatividade.
-- [ ] `volumes/v2-atomistica/06-grupos.qmd` — Periodicidade e reatividade dos grupos.
+- [x] `volumes/v2-atomistica/06-grupos.qmd` — Periodicidade e reatividade dos grupos.
 
 ### Volume III — Ligações Químicas e Estrutura Molecular
 *Objetivo:* como átomos se unem e que forma adquirem. *Pré-requisito:* Vol. II.

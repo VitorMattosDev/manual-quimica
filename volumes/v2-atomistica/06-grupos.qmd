@@ -1,0 +1,148 @@
+---
+title: "Periodicidade e reatividade dos grupos"
+---
+
+# Periodicidade e reatividade dos grupos {#sec-grupos}
+
+## Da tendência geral ao comportamento de cada família
+
+Os dois capítulos anteriores deram a estrutura (tabela) e as tendências (propriedades
+periódicas). Agora aplicamos esse maquinário ao comportamento **químico concreto** de
+cada grande família: por que os metais alcalinos explodem na água, por que os
+halogênios são corrosivos, por que os gases nobres não reagem. Este capítulo fecha o
+Volume II conectando a configuração de valência à reatividade observada — e prepara
+diretamente o Volume III, onde essas tendências de ganhar e perder elétrons viram
+ligações.
+
+## A regra que organiza tudo: a estabilidade do octeto
+
+::: {#def-octeto}
+## Regra do octeto
+Os átomos tendem a ganhar, perder ou compartilhar elétrons de modo a ficar com a
+**camada de valência completa** — em geral **oito elétrons** ($ns^2np^6$), a
+configuração estável dos gases nobres (o hélio se completa com dois). A "vontade" de
+atingir o octeto é o motor da reatividade.
+:::
+
+Essa única ideia explica o padrão das famílias: quem tem **poucos** elétrons de
+valência tende a **perdê-los** (metais); quem tem **quase oito** tende a **ganhá-los**
+(não metais); quem **já tem oito** não reage (gases nobres).
+
+## Metais alcalinos (grupo 1)
+
+Valência $ns^1$: um único elétron a perder para atingir o octeto da camada anterior.
+Formam cátions $+1$ com grande facilidade.
+
+::: {#def-alcalinos}
+## Metais alcalinos
+Elementos do grupo 1 ($\ce{Li}$, $\ce{Na}$, $\ce{K}$, $\ce{Rb}$, $\ce{Cs}$). Têm a
+**menor energia de ionização** de cada período e são, por isso, **muito reativos** —
+reagem vigorosamente com água liberando $\ce{H2}$:
+$$ \ce{2 Na(s) + 2 H2O(l) -> 2 NaOH(aq) + H2(g)}. $$
+A reatividade **aumenta** ao descer o grupo: o elétron de valência fica mais distante e
+mais fácil de perder.
+:::
+
+## Metais alcalinoterrosos (grupo 2)
+
+Valência $ns^2$: perdem dois elétrons, formando cátions $+2$. São reativos, mas
+**menos** que os alcalinos do mesmo período — remover dois elétrons custa mais que
+remover um. Também aqui a reatividade cresce de cima para baixo.
+
+## Halogênios (grupo 17)
+
+Valência $ns^2np^5$: falta-lhes **um** elétron para o octeto, e por isso têm grande
+afinidade eletrônica e alta eletronegatividade.
+
+::: {#def-halogenios}
+## Halogênios
+Elementos do grupo 17 ($\ce{F}$, $\ce{Cl}$, $\ce{Br}$, $\ce{I}$). São **não metais
+muito reativos**, formam ânions $-1$ e existem como moléculas diatômicas ($\ce{F2}$,
+$\ce{Cl2}$, …). Reagem com metais formando sais (haletos):
+$$ \ce{2 Na + Cl2 -> 2 NaCl}. $$
+A reatividade **diminui** ao descer o grupo — ao contrário dos metais —, pois o átomo
+maior atrai o elétron extra com menos força. O **flúor** é o mais reativo.
+:::
+
+::: {.callout-warning}
+Atenção ao sentido da reatividade: nos **metais** (grupos 1 e 2) ela **cresce** para
+baixo (mais fácil *perder* elétron); nos **não metais/halogênios** ela **diminui** para
+baixo (mais difícil *ganhar* elétron). São tendências opostas porque os processos
+químicos são opostos — perder versus ganhar elétrons.
+:::
+
+## Gases nobres (grupo 18)
+
+Valência $ns^2np^6$ (o hélio, $1s^2$): a camada de valência **já está completa**. Sem
+"vontade" de ganhar nem perder elétrons, são quimicamente **inertes** em condições
+normais (daí o nome "nobres"). É justamente sua configuração que serve de meta para
+todos os outros átomos — o referencial da regra do octeto.
+
+## Hidrogênio: um elemento à parte
+
+::: {.callout-note}
+O hidrogênio ($1s^1$) costuma figurar no grupo 1, mas **não** é metal alcalino. Com um
+só elétron, pode tanto perdê-lo (formando $\ce{H+}$) quanto ganhar um (formando o
+hidreto $\ce{H-}$, octeto do hélio) ou compartilhá-lo (ligação covalente, como em
+$\ce{H2}$). Esse comportamento ambíguo faz dele um caso único na tabela.
+:::
+
+## Exemplos resolvidos
+
+::: {#exm-reatividade-alcalinos}
+## Reatividade comparada
+Qual reage mais violentamente com água: o lítio ou o potássio?
+
+**Solução.** Ambos são alcalinos (valência $ns^1$). A reatividade dos metais cresce ao
+descer o grupo, pois a energia de ionização diminui. O **potássio** está abaixo do
+lítio, perde o elétron com mais facilidade e reage mais violentamente.
+:::
+
+::: {#exm-ion-formado}
+## Íon formado
+Que íon o cálcio ($Z=20$) e o cloro ($Z=17$) tendem a formar, e por quê?
+
+**Solução.** $\ce{Ca}$: $[\ce{Ar}]\,4s^2$ — perde 2 elétrons para atingir o octeto do
+argônio, formando $\ce{Ca^2+}$. $\ce{Cl}$: $[\ce{Ne}]\,3s^2\,3p^5$ — ganha 1 elétron
+para completar o octeto, formando $\ce{Cl^-}$. Juntos dão $\ce{CaCl2}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Escreva a equação da reação do potássio com água e identifique o gás liberado.
+:::
+
+::: {#exr-2}
+Ordene por reatividade crescente os halogênios $\ce{F}$, $\ce{Cl}$, $\ce{Br}$.
+:::
+
+::: {#exr-3}
+Que íons formam, respectivamente, o magnésio ($Z=12$), o alumínio ($Z=13$) e o
+oxigênio ($Z=8$), segundo a regra do octeto?
+:::
+
+::: {#exr-4}
+Por que os gases nobres são quimicamente inertes, e por que o hidrogênio não se
+encaixa bem em nenhum grupo?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\ce{2 K(s) + 2 H2O(l) -> 2 KOH(aq) + H2(g)}$; o gás liberado é o
+hidrogênio, $\ce{H2}$.
+
+**@exr-2.** A reatividade dos halogênios **diminui** ao descer o grupo, logo crescente:
+$\ce{Br} < \ce{Cl} < \ce{F}$.
+
+**@exr-3.** $\ce{Mg} \to \ce{Mg^2+}$ (perde 2); $\ce{Al} \to \ce{Al^3+}$ (perde 3);
+$\ce{O} \to \ce{O^2-}$ (ganha 2) — todos atingindo octeto.
+
+**@exr-4.** Os gases nobres já têm a camada de valência completa ($ns^2np^6$), sem
+tendência a ganhar ou perder elétrons. O hidrogênio, com um único elétron, ora perde
+($\ce{H+}$), ora ganha ($\ce{H-}$), ora compartilha — comportamento que não casa nem
+com os alcalinos nem com os halogênios.
+:::

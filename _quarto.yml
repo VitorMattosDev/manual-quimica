@@ -33,6 +33,7 @@ book:
         - volumes/v2-atomistica/03-config-eletronica.qmd
         - volumes/v2-atomistica/04-tabela-periodica.qmd
         - volumes/v2-atomistica/05-propriedades-periodicas.qmd
+        - volumes/v2-atomistica/06-grupos.qmd
     - part: "Volume IV — Estequiometria e Reações"
       chapters:
         - volumes/v4-estequiometria/04-estequiometria.qmd   # capítulo-gabarito
