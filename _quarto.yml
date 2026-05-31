@@ -37,6 +37,7 @@ book:
     - part: "Volume III — Ligações Químicas e Estrutura Molecular"
       chapters:
         - volumes/v3-ligacoes/01-ionica.qmd
+        - volumes/v3-ligacoes/02-covalente.qmd
     - part: "Volume IV — Estequiometria e Reações"
       chapters:
         - volumes/v4-estequiometria/04-estequiometria.qmd   # capítulo-gabarito

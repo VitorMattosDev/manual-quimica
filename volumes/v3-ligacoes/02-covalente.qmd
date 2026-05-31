@@ -1,0 +1,138 @@
+---
+title: "Ligação covalente e estruturas de Lewis"
+---
+
+# Ligação covalente e estruturas de Lewis {#sec-covalente}
+
+## Quando ninguém cede, todos compartilham
+
+A ligação iônica supõe um doador e um receptor de elétrons — um metal e um não metal,
+com grande diferença de eletronegatividade. Mas como se unem **dois não metais**, como
+no $\ce{H2}$, no $\ce{O2}$ ou na água? Nenhum tem tendência a *ceder* elétrons; ambos
+querem *ganhar*. A solução da natureza é o **compartilhamento**: os átomos dividem
+pares de elétrons, e cada um "conta" os pares compartilhados como seus para fechar o
+octeto. É a **ligação covalente**, a mais comum entre os elementos da química orgânica
+e da vida. Este capítulo a define e ensina a representá-la com as **estruturas de
+Lewis**.
+
+## O par compartilhado
+
+::: {#def-ligacao-covalente}
+## Ligação covalente
+A **ligação covalente** é a união entre átomos pelo **compartilhamento de um ou mais
+pares de elétrons**. Ocorre tipicamente entre **não metais** (diferença de
+eletronegatividade pequena, $\Delta\chi \lesssim 1{,}7$). Cada par compartilhado conta
+para o octeto de **ambos** os átomos.
+:::
+
+Os pares de valência de um átomo dividem-se em dois tipos: os **pares ligantes**
+(compartilhados numa ligação) e os **pares isolados** (ou não ligantes), que pertencem
+a um só átomo. A distinção será crucial no capítulo de geometria molecular.
+
+## Estruturas de Lewis
+
+A estrutura de Lewis representa os elétrons de valência por pontos e os pares ligantes
+por traços, deixando o octeto de cada átomo visível.
+
+::: {#def-lewis}
+## Estrutura de Lewis
+Representação em que os **elétrons de valência** aparecem como pontos ao redor do
+símbolo; cada **par ligante** é um traço entre os átomos, e cada **par isolado**, um
+par de pontos sobre o átomo. A estrutura deve respeitar o **octeto** (dueto, para o
+hidrogênio).
+:::
+
+O roteiro para montar uma estrutura de Lewis:
+
+1. **Some** os elétrons de valência de todos os átomos (some cargas: $+1$ tira um,
+   $-1$ acrescenta um).
+2. Escolha o **átomo central** (o menos eletronegativo, em geral; nunca o hidrogênio)
+   e ligue os demais a ele por pares simples.
+3. **Distribua** os elétrons restantes como pares isolados, completando primeiro os
+   átomos externos.
+4. Se faltar octeto ao átomo central, **forme ligações múltiplas** transformando pares
+   isolados em pares ligantes.
+
+::: {#exm-lewis-agua}
+## Estrutura da água
+Monte a estrutura de Lewis do $\ce{H2O}$.
+
+**Solução.** Valência: $\ce{O}$ tem 6, cada $\ce{H}$ tem 1, total $6+2 = 8$ elétrons
+(4 pares). O oxigênio é central; cada $\ce{H}$ liga-se a ele por um par (2 pares
+ligantes, 4 elétrons). Sobram 2 pares, que ficam como **pares isolados** no oxigênio.
+$$ \ce{H-\overset{\displaystyle ..}{\underset{\displaystyle ..}{O}}-H} $$
+O oxigênio fica com 2 pares ligantes + 2 isolados = 8 elétrons (octeto); cada
+hidrogênio, com 2 (dueto).
+:::
+
+## Ligações múltiplas
+
+Quando um único par não basta para fechar o octeto, os átomos compartilham **dois**
+pares (**ligação dupla**) ou **três** (**ligação tripla**). A ligação dupla aparece no
+$\ce{O2}$ e no $\ce{CO2}$ ($\ce{O=C=O}$); a tripla, no $\ce{N2}$
+($\ce{N#N}$) e no $\ce{CO}$. Quanto mais pares, **mais curta e mais forte** a ligação.
+
+::: {#exm-lewis-co2}
+## Estrutura do gás carbônico
+Monte a estrutura de Lewis do $\ce{CO2}$.
+
+**Solução.** Valência: $\ce{C}$ tem 4, cada $\ce{O}$ tem 6, total $4 + 12 = 16$
+elétrons (8 pares). Carbono central, ligado a cada oxigênio. Ligações simples deixariam
+o carbono com apenas 4 elétrons; promovendo a **duas ligações duplas**, o carbono atinge
+8 e cada oxigênio também:
+$$ \ce{O=C=O} $$
+com dois pares isolados em cada oxigênio. Confere: $16$ elétrons no total.
+:::
+
+## Exceções ao octeto
+
+::: {.callout-warning}
+A regra do octeto é um guia poderoso, mas tem **exceções** importantes:
+
+- **Octeto incompleto:** o boro estabiliza-se com 6 elétrons ($\ce{BF3}$) e o berílio
+  com 4 ($\ce{BeCl2}$).
+- **Octeto expandido:** elementos do 3º período em diante podem acomodar **mais** de 8
+  elétrons usando orbitais $d$ — caso do enxofre no $\ce{SF6}$ (12) e do fósforo no
+  $\ce{PCl5}$ (10).
+- **Número ímpar de elétrons (radicais):** o $\ce{NO}$ tem um elétron desemparelhado e
+  não há como todos os átomos terem octeto.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Monte a estrutura de Lewis do $\ce{NH3}$ e indique quantos pares isolados há no
+nitrogênio.
+:::
+
+::: {#exr-2}
+Quantos pares ligantes e isolados há na molécula de $\ce{N2}$? Que tipo de ligação une
+os nitrogênios?
+:::
+
+::: {#exr-3}
+Desenhe a estrutura de Lewis do íon $\ce{OH-}$ (some o elétron da carga).
+:::
+
+::: {#exr-4}
+Classifique como exceção ao octeto e diga o tipo: (a) $\ce{BF3}$; (b) $\ce{SF6}$;
+(c) $\ce{PCl5}$.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Valência: $\ce{N}$ (5) + 3 $\ce{H}$ (3) = 8 elétrons (4 pares). N central,
+3 pares ligantes com os hidrogênios, sobrando **1 par isolado** no nitrogênio.
+
+**@exr-2.** $\ce{N2}$ tem $5+5 = 10$ elétrons (5 pares). Três pares formam a **ligação
+tripla** ($\ce{N#N}$) e sobra **1 par isolado** em cada nitrogênio.
+
+**@exr-3.** Valência: $\ce{O}$ (6) + $\ce{H}$ (1) + 1 (carga $-1$) = 8 elétrons. Uma
+ligação $\ce{O-H}$ e **3 pares isolados** no oxigênio: $[\ce{O-H}]^-$.
+
+**@exr-4.** (a) octeto incompleto (boro com 6 elétrons); (b) octeto expandido (enxofre
+com 12); (c) octeto expandido (fósforo com 10).
+:::

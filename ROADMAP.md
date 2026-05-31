@@ -44,7 +44,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 *Objetivo:* como átomos se unem e que forma adquirem. *Pré-requisito:* Vol. II.
 
 - [x] `volumes/v3-ligacoes/01-ionica.qmd` — Ligação iônica e energia reticular.
-- [ ] `volumes/v3-ligacoes/02-covalente.qmd` — Ligação covalente e estruturas de Lewis.
+- [x] `volumes/v3-ligacoes/02-covalente.qmd` — Ligação covalente e estruturas de Lewis.
 - [ ] `volumes/v3-ligacoes/03-ressonancia.qmd` — Ressonância e carga formal.
 - [ ] `volumes/v3-ligacoes/04-vsepr.qmd` — Geometria molecular (VSEPR).
 - [ ] `volumes/v3-ligacoes/05-polaridade.qmd` — Polaridade molecular.
