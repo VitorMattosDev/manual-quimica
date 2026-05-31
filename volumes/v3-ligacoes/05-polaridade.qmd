@@ -1,0 +1,133 @@
+---
+title: "Polaridade molecular"
+---
+
+# Polaridade molecular {#sec-polaridade}
+
+## Por que óleo e água não se misturam
+
+A geometria do capítulo anterior tem uma consequência química imediata: define se uma
+molécula é **polar** ou **apolar**. E essa distinção governa quase tudo o que se vê no
+laboratório — por que a água dissolve sal mas não óleo, por que o $\ce{CO2}$ é gás e a
+água é líquida à temperatura ambiente, por que certas substâncias têm pontos de ebulição
+tão diferentes. A polaridade nasce de dois ingredientes que já temos em mãos: a
+**diferença de eletronegatividade** (Volume II) e a **geometria** (VSEPR). Este capítulo
+combina os dois e fecha a ponte para as forças intermoleculares.
+
+## Ligação polar e apolar
+
+::: {#def-ligacao-polar}
+## Ligação covalente polar e apolar
+Numa ligação entre átomos de eletronegatividades **diferentes**, o par compartilhado é
+atraído para o átomo mais eletronegativo, criando um **dipolo**: uma extremidade com
+carga parcial negativa ($\delta^-$) e outra positiva ($\delta^+$). A ligação é
+**polar**. Se os átomos têm a **mesma** eletronegatividade (átomos iguais, como em
+$\ce{H2}$, $\ce{Cl2}$), o par é igualmente compartilhado e a ligação é **apolar**.
+:::
+
+A polaridade de uma ligação é medida por um **momento de dipolo**, uma grandeza
+**vetorial** que aponta do polo positivo para o negativo. Guardar o caráter vetorial é
+essencial: numa molécula com várias ligações, os dipolos se **somam como vetores**.
+
+## A molécula: soma vetorial dos dipolos
+
+::: {#def-molecula-polar}
+## Molécula polar e apolar
+Uma molécula é **polar** quando a **soma vetorial** dos momentos de dipolo de suas
+ligações é **diferente de zero** (momento de dipolo resultante $\vec{\mu} \neq 0$); é
+**apolar** quando os dipolos se **cancelam** ($\vec{\mu} = 0$). Pode haver ligações
+polares e, ainda assim, molécula apolar — se a **geometria** for simétrica o bastante
+para anular os vetores.
+:::
+
+::: {.callout-warning}
+O erro mais comum do capítulo: confundir ligação polar com molécula polar. O $\ce{CO2}$
+tem **duas ligações polares** $\ce{C=O}$, mas é uma molécula **apolar** — por ser
+**linear** ($\ce{O=C=O}$), os dois dipolos têm mesmo módulo e sentidos opostos e se
+cancelam. Já a água tem as mesmas ligações polares, mas, sendo **angular**, os dipolos
+**não** se cancelam: a água é polar. A diferença está toda na geometria.
+:::
+
+::: {#exm-co2-h2o}
+## CO₂ apolar, H₂O polar
+Por que o $\ce{CO2}$ é apolar e a $\ce{H2O}$ polar, se ambos têm ligações polares?
+
+**Solução.** No $\ce{CO2}$ linear, os dipolos $\ce{C->O}$ apontam em direções opostas
+ao longo da mesma reta; iguais e contrários, somam zero → molécula apolar. Na $\ce{H2O}$
+angular ($104{,}5^\circ$), os dois dipolos $\ce{O<-H}$ não são colineares; sua soma
+vetorial aponta para o oxigênio e é não nula → molécula polar.
+:::
+
+## Receita prática
+
+Para classificar uma molécula:
+
+1. Desenhe a estrutura de Lewis e determine a **geometria** (VSEPR).
+2. Identifique as ligações **polares** (diferença de eletronegatividade).
+3. Some os dipolos **vetorialmente**, levando a geometria em conta. Resultante nula →
+   apolar; não nula → polar.
+
+Uma regra de bolso útil: moléculas com átomo central **simétrico** e ligantes
+**idênticos**, **sem pares isolados** no central (lineares, trigonais planas,
+tetraédricas regulares), tendem a ser **apolares** ($\ce{CO2}$, $\ce{BF3}$, $\ce{CH4}$).
+**Pares isolados** no átomo central ou ligantes diferentes quebram a simetria e tendem
+a tornar a molécula **polar** ($\ce{H2O}$, $\ce{NH3}$, $\ce{CHCl3}$).
+
+::: {#exm-ccl4-chcl3}
+## Simetria e quebra de simetria
+O $\ce{CCl4}$ é apolar e o $\ce{CHCl3}$ é polar. Explique.
+
+**Solução.** O $\ce{CCl4}$ é tetraédrico com quatro ligantes idênticos: os quatro
+dipolos $\ce{C->Cl}$ se cancelam por simetria → apolar. No $\ce{CHCl3}$, um cloro é
+substituído por hidrogênio; a simetria se quebra, os dipolos não se cancelam e a
+molécula é polar.
+:::
+
+## Por que importa: "semelhante dissolve semelhante"
+
+::: {.callout-note}
+A regra empírica **"semelhante dissolve semelhante"** decorre da polaridade:
+substâncias polares dissolvem-se em solventes polares (sal e açúcar em água), e apolares
+em apolares (óleo em gasolina). Misturar polar com apolar (água e óleo) não funciona —
+cada um interage melhor consigo mesmo. Essa regra, central no Volume V (soluções), é
+consequência direta do que vimos aqui.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Classifique a ligação como polar ou apolar: (a) $\ce{H-H}$; (b) $\ce{H-Cl}$;
+(c) $\ce{O=O}$; (d) $\ce{C-O}$.
+:::
+
+::: {#exr-2}
+A molécula de $\ce{BF3}$ (trigonal plana) tem três ligações polares. Ela é polar ou
+apolar? Justifique pela soma vetorial.
+:::
+
+::: {#exr-3}
+Classifique como polar ou apolar: (a) $\ce{NH3}$; (b) $\ce{CH4}$; (c) $\ce{HCl}$.
+:::
+
+::: {#exr-4}
+Com base na polaridade, preveja: o iodo $\ce{I2}$ (apolar) dissolve-se melhor em água
+ou em hexano (apolar)? Por quê?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) apolar (átomos iguais); (b) polar; (c) apolar (átomos iguais);
+(d) polar.
+
+**@exr-2.** **Apolar.** Os três dipolos $\ce{B->F}$ estão a $120^\circ$ num plano e,
+por simetria, somam vetorialmente zero — como três vetores iguais a $120^\circ$.
+
+**@exr-3.** (a) polar (piramidal, par isolado no N); (b) apolar (tetraédrico simétrico);
+(c) polar.
+
+**@exr-4.** Em **hexano**. Pela regra "semelhante dissolve semelhante", o $\ce{I2}$
+apolar dissolve-se bem no solvente apolar e mal na água, que é polar.
+:::
