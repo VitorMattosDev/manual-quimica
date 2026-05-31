@@ -1,0 +1,135 @@
+---
+title: "Ligação iônica e energia reticular"
+---
+
+# Ligação iônica e energia reticular {#sec-ionica}
+
+## Por que átomos se unem
+
+O Volume II terminou com a regra do octeto: átomos ganham, perdem ou compartilham
+elétrons para completar a camada de valência. Essa "vontade" de atingir a configuração
+de gás nobre é a razão de existirem **ligações químicas** — e o tipo de ligação depende
+de *como* os elétrons são redistribuídos. Quando um átomo **transfere** elétrons a
+outro, formam-se íons de cargas opostas que se atraem: é a **ligação iônica**, o tema
+que abre o Volume III. Veremos quando ela ocorre, que estrutura produz e o que torna um
+composto iônico tão estável.
+
+## Transferência de elétrons
+
+::: {#def-ligacao-ionica}
+## Ligação iônica
+A **ligação iônica** resulta da **transferência** de elétrons de um átomo de baixa
+energia de ionização (um metal) para um átomo de alta afinidade eletrônica (um não
+metal). Formam-se um **cátion** e um **ânion**, cuja atração eletrostática mantém-nos
+unidos. Ocorre tipicamente quando a **diferença de eletronegatividade** entre os átomos
+é grande ($\Delta\chi \gtrsim 1{,}7$).
+:::
+
+O exemplo canônico é o cloreto de sódio. O sódio ($[\ce{Ne}]\,3s^1$) cede seu elétron
+de valência ao cloro ($[\ce{Ne}]\,3s^2\,3p^5$); ambos atingem o octeto:
+$$ \ce{Na -> Na+ + e^-}, \qquad \ce{Cl + e^- -> Cl^-}, \qquad \ce{Na+ + Cl^- -> NaCl}. $$
+O cátion $\ce{Na+}$ tem a configuração do neônio; o ânion $\ce{Cl-}$, a do argônio.
+
+::: {.callout-note}
+Os íons não formam "moléculas" isoladas de $\ce{NaCl}$. Cada cátion atrai **vários**
+ânions ao redor, e vice-versa, gerando um **retículo cristalino** — um arranjo
+tridimensional ordenado e repetitivo. A fórmula $\ce{NaCl}$ expressa apenas a
+**proporção** ($1:1$) entre os íons, não uma molécula discreta.
+:::
+
+## O retículo cristalino e a fórmula
+
+Como o composto é uma rede, sua fórmula é a **fórmula mínima** que garante
+neutralidade elétrica: as cargas dos cátions devem anular as dos ânions.
+
+::: {#exm-formula-ionica}
+## Prevendo a fórmula
+Qual a fórmula do composto entre alumínio ($\ce{Al^3+}$) e oxigênio ($\ce{O^2-}$)?
+
+**Solução.** É preciso neutralizar as cargas: o menor múltiplo comum de $3$ e $2$ é
+$6$. São necessários $2$ cátions $\ce{Al^3+}$ (total $+6$) e $3$ ânions $\ce{O^2-}$
+(total $-6$). Logo, $\ce{Al2O3}$ — regra prática do "cruzamento" das cargas.
+:::
+
+## Energia reticular
+
+A estabilidade de um composto iônico mede-se por sua energia reticular: o quanto de
+energia se libera ao montar o retículo a partir dos íons gasosos.
+
+::: {#def-energia-reticular}
+## Energia reticular
+A **energia reticular** ($U$) é a energia liberada na formação de um mol do retículo
+cristalino a partir dos íons no estado gasoso:
+$$ \ce{Na+(g) + Cl^-(g) -> NaCl(s)}. $$
+Quanto **maior** (em módulo) a energia reticular, **mais estável** o sólido iônico.
+Ela cresce com o **produto das cargas** dos íons e diminui com a **distância** entre
+eles (lei de Coulomb): $U \propto \dfrac{|q_+ \, q_-|}{r}$.
+:::
+
+Dessa proporcionalidade saem as propriedades dos compostos iônicos. Cargas maiores e
+íons menores → retículo mais coeso → **pontos de fusão altos**. O $\ce{MgO}$
+(cargas $+2/-2$) funde a temperatura muito maior que o $\ce{NaCl}$ (cargas $+1/-1$),
+porque o produto das cargas é quatro vezes maior.
+
+::: {#exm-comparar-reticular}
+## Comparando energias reticulares
+Qual tem maior energia reticular (em módulo): $\ce{NaCl}$ ou $\ce{MgO}$?
+
+**Solução.** Em $\ce{NaCl}$, $|q_+q_-| = 1\times1 = 1$; em $\ce{MgO}$,
+$|q_+q_-| = 2\times2 = 4$. Como $U \propto |q_+q_-|/r$ e os raios são comparáveis, a
+do $\ce{MgO}$ é muito maior — daí seu ponto de fusão muitíssimo mais alto
+($\approx \pu{2850 ^\circ C}$ contra $\approx \pu{800 ^\circ C}$ do $\ce{NaCl}$).
+:::
+
+## Propriedades dos compostos iônicos
+
+Da estrutura em retículo coeso decorrem características comuns:
+
+- **Pontos de fusão e ebulição altos** — romper o retículo exige muita energia.
+- **Sólidos duros e quebradiços** — um deslocamento das camadas aproxima cargas de
+  mesmo sinal, e o cristal se parte.
+- **Conduzem corrente quando fundidos ou dissolvidos**, mas não sólidos — os íons só
+  ficam livres para migrar quando o retículo se desfaz.
+- Muitos são **solúveis em água**, solvente polar que estabiliza os íons separados.
+
+## Exercícios
+
+::: {#exr-1}
+Escreva a fórmula do composto iônico entre (a) cálcio e cloro; (b) potássio e enxofre;
+(c) alumínio e flúor.
+:::
+
+::: {#exr-2}
+Explique, em termos de transferência de elétrons e octeto, a formação do $\ce{MgCl2}$.
+:::
+
+::: {#exr-3}
+Por que o $\ce{NaCl}$ sólido **não** conduz eletricidade, mas conduz quando fundido ou
+dissolvido em água?
+:::
+
+::: {#exr-4}
+Sem consultar tabelas, ordene por energia reticular crescente (módulo): $\ce{KCl}$,
+$\ce{CaO}$, $\ce{NaF}$. Justifique pelas cargas.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\ce{CaCl2}$ ($\ce{Ca^2+}$ + 2 $\ce{Cl^-}$); (b) $\ce{K2S}$ (2
+$\ce{K+}$ + $\ce{S^2-}$); (c) $\ce{AlF3}$ ($\ce{Al^3+}$ + 3 $\ce{F^-}$).
+
+**@exr-2.** O magnésio ($[\ce{Ne}]\,3s^2$) cede 2 elétrons (octeto do neônio),
+formando $\ce{Mg^2+}$; cada cloro ganha 1 elétron (octeto do argônio), formando
+$\ce{Cl^-}$. São precisos 2 cloros por magnésio: $\ce{MgCl2}$.
+
+**@exr-3.** No sólido os íons estão presos no retículo e não migram. Ao fundir ou
+dissolver, o retículo se desfaz e os íons ficam livres para se mover, transportando
+corrente.
+
+**@exr-4.** $\ce{KCl}$ e $\ce{NaF}$ têm cargas $1\times1$; entre eles, $\ce{NaF}$ tem
+íons menores (menor $r$), logo maior $U$. $\ce{CaO}$ tem cargas $2\times2$, muito maior.
+Crescente: $\ce{KCl} < \ce{NaF} < \ce{CaO}$.
+:::
