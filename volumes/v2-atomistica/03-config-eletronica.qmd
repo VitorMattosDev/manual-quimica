@@ -1,0 +1,140 @@
+---
+title: "Configuração eletrônica"
+---
+
+# Configuração eletrônica {#sec-config-eletronica}
+
+## Como os elétrons preenchem os orbitais
+
+Sabemos agora quais orbitais existem (números quânticos) e quantos elétrons cada um
+comporta (Pauli). Falta a regra de **preenchimento**: dado um átomo com $Z$ elétrons,
+em que ordem eles ocupam os orbitais? A resposta — a **configuração eletrônica** — é a
+chave para tudo o que vem adiante. A posição de um elemento na tabela periódica, sua
+valência, suas propriedades e o tipo de ligação que faz decorrem, todos, de como seus
+elétrons se distribuem. Três princípios bastam para escrever a configuração de
+qualquer átomo no estado fundamental.
+
+## Os três princípios
+
+::: {#def-aufbau}
+## Princípio de Aufbau (construção)
+No estado fundamental, os elétrons ocupam primeiro os orbitais de **menor energia**.
+A ordem de energia **não** segue $n$ crescente puro: subníveis de $n$ maior podem ter
+energia menor que outros de $n$ menor (o $4s$ preenche antes do $3d$).
+:::
+
+A ordem de preenchimento é dada pelo **diagrama de energias crescentes**, resumido na
+sequência:
+$$ 1s\;2s\;2p\;3s\;3p\;4s\;3d\;4p\;5s\;4d\;5p\;6s\;4f\;5d\;6p\;7s\;5f\;6d\;7p. $$ {#eq-aufbau}
+
+::: {#def-hund}
+## Regra de Hund
+Ao preencher orbitais de **mesma energia** (um mesmo subnível), os elétrons ocupam-nos
+**um a um, com spins paralelos**, antes de qualquer emparelhamento. Só depois de cada
+orbital do subnível ter um elétron é que começam os pares.
+:::
+
+A regra de Hund minimiza a repulsão entre elétrons: ocupar orbitais distintos os mantém
+mais afastados. O terceiro princípio já conhecemos — o de **Pauli** (@thm-pauli): no
+máximo 2 elétrons por orbital, de spins opostos.
+
+## Escrevendo a configuração
+
+A notação lista os subníveis ocupados com o número de elétrons como expoente; a soma
+dos expoentes é $Z$.
+
+::: {#exm-config}
+## Configurações no estado fundamental
+Escreva a configuração de (a) oxigênio ($Z=8$) e (b) ferro ($Z=26$).
+
+**Solução.** Seguindo a ordem da @eq-aufbau:
+
+(a) $\ce{O}$: $1s^2\,2s^2\,2p^4$. Os 8 elétrons preenchem $1s$ (2), $2s$ (2) e
+colocam 4 no $2p$.
+
+(b) $\ce{Fe}$: $1s^2\,2s^2\,2p^6\,3s^2\,3p^6\,4s^2\,3d^6$. Note o $4s$ preenchido
+**antes** do $3d$, conforme o Aufbau. A soma dos expoentes é $26$.
+:::
+
+Para abreviar, usa-se o **cerne de gás nobre**: substitui-se a parte interna pela
+configuração do gás nobre anterior, entre colchetes. Assim o ferro fica
+$[\ce{Ar}]\,4s^2\,3d^6$, destacando os elétrons mais externos — os que importam para a
+química.
+
+::: {#def-valencia}
+## Elétrons de valência
+Os **elétrons de valência** são os do **nível mais externo** (maior $n$ ocupado) e,
+nos metais de transição, também os do subnível $d$ em preenchimento. São eles que
+participam das ligações químicas e definem o comportamento do elemento. O oxigênio
+($2s^2\,2p^4$) tem **6** elétrons de valência.
+:::
+
+## Diagrama de caixas e Hund na prática
+
+Representar cada orbital por uma caixa e cada elétron por uma seta ($\uparrow$ ou
+$\downarrow$) torna a regra de Hund visível. Para o nitrogênio ($Z=7$,
+$1s^2\,2s^2\,2p^3$), os três elétrons do $2p$ ocupam **orbitais separados, com spins
+paralelos**:
+
+$$ 2p:\quad \boxed{\uparrow}\ \boxed{\uparrow}\ \boxed{\uparrow} $$
+
+e não dois emparelhados num orbital e um vazio. Esse arranjo deixa o nitrogênio com 3
+elétrons desemparelhados.
+
+::: {.callout-warning}
+Há **exceções** ao Aufbau em alguns elementos, porque subníveis $d$ ou $f$
+semipreenchidos ou totalmente preenchidos são especialmente estáveis. Os casos
+clássicos são o cromo — $[\ce{Ar}]\,4s^1\,3d^5$ em vez de $4s^2\,3d^4$ — e o cobre —
+$[\ce{Ar}]\,4s^1\,3d^{10}$ em vez de $4s^2\,3d^9$. Um elétron do $4s$ "promove-se" ao
+$3d$ para alcançar o $3d^5$ ou $3d^{10}$.
+:::
+
+::: {#exm-desemparelhados}
+## Contando elétrons desemparelhados
+Quantos elétrons desemparelhados tem o ferro, $[\ce{Ar}]\,4s^2\,3d^6$?
+
+**Solução.** No $3d$ há 5 orbitais e 6 elétrons. Por Hund, cinco ocupam um orbital
+cada (paralelos) e o sexto emparelha com um deles: sobram **4 orbitais com elétron
+desemparelhado**. O $4s^2$ está emparelhado. Logo, 4 elétrons desemparelhados — origem
+do magnetismo do ferro.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Escreva a configuração eletrônica completa do enxofre ($Z=16$) e indique seus elétrons
+de valência.
+:::
+
+::: {#exr-2}
+Usando o cerne de gás nobre, escreva a configuração do cálcio ($Z=20$) e do bromo
+($Z=35$).
+:::
+
+::: {#exr-3}
+Quantos elétrons desemparelhados há no fósforo ($Z=15$)?
+:::
+
+::: {#exr-4}
+Explique por que a configuração do cobre ($Z=29$) é $[\ce{Ar}]\,4s^1\,3d^{10}$ e não
+$[\ce{Ar}]\,4s^2\,3d^9$.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\ce{S}$: $1s^2\,2s^2\,2p^6\,3s^2\,3p^4$. Elétrons de valência: os do
+nível $n=3$ mais externo, $3s^2\,3p^4$, isto é, **6**.
+
+**@exr-2.** $\ce{Ca}$: $[\ce{Ar}]\,4s^2$. $\ce{Br}$: $[\ce{Ar}]\,4s^2\,3d^{10}\,4p^5$.
+
+**@exr-3.** $\ce{P}$: $\dots 3p^3$. Por Hund, os 3 elétrons do $3p$ ocupam orbitais
+separados com spins paralelos: **3 desemparelhados**.
+
+**@exr-4.** O subnível $3d$ totalmente preenchido ($3d^{10}$) é especialmente estável.
+Promover um elétron do $4s$ para o $3d$ alcança essa estabilidade, resultando em
+$4s^1\,3d^{10}$ — energia menor que a do arranjo $4s^2\,3d^9$ previsto pelo Aufbau
+simples.
+:::

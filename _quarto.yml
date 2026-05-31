@@ -30,6 +30,7 @@ book:
       chapters:
         - volumes/v2-atomistica/01-modelo-quantico.qmd
         - volumes/v2-atomistica/02-numeros-quanticos.qmd
+        - volumes/v2-atomistica/03-config-eletronica.qmd
     - part: "Volume IV — Estequiometria e Reações"
       chapters:
         - volumes/v4-estequiometria/04-estequiometria.qmd   # capítulo-gabarito
