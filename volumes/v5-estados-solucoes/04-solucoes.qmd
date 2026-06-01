@@ -1,0 +1,127 @@
+---
+title: "Solubilidade e unidades de concentração"
+---
+
+# Solubilidade e unidades de concentração {#sec-solucoes}
+
+## A mistura homogênea por excelência
+
+O Volume IV já tratou de reações em solução aquosa; o Volume V, capítulo de gases, falou
+de misturas de gases. Agora olhamos a **solução** em si — mistura homogênea de soluto e
+solvente — com duas perguntas centrais: *quanto* soluto cabe (solubilidade) e *quanto* há
+de fato dissolvido (concentração). Saber medir concentração é pré-requisito para tudo o
+que vem na físico-química: equilíbrio, cinética, eletroquímica.
+
+## Solução, soluto e solvente
+
+::: {#def-solucao}
+## Solução
+Mistura **homogênea** de duas ou mais substâncias. O componente em maior quantidade (ou
+que determina o estado físico) é o **solvente**; os demais são **solutos**. Quando o
+solvente é a água, a solução é **aquosa**.
+:::
+
+A dissolução é governada pela regra empírica **"semelhante dissolve semelhante"**: solutos
+polares (ou iônicos) dissolvem-se em solventes polares; apolares, em apolares. A explicação
+está nas forças intermoleculares do Volume III — a dissolução só é favorável quando as
+interações soluto–solvente compensam as que são rompidas.
+
+## Solubilidade
+
+::: {#def-solubilidade}
+## Solubilidade e saturação
+A **solubilidade** é a quantidade máxima de soluto que se dissolve numa dada quantidade de
+solvente, a uma dada temperatura. Em relação a esse limite, uma solução é:
+
+- **insaturada** — abaixo do limite (ainda dissolve mais);
+- **saturada** — no limite (em equilíbrio com soluto não dissolvido);
+- **supersaturada** — acima do limite, estado metastável que precipita ao menor estímulo.
+:::
+
+::: {.callout-note}
+A solubilidade da maioria dos **sólidos** em água cresce com a temperatura; a dos
+**gases**, ao contrário, **diminui** — por isso um refrigerante quente perde gás mais
+rápido. Para gases vale ainda a **lei de Henry**: a solubilidade é proporcional à pressão
+parcial do gás sobre o líquido.
+:::
+
+## Unidades de concentração
+
+Há várias formas de exprimir "quanto soluto por quanto de solução". As mais usadas:
+
+::: {#def-concentracao}
+## Unidades de concentração
+- **Concentração em mol/L (molaridade)** $c = \dfrac{n_{\text{soluto}}}{V_{\text{solução}}}$,
+  em $\pu{mol/L}$.
+- **Concentração comum** $C = \dfrac{m_{\text{soluto}}}{V_{\text{solução}}}$, em $\pu{g/L}$.
+- **Molalidade** $W = \dfrac{n_{\text{soluto}}}{m_{\text{solvente}}}$, em $\pu{mol/kg}$
+  (independe da temperatura).
+- **Fração molar** $x_i = \dfrac{n_i}{n_{\text{total}}}$ (adimensional).
+- **Porcentagem em massa** $\%\,m = \dfrac{m_{\text{soluto}}}{m_{\text{solução}}}\times 100$.
+:::
+
+As duas primeiras relacionam-se por $C = c\,M$, onde $M$ é a massa molar do soluto.
+
+::: {#exm-molaridade}
+## Calculando a molaridade
+Dissolvem-se $\pu{20 g}$ de $\ce{NaOH}$ ($M = \pu{40 g/mol}$) em água até completar
+$\pu{500 mL}$ de solução. Qual a concentração em mol/L?
+
+**Solução.** $n = \dfrac{20}{40} = \pu{0,5 mol}$ e $V = \pu{0,5 L}$, logo
+$c = \dfrac{0{,}5}{0{,}5} = \pu{1,0 mol/L}$.
+:::
+
+::: {#exm-comum}
+## Da molaridade à concentração comum
+Qual a concentração comum da solução do exemplo anterior?
+
+**Solução.** $C = c\,M = 1{,}0 \times 40 = \pu{40 g/L}$. Confere: $\pu{20 g}$ em
+$\pu{0,5 L}$ dá $\pu{40 g/L}$.
+:::
+
+::: {#exm-fracao-molar}
+## Fração molar
+Uma solução tem $\pu{2 mol}$ de etanol e $\pu{8 mol}$ de água. Qual a fração molar do
+etanol?
+
+**Solução.** $x_{\text{etanol}} = \dfrac{2}{2+8} = 0{,}2$. As frações somam 1, logo
+$x_{\text{água}} = 0{,}8$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Calcule a concentração em mol/L de uma solução com $\pu{29,25 g}$ de $\ce{NaCl}$
+($M = \pu{58,5 g/mol}$) em $\pu{2,0 L}$ de solução.
+:::
+
+::: {#exr-2}
+Uma solução de glicose tem $C = \pu{18 g/L}$. Sendo $M = \pu{180 g/mol}$, qual sua
+concentração em mol/L?
+:::
+
+::: {#exr-3}
+Por que um refrigerante gelado "perde gás" mais devagar que um quente? Relacione com a
+solubilidade de gases.
+:::
+
+::: {#exr-4}
+Misturam-se $\pu{3 mol}$ de soluto com $\pu{12 mol}$ de solvente. Qual a fração molar do
+soluto?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $n = \dfrac{29{,}25}{58{,}5} = \pu{0,5 mol}$;
+$c = \dfrac{0{,}5}{2{,}0} = \pu{0,25 mol/L}$.
+
+**@exr-2.** $c = \dfrac{C}{M} = \dfrac{18}{180} = \pu{0,1 mol/L}$.
+
+**@exr-3.** A solubilidade de um gás **diminui** com a temperatura; gelado, mais
+$\ce{CO2}$ permanece dissolvido, então o escape é mais lento.
+
+**@exr-4.** $x_{\text{soluto}} = \dfrac{3}{3+12} = 0{,}2$.
+:::

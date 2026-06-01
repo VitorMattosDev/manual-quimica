@@ -57,6 +57,7 @@ book:
         - volumes/v5-estados-solucoes/01-gases-ideais.qmd
         - volumes/v5-estados-solucoes/02-cinetica-gases.qmd
         - volumes/v5-estados-solucoes/03-liquidos-solidos.qmd
+        - volumes/v5-estados-solucoes/04-solucoes.qmd
   appendices:
     - constantes.qmd
 
