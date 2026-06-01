@@ -20,7 +20,7 @@ A **corrosão** é a oxidação espontânea de um metal pelo ambiente — uma pi
 é o ânodo. Na ferrugem, o ferro se oxida na presença de $\ce{O2}$ e água:
 $$ \ce{Fe -> Fe^2+ + 2 e-} \ (\text{ânodo}); \qquad
 \ce{O2 + 2 H2O + 4 e- -> 4 OH-} \ (\text{cátodo}). $$
-O produto final é a ferrugem, $\ce{Fe2O3 \cdot x H2O}$.
+O produto final é a ferrugem, $\ce{Fe2O3 * x H2O}$.
 :::
 
 ## Proteção contra a corrosão

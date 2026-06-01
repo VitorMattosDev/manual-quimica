@@ -38,7 +38,7 @@ metal e dos ligantes, cada complexo tem sua cor.
 
 ::: {.callout-note}
 A magnitude de $\Delta_o$ depende do ligante, ordenado na **série espectroquímica**:
-$$ \ce{I- < Br- < Cl- < F- < H2O < NH3 < CN- < CO}. $$
+$$ \ce{I-} < \ce{Br-} < \ce{Cl-} < \ce{F-} < \ce{H2O} < \ce{NH3} < \ce{CN-} < \ce{CO}. $$
 Ligantes de **campo forte** (CN⁻, CO) dão $\Delta_o$ grande; de **campo fraco** (haletos),
 $\Delta_o$ pequeno. O ligante, portanto, "afina" a cor e o magnetismo.
 :::

@@ -23,7 +23,7 @@ $\ce{F2}$, $\ce{Cl2}$, $\ce{Br2}$, $\ce{I2}$ — não metais diatômicos, muito 
 - **Hidrácidos** ($\ce{HX}$): o $\ce{HCl}$, $\ce{HBr}$, $\ce{HI}$ são ácidos fortes.
 - **Ácido fluorídrico** ($\ce{HF}$): exceção, ácido **fraco** (ligação H–F forte).
 
-A reatividade **decresce** descendo o grupo: $\ce{F2 > Cl2 > Br2 > I2}$.
+A reatividade **decresce** descendo o grupo: $\ce{F2} > \ce{Cl2} > \ce{Br2} > \ce{I2}$.
 :::
 
 ## Calcogênios (grupo 16): oxigênio e enxofre

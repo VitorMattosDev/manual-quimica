@@ -37,11 +37,11 @@ reação desejada.
 Calcule $\Delta H$ de $\ce{C}_{\text{(grafite)}} + \tfrac12 \ce{O2(g) -> CO(g)}$, dadas:
 
 (I) $\ce{C(grafite) + O2(g) -> CO2(g)}$, $\Delta H_1 = -\pu{393,5 kJ}$;
-(II) $\ce{CO(g) + \tfrac12 O2(g) -> CO2(g)}$, $\Delta H_2 = -\pu{283,0 kJ}$.
+(II) $\ce{CO(g) + 1/2 O2(g) -> CO2(g)}$, $\Delta H_2 = -\pu{283,0 kJ}$.
 
 **Solução.** Mantém-se (I) e **inverte-se** (II) (trocando o sinal):
 $$ \ce{C(grafite) + O2(g) -> CO2(g)} \qquad \Delta H_1 = -393{,}5 $$
-$$ \ce{CO2(g) -> CO(g) + \tfrac12 O2(g)} \qquad -\Delta H_2 = +283{,}0 $$
+$$ \ce{CO2(g) -> CO(g) + 1/2 O2(g)} \qquad -\Delta H_2 = +283{,}0 $$
 Somando, $\ce{CO2}$ cancela e sobra a reação desejada:
 $$ \Delta H = \Delta H_1 - \Delta H_2 = -393{,}5 + 283{,}0 = -\pu{110,5 kJ}. $$
 :::
@@ -79,9 +79,9 @@ Numa equação termoquímica, o que acontece com $\Delta H$ ao (a) inverter a re
 :::
 
 ::: {#exr-2}
-Dadas (I) $\ce{H2 + \tfrac12 O2 -> H2O(l)}$, $\Delta H_1 = -286$; e
+Dadas (I) $\ce{H2 + 1/2 O2 -> H2O(l)}$, $\Delta H_1 = -286$; e
 (II) $\ce{H2O(l) -> H2O(g)}$, $\Delta H_2 = +44$ (kJ), calcule $\Delta H$ de
-$\ce{H2 + \tfrac12 O2 -> H2O(g)}$.
+$\ce{H2 + 1/2 O2 -> H2O(g)}$.
 :::
 
 ::: {#exr-3}

@@ -52,9 +52,9 @@ cancelam. Já a água tem as mesmas ligações polares, mas, sendo **angular**, 
 ## CO₂ apolar, H₂O polar
 Por que o $\ce{CO2}$ é apolar e a $\ce{H2O}$ polar, se ambos têm ligações polares?
 
-**Solução.** No $\ce{CO2}$ linear, os dipolos $\ce{C->O}$ apontam em direções opostas
+**Solução.** No $\ce{CO2}$ linear, os dipolos $\mathrm{C}\rightarrow\mathrm{O}$ apontam em direções opostas
 ao longo da mesma reta; iguais e contrários, somam zero → molécula apolar. Na $\ce{H2O}$
-angular ($104{,}5^\circ$), os dois dipolos $\ce{O<-H}$ não são colineares; sua soma
+angular ($104{,}5^\circ$), os dois dipolos $\mathrm{O}\leftarrow\mathrm{H}$ não são colineares; sua soma
 vetorial aponta para o oxigênio e é não nula → molécula polar.
 :::
 
@@ -78,7 +78,7 @@ a tornar a molécula **polar** ($\ce{H2O}$, $\ce{NH3}$, $\ce{CHCl3}$).
 O $\ce{CCl4}$ é apolar e o $\ce{CHCl3}$ é polar. Explique.
 
 **Solução.** O $\ce{CCl4}$ é tetraédrico com quatro ligantes idênticos: os quatro
-dipolos $\ce{C->Cl}$ se cancelam por simetria → apolar. No $\ce{CHCl3}$, um cloro é
+dipolos $\mathrm{C}\rightarrow\mathrm{Cl}$ se cancelam por simetria → apolar. No $\ce{CHCl3}$, um cloro é
 substituído por hidrogênio; a simetria se quebra, os dipolos não se cancelam e a
 molécula é polar.
 :::
@@ -122,7 +122,7 @@ ou em hexano (apolar)? Por quê?
 **@exr-1.** (a) apolar (átomos iguais); (b) polar; (c) apolar (átomos iguais);
 (d) polar.
 
-**@exr-2.** **Apolar.** Os três dipolos $\ce{B->F}$ estão a $120^\circ$ num plano e,
+**@exr-2.** **Apolar.** Os três dipolos $\mathrm{B}\rightarrow\mathrm{F}$ estão a $120^\circ$ num plano e,
 por simetria, somam vetorialmente zero — como três vetores iguais a $120^\circ$.
 
 **@exr-3.** (a) polar (piramidal, par isolado no N); (b) apolar (tetraédrico simétrico);

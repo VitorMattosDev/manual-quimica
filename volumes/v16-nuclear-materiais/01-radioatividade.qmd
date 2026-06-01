@@ -85,7 +85,7 @@ Como cada emissão altera $Z$ e $A$: (a) alfa; (b) beta; (c) gama?
 :::
 
 ::: {#exr-2}
-Complete: $\ce{^{226}_{88}Ra -> ? + ^4_2He}$.
+Complete, identificando o elemento $X$: $\ce{^{226}_{88}Ra -> X + ^4_2He}$.
 :::
 
 ::: {#exr-3}

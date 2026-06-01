@@ -48,7 +48,7 @@ reatividade.
 ::: {#def-fila-reatividade}
 ## Fila de reatividade dos metais
 Os metais ordenam-se por tendência a perder elétrons (do mais ao menos reativo):
-$$ \ce{K > Ca > Na > Mg > Al > Zn > Fe > Pb > H > Cu > Ag > Au}. $$
+$$ \ce{K} > \ce{Ca} > \ce{Na} > \ce{Mg} > \ce{Al} > \ce{Zn} > \ce{Fe} > \ce{Pb} > \ce{H} > \ce{Cu} > \ce{Ag} > \ce{Au}. $$
 Um metal **desloca** da solução os íons de qualquer metal (ou o $\ce{H+}$) situado à sua
 **direita** na fila; à esquerda, **não** reage.
 :::
