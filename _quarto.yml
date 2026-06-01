@@ -172,10 +172,13 @@ format:
     toc: true
     number-sections: true
     include-in-header:
-      # mhchem (\ce, \pu) e siunitx para o PDF.
+      # mhchem (\ce) e siunitx para o PDF. O \pu é garantido por um fallback:
+      # se o mhchem instalado já o define, \providecommand é inócuo; senão,
+      # define uma versão simples (unidades em romano) para o PDF compilar.
       text: |
         \usepackage[version=4]{mhchem}
         \usepackage{siunitx}
+        \providecommand{\pu}[1]{\ensuremath{\mathrm{#1}}}
 
 # Rótulos em português dos ambientes de teorema/definição etc.
 crossref:
