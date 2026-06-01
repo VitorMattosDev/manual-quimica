@@ -1,0 +1,110 @@
+---
+title: "ΔG e a constante de equilíbrio"
+---
+
+# ΔG e a constante de equilíbrio {#sec-gibbs-equilibrio}
+
+## A ponte entre energia e equilíbrio
+
+A energia livre de Gibbs decide se uma reação é espontânea; o **equilíbrio químico**
+(Volume VIII) descreve até onde ela avança. Estes dois mundos estão ligados por uma só
+equação — talvez a mais importante da físico-química — que traduz $\Delta G$ em uma
+**constante de equilíbrio** $K$. Este capítulo fecha o Volume VI estabelecendo essa ponte,
+que será o ponto de partida de todo o estudo do equilíbrio.
+
+## ΔG fora do estado-padrão: o quociente reacional
+
+O $\Delta G^\circ$ vale para reagentes e produtos no estado-padrão. Fora dele, a energia
+livre depende das concentrações (ou pressões) atuais, medidas pelo **quociente reacional**
+$Q$ (mesma forma da constante $K$, mas com os valores do momento):
+
+::: {#def-isoterma}
+## Isoterma de van't Hoff
+$$ \Delta G = \Delta G^\circ + RT \ln Q. $$ {#eq-isoterma}
+À medida que a reação avança, $Q$ varia e $\Delta G$ se aproxima de zero. No **equilíbrio**,
+$\Delta G = 0$ e $Q = K$.
+:::
+
+## A relação fundamental ΔG° = −RT ln K
+
+Impondo $\Delta G = 0$ e $Q = K$ na @eq-isoterma, o $\Delta G^\circ$ some do lado esquerdo
+e resta a relação central:
+
+::: {#def-gibbs-k}
+## Energia livre-padrão e equilíbrio
+$$ \Delta G^\circ = -RT \ln K. $$ {#eq-gibbs-k}
+Ela conecta a termodinâmica ($\Delta G^\circ$) ao equilíbrio ($K$):
+
+- $\Delta G^\circ < 0 \Rightarrow K > 1$ — equilíbrio **favorece os produtos**;
+- $\Delta G^\circ > 0 \Rightarrow K < 1$ — favorece os **reagentes**;
+- $\Delta G^\circ = 0 \Rightarrow K = 1$.
+:::
+
+::: {.callout-note}
+Note a diferença entre $\Delta G$ e $\Delta G^\circ$. O **sinal de $\Delta G^\circ$** diz
+para que lado o equilíbrio pende (quanto vale $K$); o **sinal de $\Delta G$** (com o $Q$ do
+momento) diz para que lado a reação caminha **agora**. Um $\Delta G^\circ > 0$ não impede
+que se formem **alguns** produtos — apenas mantém $K < 1$.
+:::
+
+::: {#exm-gibbs-k}
+## De ΔG° para K
+Calcule $K$ a $\pu{298 K}$ para uma reação com $\Delta G^\circ = -\pu{11,4 kJ/mol}$.
+($R = \pu{8,314 J.mol-1.K-1}$.)
+
+**Solução.** Da @eq-gibbs-k, $\ln K = -\dfrac{\Delta G^\circ}{RT} =
+-\dfrac{-11400}{8{,}314\times 298} = \dfrac{11400}{2477{,}6} \approx 4{,}60$. Logo
+$K = e^{4{,}60} \approx 100$. O equilíbrio favorece fortemente os produtos.
+:::
+
+::: {#exm-k-para-gibbs}
+## De K para ΔG°
+Uma reação tem $K = 1{,}0\times 10^{-3}$ a $\pu{298 K}$. Qual $\Delta G^\circ$?
+
+**Solução.** $\Delta G^\circ = -RT\ln K = -8{,}314\times 298\times \ln(10^{-3})
+= -2477{,}6\times(-6{,}91) \approx +\pu{17,1 kJ/mol}$. Positivo: $K < 1$, reagentes
+favorecidos.
+:::
+
+## Dependência de K com a temperatura
+
+Combinando $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$ com a @eq-gibbs-k obtém-se a
+**equação de van't Hoff**, que mostra como $K$ varia com $T$: reações exotérmicas
+($\Delta H^\circ < 0$) têm $K$ **decrescente** com a temperatura, e endotérmicas, $K$
+**crescente** — coerente com o princípio de Le Chatelier (Volume VIII).
+
+## Exercícios
+
+::: {#exr-1}
+Sem calcular, diga se $K > 1$ ou $K < 1$ para (a) $\Delta G^\circ = -\pu{20 kJ/mol}$;
+(b) $\Delta G^\circ = +\pu{5 kJ/mol}$.
+:::
+
+::: {#exr-2}
+No equilíbrio, quanto vale $\Delta G$? E quanto vale $Q$ em relação a $K$?
+:::
+
+::: {#exr-3}
+Calcule $\Delta G^\circ$ a $\pu{298 K}$ para uma reação com $K = 1{,}0$. ($R = \pu{8,314 J.mol-1.K-1}$.)
+:::
+
+::: {#exr-4}
+Uma reação tem $\Delta G^\circ = -RT\ln K$ negativo. Conforme a reação avança e $Q$
+cresce até $K$, o que acontece com $\Delta G$?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\Delta G^\circ < 0 \Rightarrow K > 1$; (b) $\Delta G^\circ > 0
+\Rightarrow K < 1$.
+
+**@exr-2.** No equilíbrio $\Delta G = 0$ e $Q = K$.
+
+**@exr-3.** $\Delta G^\circ = -RT\ln(1{,}0) = -RT\times 0 = \pu{0 kJ/mol}$.
+
+**@exr-4.** Pela @eq-isoterma, $\Delta G$ parte de negativo e **aumenta** rumo a zero;
+quando $Q = K$, $\Delta G = 0$ e a reação para de avançar (equilíbrio).
+:::
