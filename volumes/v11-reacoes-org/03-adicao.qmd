@@ -1,0 +1,103 @@
+---
+title: "Reações de adição (alcenos, alcinos)"
+---
+
+# Reações de adição (alcenos, alcinos) {#sec-adicao}
+
+## A dupla ligação como ponto de ataque
+
+A dupla ligação C=C é uma região **rica em elétrons** — e portanto um alvo para reagentes
+que buscam elétrons (eletrófilos). Em vez de trocar um grupo (substituição), a insaturação
+**recebe** átomos: a ligação pi se rompe e dois novos grupos se ligam aos carbonos. São as
+reações de **adição**, características de alcenos e alcinos, e a base da indústria
+petroquímica (plásticos, combustíveis, álcoois).
+
+## Adição eletrofílica
+
+::: {#def-adicao}
+## Adição à dupla ligação
+Um reagente $\ce{X-Y}$ adiciona-se aos dois carbonos da dupla, que passa a simples:
+$$ \ce{C=C + X-Y -> X-C-C-Y}. $$
+Principais adições: **hidrogenação** ($\ce{H2}$, com catalisador), **halogenação**
+($\ce{X2}$), **hidro-halogenação** ($\ce{HX}$) e **hidratação** ($\ce{H2O}$, meio ácido).
+:::
+
+::: {#exm-hidrogenacao}
+## Hidrogenação de um alceno
+Escreva o produto da hidrogenação do eteno.
+
+**Solução.** $\ce{CH2=CH2 + H2 ->[\text{cat.}] CH3-CH3}$. A dupla vira simples e o produto é
+o **etano** — é a reação que transforma óleos vegetais (insaturados) em gorduras (saturadas).
+:::
+
+## A regra de Markovnikov
+
+Quando o reagente é **assimétrico** ($\ce{HX}$, $\ce{H2O}$) e a dupla também, há duas formas
+de adicionar. Markovnikov diz qual predomina.
+
+::: {#def-markovnikov}
+## Regra de Markovnikov
+Na adição de $\ce{HX}$ (ou $\ce{H2O}$) a um alceno assimétrico, o **hidrogênio** liga-se ao
+carbono **mais hidrogenado** da dupla — "rico fica mais rico". O resultado é o produto que
+passa pelo **carbocátion mais estável** (mais substituído), conexão direta com o capítulo
+de intermediários.
+:::
+
+::: {.callout-note}
+A regra de Markovnikov não é arbitrária: ela apenas reflete que a reação segue o caminho do
+**carbocátion mais estável**. Na presença de peróxidos, a adição de $\ce{HBr}$ inverte-se
+(efeito anti-Markovnikov, via radicais) — mas a lógica continua sendo "o intermediário mais
+estável vence".
+:::
+
+::: {#exm-markovnikov}
+## Aplicando Markovnikov
+Qual o produto principal da adição de $\ce{HBr}$ ao propeno, $\ce{CH3-CH=CH2}$?
+
+**Solução.** O $\ce{H}$ vai ao carbono **mais hidrogenado** (o $\ce{CH2}$ terminal); o
+$\ce{Br}$ vai ao carbono central, gerando o carbocátion secundário (mais estável). Produto:
+$\ce{CH3-CHBr-CH3}$ (**2-bromopropano**), não o 1-bromopropano.
+:::
+
+## Adição em alcinos
+
+Alcinos têm **duas** ligações pi, então podem adicionar **dois** equivalentes de reagente.
+A primeira adição dá um alceno; a segunda, o composto saturado. A hidratação de alcinos,
+após um rearranjo (tautomeria), leva a **aldeídos** ou **cetonas**.
+
+## Exercícios
+
+::: {#exr-1}
+O que caracteriza uma reação de adição em relação à dupla ligação?
+:::
+
+::: {#exr-2}
+Escreva o produto da hidrogenação ($\ce{H2}$/cat.) do propeno.
+:::
+
+::: {#exr-3}
+Aplicando Markovnikov, qual o produto principal da adição de $\ce{HCl}$ ao
+2-metilpropeno, $\ce{(CH3)2C=CH2}$?
+:::
+
+::: {#exr-4}
+Por que um alcino pode adicionar dois equivalentes de $\ce{H2}$, mas um alceno apenas um?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** A ligação pi da dupla **se rompe** e dois novos grupos se ligam aos carbonos; a
+dupla vira simples (a molécula **incorpora** átomos, sem perder nenhum).
+
+**@exr-2.** $\ce{CH3-CH=CH2 + H2 ->[\text{cat.}] CH3-CH2-CH3}$ (**propano**).
+
+**@exr-3.** O $\ce{H}$ vai ao $\ce{CH2}$ (mais hidrogenado); o $\ce{Cl}$ ao carbono
+central, formando carbocátion terciário. Produto: $\ce{(CH3)2CCl-CH3}$
+(**2-cloro-2-metilpropano**).
+
+**@exr-4.** O alcino tem **duas** ligações pi (tripla); cada $\ce{H2}$ satura uma. O alceno
+tem só **uma** ligação pi.
+:::

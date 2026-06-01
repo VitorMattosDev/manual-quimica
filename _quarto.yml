@@ -106,6 +106,7 @@ book:
       chapters:
         - volumes/v11-reacoes-org/01-efeitos-intermediarios.qmd
         - volumes/v11-reacoes-org/02-substituicao.qmd
+        - volumes/v11-reacoes-org/03-adicao.qmd
   appendices:
     - constantes.qmd
 
