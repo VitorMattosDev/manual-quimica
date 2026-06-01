@@ -1,0 +1,102 @@
+---
+title: "Hidrogênio e elementos representativos"
+---
+
+# Hidrogênio e elementos representativos {#sec-representativos}
+
+## Conhecer os elementos um a um
+
+Depois de leis gerais — periodicidade, ligações, equilíbrio —, a **química descritiva**
+percorre os elementos e suas substâncias concretas: o que são, como reagem, para que servem.
+Abrindo o Volume XIII e a Fase 4, começamos pelo **hidrogênio**, elemento singular, e pelos
+**elementos representativos** dos blocos s e p, cujas propriedades seguem de perto a posição
+na tabela periódica (Volume II).
+
+## O hidrogênio: um elemento à parte
+
+::: {#def-hidrogenio}
+## O hidrogênio
+O **hidrogênio** ($\ce{1s^1}$) é o elemento mais simples e abundante do universo. Não se
+encaixa bem em nenhum grupo: tem 1 elétron de valência (como os alcalinos), mas falta-lhe 1
+para o gás nobre (como os halogênios). Forma o cátion $\ce{H+}$ (próton), o ânion hidreto
+$\ce{H-}$ e, sobretudo, **ligações covalentes**. É a base da química orgânica e dos ácidos.
+:::
+
+## Os blocos s: alcalinos e alcalino-terrosos
+
+::: {#def-blocos-s}
+## Metais dos grupos 1 e 2
+- **Alcalinos (grupo 1):** $\ce{Li}$, $\ce{Na}$, $\ce{K}$… com 1 elétron de valência. São
+  metais moles, muito **reativos**, formam cátions $\ce{+1}$. Reagem violentamente com água:
+  $\ce{2 Na + 2 H2O -> 2 NaOH + H2}$.
+- **Alcalino-terrosos (grupo 2):** $\ce{Mg}$, $\ce{Ca}$… com 2 elétrons de valência. Formam
+  cátions $\ce{+2}$, são reativos (menos que os alcalinos).
+:::
+
+A reatividade dos metais **cresce de cima para baixo** no grupo: o raio aumenta, a energia
+de ionização cai e o elétron de valência sai mais fácil (Volume II).
+
+## Os blocos p: dos térreos aos gases nobres
+
+::: {#def-blocos-p}
+## Tendências do bloco p
+Os grupos 13 a 18 vão do caráter **metálico** (à esquerda/embaixo) ao **não metálico**
+(à direita/em cima). Destaques:
+
+- **Grupo 14 (carbono):** o carbono funda a química orgânica; silício, a dos materiais.
+- **Grupo 17 (halogênios):** $\ce{F}$, $\ce{Cl}$, $\ce{Br}$, $\ce{I}$ — não metais muito
+  reativos, formam ânions $\ce{-1}$; reatividade **decresce** de cima para baixo.
+- **Grupo 18 (gases nobres):** camada de valência completa, quase **inertes**.
+:::
+
+::: {.callout-note}
+Para os **não metais**, a reatividade segue a **eletronegatividade**, que cresce para cima e
+para a direita — oposto dos metais. Por isso o flúor é o não metal mais reativo, e o frâncio
+(canto inferior esquerdo), o metal mais reativo. A tabela periódica organiza tudo.
+:::
+
+::: {#exm-reatividade-grupo}
+## Comparando reatividades
+Qual é mais reativo: (a) $\ce{Na}$ ou $\ce{K}$ (alcalinos)? (b) $\ce{F2}$ ou $\ce{Cl2}$
+(halogênios)?
+
+**Solução.** (a) Entre **metais**, a reatividade cresce para baixo: o **$\ce{K}$** é mais
+reativo (perde o elétron mais facilmente). (b) Entre **não metais**, cresce para cima: o
+**$\ce{F2}$** é mais reativo (mais eletronegativo).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Por que o hidrogênio não se encaixa confortavelmente nem no grupo 1 nem no 17?
+:::
+
+::: {#exr-2}
+Escreva a equação da reação do potássio com água.
+:::
+
+::: {#exr-3}
+Entre $\ce{Li}$ e $\ce{Cs}$, qual o metal alcalino mais reativo? Justifique.
+:::
+
+::: {#exr-4}
+Por que os gases nobres são quase inertes?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Tem **1 elétron** de valência (como o grupo 1), mas falta-lhe **1** para
+completar a camada (como o grupo 17) — comporta-se de modo único, formando $\ce{H+}$,
+$\ce{H-}$ e ligações covalentes.
+
+**@exr-2.** $\ce{2 K + 2 H2O -> 2 KOH + H2}$.
+
+**@exr-3.** O **$\ce{Cs}$**: mais embaixo no grupo, tem maior raio e menor energia de
+ionização, cedendo o elétron de valência mais facilmente.
+
+**@exr-4.** Têm a **camada de valência completa** (octeto), configuração de baixa energia —
+não tendem a ganhar, perder ou compartilhar elétrons.
+:::

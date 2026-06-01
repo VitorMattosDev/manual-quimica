@@ -159,7 +159,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 ### Volume XIII — Química Inorgânica Descritiva e de Coordenação
 *Objetivo:* os elementos e os complexos. *Pré-requisito:* Vol. II.
 
-- [ ] `volumes/v13-inorganica/01-representativos.qmd` — Hidrogênio e elementos representativos (s, p).
+- [x] `volumes/v13-inorganica/01-representativos.qmd` — Hidrogênio e elementos representativos (s, p).
 - [ ] `volumes/v13-inorganica/02-descritiva.qmd` — Halogênios, calcogênios, nitrogênio, carbono.
 - [ ] `volumes/v13-inorganica/03-transicao.qmd` — Metais de transição: propriedades gerais.
 - [ ] `volumes/v13-inorganica/04-coordenacao.qmd` — Compostos de coordenação: nomenclatura e isomeria.

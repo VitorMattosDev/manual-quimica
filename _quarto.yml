@@ -118,6 +118,9 @@ book:
         - volumes/v12-aromaticos-bio/04-carboidratos-lipidios.qmd
         - volumes/v12-aromaticos-bio/05-proteinas.qmd
         - volumes/v12-aromaticos-bio/06-acidos-nucleicos.qmd
+    - part: "Volume XIII — Química Inorgânica Descritiva e de Coordenação"
+      chapters:
+        - volumes/v13-inorganica/01-representativos.qmd
   appendices:
     - constantes.qmd
 
