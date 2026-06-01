@@ -110,6 +110,9 @@ book:
         - volumes/v11-reacoes-org/04-eliminacao.qmd
         - volumes/v11-reacoes-org/05-oxi-red-funcoes.qmd
         - volumes/v11-reacoes-org/06-acidez-basicidade.qmd
+    - part: "Volume XII — Compostos Aromáticos e Biomoléculas"
+      chapters:
+        - volumes/v12-aromaticos-bio/01-aromaticidade.qmd
   appendices:
     - constantes.qmd
 

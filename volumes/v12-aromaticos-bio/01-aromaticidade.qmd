@@ -1,0 +1,108 @@
+---
+title: "Aromaticidade e benzeno"
+---
+
+# Aromaticidade e benzeno {#sec-aromaticidade}
+
+## Um anel que desafia as regras
+
+O benzeno, $\ce{C6H6}$, intrigou os químicos do século XIX. Com tão poucos hidrogênios,
+deveria ser altamente insaturado e reativo como os alcenos — mas é notavelmente **estável** e
+**não** sofre as adições típicas das duplas. Essa estabilidade anômala tem um nome,
+**aromaticidade**, e uma explicação na ressonância e nos orbitais do Volume III. Abrir o
+Volume XII pelo benzeno é abrir a porta de uma classe imensa: corantes, fármacos, plásticos,
+e as próprias bases do DNA.
+
+## A estrutura do benzeno
+
+::: {#def-benzeno}
+## O anel benzênico
+O benzeno é um anel de **seis carbonos** $sp^2$, planar e hexagonal, com um átomo de
+hidrogênio em cada carbono. Kekulé propôs duas estruturas com duplas alternadas, mas a
+realidade é um **híbrido de ressonância**: os seis elétrons pi estão **deslocalizados**
+igualmente sobre o anel, formando uma nuvem eletrônica acima e abaixo do plano. Todas as
+ligações C–C têm o mesmo comprimento, intermediário entre simples e dupla.
+:::
+
+::: {.callout-note}
+Representa-se o benzeno por um hexágono com um **círculo** interno, simbolizando a nuvem pi
+deslocalizada — melhor que as duplas fixas de Kekulé, que sugerem (erradamente) ligações
+diferentes. A deslocalização é a fonte da estabilidade extra (energia de ressonância).
+:::
+
+## A regra de Hückel
+
+Nem todo anel insaturado é aromático. Hückel deu o critério quantitativo.
+
+::: {#def-huckel}
+## Critérios de aromaticidade
+Um composto é **aromático** quando satisfaz:
+
+1. é **cíclico** e **planar**;
+2. tem nuvem pi **conjugada** e contínua por todo o anel;
+3. possui **$4n + 2$ elétrons pi** ($n = 0, 1, 2, \ldots$) — a regra de Hückel
+   (6, 10, 14… elétrons).
+
+Anéis com $4n$ elétrons pi são **antiaromáticos** (instáveis); sem conjugação contínua, são
+apenas **não aromáticos**.
+:::
+
+::: {#exm-huckel}
+## Aplicando Hückel ao benzeno
+Verifique que o benzeno é aromático.
+
+**Solução.** O benzeno é cíclico, planar e conjugado, com **6 elétrons pi** (três duplas).
+Para $n = 1$, $4n + 2 = 6$. Satisfaz a regra de Hückel: é **aromático**.
+:::
+
+## A consequência: reatividade especial
+
+A estabilidade aromática muda a química do anel. Enquanto um alceno **adiciona** reagentes
+(rompendo a dupla), o benzeno prefere a **substituição** — troca um $\ce{H}$ por um grupo,
+**preservando** o anel aromático e sua estabilidade. Essa **substituição eletrofílica
+aromática** é o tema do próximo capítulo.
+
+::: {#exm-adicao-vs-substituicao}
+## Por que o benzeno não adiciona
+Por que o benzeno reage com $\ce{Br2}$ por substituição, e não por adição como um alceno?
+
+**Solução.** Adicionar $\ce{Br2}$ à dupla **destruiria** a aromaticidade e a estabilização
+de ressonância. A substituição (trocar um $\ce{H}$ por $\ce{Br}$) **mantém** o anel
+aromático intacto — energeticamente muito mais favorável.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Por que o benzeno é mais estável do que se esperaria de um composto com três duplas
+ligações?
+:::
+
+::: {#exr-2}
+Enuncie os três critérios de aromaticidade de Hückel.
+:::
+
+::: {#exr-3}
+Quantos elétrons pi tem o benzeno? A que valor de $n$ isso corresponde em $4n+2$?
+:::
+
+::: {#exr-4}
+Por que o benzeno tende a sofrer substituição em vez de adição?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Porque seus seis elétrons pi estão **deslocalizados** por todo o anel
+(ressonância), conferindo uma **energia de estabilização** extra (energia de ressonância).
+
+**@exr-2.** (1) cíclico e planar; (2) conjugação pi contínua por todo o anel; (3)
+$4n + 2$ elétrons pi.
+
+**@exr-3.** **6** elétrons pi; corresponde a $n = 1$ ($4\times 1 + 2 = 6$).
+
+**@exr-4.** Porque a substituição **preserva** o anel aromático (e sua estabilidade),
+enquanto a adição o destruiria.
+:::

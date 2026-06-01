@@ -145,7 +145,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 ### Volume XII — Compostos Aromáticos e Biomoléculas
 *Objetivo:* aromaticidade, polímeros e bioquímica. *Pré-requisito:* Vol. XI.
 
-- [ ] `volumes/v12-aromaticos-bio/01-aromaticidade.qmd` — Aromaticidade e benzeno.
+- [x] `volumes/v12-aromaticos-bio/01-aromaticidade.qmd` — Aromaticidade e benzeno.
 - [ ] `volumes/v12-aromaticos-bio/02-sea.qmd` — Substituição eletrofílica aromática.
 - [ ] `volumes/v12-aromaticos-bio/03-polimeros.qmd` — Polímeros: adição e condensação.
 - [ ] `volumes/v12-aromaticos-bio/04-carboidratos-lipidios.qmd` — Carboidratos e lipídios.
