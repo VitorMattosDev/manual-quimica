@@ -1,0 +1,104 @@
+---
+title: "Carboidratos e lipídios"
+---
+
+# Carboidratos e lipídios {#sec-carboidratos-lipidios}
+
+## A química das moléculas da vida — energia e estrutura
+
+Os polímeros do capítulo anterior têm primos biológicos: as **biomoléculas**. Começamos
+pelos **carboidratos** (açúcares, a fonte de energia rápida) e pelos **lipídios** (gorduras
+e óleos, a reserva de energia e a base das membranas). Ambos são apenas compostos orgânicos
+polifuncionais — aplicam tudo o que vimos sobre funções, estereoquímica e polimerização — só
+que montados pela vida.
+
+## Carboidratos
+
+::: {#def-carboidratos}
+## Carboidratos
+São **poli-hidroxialdeídos** ou **poli-hidroxicetonas** (e seus polímeros) — moléculas com
+várias hidroxilas e uma carbonila. Classificam-se pelo tamanho:
+
+- **Monossacarídeos:** uma unidade. Ex.: **glicose**, **frutose** ($\ce{C6H12O6}$).
+- **Dissacarídeos:** duas unidades unidas por **ligação glicosídica**. Ex.: **sacarose**
+  (glicose + frutose), **lactose**.
+- **Polissacarídeos:** muitas unidades. Ex.: **amido** e **glicogênio** (reserva),
+  **celulose** (estrutura vegetal).
+:::
+
+::: {.callout-note}
+Glicose, amido e celulose são todos feitos de unidades de glicose, mas a **geometria da
+ligação glicosídica** muda tudo: o amido (ligação α) é digerível e nutritivo; a celulose
+(ligação β) é indigerível para nós — é a fibra. A estereoquímica (Volume X) decide a função
+biológica.
+:::
+
+::: {#exm-dissacarideo}
+## Formação da sacarose
+Como a sacarose se forma a partir de glicose e frutose, e que molécula é eliminada?
+
+**Solução.** A hidroxila de uma glicose reage com a de uma frutose formando uma **ligação
+glicosídica** (tipo éter), com eliminação de **água** — uma reação de **condensação**, como
+a dos polímeros. A hidrólise reverte o processo, liberando os dois monossacarídeos.
+:::
+
+## Lipídios
+
+::: {#def-lipidios}
+## Lipídios
+São biomoléculas **apolares** (insolúveis em água, solúveis em solventes orgânicos). Os mais
+comuns são os **triglicerídeos** — ésteres de **glicerol** com três **ácidos graxos** (Volume
+XI). Conforme os ácidos graxos:
+
+- **Saturados** (sem duplas): sólidos à temperatura ambiente — as **gorduras** (origem
+  animal).
+- **Insaturados** (com duplas): líquidos — os **óleos** (origem vegetal).
+:::
+
+::: {#exm-saponificacao-lipidio}
+## Sabão a partir de gordura
+O que ocorre na hidrólise básica de um triglicerídeo?
+
+**Solução.** É a **saponificação** (Volume XI): o triglicerídeo (éster) reage com $\ce{NaOH}$,
+liberando **glicerol** e os **sais de ácidos graxos** — o **sabão**. As ligações éster são
+hidrolisadas em meio básico.
+:::
+
+Outros lipídios importantes: os **fosfolipídios**, que formam as **membranas celulares**
+(uma cabeça polar e duas caudas apolares — a polaridade do Volume III em ação), e os
+**esteroides**, como o colesterol.
+
+## Exercícios
+
+::: {#exr-1}
+Classifique quanto ao número de unidades: glicose, sacarose, amido.
+:::
+
+::: {#exr-2}
+Que tipo de ligação une os monossacarídeos, e que molécula é eliminada ao formá-la?
+:::
+
+::: {#exr-3}
+Qual a diferença, em termos de saturação, entre uma gordura e um óleo?
+:::
+
+::: {#exr-4}
+A que função orgânica pertence um triglicerídeo, e de que álcool ele deriva?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Glicose: **monossacarídeo**; sacarose: **dissacarídeo**; amido:
+**polissacarídeo**.
+
+**@exr-2.** Ligação **glicosídica** (tipo éter), com eliminação de **água** (condensação).
+
+**@exr-3.** A **gordura** tem ácidos graxos **saturados** (sólida); o **óleo**, ácidos
+graxos **insaturados** (líquido).
+
+**@exr-4.** É um **éster** (triéster), derivado do álcool **glicerol** com três ácidos
+graxos.
+:::
