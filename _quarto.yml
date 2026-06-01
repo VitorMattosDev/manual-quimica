@@ -121,6 +121,7 @@ book:
     - part: "Volume XIII — Química Inorgânica Descritiva e de Coordenação"
       chapters:
         - volumes/v13-inorganica/01-representativos.qmd
+        - volumes/v13-inorganica/02-descritiva.qmd
   appendices:
     - constantes.qmd
 

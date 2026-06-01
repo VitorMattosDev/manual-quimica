@@ -1,0 +1,107 @@
+---
+title: "Halogênios, calcogênios, nitrogênio, carbono"
+---
+
+# Halogênios, calcogênios, nitrogênio, carbono {#sec-descritiva}
+
+## Os não metais que estruturam o mundo
+
+O capítulo anterior deu o panorama; este aprofunda os **não metais** mais importantes do
+bloco p — halogênios, calcogênios, o grupo do nitrogênio e o do carbono. São eles que
+formam a água, o ar, os ácidos, os fertilizantes e a matéria orgânica. Conhecer suas
+substâncias e reações fecha o estudo descritivo dos representativos, antes de passarmos aos
+metais de transição.
+
+## Halogênios (grupo 17)
+
+::: {#def-halogenios}
+## Halogênios
+$\ce{F2}$, $\ce{Cl2}$, $\ce{Br2}$, $\ce{I2}$ — não metais diatômicos, muito reativos
+(7 elétrons de valência, ávidos por mais um). Formam:
+
+- **Haletos** ($\ce{X-}$) com metais: $\ce{NaCl}$, sais iônicos.
+- **Hidrácidos** ($\ce{HX}$): o $\ce{HCl}$, $\ce{HBr}$, $\ce{HI}$ são ácidos fortes.
+- **Ácido fluorídrico** ($\ce{HF}$): exceção, ácido **fraco** (ligação H–F forte).
+
+A reatividade **decresce** descendo o grupo: $\ce{F2 > Cl2 > Br2 > I2}$.
+:::
+
+## Calcogênios (grupo 16): oxigênio e enxofre
+
+::: {#def-calcogenios}
+## Oxigênio e enxofre
+- **Oxigênio:** $\ce{O2}$ (que respiramos) e $\ce{O3}$ (ozônio, alótropo). Forma **óxidos**
+  com quase tudo; sustenta a combustão.
+- **Enxofre:** forma o $\ce{SO2}$ e o $\ce{SO3}$, que com água dão o **ácido sulfúrico**
+  $\ce{H2SO4}$ — o produto químico mais fabricado do mundo. O $\ce{SO2}$ atmosférico causa
+  **chuva ácida**.
+:::
+
+## Nitrogênio e fósforo (grupo 15)
+
+::: {#def-grupo-15}
+## Nitrogênio e fósforo
+- **Nitrogênio:** o $\ce{N2}$ (78% do ar) é inerte pela **tripla ligação** $\ce{N#N}$,
+  fortíssima. Fixado industrialmente vira **amônia** ($\ce{N2 + 3 H2 <=> 2 NH3}$, processo
+  Haber-Bosch, Volume VIII) — base de fertilizantes. O $\ce{HNO3}$ é ácido forte e oxidante.
+- **Fósforo:** essencial à vida (DNA, ATP); seus fosfatos são fertilizantes.
+:::
+
+::: {.callout-note}
+A inércia do $\ce{N2}$ explica um paradoxo: vivemos imersos em nitrogênio mas não o usamos
+diretamente — a tripla ligação $\ce{N#N}$ é estável demais. Quebrá-la (fixação) consome
+muita energia, daí a importância industrial e biológica da fixação de nitrogênio.
+:::
+
+## Carbono e silício (grupo 14)
+
+::: {#def-grupo-14}
+## Carbono e silício
+- **Carbono:** alótropos **grafite**, **diamante** e **fulerenos/grafeno**; forma $\ce{CO}$
+  (tóxico) e $\ce{CO2}$ (gás de efeito estufa, que com água dá ácido carbônico).
+- **Silício:** segundo elemento mais abundante na crosta; o $\ce{SiO2}$ (sílica) é a base do
+  vidro e dos minerais, e o silício puro é a base da eletrônica (Volume XVI).
+:::
+
+::: {#exm-oxido-acido}
+## Óxidos que geram ácidos
+Que ácido se forma quando $\ce{SO3}$ e $\ce{CO2}$ reagem com água?
+
+**Solução.** $\ce{SO3 + H2O -> H2SO4}$ (ácido sulfúrico) e
+$\ce{CO2 + H2O -> H2CO3}$ (ácido carbônico). Óxidos de **não metais** são, em geral,
+**óxidos ácidos** — dão ácidos com água.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Por que o $\ce{HF}$ é um ácido fraco, diferentemente dos demais hidrácidos de halogênio?
+:::
+
+::: {#exr-2}
+Que ácido o $\ce{SO3}$ forma com água? E que problema ambiental o $\ce{SO2}$ causa?
+:::
+
+::: {#exr-3}
+Por que o gás $\ce{N2}$ é tão pouco reativo?
+:::
+
+::: {#exr-4}
+Cite três alótropos do carbono.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** A ligação **H–F** é muito **forte** (flúor pequeno e eletronegativo), então o
+$\ce{HF}$ ioniza pouco em água — ácido **fraco**.
+
+**@exr-2.** Forma o **ácido sulfúrico** ($\ce{H2SO4}$). O $\ce{SO2}$ causa a **chuva ácida**.
+
+**@exr-3.** Por causa da **tripla ligação** $\ce{N#N}$, muito forte e estável, difícil de
+romper.
+
+**@exr-4.** **Grafite**, **diamante** e **fulereno** (ou grafeno/nanotubos).
+:::
