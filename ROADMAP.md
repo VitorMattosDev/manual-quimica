@@ -196,5 +196,5 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v16-nuclear-materiais/01-radioatividade.qmd` — Radioatividade e decaimento nuclear.
 - [x] `volumes/v16-nuclear-materiais/02-reacoes-nucleares.qmd` — Fissão, fusão e aplicações.
 - [x] `volumes/v16-nuclear-materiais/03-estado-solido.qmd` — Química do estado sólido e estruturas cristalinas.
-- [ ] `volumes/v16-nuclear-materiais/04-materiais.qmd` — Materiais: semicondutores, cerâmicas, polímeros avançados.
+- [x] `volumes/v16-nuclear-materiais/04-materiais.qmd` — Materiais: semicondutores, cerâmicas, polímeros avançados.
 - [ ] `volumes/v16-nuclear-materiais/05-nanoquimica.qmd` — Nanoquímica e tópicos de fronteira.

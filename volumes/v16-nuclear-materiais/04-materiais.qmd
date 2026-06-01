@@ -1,0 +1,102 @@
+---
+title: "Materiais: semicondutores, cerâmicas, polímeros avançados"
+---
+
+# Materiais: semicondutores, cerâmicas, polímeros avançados {#sec-materiais}
+
+## Química que vira tecnologia
+
+A estrutura cristalina (capítulo anterior) e a ligação química (Volume III) ganham, na
+**ciência dos materiais**, seu desfecho mais visível: os materiais que construíram o mundo
+moderno. Semicondutores nos deram a eletrônica; cerâmicas avançadas, os motores e implantes;
+polímeros, tudo o mais. Este capítulo mostra como controlar a estrutura para **projetar
+propriedades** — a engenharia química no nível atômico.
+
+## A teoria de bandas e os semicondutores
+
+::: {#def-bandas}
+## Teoria de bandas
+Num sólido, os incontáveis orbitais moleculares (Volume XV) fundem-se em **bandas** de
+energia quase contínuas. A **banda de valência** (cheia) e a **banda de condução** (vazia)
+são separadas por um **intervalo proibido** ($gap$). A condutividade depende do gap:
+
+- **Condutor (metal):** bandas se sobrepõem, elétrons livres — conduz.
+- **Isolante:** gap **grande**, elétrons não saltam — não conduz.
+- **Semicondutor:** gap **pequeno**; conduz parcialmente, e mais ao aquecer.
+:::
+
+## Dopagem de semicondutores
+
+::: {#def-dopagem}
+## Semicondutores tipo n e tipo p
+A condutividade do silício é ajustada por **dopagem** — introdução de impurezas:
+
+- **Tipo n:** dopagem com elemento de **mais** elétrons de valência (P, As) — elétrons
+  livres extras (portadores negativos).
+- **Tipo p:** dopagem com elemento de **menos** elétrons (B, Ga) — "**buracos**" (ausências
+  de elétron, portadores positivos).
+
+A junção **p-n** desses dois é a base de **diodos, transistores e chips** — toda a
+eletrônica.
+:::
+
+::: {.callout-note}
+A dopagem é controle químico de propriedade física: poucas partes por milhão de impureza
+mudam a condutividade do silício em ordens de grandeza. É a periodicidade (Volume II) em
+ação — escolhe-se o dopante pelo número de elétrons de valência, vizinho do silício na tabela.
+:::
+
+::: {#exm-dopagem}
+## Tipo n ou tipo p?
+Dopar o silício (grupo 14) com fósforo (grupo 15) gera semicondutor tipo n ou tipo p?
+
+**Solução.** O fósforo tem **um elétron de valência a mais** que o silício; esse elétron
+extra fica livre para conduzir (portador **negativo**). Logo, semicondutor **tipo n**.
+:::
+
+## Cerâmicas e polímeros avançados
+
+::: {#def-ceramicas-polimeros}
+## Cerâmicas e polímeros de engenharia
+- **Cerâmicas:** sólidos inorgânicos (óxidos, nitretos, carbetos) de ligação iônica/covalente
+  forte — **duros**, resistentes ao calor e à corrosão, porém **frágeis**. Usadas em
+  turbinas, implantes, isolantes.
+- **Polímeros avançados:** além dos plásticos comuns (Volume XII), há **compósitos** (fibra
+  de carbono), polímeros condutores e biodegradáveis, projetados para desempenho específico.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Pela teoria de bandas, o que distingue um condutor, um isolante e um semicondutor?
+:::
+
+::: {#exr-2}
+O que é dopar um semicondutor, e para que serve?
+:::
+
+::: {#exr-3}
+Dopar silício com boro (grupo 13) gera tipo n ou tipo p? Por quê?
+:::
+
+::: {#exr-4}
+Cite uma vantagem e uma desvantagem das cerâmicas como material de engenharia.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** **Condutor:** bandas sobrepostas (gap nulo). **Isolante:** gap **grande**.
+**Semicondutor:** gap **pequeno** (conduz parcialmente, mais ao aquecer).
+
+**@exr-2.** Introduzir **impurezas** controladas para ajustar a condutividade (criar
+portadores n ou p); serve para fabricar diodos, transistores e chips.
+
+**@exr-3.** **Tipo p**: o boro tem **um elétron de valência a menos** que o silício, criando
+"buracos" (portadores positivos).
+
+**@exr-4.** Vantagem: **dureza** e resistência a calor/corrosão. Desvantagem: **fragilidade**
+(quebram sem deformar).
+:::

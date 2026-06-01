@@ -146,6 +146,7 @@ book:
         - volumes/v16-nuclear-materiais/01-radioatividade.qmd
         - volumes/v16-nuclear-materiais/02-reacoes-nucleares.qmd
         - volumes/v16-nuclear-materiais/03-estado-solido.qmd
+        - volumes/v16-nuclear-materiais/04-materiais.qmd
   appendices:
     - constantes.qmd
 
