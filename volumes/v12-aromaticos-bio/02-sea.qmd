@@ -1,0 +1,102 @@
+---
+title: "Substituição eletrofílica aromática"
+---
+
+# Substituição eletrofílica aromática {#sec-sea}
+
+## Como o anel aromático reage
+
+O capítulo anterior mostrou que o benzeno reage por **substituição**, preservando a
+aromaticidade. Mas como, exatamente? E quando o anel já tem um grupo, onde entra o próximo?
+Essas perguntas são respondidas pela **substituição eletrofílica aromática (SEA)** — a
+reação central da química aromática, por trás da síntese de explosivos, corantes, fármacos e
+polímeros.
+
+## O mecanismo geral da SEA
+
+::: {#def-sea}
+## Substituição eletrofílica aromática
+A nuvem pi do anel, rica em elétrons, ataca um **eletrófilo** $\ce{E+}$, em duas etapas:
+
+1. **Adição do eletrófilo:** o anel ataca $\ce{E+}$, formando um carbocátion intermediário
+   (o **íon arênio**), que perde a aromaticidade temporariamente.
+2. **Perda de próton:** o intermediário expulsa $\ce{H+}$, **restaurando** a aromaticidade.
+
+Resultado: um $\ce{H}$ do anel é trocado por $\ce{E}$, com o anel intacto.
+:::
+
+As principais SEA diferem só no eletrófilo gerado:
+
+::: {#def-tipos-sea}
+## Reações de SEA
+- **Halogenação:** $\ce{E+ = Br+}$ ou $\ce{Cl+}$ (com catalisador $\ce{FeBr3}$).
+- **Nitração:** $\ce{E+ = NO2+}$ (de $\ce{HNO3}$/$\ce{H2SO4}$).
+- **Sulfonação:** $\ce{E+ = SO3H+}$ (de $\ce{H2SO4}$ fumegante).
+- **Alquilação e acilação de Friedel-Crafts:** introduzem grupos alquila ou acila (com
+  $\ce{AlCl3}$).
+:::
+
+## Grupos dirigentes: orientação e ativação
+
+Quando o anel já tem um substituinte, ele **controla** onde o próximo grupo entra e a
+**velocidade** da reação.
+
+::: {#def-dirigentes}
+## Efeito dos substituintes
+- **Ativadores e orto-para dirigentes:** grupos que **doam** elétrons ($\ce{-OH}$,
+  $\ce{-NH2}$, $\ce{-CH3}$, alcoxila) aceleram a SEA e dirigem o novo grupo às posições
+  **orto** e **para**.
+- **Desativadores e meta dirigentes:** grupos que **retiram** elétrons ($\ce{-NO2}$,
+  $\ce{-COOH}$, $\ce{-SO3H}$, carbonila) retardam a SEA e dirigem à posição **meta**.
+- **Exceção — halogênios:** **desativadores**, porém **orto-para** dirigentes.
+:::
+
+::: {.callout-note}
+A lógica é a de sempre: o grupo dirige para a posição que gera o **íon arênio mais estável**.
+Doadores estabilizam o intermediário nas posições orto/para; retiradores tornam essas
+posições desfavoráveis, sobrando a meta. Tudo decorre da estabilidade do intermediário.
+:::
+
+::: {#exm-dirigente}
+## Prevendo a orientação
+Na nitração do tolueno ($\ce{C6H5-CH3}$), onde o grupo $\ce{-NO2}$ entra
+preferencialmente?
+
+**Solução.** O metil ($\ce{-CH3}$) é **ativador** e **orto-para dirigente**. Logo o
+$\ce{-NO2}$ entra nas posições **orto** e **para** ao metil, formando majoritariamente
+o orto- e o para-nitrotolueno.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Quais as duas etapas do mecanismo da SEA?
+:::
+
+::: {#exr-2}
+Cite o eletrófilo de (a) nitração e (b) sulfonação.
+:::
+
+::: {#exr-3}
+O grupo $\ce{-OH}$ é ativador ou desativador? Para que posições ele dirige?
+:::
+
+::: {#exr-4}
+Por que o grupo $\ce{-NO2}$ dirige a próxima substituição para a posição meta?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (1) ataque do anel ao eletrófilo $\ce{E+}$, formando o **íon arênio**
+(carbocátion); (2) perda de $\ce{H+}$, **restaurando** a aromaticidade.
+
+**@exr-2.** (a) $\ce{NO2+}$ (íon nitrônio); (b) $\ce{SO3}$/$\ce{SO3H+}$.
+
+**@exr-3.** **Ativador** (doa elétrons), dirige para **orto** e **para**.
+
+**@exr-4.** Por ser **retirador** de elétrons, desestabiliza o intermediário nas posições
+orto/para; a **meta** gera o íon arênio menos desfavorável, sendo a posição preferida.
+:::

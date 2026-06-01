@@ -146,7 +146,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 *Objetivo:* aromaticidade, polímeros e bioquímica. *Pré-requisito:* Vol. XI.
 
 - [x] `volumes/v12-aromaticos-bio/01-aromaticidade.qmd` — Aromaticidade e benzeno.
-- [ ] `volumes/v12-aromaticos-bio/02-sea.qmd` — Substituição eletrofílica aromática.
+- [x] `volumes/v12-aromaticos-bio/02-sea.qmd` — Substituição eletrofílica aromática.
 - [ ] `volumes/v12-aromaticos-bio/03-polimeros.qmd` — Polímeros: adição e condensação.
 - [ ] `volumes/v12-aromaticos-bio/04-carboidratos-lipidios.qmd` — Carboidratos e lipídios.
 - [ ] `volumes/v12-aromaticos-bio/05-proteinas.qmd` — Aminoácidos, peptídeos e proteínas.
