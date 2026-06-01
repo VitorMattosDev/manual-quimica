@@ -1,0 +1,103 @@
+---
+title: "Análise qualitativa: identificação de íons"
+---
+
+# Análise qualitativa: identificação de íons {#sec-qualitativa}
+
+## Que substância é esta?
+
+A química analítica responde a duas perguntas: **o quê** há numa amostra (análise
+**qualitativa**) e **quanto** há (quantitativa). Abrindo o Volume XIV — e fechando a Fase 4
+—, começamos pela qualitativa: como identificar quais íons estão presentes numa solução
+desconhecida. As ferramentas vêm direto do Volume VIII (equilíbrio, $K_{ps}$, ácido-base):
+provoca-se reações que produzem sinais visíveis — precipitados, cores, gases.
+
+## A lógica da identificação
+
+::: {#def-analise-qualitativa}
+## Análise qualitativa
+Consiste em identificar os **constituintes** de uma amostra por reações características, que
+geram sinais observáveis:
+
+- **precipitação** de um sólido (cor e aspecto característicos);
+- **mudança de cor** da solução;
+- **desprendimento de gás** (com cheiro ou efervescência);
+- **emissão de luz** colorida (teste de chama).
+:::
+
+## Testes de chama
+
+::: {#def-teste-chama}
+## Teste de chama
+Muitos cátions metálicos, ao serem aquecidos na chama, emitem **luz de cor característica**
+— os elétrons excitados retornam ao estado fundamental liberando fótons de energia definida
+(Volume II). Exemplos:
+
+- $\ce{Na+}$ → **amarelo**; $\ce{K+}$ → **violeta**; $\ce{Li+}$ → **vermelho-carmim**;
+- $\ce{Ca^2+}$ → **vermelho-alaranjado**; $\ce{Cu^2+}$ → **verde-azulado**;
+  $\ce{Ba^2+}$ → **verde**.
+:::
+
+::: {.callout-note}
+O teste de chama é a química por trás dos **fogos de artifício**: cada sal metálico pinta o
+céu de uma cor. É também uma ponte direta com o modelo atômico — a cor emitida corresponde a
+transições eletrônicas específicas, a "impressão digital" do elemento.
+:::
+
+## Reações de precipitação para ânions e cátions
+
+::: {#def-precipitacao-identificacao}
+## Identificação por precipitação
+Adicionando um reagente que forma um **sal insolúvel** (baixo $K_{ps}$, Volume VIII),
+confirma-se a presença de um íon pelo precipitado:
+
+- $\ce{Cl-}$: com $\ce{Ag+}$, forma $\ce{AgCl}$ branco — $\ce{Ag+ + Cl- -> AgCl(v)}$.
+- $\ce{SO4^2-}$: com $\ce{Ba^2+}$, forma $\ce{BaSO4}$ branco.
+- $\ce{CO3^2-}$: com ácido, libera $\ce{CO2}$ (efervescência).
+:::
+
+::: {#exm-identificar-cloreto}
+## Confirmando cloreto
+Como confirmar a presença de íons cloreto numa solução?
+
+**Solução.** Adiciona-se solução de nitrato de prata. Se houver $\ce{Cl-}$, forma-se um
+**precipitado branco** de $\ce{AgCl}$: $\ce{Ag+ + Cl- -> AgCl(v)}$. O baixo $K_{ps}$ do
+$\ce{AgCl}$ garante a precipitação — sinal positivo para cloreto.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Cite quatro tipos de sinal observável usados na análise qualitativa.
+:::
+
+::: {#exr-2}
+Que cor de chama indica a presença de (a) sódio e (b) cobre?
+:::
+
+::: {#exr-3}
+Que reagente e que precipitado confirmam a presença de íons sulfato?
+:::
+
+::: {#exr-4}
+Por que cada elemento emite uma cor característica no teste de chama? (Relacione com o
+modelo atômico.)
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Precipitação, mudança de cor, desprendimento de gás e emissão de luz (teste de
+chama).
+
+**@exr-2.** (a) sódio → **amarelo**; (b) cobre → **verde-azulado**.
+
+**@exr-3.** Adiciona-se $\ce{Ba^2+}$ (ex.: $\ce{BaCl2}$); forma-se o precipitado branco de
+**$\ce{BaSO4}$**.
+
+**@exr-4.** Porque os elétrons excitados retornam ao estado fundamental emitindo fótons de
+**energia (cor) definida**, correspondente às transições entre níveis daquele átomo —
+exclusivas de cada elemento.
+:::

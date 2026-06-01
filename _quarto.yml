@@ -126,6 +126,9 @@ book:
         - volumes/v13-inorganica/04-coordenacao.qmd
         - volumes/v13-inorganica/05-campo-ligante.qmd
         - volumes/v13-inorganica/06-organometalicos.qmd
+    - part: "Volume XIV — Química Analítica"
+      chapters:
+        - volumes/v14-analitica/01-qualitativa.qmd
   appendices:
     - constantes.qmd
 
