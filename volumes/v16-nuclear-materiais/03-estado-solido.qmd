@@ -1,0 +1,100 @@
+---
+title: "Química do estado sólido e estruturas cristalinas"
+---
+
+# Química do estado sólido e estruturas cristalinas {#sec-estado-solido}
+
+## A ordem dos sólidos
+
+O Volume V distinguiu sólidos cristalinos de amorfos. Aqui aprofundamos os **cristalinos**:
+como exatamente os átomos se empacotam, e como esse arranjo determina densidade, dureza e
+propriedades. A química do **estado sólido** é a base dos materiais — metais, cerâmicas,
+semicondutores — e o elo entre a estrutura atômica (Volume II) e a engenharia de materiais do
+próximo capítulo.
+
+## A rede cristalina e a célula unitária
+
+::: {#def-celula-unitaria}
+## Rede cristalina e célula unitária
+Um cristal é um arranjo **periódico** de partículas, descrito por uma **rede** que se repete
+no espaço. A menor unidade que, repetida, gera todo o cristal é a **célula unitária** — o
+"tijolo" da estrutura. Conhecendo-a, conhece-se o cristal inteiro.
+:::
+
+## As estruturas cúbicas
+
+::: {#def-estruturas-cubicas}
+## Os três tipos de célula cúbica
+- **Cúbica simples (CS):** átomos só nos vértices. 1 átomo por célula.
+- **Cúbica de corpo centrado (CCC):** vértices + 1 no centro. 2 átomos por célula. Ex.: ferro
+  α.
+- **Cúbica de face centrada (CFC):** vértices + 1 em cada face. 4 átomos por célula. Ex.:
+  cobre, alumínio.
+:::
+
+::: {#exm-atomos-por-celula}
+## Contando átomos na célula
+Por que a cúbica de corpo centrado tem **2** átomos por célula?
+
+**Solução.** Cada um dos 8 átomos de vértice é **compartilhado** por 8 células ($8\times
+\tfrac18 = 1$); o átomo central pertence inteiramente à célula ($+1$). Total: $1 + 1 = 2$
+átomos por célula unitária.
+:::
+
+## Empacotamento e número de coordenação
+
+::: {#def-empacotamento}
+## Fator de empacotamento
+O **fator de empacotamento** é a fração do volume da célula efetivamente ocupada por átomos
+(tratados como esferas). As estruturas **compactas** (CFC e hexagonal compacta) atingem
+$\approx 74\%$ — o máximo para esferas iguais — com **número de coordenação 12**. A CCC tem
+$\approx 68\%$ (coordenação 8) e a CS, só $\approx 52\%$ (coordenação 6).
+:::
+
+::: {.callout-note}
+A estrutura cristalina determina propriedades macroscópicas: metais CFC (cobre, ouro) são em
+geral mais **dúcteis** (deformam-se sem quebrar) porque seus planos compactos deslizam com
+facilidade. A relação estrutura–propriedade é o cerne da ciência dos materiais.
+:::
+
+## Difração de raios X: como se "vê" a estrutura
+
+A estrutura cristalina é determinada por **difração de raios X**: o cristal espalha os raios
+em ângulos definidos pela **lei de Bragg**, $n\lambda = 2d\,\mathrm{sen}\,\theta$, que relaciona o ângulo
+de difração à distância $d$ entre planos atômicos. Foi assim que se desvendou desde a
+estrutura do sal até a dupla-hélice do DNA (Volume XII).
+
+## Exercícios
+
+::: {#exr-1}
+O que é a célula unitária de um cristal?
+:::
+
+::: {#exr-2}
+Quantos átomos por célula tem a estrutura cúbica de face centrada (CFC)?
+:::
+
+::: {#exr-3}
+Qual estrutura tem maior fator de empacotamento: cúbica simples ou CFC?
+:::
+
+::: {#exr-4}
+Que técnica se usa para determinar a estrutura de um cristal, e em que lei se baseia?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** É a **menor unidade** que, repetida periodicamente, reproduz todo o cristal — o
+"tijolo" da estrutura.
+
+**@exr-2.** **4** átomos: $8$ vértices $\times \tfrac18 + 6$ faces $\times \tfrac12 = 1 + 3
+= 4$.
+
+**@exr-3.** A **CFC** ($\approx 74\%$, compacta) supera a cúbica simples ($\approx 52\%$).
+
+**@exr-4.** A **difração de raios X**, baseada na **lei de Bragg**
+($n\lambda = 2d\,\mathrm{sen}\,\theta$).
+:::
