@@ -97,6 +97,7 @@ book:
       chapters:
         - volumes/v10-organica-fund/01-carbono-cadeias.qmd
         - volumes/v10-organica-fund/02-hidrocarbonetos.qmd
+        - volumes/v10-organica-fund/03-funcoes-oxigenadas.qmd
   appendices:
     - constantes.qmd
 

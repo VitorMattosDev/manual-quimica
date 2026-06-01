@@ -1,0 +1,103 @@
+---
+title: "Funções oxigenadas"
+---
+
+# Funções oxigenadas {#sec-funcoes-oxigenadas}
+
+## Quando o oxigênio entra na molécula
+
+Trocar um hidrogênio de um hidrocarboneto por um grupo contendo **oxigênio** muda tudo:
+propriedades, reatividade, cheiro, sabor. Surge o álcool do vinho, o ácido do vinagre, o
+aroma das frutas. Esses grupos característicos são as **funções orgânicas**, e as
+**oxigenadas** estão entre as mais importantes. Reconhecê-las pelo **grupo funcional** é o
+passo decisivo da química orgânica: a função, não o tamanho da cadeia, dita o comportamento.
+
+## Grupo funcional: a ideia central
+
+::: {#def-grupo-funcional}
+## Função orgânica e grupo funcional
+Uma **função orgânica** é um conjunto de compostos com um mesmo **grupo funcional** — o
+átomo ou arranjo de átomos responsável pelas propriedades químicas características. Compostos
+da mesma função reagem de modo semelhante, qualquer que seja o resto da molécula.
+:::
+
+## As principais funções oxigenadas
+
+::: {#def-oxigenadas}
+## Funções oxigenadas
+| Função | Grupo característico | Sufixo IUPAC | Exemplo |
+|---|---|---|---|
+| Álcool | $\ce{-OH}$ (em C saturado) | -ol | etanol $\ce{CH3CH2OH}$ |
+| Fenol | $\ce{-OH}$ ligado a anel aromático | — | fenol $\ce{C6H5OH}$ |
+| Éter | $\ce{C-O-C}$ | -oxi- | etoximetano |
+| Aldeído | $\ce{-CHO}$ (carbonila na ponta) | -al | etanal $\ce{CH3CHO}$ |
+| Cetona | $\ce{C-CO-C}$ (carbonila no meio) | -ona | propanona $\ce{CH3COCH3}$ |
+| Ácido carboxílico | $\ce{-COOH}$ | -oico | ácido etanoico $\ce{CH3COOH}$ |
+| Éster | $\ce{-COO-C}$ | -oato de -ila | etanoato de etila |
+:::
+
+::: {.callout-note}
+A **carbonila** ($\ce{C=O}$) aparece em quatro funções; o que as distingue é a vizinhança:
+na **ponta** da cadeia com um H, é **aldeído**; **entre** dois carbonos, é **cetona**; com
+um $\ce{-OH}$, é **ácido**; com um $\ce{-O-C}$, é **éster**. Sempre olhe **o que** está
+ligado à carbonila.
+:::
+
+## Nomeando funções oxigenadas
+
+O esquema prefixo-infixo-sufixo (capítulo anterior) ganha apenas um novo **sufixo** por
+função: álcool $\to$ **-ol**, aldeído $\to$ **-al**, cetona $\to$ **-ona**, ácido $\to$
+**-oico** (precedido de "ácido").
+
+::: {#exm-nomear-oxigenada}
+## Da estrutura ao nome
+Nomeie $\ce{CH3-CH2-OH}$ e $\ce{CH3-CO-CH3}$.
+
+**Solução.** O primeiro: 2 carbonos saturados com $\ce{-OH}$ → et + an + ol = **etanol**.
+O segundo: 3 carbonos com carbonila entre carbonos → propan + ona = **propanona** (a
+acetona).
+:::
+
+::: {#exm-identificar-funcao}
+## Identificando a função
+A que função pertence o ácido fórmico $\ce{HCOOH}$? E o éter dietílico
+$\ce{CH3CH2-O-CH2CH3}$?
+
+**Solução.** O $\ce{HCOOH}$ tem o grupo $\ce{-COOH}$: **ácido carboxílico**. O
+$\ce{CH3CH2-O-CH2CH3}$ tem oxigênio entre dois carbonos ($\ce{C-O-C}$): **éter**.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Qual o grupo funcional de (a) álcool, (b) ácido carboxílico, (c) cetona?
+:::
+
+::: {#exr-2}
+Diferencie aldeído de cetona quanto à posição da carbonila na cadeia.
+:::
+
+::: {#exr-3}
+Nomeie $\ce{CH3-CH2-CH2-OH}$ (álcool de 3 carbonos).
+:::
+
+::: {#exr-4}
+Identifique a função: (a) $\ce{CH3CHO}$; (b) $\ce{CH3COOH}$; (c) $\ce{CH3-O-CH3}$.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\ce{-OH}$ (hidroxila em carbono saturado); (b) $\ce{-COOH}$ (carboxila);
+(c) carbonila $\ce{C=O}$ entre dois carbonos.
+
+**@exr-2.** No **aldeído** a carbonila está na **extremidade** da cadeia (ligada a um H,
+grupo $\ce{-CHO}$); na **cetona**, está **entre dois carbonos**.
+
+**@exr-3.** 3 carbonos saturados com $\ce{-OH}$: prop + an + ol = **propan-1-ol**
+(propanol).
+
+**@exr-4.** (a) **aldeído**; (b) **ácido carboxílico**; (c) **éter**.
+:::
