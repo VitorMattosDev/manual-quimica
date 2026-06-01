@@ -1,0 +1,105 @@
+---
+title: "Polímeros: adição e condensação"
+---
+
+# Polímeros: adição e condensação {#sec-polimeros}
+
+## Moléculas gigantes
+
+Plásticos, borrachas, fibras têxteis, e também o DNA e as proteínas: todos são
+**polímeros** — macromoléculas formadas pela repetição de unidades pequenas. Eles
+materializam, em escala industrial e biológica, a capacidade de encadeamento do carbono
+(Volume X). Entender como se formam, a partir das reações de adição e condensação já vistas
+no Volume XI, conecta a química orgânica ao mundo dos materiais e prepara o estudo das
+biomoléculas.
+
+## Monômeros e polímeros
+
+::: {#def-polimero}
+## Polímero e monômero
+Um **polímero** é uma macromolécula formada pela ligação repetida de muitas unidades
+pequenas, os **monômeros**. O processo de formação é a **polimerização**. Conforme o
+mecanismo, distinguem-se polímeros de **adição** e de **condensação**.
+:::
+
+## Polímeros de adição
+
+::: {#def-poli-adicao}
+## Polimerização por adição
+Monômeros com **dupla ligação** (alcenos) se unem por **adição** sucessiva, sem perda de
+átomos: a dupla de um abre e se liga ao seguinte. A fórmula do monômero se repete
+integralmente na cadeia.
+$$ n\,\ce{CH2=CH2} -> \ce{(-CH2-CH2-)_n} \quad (\text{polietileno}). $$
+Exemplos: **polietileno** (sacolas), **PVC** (de cloroeteno), **poliestireno** (isopor),
+**teflon**.
+:::
+
+::: {#exm-poli-adicao}
+## Identificando o monômero
+De que monômero vem o PVC, $\ce{(-CH2-CHCl-)_n}$?
+
+**Solução.** A unidade que se repete é $\ce{-CH2-CHCl-}$; "fechando" a dupla, o monômero é o
+**cloroeteno** (cloreto de vinila), $\ce{CH2=CHCl}$.
+:::
+
+## Polímeros de condensação
+
+::: {#def-poli-condensacao}
+## Polimerização por condensação
+Monômeros com **dois grupos funcionais** reagem entre si **eliminando** uma molécula
+pequena (água, em geral) a cada ligação — como na esterificação e na amidação do Volume XI.
+Formam-se **poliésteres** (ligações éster) e **poliamidas** (ligações amida).
+$$ \text{diácido} + \text{diol} -> \text{poliéster} + n\,\ce{H2O}. $$
+Exemplos: **náilon** (poliamida), **PET** (poliéster das garrafas), **baquelite**.
+:::
+
+::: {.callout-note}
+A distinção-chave: na polimerização por **adição** **nada** é eliminado (o monômero entra
+inteiro); na por **condensação**, **elimina-se** uma molécula pequena a cada ligação. Olhe
+se há perda de átomos para classificar.
+:::
+
+::: {#exm-condensacao}
+## Por que o náilon é poliamida
+O náilon forma-se de um diácido e uma diamina. Que tipo de ligação une as unidades, e o que
+é eliminado?
+
+**Solução.** O grupo $\ce{-COOH}$ do diácido reage com o $\ce{-NH2}$ da diamina formando
+uma ligação **amida** ($\ce{-CO-NH-}$), com eliminação de **água**. Por isso o náilon é uma
+**poliamida**, formada por **condensação**.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+O que diferencia, no mecanismo, um polímero de adição de um de condensação?
+:::
+
+::: {#exr-2}
+De que monômero deriva o polietileno? E o poliestireno?
+:::
+
+::: {#exr-3}
+O PET é um poliéster. Que grupos funcionais seus monômeros devem ter?
+:::
+
+::: {#exr-4}
+Ao formar uma poliamida, que molécula pequena é eliminada a cada ligação?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Na **adição**, os monômeros (com dupla) se unem **sem** eliminar nada; na
+**condensação**, cada ligação **elimina** uma molécula pequena (em geral água).
+
+**@exr-2.** Polietileno vem do **eteno** ($\ce{CH2=CH2}$); poliestireno, do **estireno**
+(feniletileno).
+
+**@exr-3.** Um monômero com dois grupos **$\ce{-COOH}$** (diácido) e outro com dois grupos
+**$\ce{-OH}$** (diol), que formam ligações éster.
+
+**@exr-4.** **Água** ($\ce{H2O}$).
+:::

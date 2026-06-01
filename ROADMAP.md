@@ -147,7 +147,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 
 - [x] `volumes/v12-aromaticos-bio/01-aromaticidade.qmd` — Aromaticidade e benzeno.
 - [x] `volumes/v12-aromaticos-bio/02-sea.qmd` — Substituição eletrofílica aromática.
-- [ ] `volumes/v12-aromaticos-bio/03-polimeros.qmd` — Polímeros: adição e condensação.
+- [x] `volumes/v12-aromaticos-bio/03-polimeros.qmd` — Polímeros: adição e condensação.
 - [ ] `volumes/v12-aromaticos-bio/04-carboidratos-lipidios.qmd` — Carboidratos e lipídios.
 - [ ] `volumes/v12-aromaticos-bio/05-proteinas.qmd` — Aminoácidos, peptídeos e proteínas.
 - [ ] `volumes/v12-aromaticos-bio/06-acidos-nucleicos.qmd` — Ácidos nucleicos e introdução à bioquímica.

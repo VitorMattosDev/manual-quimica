@@ -114,6 +114,7 @@ book:
       chapters:
         - volumes/v12-aromaticos-bio/01-aromaticidade.qmd
         - volumes/v12-aromaticos-bio/02-sea.qmd
+        - volumes/v12-aromaticos-bio/03-polimeros.qmd
   appendices:
     - constantes.qmd
 
