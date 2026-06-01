@@ -1,0 +1,119 @@
+---
+title: "Hidrólise salina e soluções-tampão"
+---
+
+# Hidrólise salina e soluções-tampão {#sec-tampao}
+
+## Sais que não são neutros e soluções que resistem
+
+Dois fenômenos refinam o estudo do pH. Primeiro: nem todo sal dá solução neutra — o cloreto
+de amônio acidifica, o acetato de sódio alcaliniza. É a **hidrólise salina**, consequência
+direta da força relativa dos íons (capítulo anterior). Segundo, e mais importante na
+prática: certas misturas **resistem** a variações de pH — os **tampões**, que mantêm o
+sangue, o solo e incontáveis reações em faixa estreita de pH. Ambos saem do mesmo
+equilíbrio iônico.
+
+## Hidrólise salina
+
+Um sal vem de um ácido e de uma base. Em água, seus íons podem reagir com a água
+(hidrolisar) conforme a **força** desses progenitores.
+
+::: {#def-hidrolise}
+## Caráter de uma solução salina
+- **Ácido forte + base forte** (ex.: $\ce{NaCl}$): nenhum íon hidrolisa — solução
+  **neutra**.
+- **Ácido fraco + base forte** (ex.: $\ce{CH3COONa}$): o ânion hidrolisa, liberando
+  $\ce{OH-}$ — solução **básica**.
+- **Ácido forte + base fraca** (ex.: $\ce{NH4Cl}$): o cátion hidrolisa, liberando
+  $\ce{H+}$ — solução **ácida**.
+:::
+
+::: {#exm-hidrolise}
+## Prevendo o pH de um sal
+A solução de acetato de sódio ($\ce{CH3COONa}$) é ácida, neutra ou básica?
+
+**Solução.** Vem do ácido **fraco** acético e da base **forte** $\ce{NaOH}$. O íon acetato
+($\ce{CH3COO-}$) é base conjugada apreciável e hidrolisa:
+$\ce{CH3COO- + H2O <=> CH3COOH + OH-}$, liberando $\ce{OH-}$. A solução é **básica**.
+:::
+
+## Soluções-tampão
+
+::: {#def-tampao}
+## Solução-tampão
+Um **tampão** é uma mistura de um **ácido fraco e sua base conjugada** (ou base fraca e seu
+ácido conjugado) em concentrações comparáveis. Ele **resiste** a mudanças de pH: ao receber
+$\ce{H+}$, a base conjugada o neutraliza; ao receber $\ce{OH-}$, o ácido o neutraliza. O pH
+quase não muda.
+:::
+
+O pH de um tampão sai do rearranjo da expressão de $K_a$, resultando na fórmula central:
+
+::: {#def-henderson}
+## Equação de Henderson-Hasselbalch
+$$ \mathrm{pH} = \mathrm{p}K_a + \log\frac{[\text{base conjugada}]}{[\text{ácido}]}. $$ {#eq-henderson}
+Quando as concentrações de ácido e base conjugada são **iguais**, $\mathrm{pH} = \mathrm{p}K_a$
+— o ponto de máxima capacidade tamponante.
+:::
+
+::: {.callout-note}
+O poder de um tampão é **finito**: ele resiste até que um dos componentes se esgote (a
+**capacidade tamponante**). E só tampona bem perto de seu $\mathrm{p}K_a$, em geral na
+faixa $\mathrm{p}K_a \pm 1$. Para tamponar em pH 7, escolha um ácido com $\mathrm{p}K_a$
+próximo de 7.
+:::
+
+::: {#exm-tampao}
+## pH de um tampão
+Um tampão tem $\pu{0,20 mol/L}$ de ácido acético ($\mathrm{p}K_a = 4{,}74$) e
+$\pu{0,20 mol/L}$ de acetato de sódio. Qual o pH?
+
+**Solução.** Como $[\text{base}] = [\text{ácido}]$, a @eq-henderson dá
+$\mathrm{pH} = \mathrm{p}K_a + \log 1 = 4{,}74 + 0 = 4{,}74$.
+:::
+
+::: {#exm-tampao-2}
+## Tampão fora da razão 1:1
+E se o tampão tivesse $\pu{0,30 mol/L}$ de acetato e $\pu{0,15 mol/L}$ de ácido acético?
+
+**Solução.** $\mathrm{pH} = 4{,}74 + \log\dfrac{0{,}30}{0{,}15} = 4{,}74 + \log 2 =
+4{,}74 + 0{,}30 = 5{,}04$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Classifique a solução como ácida, neutra ou básica: (a) $\ce{KNO3}$; (b) $\ce{NH4Cl}$;
+(c) $\ce{Na2CO3}$ (de ácido fraco e base forte).
+:::
+
+::: {#exr-2}
+Por que uma mistura de $\ce{NH3}$ e $\ce{NH4Cl}$ funciona como tampão?
+:::
+
+::: {#exr-3}
+Um tampão tem $[\text{base}]/[\text{ácido}] = 10$ e $\mathrm{p}K_a = 4{,}74$. Qual o pH?
+:::
+
+::: {#exr-4}
+Para preparar um tampão de pH $\approx 7$, que $\mathrm{p}K_a$ o ácido escolhido deve ter,
+aproximadamente?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) **neutra** (ácido e base fortes); (b) **ácida** (cátion de base fraca
+hidrolisa); (c) **básica** (ânion de ácido fraco hidrolisa).
+
+**@exr-2.** É uma base fraca ($\ce{NH3}$) com seu ácido conjugado ($\ce{NH4+}$); o
+$\ce{NH3}$ neutraliza $\ce{H+}$ adicionado e o $\ce{NH4+}$ neutraliza $\ce{OH-}$ — resiste
+a variações de pH.
+
+**@exr-3.** $\mathrm{pH} = 4{,}74 + \log 10 = 4{,}74 + 1 = 5{,}74$.
+
+**@exr-4.** Próximo de **7** ($\mathrm{p}K_a \approx 7$), pois o tampão age melhor na faixa
+$\mathrm{p}K_a \pm 1$.
+:::

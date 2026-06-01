@@ -83,6 +83,7 @@ book:
         - volumes/v8-equilibrio/03-acidos-bases.qmd
         - volumes/v8-equilibrio/04-ph.qmd
         - volumes/v8-equilibrio/05-fracos.qmd
+        - volumes/v8-equilibrio/06-tampao.qmd
   appendices:
     - constantes.qmd
 
