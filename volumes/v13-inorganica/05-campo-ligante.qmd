@@ -1,0 +1,102 @@
+---
+title: "Teorias de ligação em complexos (campo ligante)"
+---
+
+# Teorias de ligação em complexos {#sec-campo-ligante}
+
+## Por que os complexos têm cor
+
+O capítulo anterior descreveu os complexos; falta explicar **por que** eles são coloridos e
+magnéticos. A resposta está em como os ligantes alteram a energia dos **orbitais d** do
+metal. A **teoria do campo cristalino (TCC)** — e sua extensão, a teoria do campo ligante —
+fornece o modelo, conectando a estrutura eletrônica (Volume II) às propriedades observáveis.
+É a culminação do estudo dos metais de transição.
+
+## A teoria do campo cristalino
+
+::: {#def-tcc}
+## Teoria do campo cristalino (TCC)
+Os cinco orbitais $d$ do metal, antes de mesma energia (**degenerados**), **desdobram-se** em
+níveis de energia diferentes pela repulsão eletrostática dos ligantes que se aproximam. Em
+um complexo **octaédrico**, eles se separam em:
+
+- dois orbitais de **maior** energia ($e_g$), apontando para os ligantes;
+- três orbitais de **menor** energia ($t_{2g}$), entre os ligantes.
+
+A diferença de energia entre eles é o **desdobramento do campo cristalino**, $\Delta_o$.
+:::
+
+## Cor e o desdobramento Δ
+
+::: {#def-cor-complexo}
+## Origem da cor
+Um elétron $d$ pode **absorver** um fóton de energia exatamente igual a $\Delta_o$ e saltar
+do nível $t_{2g}$ ao $e_g$. A luz **absorvida** corresponde a $\Delta E = \Delta_o = h\nu$
+(Volume II); a cor que **vemos** é a **complementar** da absorvida. Como $\Delta_o$ depende do
+metal e dos ligantes, cada complexo tem sua cor.
+:::
+
+::: {.callout-note}
+A magnitude de $\Delta_o$ depende do ligante, ordenado na **série espectroquímica**:
+$$ \ce{I- < Br- < Cl- < F- < H2O < NH3 < CN- < CO}. $$
+Ligantes de **campo forte** (CN⁻, CO) dão $\Delta_o$ grande; de **campo fraco** (haletos),
+$\Delta_o$ pequeno. O ligante, portanto, "afina" a cor e o magnetismo.
+:::
+
+## Spin alto e spin baixo
+
+::: {#def-spin}
+## Complexos de spin alto e baixo
+Ao preencher os orbitais $d$, há uma disputa entre $\Delta_o$ e a energia de emparelhamento:
+
+- **Campo fraco** ($\Delta_o$ pequeno): os elétrons preferem ocupar todos os orbitais antes
+  de emparelhar → **spin alto** (mais elétrons desemparelhados, mais paramagnético).
+- **Campo forte** ($\Delta_o$ grande): os elétrons emparelham nos orbitais inferiores →
+  **spin baixo** (menos desemparelhados).
+:::
+
+::: {#exm-spin}
+## Prevendo spin alto ou baixo
+Um complexo de $\ce{Fe^2+}$ com ligante de campo forte ($\ce{CN-}$) tende a spin alto ou
+baixo?
+
+**Solução.** $\ce{CN-}$ é **campo forte**, $\Delta_o$ grande: os elétrons $d$ emparelham nos
+orbitais $t_{2g}$ inferiores antes de subir. Resulta em **spin baixo** (poucos elétrons
+desemparelhados).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+O que provoca o desdobramento dos orbitais $d$ num complexo, segundo a TCC?
+:::
+
+::: {#exr-2}
+A cor que vemos num complexo é a luz absorvida ou a sua complementar?
+:::
+
+::: {#exr-3}
+Na série espectroquímica, $\ce{CN-}$ é campo forte ou fraco? O que isso implica para
+$\Delta_o$?
+:::
+
+::: {#exr-4}
+Ligantes de campo fraco tendem a gerar complexos de spin alto ou baixo? Por quê?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** A **repulsão eletrostática** dos ligantes que se aproximam, que eleva a energia
+dos orbitais $d$ apontados para eles e separa os níveis ($t_{2g}$ e $e_g$).
+
+**@exr-2.** A sua **complementar** (a luz absorvida tem energia $\Delta_o$; vemos a cor
+restante).
+
+**@exr-3.** **Campo forte**, gerando $\Delta_o$ **grande**.
+
+**@exr-4.** **Spin alto**: com $\Delta_o$ pequeno, é energeticamente mais favorável ocupar
+todos os orbitais (elétrons desemparelhados) do que emparelhar.
+:::

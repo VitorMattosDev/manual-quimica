@@ -124,6 +124,7 @@ book:
         - volumes/v13-inorganica/02-descritiva.qmd
         - volumes/v13-inorganica/03-transicao.qmd
         - volumes/v13-inorganica/04-coordenacao.qmd
+        - volumes/v13-inorganica/05-campo-ligante.qmd
   appendices:
     - constantes.qmd
 

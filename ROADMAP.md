@@ -163,7 +163,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v13-inorganica/02-descritiva.qmd` — Halogênios, calcogênios, nitrogênio, carbono.
 - [x] `volumes/v13-inorganica/03-transicao.qmd` — Metais de transição: propriedades gerais.
 - [x] `volumes/v13-inorganica/04-coordenacao.qmd` — Compostos de coordenação: nomenclatura e isomeria.
-- [ ] `volumes/v13-inorganica/05-campo-ligante.qmd` — Teorias de ligação em complexos (TCC / campo ligante).
+- [x] `volumes/v13-inorganica/05-campo-ligante.qmd` — Teorias de ligação em complexos (TCC / campo ligante).
 - [ ] `volumes/v13-inorganica/06-organometalicos.qmd` — Organometálicos e catálise (introdução).
 
 ### Volume XIV — Química Analítica
