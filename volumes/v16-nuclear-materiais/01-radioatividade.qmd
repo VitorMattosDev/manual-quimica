@@ -1,0 +1,115 @@
+---
+title: "Radioatividade e decaimento nuclear"
+---
+
+# Radioatividade e decaimento nuclear {#sec-radioatividade}
+
+## Quando o próprio núcleo se transforma
+
+Toda a química vista até aqui mexe com **elétrons**: ligações, reações, espectros. A
+**química nuclear** olha para o **núcleo** — e descobre que ele também pode se transformar,
+emitindo radiação e mudando de elemento. A radioatividade move usinas e bombas, data fósseis,
+trata cânceres e faz exames de imagem. Abrindo o último volume do manual, estudamos os tipos
+de decaimento e a cinética que os governa — a mesma de primeira ordem do Volume VII.
+
+## Tipos de emissão radioativa
+
+::: {#def-emissoes}
+## Emissões radioativas
+Núcleos instáveis emitem:
+
+- **Alfa ($\alpha$):** núcleo de hélio $\ce{^4_2He}$. Reduz $Z$ em 2 e $A$ em 4. Pouco
+  penetrante.
+- **Beta ($\beta^-$):** elétron de alta energia (um nêutron vira próton). **Aumenta** $Z$
+  em 1, mantém $A$. Penetração média.
+- **Gama ($\gamma$):** radiação eletromagnética de altíssima energia. Não muda $Z$ nem $A$;
+  acompanha outras emissões. Muito penetrante.
+:::
+
+## Equações nucleares e seu balanceamento
+
+::: {#def-equacao-nuclear}
+## Balanceamento nuclear
+Numa equação nuclear, conservam-se o **número de massa $A$** (soma dos superíndices) e o
+**número atômico $Z$** (soma dos subíndices) dos dois lados. Identifica-se a partícula ou o
+núcleo formado impondo essas duas conservações.
+:::
+
+::: {#exm-decaimento-alfa}
+## Decaimento alfa do urânio
+Complete o decaimento alfa do $\ce{^{238}_{92}U}$.
+
+**Solução.** A emissão $\alpha$ ($\ce{^4_2He}$) reduz $A$ em 4 e $Z$ em 2:
+$$ \ce{^{238}_{92}U -> ^{234}_{90}Th + ^4_2He}. $$
+Confira: massa $238 = 234 + 4$; carga $92 = 90 + 2$. Forma-se o **tório-234**.
+:::
+
+::: {#exm-decaimento-beta}
+## Decaimento beta
+Complete o decaimento $\beta^-$ do $\ce{^{14}_6C}$.
+
+**Solução.** No $\beta^-$, $Z$ aumenta em 1 e $A$ não muda:
+$$ \ce{^{14}_6C -> ^{14}_7N + ^0_{-1}\beta}. $$
+Forma-se o **nitrogênio-14** — reação que fundamenta a **datação por carbono-14**.
+:::
+
+## A cinética do decaimento: meia-vida
+
+::: {#def-meia-vida-nuclear}
+## Decaimento radioativo e meia-vida
+O decaimento radioativo é um processo de **primeira ordem** (Volume VII): a atividade é
+proporcional ao número de núcleos. A **meia-vida** $t_{1/2}$ — tempo para metade dos núcleos
+decair — é **constante**, independente da quantidade inicial. Após $n$ meias-vidas, resta
+$\left(\tfrac12\right)^n$ da amostra.
+:::
+
+::: {.callout-note}
+Por ser de primeira ordem, a meia-vida nuclear não depende da massa nem das condições
+químicas — é uma constante do isótopo. Daí servir de "relógio": o $\ce{^{14}C}$ ($t_{1/2}
+\approx \pu{5730 anos}$) data material orgânico; o $\ce{^{238}U}$ ($\approx \pu{4,5e9 anos}$)
+data rochas e a própria Terra.
+:::
+
+::: {#exm-meia-vida-nuclear}
+## Fração restante
+Uma amostra radioativa tem meia-vida de $\pu{8 dias}$. Que fração resta após $\pu{24 dias}$?
+
+**Solução.** $24/8 = 3$ meias-vidas. Resta $\left(\tfrac12\right)^3 = \tfrac18 = 12{,}5\%$
+da amostra.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Como cada emissão altera $Z$ e $A$: (a) alfa; (b) beta; (c) gama?
+:::
+
+::: {#exr-2}
+Complete: $\ce{^{226}_{88}Ra -> ? + ^4_2He}$.
+:::
+
+::: {#exr-3}
+Que grandezas se conservam ao balancear uma equação nuclear?
+:::
+
+::: {#exr-4}
+Uma amostra tem meia-vida de $\pu{10 anos}$. Que fração resta após $\pu{40 anos}$?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) **alfa:** $Z-2$, $A-4$; (b) **beta ($\beta^-$):** $Z+1$, $A$ igual;
+(c) **gama:** não altera $Z$ nem $A$.
+
+**@exr-2.** $A: 226 - 4 = 222$; $Z: 88 - 2 = 86$ → $\ce{^{222}_{86}Rn}$ (radônio):
+$\ce{^{226}_{88}Ra -> ^{222}_{86}Rn + ^4_2He}$.
+
+**@exr-3.** O número de **massa $A$** e o número **atômico $Z$** (somas iguais dos dois
+lados).
+
+**@exr-4.** $40/10 = 4$ meias-vidas: resta $\left(\tfrac12\right)^4 = \tfrac1{16} =
+6{,}25\%$.
+:::
