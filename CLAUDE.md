@@ -70,6 +70,12 @@ de abrir o próximo (fatia vertical).
 
 ## Estado atual
 
-Volume I em construção. Capítulo-gabarito (Vol. IV, estequiometria) pronto como
-referência. Capítulos 1 (Matéria) e 2 (Medidas) do Vol. I são esboços a preencher.
-Prioridade: fechar o Volume I inteiro antes de abrir o Volume II.
+**ROADMAP concluído:** todos os 16 volumes (99 capítulos) escritos, registrados em
+`chapters:` e comitados — um commit por capítulo. O capítulo-gabarito (Vol. IV,
+estequiometria) segue como referência de estilo para revisões futuras.
+
+## Autonomia autorizada
+
+O autor autorizou trabalho autônomo: escrever os capítulos do `ROADMAP.md`, **commitar
+e dar push sem pedir aprovação**, seguindo as convenções deste arquivo e do `PLANO.md`.
+Continuar até o fim da fila. (Registrado também na memória do projeto.)

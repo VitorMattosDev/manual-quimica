@@ -13,7 +13,7 @@ tem o **caminho exato do arquivo**, o **escopo** em uma linha e o **status**.
 - **Fatia vertical:** feche um volume inteiro antes de abrir o próximo.
 - Legenda: `[x]` pronto · `[~]` esboço a completar · `[ ]` a fazer.
 
-Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
+Estado atual: **99 capítulos prontos · 0 pendentes — ROADMAP concluído.**
 
 ---
 
