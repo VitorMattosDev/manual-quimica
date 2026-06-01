@@ -171,7 +171,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 
 - [x] `volumes/v14-analitica/01-qualitativa.qmd` — Análise qualitativa: identificação de íons.
 - [x] `volumes/v14-analitica/02-quantitativa-dados.qmd` — Fundamentos quantitativos e tratamento de dados.
-- [ ] `volumes/v14-analitica/03-gravimetria.qmd` — Gravimetria.
+- [x] `volumes/v14-analitica/03-gravimetria.qmd` — Gravimetria.
 - [ ] `volumes/v14-analitica/04-volumetria.qmd` — Volumetria (ácido-base, redox, complexação, precipitação).
 - [ ] `volumes/v14-analitica/05-instrumental.qmd` — Introdução à análise instrumental.
 

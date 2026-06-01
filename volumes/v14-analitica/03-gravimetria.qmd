@@ -1,0 +1,98 @@
+---
+title: "Gravimetria"
+---
+
+# Gravimetria {#sec-gravimetria}
+
+## Pesar para quantificar
+
+A mais clássica das análises quantitativas baseia-se na grandeza mais confiável do
+laboratório: a **massa**. Na **gravimetria**, isola-se o constituinte de interesse na forma
+de um sólido puro, pesa-se, e da massa se calcula quanto havia na amostra. É lenta, mas de
+altíssima exatidão — durante muito tempo foi o padrão de referência. Suas contas são pura
+estequiometria (Volume IV) aplicada a precipitados (Volume VIII).
+
+## O método gravimétrico
+
+::: {#def-gravimetria}
+## Gravimetria por precipitação
+O analito é convertido num **composto pouco solúvel**, de composição conhecida, que se
+precipita, filtra, seca (ou calcina) e **pesa**. As etapas:
+
+1. **precipitar** o analito (reagente que dá baixo $K_{ps}$);
+2. **filtrar** e lavar o precipitado;
+3. **secar/calcinar** até massa constante;
+4. **pesar** e calcular por estequiometria.
+:::
+
+::: {.callout-warning}
+O precipitado pesado deve ter **composição definida e pureza alta**. Co-precipitação de
+impurezas ou um sólido de fórmula incerta arruínam o resultado. Por isso lava-se bem e, às
+vezes, **calcina-se** o precipitado a uma forma estável e bem definida antes de pesar.
+:::
+
+## O fator gravimétrico
+
+O cálculo relaciona a massa do precipitado pesado à massa do analito procurado, pela
+estequiometria.
+
+::: {#def-fator-gravimetrico}
+## Cálculo gravimétrico
+A massa do analito sai da proporção estequiométrica entre ele e o precipitado:
+$$ m_{\text{analito}} = m_{\text{precipitado}} \times
+\frac{M_{\text{analito}}\cdot(\text{coef.})}{M_{\text{precipitado}}\cdot(\text{coef.})}. $$
+A razão de massas molares (com os coeficientes) é o **fator gravimétrico**.
+:::
+
+::: {#exm-gravimetria}
+## Determinando cloreto por gravimetria
+Uma amostra com cloreto é tratada com $\ce{AgNO3}$, precipitando $\pu{1,435 g}$ de
+$\ce{AgCl}$ ($M = \pu{143,5 g/mol}$). Que massa de $\ce{Cl-}$ ($M = \pu{35,5 g/mol}$) havia?
+
+**Solução.** Cada mol de $\ce{AgCl}$ contém 1 mol de $\ce{Cl-}$. Mols de $\ce{AgCl}$:
+$n = \dfrac{1{,}435}{143{,}5} = \pu{0,0100 mol}$. Logo havia $\pu{0,0100 mol}$ de cloreto,
+ou seja $m = 0{,}0100 \times 35{,}5 = \pu{0,355 g}$ de $\ce{Cl-}$.
+:::
+
+::: {#exm-percentual}
+## Porcentagem na amostra
+Se a amostra do exemplo anterior pesava $\pu{2,00 g}$, qual a porcentagem de cloreto?
+
+**Solução.** $\%\,\ce{Cl-} = \dfrac{0{,}355}{2{,}00}\times 100 = 17{,}75\% \approx 17{,}8\%$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Quais as quatro etapas de uma análise gravimétrica por precipitação?
+:::
+
+::: {#exr-2}
+Por que o precipitado deve ter composição definida e ser puro?
+:::
+
+::: {#exr-3}
+Precipitou-se $\pu{2,330 g}$ de $\ce{BaSO4}$ ($M = \pu{233 g/mol}$). Quantos mols de
+sulfato havia na amostra?
+:::
+
+::: {#exr-4}
+No @exr-3, sabendo que $M_{\ce{SO4}} = \pu{96 g/mol}$, qual a massa de sulfato?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Precipitar o analito, filtrar (e lavar), secar/calcinar até massa constante e
+pesar (com cálculo estequiométrico).
+
+**@exr-2.** Porque a massa pesada é convertida em massa de analito por **estequiometria**;
+impurezas ou fórmula incerta falsificam essa conversão.
+
+**@exr-3.** $n_{\ce{BaSO4}} = \dfrac{2{,}330}{233} = \pu{0,0100 mol}$; como há 1 sulfato por
+fórmula, $n_{\ce{SO4^2-}} = \pu{0,0100 mol}$.
+
+**@exr-4.** $m = 0{,}0100 \times 96 = \pu{0,96 g}$ de sulfato.
+:::

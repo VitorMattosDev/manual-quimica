@@ -130,6 +130,7 @@ book:
       chapters:
         - volumes/v14-analitica/01-qualitativa.qmd
         - volumes/v14-analitica/02-quantitativa-dados.qmd
+        - volumes/v14-analitica/03-gravimetria.qmd
   appendices:
     - constantes.qmd
 
