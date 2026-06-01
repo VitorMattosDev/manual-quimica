@@ -55,6 +55,7 @@ book:
     - part: "Volume V — Estados da Matéria e Soluções"
       chapters:
         - volumes/v5-estados-solucoes/01-gases-ideais.qmd
+        - volumes/v5-estados-solucoes/02-cinetica-gases.qmd
   appendices:
     - constantes.qmd
 

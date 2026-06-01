@@ -66,7 +66,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 *Objetivo:* fases e misturas homogêneas. *Pré-requisito:* Vol. IV.
 
 - [x] `volumes/v5-estados-solucoes/01-gases-ideais.qmd` — Leis dos gases e equação do gás ideal.
-- [ ] `volumes/v5-estados-solucoes/02-cinetica-gases.qmd` — Teoria cinética e gases reais.
+- [x] `volumes/v5-estados-solucoes/02-cinetica-gases.qmd` — Teoria cinética e gases reais.
 - [ ] `volumes/v5-estados-solucoes/03-liquidos-solidos.qmd` — Líquidos, sólidos e diagramas de fase.
 - [ ] `volumes/v5-estados-solucoes/04-solucoes.qmd` — Solubilidade e unidades de concentração.
 - [ ] `volumes/v5-estados-solucoes/05-diluicao.qmd` — Preparo e diluição de soluções.

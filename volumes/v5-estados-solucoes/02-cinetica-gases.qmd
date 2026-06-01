@@ -1,0 +1,129 @@
+---
+title: "Teoria cinética e gases reais"
+---
+
+# Teoria cinética e gases reais {#sec-cinetica-gases}
+
+## Por que o gás ideal funciona — e quando falha
+
+O capítulo anterior apresentou $pV = nRT$ como um fato empírico. Mas *por que* os gases
+obedecem a essa lei? E por que, sob alta pressão ou baixa temperatura, eles desobedecem?
+A resposta está num modelo microscópico — a **teoria cinética dos gases** — que deduz a
+lei a partir do movimento das moléculas. Entendê-la revela tanto o sucesso do gás ideal
+quanto seu **domínio de validade** (Volume I), e prepara o salto para os líquidos e
+sólidos do próximo capítulo, onde as interações que o gás ideal ignora passam a dominar.
+
+## Os postulados da teoria cinética
+
+::: {#def-teoria-cinetica}
+## Teoria cinética dos gases (modelo ideal)
+Um gás ideal é um conjunto de partículas que satisfaz:
+
+1. são em número enorme, em **movimento aleatório** e constante;
+2. seu **volume próprio é desprezível** frente ao volume do recipiente (são "pontos");
+3. **não há forças** atrativas ou repulsivas entre elas, exceto nas colisões;
+4. as colisões são **perfeitamente elásticas** (não há perda de energia cinética);
+5. a **energia cinética média** é proporcional à **temperatura absoluta**.
+:::
+
+O postulado (5) dá à temperatura um significado microscópico: ela **é** a medida da
+agitação molecular. Quantitativamente, a energia cinética translacional média de uma
+molécula é
+$$ \bar{E}_c = \frac{3}{2}k_B T, $$ {#eq-energia-cinetica}
+onde $k_B$ é a constante de Boltzmann. A pressão, por sua vez, é o resultado
+**estatístico** do incessante bombardeio das moléculas contra as paredes.
+
+## Velocidade molecular e a lei de Graham
+
+Como $\bar{E}_c = \tfrac12 m \bar{v^2}$ depende só de $T$, a uma dada temperatura as
+moléculas **mais leves** se movem **mais rápido**. A velocidade quadrática média é
+$$ v_{\text{rms}} = \sqrt{\frac{3RT}{M}}, $$ {#eq-vrms}
+inversamente proporcional à raiz da massa molar. Daí a lei de efusão de Graham.
+
+::: {#def-graham}
+## Lei de Graham (efusão)
+A velocidade de **efusão** (escape por um pequeno orifício) de um gás é inversamente
+proporcional à raiz quadrada de sua massa molar:
+$$ \frac{v_A}{v_B} = \sqrt{\frac{M_B}{M_A}}. $$
+Gases leves efundem mais depressa — é por isso que o hélio escapa de um balão mais
+rápido que o ar.
+:::
+
+::: {#exm-graham}
+## Comparando efusões
+Quantas vezes o hidrogênio ($M = \pu{2 g/mol}$) efunde mais rápido que o oxigênio
+($M = \pu{32 g/mol}$)?
+
+**Solução.** Pela lei de Graham,
+$\dfrac{v_{\ce{H2}}}{v_{\ce{O2}}} = \sqrt{\dfrac{32}{2}} = \sqrt{16} = 4$. O hidrogênio
+efunde **4 vezes** mais rápido.
+:::
+
+## Gases reais e os desvios
+
+::: {.callout-warning}
+Os gases reais **desviam** do ideal justamente onde os postulados (2) e (3) falham:
+- **Alta pressão:** as moléculas estão comprimidas, e seu volume próprio **deixa de ser
+  desprezível** (postulado 2 falha).
+- **Baixa temperatura:** as moléculas se movem devagar, e as **forças atrativas** entre
+  elas passam a importar (postulado 3 falha) — é o que acaba por liquefazê-las.
+
+Em condições ambientes moderadas, os desvios são pequenos e $pV = nRT$ funciona bem.
+:::
+
+A equação de **van der Waals** corrige os dois efeitos, introduzindo um termo de atração
+($a$) e um de volume próprio ($b$):
+$$ \left(p + \frac{an^2}{V^2}\right)(V - nb) = nRT. $$ {#eq-van-der-waals}
+O termo $an^2/V^2$ soma à pressão a atração que a "segura"; o termo $nb$ desconta o
+volume ocupado pelas próprias moléculas. Quando $a$ e $b$ tendem a zero (partículas
+pontuais sem interação), recupera-se o gás ideal — exatamente o domínio de validade
+esperado.
+
+::: {.callout-note}
+A ordem de "idealidade": um gás se aproxima mais do ideal quanto **menores** suas
+moléculas e **mais fracas** suas forças intermoleculares (Volume III). O hélio e o
+hidrogênio são quase ideais; vapor d'água e amônia, que fazem ligação de hidrogênio,
+desviam mais.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+A uma mesma temperatura, qual se move mais rápido em média: moléculas de $\ce{N2}$ ou de
+$\ce{CO2}$? Justifique pela @eq-vrms.
+:::
+
+::: {#exr-2}
+Pela teoria cinética, o que acontece com a energia cinética média das moléculas quando a
+temperatura absoluta dobra?
+:::
+
+::: {#exr-3}
+O gás A efunde duas vezes mais rápido que o gás B. Qual a razão entre suas massas
+molares $M_B/M_A$?
+:::
+
+::: {#exr-4}
+Explique, em termos dos postulados, por que um gás real desvia do comportamento ideal
+(a) a alta pressão e (b) a baixa temperatura.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\ce{N2}$ ($M=28$) é mais leve que $\ce{CO2}$ ($M=44$). Como
+$v_{\text{rms}} \propto 1/\sqrt{M}$, as moléculas de $\ce{N2}$ se movem **mais rápido**.
+
+**@exr-2.** Pela @eq-energia-cinetica, $\bar{E}_c \propto T$. Se $T$ dobra, a energia
+cinética média **dobra**.
+
+**@exr-3.** Graham: $\dfrac{v_A}{v_B} = \sqrt{\dfrac{M_B}{M_A}} = 2 \Rightarrow
+\dfrac{M_B}{M_A} = 4$.
+
+**@exr-4.** (a) A alta pressão, as moléculas ficam próximas e seu **volume próprio**
+não é mais desprezível (falha o postulado 2). (b) A baixa temperatura, a energia
+cinética é pequena e as **forças atrativas** intermoleculares passam a influir (falha o
+postulado 3).
+:::

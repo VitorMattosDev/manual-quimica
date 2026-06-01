@@ -37,6 +37,10 @@ $$ n = \frac{m}{M}, \qquad N = n\,N_A. $$
 **Gás ideal**
 $$ pV = nRT, \qquad \frac{p_1V_1}{T_1} = \frac{p_2V_2}{T_2}, \qquad d = \frac{pM}{RT}. $$
 
+**Teoria cinética e gases reais**
+$$ \bar{E}_c = \tfrac{3}{2}k_B T, \qquad v_{\text{rms}} = \sqrt{\frac{3RT}{M}}, \qquad \frac{v_A}{v_B} = \sqrt{\frac{M_B}{M_A}}\ (\text{Graham}). $$
+$$ \left(p + \frac{an^2}{V^2}\right)(V - nb) = nRT \quad (\text{van der Waals}). $$
+
 **Concentração**
 $$ c = \frac{n_{\text{soluto}}}{V_{\text{solução}}}, \qquad C_1 V_1 = C_2 V_2 \ (\text{diluição}). $$
 
