@@ -96,6 +96,7 @@ book:
     - part: "Volume X — Fundamentos de Química Orgânica"
       chapters:
         - volumes/v10-organica-fund/01-carbono-cadeias.qmd
+        - volumes/v10-organica-fund/02-hidrocarbonetos.qmd
   appendices:
     - constantes.qmd
 

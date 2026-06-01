@@ -1,0 +1,112 @@
+---
+title: "Hidrocarbonetos: classificação e nomenclatura"
+---
+
+# Hidrocarbonetos: classificação e nomenclatura {#sec-hidrocarbonetos}
+
+## Os compostos mais simples do carbono
+
+Os **hidrocarbonetos** — feitos só de carbono e hidrogênio — são o esqueleto de toda a
+química orgânica e a base dos combustíveis (gás natural, gasolina, querosene). São também o
+ponto de partida da nomenclatura: aprender a nomeá-los é aprender o sistema que, com poucos
+acréscimos, nomeará todas as funções orgânicas (capítulo de nomenclatura, adiante). Este
+capítulo classifica os hidrocarbonetos e introduz as regras básicas da IUPAC.
+
+## As classes de hidrocarbonetos
+
+::: {#def-classes-hc}
+## Principais hidrocarbonetos
+- **Alcanos** (parafinas): só ligações simples, fórmula $\ce{C_nH_{2n+2}}$. Ex.: metano
+  $\ce{CH4}$, etano $\ce{C2H6}$.
+- **Alcenos** (olefinas): uma dupla ligação C=C, $\ce{C_nH_{2n}}$. Ex.: eteno $\ce{C2H4}$.
+- **Alcinos:** uma tripla ligação C≡C, $\ce{C_nH_{2n-2}}$. Ex.: etino (acetileno)
+  $\ce{C2H2}$.
+- **Cíclicos:** cadeia fechada (ciclanos, ciclenos).
+- **Aromáticos:** contêm o anel benzênico (Volume XII). Ex.: benzeno $\ce{C6H6}$.
+:::
+
+## A nomenclatura IUPAC: prefixo, infixo, sufixo
+
+::: {#def-nomenclatura-hc}
+## Estrutura do nome
+Todo nome se monta em três partes:
+$$ \underbrace{\text{prefixo}}_{\text{nº de carbonos}} +
+\underbrace{\text{infixo}}_{\text{tipo de ligação}} +
+\underbrace{\text{sufixo}}_{\text{função}}. $$
+- **Prefixo** (nº de C): met- (1), et- (2), prop- (3), but- (4), pent- (5), hex- (6),
+  hept- (7), oct- (8), non- (9), dec- (10).
+- **Infixo:** **-an-** (saturado), **-en-** (dupla), **-in-** (tripla).
+- **Sufixo** dos hidrocarbonetos: **-o**.
+:::
+
+Assim: prop + an + o = **propano**; but + en + o = **buteno**; et + in + o = **etino**.
+
+::: {#exm-nomear-cadeia-reta}
+## Nomeando cadeias simples
+Nomeie $\ce{CH3-CH2-CH2-CH3}$ e $\ce{CH3-CH2-CH=CH2}$.
+
+**Solução.** O primeiro tem 4 carbonos e só ligações simples: but + an + o = **butano**.
+O segundo tem 4 carbonos com uma dupla: but + en + o = **buteno** (a posição da dupla será
+indicada por número, a seguir).
+:::
+
+## Ramificações e numeração da cadeia
+
+::: {#def-ramificacoes}
+## Regras para cadeias ramificadas
+1. Escolha a **cadeia principal**: a mais longa que contenha as insaturações.
+2. **Numere** a cadeia a partir da extremidade que dê os **menores** números às
+   ramificações (e às insaturações).
+3. Nomeie as ramificações como **radicais** (metil, etil, propil…), com seu número de
+   posição, em ordem alfabética, antes do nome da cadeia principal.
+:::
+
+::: {#exm-ramificada}
+## Nomeando uma cadeia ramificada
+Nomeie $\ce{CH3-CH(CH3)-CH2-CH3}$.
+
+**Solução.** Cadeia principal: 4 carbonos (butano). Há um grupo **metil** ($\ce{CH3}$)
+ramificado. Numerando para dar o menor número ao metil, ele fica no carbono **2**. Nome:
+**2-metilbutano**.
+:::
+
+::: {.callout-warning}
+A escolha da cadeia principal é a maior **que contém a insaturação**, não simplesmente a
+mais longa em carbonos. E a numeração busca os **menores** localizadores — confira sempre
+pelas duas pontas antes de decidir o sentido.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Dê a fórmula geral e um exemplo de: (a) alcano; (b) alceno; (c) alcino.
+:::
+
+::: {#exr-2}
+Nomeie: (a) $\ce{CH4}$; (b) $\ce{CH3-CH2-CH3}$; (c) $\ce{CH3-C#C-CH3}$ (use prefixo correto).
+:::
+
+::: {#exr-3}
+Quantos carbonos e que tipo de ligação indica o nome "pentino"?
+:::
+
+::: {#exr-4}
+Nomeie $\ce{CH3-CH(CH3)-CH2-CH2-CH3}$ (escolha a cadeia principal e numere).
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) Alcano $\ce{C_nH_{2n+2}}$, ex. metano; (b) alceno $\ce{C_nH_{2n}}$, ex.
+eteno; (c) alcino $\ce{C_nH_{2n-2}}$, ex. etino.
+
+**@exr-2.** (a) **metano**; (b) **propano**; (c) 4 carbonos com tripla: **2-butino** (a
+tripla entre os carbonos 2 e 3).
+
+**@exr-3.** **Cinco** carbonos (pent-) e uma **tripla** ligação (-in-).
+
+**@exr-4.** Cadeia principal de 5 carbonos (pentano) com um metil no carbono 2:
+**2-metilpentano**.
+:::
