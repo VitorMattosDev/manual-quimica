@@ -1,0 +1,130 @@
+---
+title: "Energia, calor, trabalho e a 1ª lei"
+---
+
+# Energia, calor, trabalho e a 1ª lei {#sec-energia-1lei}
+
+## Por que reações liberam ou consomem energia
+
+Toda reação química envolve uma troca de energia com o meio: a queima de um combustível
+aquece, a fotossíntese armazena energia do Sol, uma compressa instantânea esfria ao
+dissolver um sal. A **termodinâmica química** estuda essas trocas — começa aqui, abrindo a
+Fase 2 (Físico-Química), e percorrerá entalpia, entropia e energia livre nos próximos
+capítulos. O ponto de partida é o princípio mais geral de toda a física: a **conservação
+da energia**.
+
+## Sistema, vizinhança e funções de estado
+
+::: {#def-sistema}
+## Sistema e vizinhança
+O **sistema** é a porção do universo em estudo (o conteúdo do béquer, a reação); a
+**vizinhança** é todo o resto. A fronteira entre eles pode trocar matéria e/ou energia:
+
+- **aberto** — troca matéria e energia;
+- **fechado** — troca só energia;
+- **isolado** — não troca nada.
+:::
+
+::: {#def-funcao-estado}
+## Função de estado
+Uma **função de estado** depende só do estado atual do sistema, não do caminho percorrido
+para chegar a ele. A energia interna $U$, a entalpia $H$, a entropia $S$ e a temperatura
+são funções de estado. Já o calor $q$ e o trabalho $w$ **não** são — dependem do caminho.
+:::
+
+A distinção é central: a variação de uma função de estado entre dois pontos é sempre a
+mesma, qualquer que seja o processo — propriedade que a Lei de Hess (próximos capítulos)
+explorará a fundo.
+
+## Calor e trabalho
+
+Energia atravessa a fronteira de duas maneiras: como **calor** $q$ (fluxo por diferença de
+temperatura) e como **trabalho** $w$ (todas as demais formas — em química, sobretudo o
+trabalho de expansão/compressão de gases).
+
+::: {#def-trabalho-expansao}
+## Trabalho de expansão
+Quando um gás se expande contra uma pressão externa constante $p$, variando seu volume de
+$\Delta V$, o trabalho trocado é
+$$ w = -p\,\Delta V. $$ {#eq-trabalho}
+O sinal negativo segue a convenção: o sistema que **se expande** ($\Delta V > 0$)
+**realiza** trabalho sobre a vizinhança e por isso **perde** energia ($w < 0$).
+:::
+
+## A primeira lei da termodinâmica
+
+::: {#def-primeira-lei}
+## Primeira lei da termodinâmica
+A energia interna de um sistema fechado só muda por troca de calor ou trabalho:
+$$ \Delta U = q + w. $$ {#eq-primeira-lei}
+A energia do universo é constante — não se cria nem se destrói, apenas se transfere ou se
+converte.
+:::
+
+A **convenção de sinais** adotada (a do "sistema"): $q > 0$ e $w > 0$ quando o sistema
+**recebe** energia; $q < 0$ e $w < 0$ quando **cede**. Assim, calor absorvido e trabalho
+recebido **aumentam** $U$.
+
+::: {.callout-warning}
+Cuidado com a convenção de sinais — há livros que escrevem $\Delta U = q - w$ definindo $w$
+como o trabalho **realizado pelo** sistema. Aqui $w$ é o trabalho realizado **sobre** o
+sistema, e a primeira lei fica $\Delta U = q + w$. Verifique sempre qual convenção o texto
+adota antes de aplicar.
+:::
+
+::: {#exm-primeira-lei}
+## Aplicando a 1ª lei
+Um gás recebe $\pu{500 J}$ de calor e, ao se expandir, realiza $\pu{200 J}$ de trabalho
+sobre a vizinhança. Qual a variação de energia interna?
+
+**Solução.** Calor recebido: $q = +\pu{500 J}$. Trabalho **realizado pelo** sistema vale
+$\pu{200 J}$, logo o trabalho sobre o sistema é $w = -\pu{200 J}$. Pela @eq-primeira-lei,
+$\Delta U = q + w = 500 - 200 = +\pu{300 J}$.
+:::
+
+## Calor a volume e a pressão constantes
+
+A química acontece quase sempre em recipientes abertos, à **pressão constante** (a
+atmosférica). Nesse regime, parte do calor da reação vira trabalho de expansão. Já num
+recipiente rígido (**volume constante**), $\Delta V = 0$, então $w = 0$ e todo o calor vai
+para a energia interna: $q_V = \Delta U$. A diferença entre os dois casos é justamente o
+que motiva a definição de **entalpia**, tema do próximo capítulo.
+
+## Exercícios
+
+::: {#exr-1}
+Um sistema cede $\pu{300 J}$ de calor à vizinhança e recebe $\pu{100 J}$ de trabalho. Qual
+$\Delta U$?
+:::
+
+::: {#exr-2}
+Um gás se expande a pressão constante de $\pu{2,0 atm}$, variando seu volume em
+$\pu{+3,0 L}$. Qual o trabalho (em $\pu{atm.L}$) e seu sinal?
+:::
+
+::: {#exr-3}
+Por que, num recipiente rígido e fechado, todo o calor trocado iguala $\Delta U$?
+:::
+
+::: {#exr-4}
+Classifique como sistema aberto, fechado ou isolado: (a) uma panela aberta fervendo;
+(b) uma garrafa térmica ideal; (c) uma lâmpada incandescente selada.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Calor cedido: $q = -\pu{300 J}$; trabalho recebido: $w = +\pu{100 J}$.
+$\Delta U = q + w = -300 + 100 = -\pu{200 J}$.
+
+**@exr-2.** $w = -p\,\Delta V = -2{,}0 \times 3{,}0 = -\pu{6,0 atm.L}$. Negativo: o gás
+**realiza** trabalho ao se expandir.
+
+**@exr-3.** A volume constante $\Delta V = 0$, logo $w = -p\,\Delta V = 0$ e
+$\Delta U = q + w = q_V$.
+
+**@exr-4.** (a) **aberto** (troca vapor e calor); (b) **isolado** (idealmente nada
+troca); (c) **fechado** (troca calor e luz, mas não matéria).
+:::

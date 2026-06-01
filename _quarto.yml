@@ -61,6 +61,9 @@ book:
         - volumes/v5-estados-solucoes/05-diluicao.qmd
         - volumes/v5-estados-solucoes/06-coligativas.qmd
         - volumes/v5-estados-solucoes/07-coloides.qmd
+    - part: "Volume VI — Termodinâmica Química"
+      chapters:
+        - volumes/v6-termodinamica/01-energia-1lei.qmd
   appendices:
     - constantes.qmd
 

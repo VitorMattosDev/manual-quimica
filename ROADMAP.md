@@ -80,7 +80,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 ### Volume VI — Termodinâmica Química
 *Objetivo:* energia e espontaneidade das reações. *Pré-requisito:* Vol. V.
 
-- [ ] `volumes/v6-termodinamica/01-energia-1lei.qmd` — Energia, calor, trabalho e 1ª lei.
+- [x] `volumes/v6-termodinamica/01-energia-1lei.qmd` — Energia, calor, trabalho e 1ª lei.
 - [ ] `volumes/v6-termodinamica/02-entalpia.qmd` — Entalpia e termoquímica.
 - [ ] `volumes/v6-termodinamica/03-hess.qmd` — Lei de Hess e entalpias de formação.
 - [ ] `volumes/v6-termodinamica/04-entropia.qmd` — Entropia e a 2ª lei.
