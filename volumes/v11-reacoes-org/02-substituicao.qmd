@@ -1,0 +1,119 @@
+---
+title: "Reações de substituição (SN1/SN2, radicalar)"
+---
+
+# Reações de substituição (SN1/SN2) {#sec-substituicao}
+
+## Trocar um grupo por outro
+
+A reação orgânica mais elementar é a **substituição**: um átomo ou grupo sai e outro toma
+seu lugar. Parece simples, mas esconde dois mecanismos distintos — $S_N1$ e $S_N2$ — cuja
+escolha depende de tudo o que vimos no capítulo anterior: estabilidade de carbocátions,
+efeitos eletrônicos, tipo de substrato. Entender por que a mesma transformação segue
+caminhos diferentes é o cerne da química orgânica mecanística.
+
+## Substituição nucleofílica: a ideia
+
+::: {#def-substituicao-nucleofilica}
+## Substituição nucleofílica
+Um **nucleófilo** (espécie rica em elétrons, $\ce{Nu-}$) ataca um carbono ligado a um bom
+**grupo de saída** (ex.: um halogênio), expulsando-o:
+$$ \ce{R-X + Nu- -> R-Nu + X-}. $$
+Há dois mecanismos, $S_N2$ e $S_N1$, que diferem no número de etapas e na cinética.
+:::
+
+## O mecanismo SN2
+
+::: {#def-sn2}
+## Mecanismo SN2
+**Bimolecular**, em **uma única etapa**: o nucleófilo ataca o carbono **ao mesmo tempo** que
+o grupo de saída parte. Características:
+
+- **Cinética de 2ª ordem:** $v = k[\ce{R-X}][\ce{Nu-}]$.
+- **Inversão de configuração** (inversão de Walden), como um guarda-chuva ao vento.
+- Favorecido por substratos **pouco impedidos**: ordem de reatividade
+  **metílico > primário > secundário > terciário**.
+:::
+
+## O mecanismo SN1
+
+::: {#def-sn1}
+## Mecanismo SN1
+**Unimolecular**, em **duas etapas**: primeiro o grupo de saída parte formando um
+**carbocátion** (etapa lenta), depois o nucleófilo ataca. Características:
+
+- **Cinética de 1ª ordem:** $v = k[\ce{R-X}]$ (não depende do nucleófilo).
+- Passa por carbocátion ⟹ ordem **terciário > secundário > primário** (a oposta da $S_N2$).
+- **Racemização:** o carbocátion plano é atacado pelos dois lados, gerando mistura
+  racêmica.
+:::
+
+::: {.callout-warning}
+As duas ordens de reatividade são **opostas**: $S_N2$ prefere carbono **pouco** substituído
+(menos impedimento estérico); $S_N1$ prefere o **mais** substituído (carbocátion mais
+estável). Por isso substratos **terciários** fazem $S_N1$ e **primários**/metílicos fazem
+$S_N2$; os secundários podem fazer ambos.
+:::
+
+::: {#exm-prever-mecanismo}
+## Prevendo o mecanismo
+O brometo de terc-butila, $\ce{(CH3)3C-Br}$, reage com água preferencialmente por $S_N1$ ou
+$S_N2$?
+
+**Solução.** É um substrato **terciário** — muito impedido para $S_N2$, mas forma um
+carbocátion terciário **estável**. Segue, portanto, **$S_N1$**, com cinética de 1ª ordem e
+racemização.
+:::
+
+## Substituição radicalar
+
+::: {#def-radicalar}
+## Halogenação radicalar
+Em **alcanos** (sem grupo de saída), a substituição ocorre por **radicais livres**,
+iniciada por luz ou calor, em três fases: **iniciação** (quebra homolítica do $\ce{X2}$),
+**propagação** e **terminação**. Ex.: $\ce{CH4 + Cl2 ->[\text{luz}] CH3Cl + HCl}$.
+:::
+
+::: {#exm-radicalar}
+## Etapas da cloração do metano
+Escreva a etapa de iniciação da cloração do metano.
+
+**Solução.** A luz rompe homoliticamente a molécula de cloro, gerando radicais:
+$\ce{Cl2 ->[h\nu] 2 Cl^.}$. Esses radicais iniciam a propagação, atacando o $\ce{CH4}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Qual a ordem cinética do mecanismo $S_N2$? E do $S_N1$?
+:::
+
+::: {#exr-2}
+Por que substratos terciários preferem $S_N1$ e primários preferem $S_N2$?
+:::
+
+::: {#exr-3}
+O que acontece com a configuração do carbono num $S_N2$? E num $S_N1$?
+:::
+
+::: {#exr-4}
+Cite as três fases de uma substituição radicalar.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $S_N2$: **2ª ordem**, $v = k[\ce{R-X}][\ce{Nu-}]$. $S_N1$: **1ª ordem**,
+$v = k[\ce{R-X}]$.
+
+**@exr-2.** $S_N1$ passa por **carbocátion**, mais estável quando terciário; $S_N2$ exige
+ataque direto, dificultado pelo **impedimento estérico** dos grupos — daí preferir o
+primário/metílico.
+
+**@exr-3.** $S_N2$: **inversão** de configuração (Walden). $S_N1$: **racemização** (ataque
+pelos dois lados do carbocátion plano).
+
+**@exr-4.** **Iniciação**, **propagação** e **terminação**.
+:::
