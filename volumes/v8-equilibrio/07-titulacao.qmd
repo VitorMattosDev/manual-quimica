@@ -1,0 +1,122 @@
+---
+title: "Titulação ácido-base e indicadores"
+---
+
+# Titulação ácido-base e indicadores {#sec-titulacao}
+
+## Medir a quantidade de ácido ou base
+
+Quanto ácido há num vinagre? Quanta base num produto de limpeza? A resposta vem da
+**titulação** — a técnica que mede a concentração de uma solução fazendo-a reagir, gota a
+gota, com outra de concentração conhecida. É a aplicação prática de tudo o que se viu sobre
+ácidos, bases e pH, e a porta de entrada da análise volumétrica (Volume XIV). Este capítulo
+encerra o estudo ácido-base do Volume VIII.
+
+## A titulação
+
+::: {#def-titulacao}
+## Titulação ácido-base
+Adiciona-se gradualmente uma solução de concentração conhecida (o **titulante**) a um
+volume medido da solução de concentração desconhecida (o **titulado**), até a reação de
+neutralização se completar. No **ponto de equivalência**, os mols de $\ce{H+}$ e de
+$\ce{OH-}$ são estequiometricamente iguais:
+$$ n_{\text{ácido}} = n_{\text{base}} \quad\Rightarrow\quad
+c_a V_a = c_b V_b \ (\text{ácido e base monopróticos}). $$ {#eq-titulacao}
+:::
+
+::: {.callout-warning}
+A @eq-titulacao só vale **1:1**. Para ácidos ou bases poli-funcionais, inclua a proporção
+estequiométrica: na neutralização de $\ce{H2SO4}$ (diprótico) por $\ce{NaOH}$, são precisos
+**2 mols** de base por mol de ácido, e $2\,n_{\text{ácido}} = n_{\text{base}}$.
+:::
+
+::: {#exm-titulacao}
+## Achando a concentração
+$\pu{20,0 mL}$ de uma solução de $\ce{HCl}$ são neutralizados por $\pu{25,0 mL}$ de
+$\ce{NaOH}$ a $\pu{0,100 mol/L}$. Qual a concentração do $\ce{HCl}$?
+
+**Solução.** Reação 1:1. Pela @eq-titulacao,
+$c_a = \dfrac{c_b V_b}{V_a} = \dfrac{0{,}100\times 25{,}0}{20{,}0} = \pu{0,125 mol/L}$.
+:::
+
+## A curva de titulação e o ponto de equivalência
+
+Ao registrar o pH contra o volume de titulante, obtém-se a **curva de titulação**, com um
+salto abrupto no ponto de equivalência. O pH **nesse ponto** depende dos parceiros:
+
+::: {#def-ponto-equivalencia}
+## pH no ponto de equivalência
+- **Ácido forte + base forte:** sal neutro, $\mathrm{pH} = 7$.
+- **Ácido fraco + base forte:** sal de hidrólise básica, $\mathrm{pH} > 7$.
+- **Base fraca + ácido forte:** sal de hidrólise ácida, $\mathrm{pH} < 7$.
+:::
+
+::: {.callout-note}
+Não confunda **ponto de equivalência** (conceito estequiométrico: quando $n_{\text{ácido}}
+= n_{\text{base}}$) com **ponto de viragem** (quando o indicador muda de cor). Um bom
+indicador é escolhido para que os dois praticamente coincidam.
+:::
+
+## Indicadores
+
+::: {#def-indicador}
+## Indicador ácido-base
+Um **indicador** é um ácido (ou base) fraco cuja forma protonada e desprotonada têm **cores
+diferentes**. Ele muda de cor numa faixa estreita de pH em torno de seu próprio
+$\mathrm{p}K_a$ (a **faixa de viragem**). Escolhe-se o indicador cuja viragem caia dentro
+do salto de pH da titulação.
+:::
+
+Exemplos: a **fenolftaleína** vira de incolor a rosa em torno de pH $8$–$10$ (boa para
+ácido fraco + base forte); o **alaranjado de metila** vira em torno de pH $3$–$4$ (boa para
+base fraca + ácido forte).
+
+::: {#exm-indicador}
+## Escolhendo o indicador
+Numa titulação de ácido acético (fraco) com $\ce{NaOH}$ (forte), qual indicador é mais
+adequado: fenolftaleína ou alaranjado de metila?
+
+**Solução.** O ponto de equivalência é **básico** ($\mathrm{pH} > 7$, hidrólise do
+acetato). A **fenolftaleína** (viragem em pH 8–10) cai sobre esse ponto; o alaranjado de
+metila viraria cedo demais. Escolhe-se a **fenolftaleína**.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+$\pu{30,0 mL}$ de $\ce{NaOH}$ são neutralizados por $\pu{15,0 mL}$ de $\ce{HCl}$ a
+$\pu{0,200 mol/L}$. Qual a concentração da base?
+:::
+
+::: {#exr-2}
+Qual o pH (aproximado) no ponto de equivalência de uma titulação de ácido forte com base
+forte?
+:::
+
+::: {#exr-3}
+Que volume de $\ce{NaOH}$ $\pu{0,10 mol/L}$ neutraliza $\pu{20 mL}$ de $\ce{H2SO4}$
+$\pu{0,10 mol/L}$ (diprótico)?
+:::
+
+::: {#exr-4}
+Diferencie ponto de equivalência e ponto de viragem.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $c_b = \dfrac{c_a V_a}{V_b} = \dfrac{0{,}200\times 15{,}0}{30{,}0} =
+\pu{0,100 mol/L}$.
+
+**@exr-2.** $\mathrm{pH} = 7$ (o sal formado é neutro).
+
+**@exr-3.** $\ce{H2SO4}$ é diprótico: $n_{\ce{OH-}} = 2\,n_{\ce{H2SO4}} =
+2\times(0{,}10\times 0{,}020) = \pu{0,004 mol}$. Logo
+$V = \dfrac{0{,}004}{0{,}10} = \pu{0,040 L} = \pu{40 mL}$.
+
+**@exr-4.** O **ponto de equivalência** é estequiométrico ($n_{\text{ácido}}=n_{\text{base}}$);
+o **ponto de viragem** é onde o indicador muda de cor. Um bom indicador faz os dois
+coincidirem.
+:::
