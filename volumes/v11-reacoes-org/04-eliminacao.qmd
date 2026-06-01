@@ -1,0 +1,100 @@
+---
+title: "Reações de eliminação (E1/E2)"
+---
+
+# Reações de eliminação (E1/E2) {#sec-eliminacao}
+
+## O inverso da adição
+
+Se a adição **insere** átomos numa dupla, a **eliminação** faz o contrário: remove átomos de
+uma molécula saturada para **criar** uma insaturação. Dois grupos saem de carbonos vizinhos
+e nasce uma ligação dupla. As eliminações competem diretamente com as substituições do
+mesmo substrato — e entender quando uma vence a outra completa o quadro das reações
+fundamentais.
+
+## A reação de eliminação
+
+::: {#def-eliminacao}
+## Eliminação
+Remoção de dois átomos ou grupos de **carbonos adjacentes**, formando uma ligação dupla. A
+desidro-halogenação ($\ce{-HX}$, com base) e a desidratação de álcoois ($\ce{-H2O}$, meio
+ácido) são os casos típicos:
+$$ \ce{CH3-CH2-Br + base -> CH2=CH2 + HBr}. $$
+Como na substituição, há dois mecanismos: **E2** e **E1**.
+:::
+
+## Os mecanismos E2 e E1
+
+::: {#def-e2-e1}
+## E2 e E1
+- **E2** (bimolecular, uma etapa): a base arranca o hidrogênio **ao mesmo tempo** que o
+  grupo de saída parte. Cinética de **2ª ordem**, $v = k[\text{substrato}][\text{base}]$.
+- **E1** (unimolecular, duas etapas): primeiro o grupo de saída parte formando um
+  **carbocátion** (etapa lenta), depois a base remove um hidrogênio vizinho. Cinética de
+  **1ª ordem**, $v = k[\text{substrato}]$.
+:::
+
+Note o paralelo: E2 ~ $S_N2$ (concertada, 2ª ordem); E1 ~ $S_N1$ (via carbocátion, 1ª
+ordem). De fato, eliminação e substituição **competem** no mesmo substrato.
+
+## A regra de Zaitsev
+
+Quando há mais de um hidrogênio vizinho a remover, formam-se alcenos diferentes. Zaitsev diz
+qual predomina.
+
+::: {#def-zaitsev}
+## Regra de Zaitsev
+Na eliminação, o produto **majoritário** é o alceno **mais substituído** (mais estável) —
+aquele com mais grupos alquila nos carbonos da dupla. Bases volumosas, porém, podem favorecer
+o alceno **menos** substituído (produto de Hofmann).
+:::
+
+::: {.callout-note}
+Substituição × eliminação dependem das condições: **bases fortes e volumosas** e
+**temperatura alta** favorecem a **eliminação**; **nucleófilos pouco básicos** e
+temperatura baixa favorecem a **substituição**. O mesmo haleto pode dar produtos diferentes
+conforme o reagente e a temperatura.
+:::
+
+::: {#exm-zaitsev}
+## Aplicando Zaitsev
+Na desidratação do butan-2-ol, $\ce{CH3-CH(OH)-CH2-CH3}$, qual o alceno principal?
+
+**Solução.** A perda de água pode gerar but-1-eno ou but-2-eno. Por Zaitsev, predomina o
+**mais substituído**: o **but-2-eno** ($\ce{CH3-CH=CH-CH3}$), cuja dupla tem mais grupos
+alquila e é mais estável.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+O que uma reação de eliminação produz a partir de uma molécula saturada?
+:::
+
+::: {#exr-2}
+Compare as ordens cinéticas de E1 e E2.
+:::
+
+::: {#exr-3}
+Pela regra de Zaitsev, qual alceno é o produto majoritário de uma eliminação?
+:::
+
+::: {#exr-4}
+Que condições favorecem a eliminação em vez da substituição?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Uma **insaturação** (ligação dupla): dois grupos saem de carbonos vizinhos e a
+ligação simples vira dupla.
+
+**@exr-2.** **E1:** 1ª ordem, $v = k[\text{substrato}]$. **E2:** 2ª ordem,
+$v = k[\text{substrato}][\text{base}]$.
+
+**@exr-3.** O alceno **mais substituído** (mais estável).
+
+**@exr-4.** **Bases fortes e volumosas** e **temperatura elevada** favorecem a eliminação.
+:::
