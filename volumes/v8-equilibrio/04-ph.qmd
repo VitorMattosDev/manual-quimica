@@ -1,0 +1,105 @@
+---
+title: "Autoionização da água, pH e pOH"
+---
+
+# Autoionização da água, pH e pOH {#sec-ph}
+
+## Medir a acidez em uma escala
+
+Dizer que um líquido é "ácido" ou "básico" é qualitativo; a química precisa de número. Esse
+número é o **pH**, talvez a grandeza mais conhecida do laboratório, presente da agricultura
+à biologia. Sua origem está num fato discreto mas fundamental: a própria água se ioniza um
+pouquinho. Deduzir o pH a partir dessa **autoionização** é o objetivo deste capítulo, que
+prepara o estudo quantitativo de ácidos e bases.
+
+## A autoionização da água
+
+::: {#def-kw}
+## Produto iônico da água
+Mesmo pura, a água se autoioniza levemente:
+$$ \ce{2 H2O <=> H3O+ + OH-}, \qquad K_w = [\ce{H+}][\ce{OH-}]. $$
+A $\pu{25 ^\circ C}$, $K_w = 1{,}0\times 10^{-14}$. Na água pura,
+$[\ce{H+}] = [\ce{OH-}] = 1{,}0\times 10^{-7}\,\pu{mol/L}$ — neutra.
+:::
+
+Como $K_w$ é constante (a dada $T$), $[\ce{H+}]$ e $[\ce{OH-}]$ são inversos: aumentar um
+**diminui** o outro. Por isso toda solução aquosa tem **ambos** os íons; o que muda é a
+proporção.
+
+::: {.callout-note}
+$K_w$ depende da temperatura. A $\pu{25 ^\circ C}$ vale $10^{-14}$, mas cresce ao aquecer —
+a água a $\pu{50 ^\circ C}$ tem pH neutro **abaixo** de 7. As contas deste capítulo assumem
+$\pu{25 ^\circ C}$.
+:::
+
+## As escalas de pH e pOH
+
+Como as concentrações são potências de dez minúsculas, usa-se a escala logarítmica.
+
+::: {#def-ph}
+## pH e pOH
+$$ \mathrm{pH} = -\log[\ce{H+}], \qquad \mathrm{pOH} = -\log[\ce{OH-}]. $$ {#eq-ph}
+Aplicando $-\log$ a $K_w$, obtém-se a relação que amarra as duas escalas (a $\pu{25 ^\circ C}$):
+$$ \mathrm{pH} + \mathrm{pOH} = 14. $$ {#eq-ph-poh}
+:::
+
+A escala (a $\pu{25 ^\circ C}$): **pH < 7** ácido, **pH = 7** neutro, **pH > 7** básico.
+Cada unidade de pH corresponde a um fator **10** na concentração de $\ce{H+}$.
+
+::: {#exm-ph-forte}
+## pH de um ácido forte
+Qual o pH de uma solução de $\ce{HCl}$ a $\pu{0,010 mol/L}$?
+
+**Solução.** O $\ce{HCl}$ é ácido forte: ioniza totalmente, $[\ce{H+}] = \pu{0,010 mol/L}
+= 10^{-2}$. Logo $\mathrm{pH} = -\log(10^{-2}) = 2{,}0$. (Ácido, como esperado.)
+:::
+
+::: {#exm-ph-base}
+## pH a partir do pOH
+Qual o pH de uma solução com $[\ce{OH-}] = 1{,}0\times 10^{-3}\,\pu{mol/L}$?
+
+**Solução.** $\mathrm{pOH} = -\log(10^{-3}) = 3{,}0$. Pela @eq-ph-poh,
+$\mathrm{pH} = 14 - 3 = 11{,}0$ — básico.
+:::
+
+::: {#exm-concentracao-do-ph}
+## Da escala de volta à concentração
+Uma solução tem $\mathrm{pH} = 4{,}0$. Qual $[\ce{H+}]$?
+
+**Solução.** $[\ce{H+}] = 10^{-\mathrm{pH}} = 10^{-4}\,\pu{mol/L}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Calcule o pH de uma solução com $[\ce{H+}] = 1{,}0\times 10^{-5}\,\pu{mol/L}$. É ácida ou
+básica?
+:::
+
+::: {#exr-2}
+O pOH de uma solução é $2{,}0$. Qual o pH? E $[\ce{H+}]$?
+:::
+
+::: {#exr-3}
+Qual o pH de $\ce{NaOH}$ a $\pu{0,10 mol/L}$ (base forte)?
+:::
+
+::: {#exr-4}
+De quanto varia $[\ce{H+}]$ ao passar de pH 3 para pH 6?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\mathrm{pH} = -\log(10^{-5}) = 5{,}0$. Como $\mathrm{pH} < 7$, é **ácida**.
+
+**@exr-2.** $\mathrm{pH} = 14 - 2 = 12{,}0$; $[\ce{H+}] = 10^{-12}\,\pu{mol/L}$.
+
+**@exr-3.** $[\ce{OH-}] = 0{,}10 = 10^{-1}$, logo $\mathrm{pOH} = 1{,}0$ e
+$\mathrm{pH} = 14 - 1 = 13{,}0$.
+
+**@exr-4.** $[\ce{H+}]$ passa de $10^{-3}$ para $10^{-6}$: diminui por um fator
+$10^{3} = 1000$.
+:::

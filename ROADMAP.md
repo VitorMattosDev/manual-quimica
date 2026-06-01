@@ -102,7 +102,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v8-equilibrio/01-equilibrio-k.qmd` — Equilíbrio químico e a constante K.
 - [x] `volumes/v8-equilibrio/02-le-chatelier.qmd` — Quociente reacional e Le Chatelier.
 - [x] `volumes/v8-equilibrio/03-acidos-bases.qmd` — Teorias ácido-base.
-- [ ] `volumes/v8-equilibrio/04-ph.qmd` — Autoionização da água, pH e pOH.
+- [x] `volumes/v8-equilibrio/04-ph.qmd` — Autoionização da água, pH e pOH.
 - [ ] `volumes/v8-equilibrio/05-fracos.qmd` — Equilíbrio de ácidos e bases fracos (Ka, Kb).
 - [ ] `volumes/v8-equilibrio/06-tampao.qmd` — Hidrólise salina e soluções-tampão.
 - [ ] `volumes/v8-equilibrio/07-titulacao.qmd` — Titulação ácido-base e indicadores.
