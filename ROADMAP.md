@@ -111,7 +111,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 ### Volume IX — Eletroquímica
 *Objetivo:* reações redox e energia elétrica. *Pré-requisito:* Vol. VIII.
 
-- [ ] `volumes/v9-eletroquimica/01-balanceamento-redox.qmd` — Balanceamento de reações redox.
+- [x] `volumes/v9-eletroquimica/01-balanceamento-redox.qmd` — Balanceamento de reações redox.
 - [ ] `volumes/v9-eletroquimica/02-pilhas.qmd` — Células galvânicas e potenciais-padrão.
 - [ ] `volumes/v9-eletroquimica/03-nernst.qmd` — Equação de Nernst.
 - [ ] `volumes/v9-eletroquimica/04-eletrolise.qmd` — Eletrólise e leis de Faraday.

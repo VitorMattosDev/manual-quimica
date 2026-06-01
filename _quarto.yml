@@ -86,6 +86,9 @@ book:
         - volumes/v8-equilibrio/06-tampao.qmd
         - volumes/v8-equilibrio/07-titulacao.qmd
         - volumes/v8-equilibrio/08-kps.qmd
+    - part: "Volume IX — Eletroquímica"
+      chapters:
+        - volumes/v9-eletroquimica/01-balanceamento-redox.qmd
   appendices:
     - constantes.qmd
 

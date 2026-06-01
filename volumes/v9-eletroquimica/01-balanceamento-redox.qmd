@@ -1,0 +1,110 @@
+---
+title: "Balanceamento de reações redox"
+---
+
+# Balanceamento de reações redox {#sec-balanceamento-redox}
+
+## Reações em que elétrons trocam de dono
+
+O Volume IV apresentou o número de oxidação e a ideia de oxirredução. Agora, abrindo o
+Volume IX, retomamos as reações **redox** com um objetivo prático: balanceá-las. Muitas são
+complexas demais para o método das tentativas — pense na reação do permanganato com o ferro
+em meio ácido. O **método dos elétrons** (semirreações) resolve qualquer uma delas de forma
+sistemática, e é a base para entender as pilhas e a eletrólise dos próximos capítulos.
+
+## Relembrando: oxidação, redução e agentes
+
+::: {#def-redox}
+## Oxidação e redução
+- **Oxidação:** perda de elétrons; o número de oxidação (nox) **aumenta**.
+- **Redução:** ganho de elétrons; o nox **diminui**.
+- O **agente oxidante** é a espécie que se **reduz** (rouba elétrons); o **agente redutor**,
+  a que se **oxida** (cede elétrons).
+
+Os dois processos são inseparáveis: todo elétron perdido por um é ganho por outro.
+:::
+
+## O método das semirreações (íon-elétron)
+
+A ideia é separar a reação em duas **semirreações** — uma de oxidação, outra de redução —
+balancear cada uma (átomos e cargas) e somá-las de modo que os elétrons se cancelem.
+
+::: {#def-metodo-semirreacoes}
+## Método das semirreações (meio ácido)
+1. Separe as semirreações de oxidação e de redução.
+2. Balanceie os átomos **principais**; depois o **O** com $\ce{H2O}$ e o **H** com
+   $\ce{H+}$.
+3. Balanceie a **carga** acrescentando elétrons ($\ce{e-}$) ao lado mais positivo.
+4. Multiplique cada semirreação para **igualar o número de elétrons**.
+5. **Some** as semirreações; os elétrons devem se cancelar.
+
+Em **meio básico**, balanceie como ácido e, no fim, some $\ce{OH-}$ a ambos os lados para
+neutralizar os $\ce{H+}$ (formando $\ce{H2O}$).
+:::
+
+::: {#exm-semirreacoes}
+## Permanganato e ferro(II) em meio ácido
+Balanceie $\ce{MnO4- + Fe^2+ -> Mn^2+ + Fe^3+}$ (meio ácido).
+
+**Solução.** Semirreações:
+
+- **Redução** ($\ce{Mn}$: $+7 \to +2$):
+  $\ce{MnO4- + 8 H+ + 5 e- -> Mn^2+ + 4 H2O}$.
+- **Oxidação** ($\ce{Fe}$: $+2 \to +3$): $\ce{Fe^2+ -> Fe^3+ + e-}$.
+
+Igualando elétrons, multiplica-se a oxidação por **5** e soma-se:
+$$ \ce{MnO4- + 8 H+ + 5 Fe^2+ -> Mn^2+ + 4 H2O + 5 Fe^3+}. $$
+Confira: cargas $(-1+8+10) = +17$ de cada lado. Balanceada.
+:::
+
+::: {.callout-warning}
+A reação redox só está correta quando **átomos e cargas** fecham nos dois lados. Conferir
+apenas os átomos é insuficiente — o segredo do método é o **balanço de carga** via elétrons.
+Sempre some as cargas líquidas dos dois lados ao final.
+:::
+
+::: {#exm-meio-basico}
+## Ajuste para meio básico
+Como adaptar uma semirreação balanceada em meio ácido para meio básico?
+
+**Solução.** Adicione a **ambos** os lados tantos $\ce{OH-}$ quantos forem os $\ce{H+}$
+presentes. Os $\ce{H+} + \ce{OH-}$ de um lado viram $\ce{H2O}$; cancelam-se as águas
+repetidas. Assim some o $\ce{H+}$, próprio do meio ácido.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Numa reação redox, qual espécie **se oxida**: o agente oxidante ou o redutor? E o que
+acontece com seu nox?
+:::
+
+::: {#exr-2}
+Balanceie a semirreação de redução do dicromato em meio ácido:
+$\ce{Cr2O7^2- -> Cr^3+}$ (acrescente $\ce{H+}$, $\ce{H2O}$ e $\ce{e-}$).
+:::
+
+::: {#exr-3}
+Na reação $\ce{Zn + Cu^2+ -> Zn^2+ + Cu}$, identifique o agente oxidante e o redutor.
+:::
+
+::: {#exr-4}
+Após balancear em meio ácido, como se converte uma equação para meio básico?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** O **agente redutor** se oxida; seu nox **aumenta** (perde elétrons).
+
+**@exr-2.** $\ce{Cr2O7^2- + 14 H+ + 6 e- -> 2 Cr^3+ + 7 H2O}$. (Cargas: $-2+14-6 = +6 =
+2\times(+3)$.)
+
+**@exr-3.** O $\ce{Cu^2+}$ se reduz → **agente oxidante**; o $\ce{Zn}$ se oxida → **agente
+redutor**.
+
+**@exr-4.** Adicionando a ambos os lados o mesmo número de $\ce{OH-}$ que de $\ce{H+}$;
+$\ce{H+ + OH- -> H2O}$, e cancelam-se as águas em excesso.
+:::
