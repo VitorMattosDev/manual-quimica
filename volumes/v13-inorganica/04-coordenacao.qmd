@@ -1,0 +1,113 @@
+---
+title: "Compostos de coordenação: nomenclatura e isomeria"
+---
+
+# Compostos de coordenação {#sec-coordenacao}
+
+## Metais cercados de ligantes
+
+O capítulo anterior anunciou que cor e magnetismo dos metais de transição surgem quando eles
+formam **complexos**. Um complexo é um metal central rodeado de moléculas ou íons que lhe
+doam pares de elétrons — uma aplicação direta da ideia de **ácido e base de Lewis** (Volume
+VIII). Os **compostos de coordenação** explicam pigmentos, catalisadores, a hemoglobina e
+fármacos como a cisplatina. Aqui aprendemos sua estrutura, nomenclatura e isomeria.
+
+## Estrutura de um complexo
+
+::: {#def-complexo}
+## Complexo de coordenação
+Um **complexo** tem um **átomo ou íon metálico central** (ácido de Lewis) ligado a
+**ligantes** (bases de Lewis, que doam pares de elétrons). Define-se:
+
+- **Número de coordenação:** quantos ligantes (ligações) cercam o metal (comum: 2, 4, 6).
+- **Esfera de coordenação:** o conjunto metal + ligantes, escrito entre **colchetes**.
+- **Carga do complexo:** soma da carga do metal e dos ligantes.
+:::
+
+::: {#exm-numero-coordenacao}
+## Identificando metal, ligante e nox
+No íon $\ce{[Cu(NH3)4]^2+}$, identifique o metal, os ligantes, o número de coordenação e o
+nox do cobre.
+
+**Solução.** Metal central: **$\ce{Cu}$**. Ligantes: **4 $\ce{NH3}$** (amônia, neutra).
+Número de coordenação: **4**. Como o $\ce{NH3}$ é neutro e a carga total é $+2$, o nox do
+cobre é **$+2$**.
+:::
+
+## Ligantes e denticidade
+
+::: {#def-ligantes}
+## Tipos de ligante
+Conforme o número de pontos de ligação ao metal:
+
+- **Monodentado:** um só ponto (ex.: $\ce{H2O}$, $\ce{NH3}$, $\ce{Cl-}$, $\ce{CN-}$).
+- **Polidentado (quelante):** vários pontos, "abraçando" o metal (ex.: a **etilenodiamina**,
+  bidentada; o **EDTA**, hexadentado). Formam complexos muito estáveis (efeito quelato).
+:::
+
+## Nomenclatura básica
+
+::: {#def-nomenclatura-complexo}
+## Regras de nomenclatura
+1. Nomeiam-se os **ligantes** primeiro, em ordem alfabética, com prefixos di-, tri-,
+   tetra- para a quantidade.
+2. Ligantes aniônicos terminam em **-o** (cloro, ciano, hidroxo); neutros mantêm o nome
+   (aqua para água, amin para amônia).
+3. Por fim, o **metal**, com seu **nox em algarismos romanos** entre parênteses. Se o
+   complexo for **aniônico**, o metal recebe o sufixo **-ato**.
+:::
+
+::: {#exm-nomear-complexo}
+## Nomeando um complexo
+Nomeie $\ce{[Co(NH3)6]Cl3}$.
+
+**Solução.** No cátion $\ce{[Co(NH3)6]^3+}$: 6 amônias (hexaamin) e cobalto com nox $+3$.
+Com os três cloretos de contraíon: **cloreto de hexaamincobalto(III)**.
+:::
+
+## Isomeria em complexos
+
+::: {#def-isomeria-complexo}
+## Tipos de isomeria
+Complexos exibem isomeria, como os orgânicos:
+
+- **Geométrica (cis-trans):** posição relativa dos ligantes (ex.: cisplatina × transplatina,
+  com efeitos biológicos opostos).
+- **Óptica:** complexos quirais, com enantiômeros que desviam a luz (Volume X).
+- **De ligação:** o mesmo ligante coordena por átomos diferentes (ex.: $\ce{-NO2}$ pelo N ou
+  pelo O).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+No complexo $\ce{[Fe(CN)6]^4-}$, qual o número de coordenação e o nox do ferro?
+:::
+
+::: {#exr-2}
+Diferencie ligante monodentado de polidentado (quelante).
+:::
+
+::: {#exr-3}
+Nomeie o íon $\ce{[Cu(NH3)4]^2+}$.
+:::
+
+::: {#exr-4}
+Que tipo de isomeria distingue a cisplatina da transplatina?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** 6 ligantes $\ce{CN-}$ ⟹ número de coordenação **6**. Cada $\ce{CN-}$ tem carga
+$-1$: $\ce{Fe} + 6(-1) = -4 \Rightarrow \ce{Fe} = +2$.
+
+**@exr-2.** **Monodentado** liga-se ao metal por **um** ponto; **polidentado/quelante**, por
+**vários**, formando anéis com o metal (mais estável).
+
+**@exr-3.** **Íon tetraamincobre(II)** (4 amônias, cobre nox $+2$).
+
+**@exr-4.** Isomeria **geométrica** (cis-trans): a disposição dos ligantes ao redor do metal.
+:::
