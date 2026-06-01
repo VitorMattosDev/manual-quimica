@@ -133,6 +133,9 @@ book:
         - volumes/v14-analitica/03-gravimetria.qmd
         - volumes/v14-analitica/04-volumetria.qmd
         - volumes/v14-analitica/05-instrumental.qmd
+    - part: "Volume XV — Química Quântica e Espectroscopia"
+      chapters:
+        - volumes/v15-quantica/01-fundamentos-mq.qmd
   appendices:
     - constantes.qmd
 

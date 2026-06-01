@@ -1,0 +1,111 @@
+---
+title: "Fundamentos da mecânica quântica para a química"
+---
+
+# Fundamentos da mecânica quântica para a química {#sec-fundamentos-mq}
+
+## A base de tudo o que veio antes
+
+O Volume II usou orbitais, números quânticos e níveis de energia como **fatos**. Agora, na
+Fase 5, voltamos para entender *por quê*. A **mecânica quântica** é o alicerce de toda a
+química: ela deduz a estrutura atômica, a ligação e a espectroscopia. Este capítulo retoma
+seus fundamentos com a profundidade que o tema merece — apoiado também na mecânica quântica
+do *Manual de Física* e na álgebra do *Manual de Matemática*.
+
+## A dualidade onda-partícula
+
+::: {#def-dualidade}
+## Dualidade onda-partícula
+Partículas de escala atômica exibem comportamento **ondulatório e corpuscular**. De Broglie
+associou a toda partícula um comprimento de onda
+$$ \lambda = \frac{h}{mv}, $$ {#eq-de-broglie}
+onde $h$ é a constante de Planck. Para objetos macroscópicos, $\lambda$ é ínfimo
+(imperceptível); para o elétron, é da ordem do átomo — daí a natureza ondulatória dominar a
+química.
+:::
+
+## O princípio da incerteza
+
+::: {#def-incerteza}
+## Princípio da incerteza de Heisenberg
+Não se pode conhecer simultaneamente, com precisão arbitrária, a **posição** e o **momento**
+de uma partícula:
+$$ \Delta x\,\Delta p \gtrsim \frac{h}{4\pi}. $$ {#eq-incerteza}
+Por isso a química quântica abandona as **órbitas** definidas de Bohr e fala em
+**probabilidade** de encontrar o elétron numa região — o orbital.
+:::
+
+::: {.callout-note}
+A incerteza não é limitação dos instrumentos, mas uma propriedade **fundamental** da
+natureza. É por ela que o conceito clássico de trajetória do elétron perde sentido e dá lugar
+à **nuvem de probabilidade** — a interpretação que fundamenta o orbital do Volume II.
+:::
+
+## A equação de Schrödinger e a função de onda
+
+::: {#def-schrodinger}
+## Função de onda e equação de Schrödinger
+O estado de um sistema quântico é descrito por uma **função de onda** $\psi$, solução da
+**equação de Schrödinger** $\hat{H}\psi = E\psi$. Dela se extrai tudo:
+
+- $|\psi|^2$ é a **densidade de probabilidade** de encontrar a partícula numa posição;
+- as soluções só existem para **valores discretos** de energia — a **quantização** surge
+  naturalmente, como modos de vibração de uma corda.
+:::
+
+::: {#exm-de-broglie}
+## Comprimento de onda de um elétron
+Estime o comprimento de onda de um elétron ($m = \pu{9,11e-31 kg}$) a
+$v = \pu{1,0e6 m/s}$. ($h = \pu{6,63e-34 J.s}$.)
+
+**Solução.** Pela @eq-de-broglie,
+$\lambda = \dfrac{6{,}63\times 10^{-34}}{9{,}11\times 10^{-31}\times 1{,}0\times 10^{6}}
+\approx 7{,}3\times 10^{-10}\,\pu{m}$ — cerca de $\pu{0,7 nm}$, escala atômica. Por isso o
+elétron "sente" a estrutura do átomo como uma onda.
+:::
+
+## A quantização da energia
+
+A consequência mais importante para a química: as energias dos elétrons num átomo são
+**quantizadas** — só certos valores são permitidos, os **níveis**. As transições entre eles
+absorvem ou emitem fótons de energia $\Delta E = h\nu$ (Volume II), e é justamente isso que
+a **espectroscopia** (capítulos finais deste volume) mede.
+
+## Exercícios
+
+::: {#exr-1}
+O que a relação de De Broglie associa a uma partícula em movimento?
+:::
+
+::: {#exr-2}
+Por que a química quântica fala em "orbital" (nuvem de probabilidade) e não em órbita
+definida?
+:::
+
+::: {#exr-3}
+O que representa fisicamente $|\psi|^2$?
+:::
+
+::: {#exr-4}
+Calcule $\lambda$ de uma partícula de $m = \pu{2,0e-27 kg}$ a $v = \pu{1,0e3 m/s}$.
+($h = \pu{6,63e-34 J.s}$.)
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Um **comprimento de onda** $\lambda = h/mv$ — o caráter **ondulatório** da
+partícula.
+
+**@exr-2.** Pelo princípio da **incerteza**, não se pode conhecer ao mesmo tempo posição e
+momento exatos; só faz sentido falar da **probabilidade** ($|\psi|^2$) de encontrar o
+elétron numa região — o orbital.
+
+**@exr-3.** A **densidade de probabilidade** de encontrar a partícula em cada ponto do
+espaço.
+
+**@exr-4.** $\lambda = \dfrac{6{,}63\times 10^{-34}}{2{,}0\times 10^{-27}\times 10^{3}} =
+3{,}3\times 10^{-10}\,\pu{m}$.
+:::

@@ -183,7 +183,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 *Objetivo:* a base quântica da ligação e da análise espectral.
 *Pré-requisito:* Vol. II + mecânica quântica (Manual de Física) + álgebra linear (Manual de Matemática).
 
-- [ ] `volumes/v15-quantica/01-fundamentos-mq.qmd` — Fundamentos da mecânica quântica para a química.
+- [x] `volumes/v15-quantica/01-fundamentos-mq.qmd` — Fundamentos da mecânica quântica para a química.
 - [ ] `volumes/v15-quantica/02-atomos.qmd` — Átomo de hidrogênio e átomos polieletrônicos.
 - [ ] `volumes/v15-quantica/03-tom.qmd` — Teoria do orbital molecular (TOM).
 - [ ] `volumes/v15-quantica/04-simetria.qmd` — Simetria molecular e teoria de grupos *(ver álgebra do Manual de Matemática)*.
