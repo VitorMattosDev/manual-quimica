@@ -1,0 +1,114 @@
+---
+title: "Teorias ácido-base"
+---
+
+# Teorias ácido-base {#sec-acidos-bases}
+
+## Três olhares sobre uma mesma química
+
+Ácidos e bases estão por toda parte: no estômago, na chuva, na limpeza, no sangue. Mas o
+que **é** um ácido? A resposta evoluiu em três teorias de abrangência crescente — Arrhenius,
+Brønsted-Lowry e Lewis — cada uma englobando a anterior. Compreendê-las é o pré-requisito
+para o estudo quantitativo do pH e dos equilíbrios iônicos dos próximos capítulos, todos
+dentro do Volume VIII.
+
+## Arrhenius: íons em água
+
+::: {#def-arrhenius-acido}
+## Teoria de Arrhenius
+Em solução aquosa, **ácido** é a espécie que libera íons $\ce{H+}$ (ou $\ce{H3O+}$) e
+**base** é a que libera íons $\ce{OH-}$:
+$$ \ce{HCl -> H+ + Cl-}, \qquad \ce{NaOH -> Na+ + OH-}. $$
+A neutralização é $\ce{H+ + OH- -> H2O}$.
+:::
+
+É a teoria mais simples, porém **limitada à água** e incapaz de explicar por que substâncias
+sem $\ce{OH-}$, como a amônia, são básicas.
+
+## Brønsted-Lowry: transferência de prótons
+
+::: {#def-bronsted}
+## Teoria de Brønsted-Lowry
+**Ácido** é um **doador de prótons** ($\ce{H+}$); **base**, um **receptor de prótons**. A
+reação ácido-base é uma **transferência de próton**:
+$$ \ce{HCl + H2O -> H3O+ + Cl-}, \qquad \ce{NH3 + H2O <=> NH4+ + OH-}. $$
+:::
+
+A grande ideia é o **par conjugado**: ao doar um próton, um ácido vira sua **base
+conjugada**; ao receber, uma base vira seu **ácido conjugado**. Eles diferem por um único
+$\ce{H+}$.
+
+::: {.callout-note}
+A água é **anfótera**: comporta-se como ácido (doa $\ce{H+}$ ao $\ce{NH3}$) ou como base
+(recebe $\ce{H+}$ do $\ce{HCl}$), conforme o parceiro. Quanto **mais forte** um ácido, mais
+**fraca** sua base conjugada.
+:::
+
+::: {#exm-conjugados}
+## Identificando pares conjugados
+Na reação $\ce{HF + H2O <=> H3O+ + F-}$, identifique os pares ácido-base conjugados.
+
+**Solução.** O $\ce{HF}$ doa $\ce{H+}$ e vira $\ce{F-}$: par $\ce{HF}/\ce{F-}$ (ácido/base
+conjugada). A $\ce{H2O}$ recebe $\ce{H+}$ e vira $\ce{H3O+}$: par $\ce{H2O}/\ce{H3O+}$
+(base/ácido conjugado).
+:::
+
+## Lewis: pares de elétrons
+
+::: {#def-lewis-acido}
+## Teoria de Lewis
+A teoria mais geral inverte o foco do próton para o **par de elétrons**: **ácido de Lewis**
+é um **receptor** de par eletrônico; **base de Lewis**, um **doador**. A reação forma uma
+**ligação covalente coordenada**:
+$$ \ce{BF3 + NH3 -> F3B-NH3}. $$
+:::
+
+A teoria de Lewis engloba as anteriores (todo ácido de Brønsted é ácido de Lewis) e explica
+a acidez de espécies **sem hidrogênio**, como $\ce{BF3}$ e cátions metálicos — base, aliás,
+da química de coordenação (Volume XIII).
+
+::: {#exm-lewis}
+## Ácido de Lewis sem H
+Por que o $\ce{AlCl3}$ é um ácido, mesmo sem ter $\ce{H+}$ a doar?
+
+**Solução.** O alumínio no $\ce{AlCl3}$ tem octeto incompleto e **recebe** um par de
+elétrons (de um $\ce{Cl-}$, por exemplo, formando $\ce{AlCl4-}$). Receptor de par eletrônico
+$\Rightarrow$ **ácido de Lewis**, ainda que não se enquadre em Arrhenius nem Brønsted.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Classifique pela teoria de Arrhenius: $\ce{HNO3}$, $\ce{KOH}$, $\ce{H2SO4}$.
+:::
+
+::: {#exr-2}
+Na reação $\ce{NH3 + H2O <=> NH4+ + OH-}$, identifique o ácido, a base e seus conjugados.
+:::
+
+::: {#exr-3}
+Explique por que a água é considerada anfótera.
+:::
+
+::: {#exr-4}
+Por que o $\ce{BF3}$ é ácido de Lewis mas **não** de Arrhenius?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Ácidos (liberam $\ce{H+}$): $\ce{HNO3}$, $\ce{H2SO4}$. Base (libera $\ce{OH-}$):
+$\ce{KOH}$.
+
+**@exr-2.** $\ce{H2O}$ doa $\ce{H+}$ → **ácido**, conjugado $\ce{OH-}$; $\ce{NH3}$ recebe
+$\ce{H+}$ → **base**, conjugado $\ce{NH4+}$. Pares: $\ce{H2O}/\ce{OH-}$ e
+$\ce{NH4+}/\ce{NH3}$.
+
+**@exr-3.** Porque pode **doar** $\ce{H+}$ (agindo como ácido) ou **receber** $\ce{H+}$
+(agindo como base), conforme o parceiro da reação.
+
+**@exr-4.** Ele **recebe** um par de elétrons (ácido de Lewis), mas **não libera** $\ce{H+}$
+em água (não é ácido de Arrhenius) — nem sequer tem hidrogênio.
+:::
