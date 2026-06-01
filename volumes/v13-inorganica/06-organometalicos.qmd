@@ -1,0 +1,97 @@
+---
+title: "Organometálicos e catálise (introdução)"
+---
+
+# Organometálicos e catálise {#sec-organometalicos}
+
+## Onde a orgânica encontra a inorgânica
+
+Há uma fronteira fértil entre a química orgânica e a dos metais: os compostos
+**organometálicos**, em que um carbono se liga diretamente a um metal. Eles são os
+protagonistas da **catálise** moderna — produzem polímeros, fármacos e combustíveis com
+precisão e economia. Fechando o Volume XIII, este capítulo introduz a classe e mostra como
+ela une os complexos de coordenação (capítulos anteriores) à reatividade orgânica (Volume
+XI).
+
+## Compostos organometálicos
+
+::: {#def-organometalico}
+## Composto organometálico
+É um composto com pelo menos uma ligação **metal–carbono** ($\ce{M-C}$) direta. O metal pode
+ser de transição ou representativo. Exemplos:
+
+- **Reagentes de Grignard** ($\ce{R-MgX}$): ferramenta clássica da síntese orgânica.
+- **Ferroceno** ($\ce{Fe(C5H5)2}$): um metal "ensanduichado" entre dois anéis.
+- Complexos de $\ce{Pd}$, $\ce{Pt}$, $\ce{Rh}$: catalisadores industriais.
+:::
+
+## Catálise organometálica
+
+::: {#def-catalise-organometalica}
+## Catálise homogênea por organometálicos
+Muitos organometálicos atuam como **catalisadores homogêneos** (Volume VII): coordenam os
+reagentes ao metal, aproximam-nos e rebaixam a energia de ativação, regenerando-se ao fim do
+ciclo. Aproveitam os **estados de oxidação variáveis** do metal de transição para ativar
+ligações que, de outro modo, seriam inertes.
+:::
+
+::: {.callout-note}
+A catálise organometálica revolucionou a indústria: o processo de **Ziegler-Natta** produz
+polietileno e polipropileno controlados; os **acoplamentos de paládio** (Nobel de 2010)
+montam moléculas complexas de fármacos. Tudo se apoia na facilidade do metal de transição em
+trocar elétrons e coordenar ligantes — os conceitos dos capítulos anteriores em ação.
+:::
+
+::: {#exm-ciclo-catalitico}
+## A ideia de um ciclo catalítico
+Em linhas gerais, como um catalisador organometálico acelera uma reação sem se consumir?
+
+**Solução.** O metal **coordena** os reagentes (como ligantes), aproximando-os na geometria
+certa e ativando suas ligações; a reação ocorre na esfera de coordenação; o produto se
+**desliga** e o catalisador volta ao estado inicial, pronto para outro ciclo. Ele participa,
+mas é **regenerado** — definição de catalisador.
+:::
+
+## Catálise heterogênea e biológica: o panorama
+
+Além da homogênea, há a **catálise heterogênea** (Volume VII), em superfícies metálicas — o
+conversor catalítico ($\ce{Pt}$, $\ce{Pd}$, $\ce{Rh}$) que limpa os gases de escape, ou o
+ferro do processo Haber. E a natureza faz o mesmo com **metaloenzimas**, que carregam metais
+de transição em seus sítios ativos. Da indústria à célula, os metais são catalisadores por
+excelência — encerrando, com chave de ouro, a química inorgânica deste volume.
+
+## Exercícios
+
+::: {#exr-1}
+O que define um composto como organometálico?
+:::
+
+::: {#exr-2}
+Cite dois exemplos de compostos organometálicos.
+:::
+
+::: {#exr-3}
+Por que os metais de transição são especialmente bons em catálise organometálica?
+:::
+
+::: {#exr-4}
+Diferencie catálise homogênea de heterogênea, dando um exemplo de cada.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Ter pelo menos uma ligação direta **metal–carbono** ($\ce{M-C}$).
+
+**@exr-2.** Reagente de **Grignard** ($\ce{R-MgX}$) e **ferroceno** ($\ce{Fe(C5H5)2}$)
+(ou complexos de Pd/Pt).
+
+**@exr-3.** Por seus **estados de oxidação variáveis** e a capacidade de **coordenar
+ligantes**, ativando ligações e transitando entre estados ao longo do ciclo catalítico.
+
+**@exr-4.** **Homogênea:** catalisador e reagentes na mesma fase (ex.: complexo de Pd em
+solução). **Heterogênea:** fases diferentes (ex.: $\ce{Pt}$ sólida no conversor catalítico
+sobre gases).
+:::
