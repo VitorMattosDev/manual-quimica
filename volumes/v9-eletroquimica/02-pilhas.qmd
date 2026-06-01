@@ -1,0 +1,116 @@
+---
+title: "Células galvânicas e potenciais-padrão"
+---
+
+# Células galvânicas e potenciais-padrão {#sec-pilhas}
+
+## Transformar reação química em corrente elétrica
+
+Se uma reação redox transfere elétrons, por que não **forçá-los a passar por um fio** e
+fazer trabalho elétrico? Essa é a ideia da **célula galvânica** (ou pilha): separar a
+oxidação da redução em compartimentos distintos, ligados por um fio, de modo que os
+elétrons percorram o circuito externo. É a base de toda bateria, e a ponte entre a
+termodinâmica (Volume VI) e a eletricidade. Este capítulo monta a pilha e quantifica sua
+"força" pelos **potenciais-padrão**.
+
+## Anatomia de uma célula galvânica
+
+::: {#def-pilha}
+## Célula galvânica
+Dispositivo em que uma reação redox **espontânea** gera corrente elétrica. Tem dois
+eletrodos:
+
+- **Ânodo** — onde ocorre a **oxidação** (polo **negativo** na pilha); libera elétrons.
+- **Cátodo** — onde ocorre a **redução** (polo **positivo**); recebe elétrons.
+
+Os elétrons fluem do ânodo ao cátodo pelo fio externo; uma **ponte salina** fecha o
+circuito interno, mantendo a neutralidade elétrica das soluções.
+:::
+
+::: {.callout-note}
+Mnemônicos úteis: no **â**nodo, **o**xidação (ambos com vogal); no **c**átodo, **r**edução.
+A corrente "convencional" vai no sentido oposto aos elétrons. A ponte salina é essencial:
+sem ela, o acúmulo de carga interromperia a reação em instantes.
+:::
+
+A pilha de Daniell ($\ce{Zn}$/$\ce{Cu}$) é o exemplo clássico:
+$$ \text{ânodo: } \ce{Zn -> Zn^2+ + 2 e-}; \qquad \text{cátodo: } \ce{Cu^2+ + 2 e- -> Cu}. $$
+Global: $\ce{Zn + Cu^2+ -> Zn^2+ + Cu}$.
+
+## Potencial de eletrodo e a fila de potenciais-padrão
+
+::: {#def-potencial-padrao}
+## Potencial-padrão de redução
+Cada semirreação tem um **potencial-padrão de redução** $E^\circ$ (em volts), medido frente
+ao **eletrodo padrão de hidrogênio** (EPH), ao qual se atribui $E^\circ = \pu{0 V}$.
+Quanto **maior** (mais positivo) $E^\circ$, **maior a tendência de se reduzir** — melhor
+oxidante.
+:::
+
+A **força eletromotriz** (fem) da pilha é a diferença entre os potenciais de redução do
+cátodo e do ânodo:
+$$ E^\circ_{\text{célula}} = E^\circ_{\text{cátodo}} - E^\circ_{\text{ânodo}}. $$ {#eq-fem}
+Uma pilha funciona espontaneamente quando $E^\circ_{\text{célula}} > 0$.
+
+::: {#exm-fem}
+## Calculando a fem
+Calcule a fem da pilha de Daniell, dados $E^\circ(\ce{Cu^2+}/\ce{Cu}) = +\pu{0,34 V}$ e
+$E^\circ(\ce{Zn^2+}/\ce{Zn}) = -\pu{0,76 V}$.
+
+**Solução.** O maior $E^\circ$ (cobre) é o **cátodo**; o menor (zinco), o **ânodo**.
+Pela @eq-fem,
+$E^\circ_{\text{célula}} = 0{,}34 - (-0{,}76) = +\pu{1,10 V}$. Positiva: a reação é
+espontânea, como esperado.
+:::
+
+## Relação com a energia livre
+
+A fem mede diretamente a espontaneidade termodinâmica. A ligação com o $\Delta G$ do
+Volume VI é
+$$ \Delta G^\circ = -nF\,E^\circ_{\text{célula}}, $$ {#eq-deltag-fem}
+onde $n$ é o número de elétrons trocados e $F = \pu{96485 C/mol}$ é a constante de Faraday.
+$E^\circ > 0 \Leftrightarrow \Delta G^\circ < 0$ — as duas linguagens dizem o mesmo.
+
+::: {#exm-deltag}
+## Da fem ao ΔG°
+Qual $\Delta G^\circ$ da pilha de Daniell ($n = 2$, $E^\circ = \pu{1,10 V}$)?
+
+**Solução.** $\Delta G^\circ = -nFE^\circ = -2\times 96485\times 1{,}10 \approx
+-\pu{212 kJ/mol}$. Fortemente negativo: reação bem espontânea.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Numa pilha, em qual eletrodo ocorre a oxidação? Ele é o polo positivo ou negativo?
+:::
+
+::: {#exr-2}
+Dados $E^\circ(\ce{Ag+}/\ce{Ag}) = +\pu{0,80 V}$ e $E^\circ(\ce{Ni^2+}/\ce{Ni}) =
+-\pu{0,25 V}$, calcule a fem da pilha formada e indique o cátodo.
+:::
+
+::: {#exr-3}
+Para que valores de $E^\circ_{\text{célula}}$ a reação da pilha é espontânea?
+:::
+
+::: {#exr-4}
+Calcule $\Delta G^\circ$ de uma célula com $n = 2$ e $E^\circ = \pu{0,50 V}$.
+($F = \pu{96485 C/mol}$.)
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** No **ânodo** (oxidação), que numa pilha é o polo **negativo**.
+
+**@exr-2.** Maior $E^\circ$ (prata) é o cátodo; níquel é o ânodo.
+$E^\circ_{\text{célula}} = 0{,}80 - (-0{,}25) = +\pu{1,05 V}$. **Cátodo: prata.**
+
+**@exr-3.** Quando $E^\circ_{\text{célula}} > 0$ (equivalente a $\Delta G^\circ < 0$).
+
+**@exr-4.** $\Delta G^\circ = -nFE^\circ = -2\times 96485\times 0{,}50 \approx
+-\pu{96,5 kJ/mol}$.
+:::

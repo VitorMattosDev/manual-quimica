@@ -89,6 +89,7 @@ book:
     - part: "Volume IX — Eletroquímica"
       chapters:
         - volumes/v9-eletroquimica/01-balanceamento-redox.qmd
+        - volumes/v9-eletroquimica/02-pilhas.qmd
   appendices:
     - constantes.qmd
 

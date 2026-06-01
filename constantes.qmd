@@ -71,8 +71,11 @@ $$ K_a = \frac{[\mathrm{H^+}][\mathrm{A^-}]}{[\mathrm{HA}]}, \qquad [\mathrm{H^+
 **Tampão (Henderson–Hasselbalch)**
 $$ \mathrm{pH} = \mathrm{p}K_a + \log\frac{[\text{base}]}{[\text{ácido}]}. $$
 
-**Eletroquímica (Nernst)**
-$$ E = E^\circ - \frac{RT}{nF}\ln Q. $$
+**Eletroquímica (fem, Gibbs e Nernst)**
+$$ E^\circ_{\text{cél}} = E^\circ_{\text{cátodo}} - E^\circ_{\text{ânodo}}, \qquad \Delta G^\circ = -nFE^\circ, \qquad E = E^\circ - \frac{RT}{nF}\ln Q. $$
+
+**Eletrólise (Faraday)**
+$$ Q = It, \qquad n_{e^-} = \frac{Q}{F}. $$
 
 ::: {.callout-note}
 Mantenha esta tabela atualizada ao introduzir constantes ou fórmulas novas em
