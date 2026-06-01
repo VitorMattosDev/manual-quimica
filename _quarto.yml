@@ -66,6 +66,7 @@ book:
         - volumes/v6-termodinamica/01-energia-1lei.qmd
         - volumes/v6-termodinamica/02-entalpia.qmd
         - volumes/v6-termodinamica/03-hess.qmd
+        - volumes/v6-termodinamica/04-entropia.qmd
   appendices:
     - constantes.qmd
 

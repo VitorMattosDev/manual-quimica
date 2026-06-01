@@ -1,0 +1,118 @@
+---
+title: "Entropia e a 2ª lei"
+---
+
+# Entropia e a 2ª lei {#sec-entropia}
+
+## Por que nem toda reação exotérmica é espontânea
+
+Seria cômodo se "espontâneo" fosse o mesmo que "exotérmico". Mas o gelo derrete
+espontaneamente à temperatura ambiente **absorvendo** calor, e um sal se dissolve esfriando
+a solução. Falta um segundo critério, ligado não à energia, mas à **desordem** — ou, mais
+precisamente, ao número de maneiras de distribuir a energia e a matéria. Essa grandeza é a
+**entropia**, e seu comportamento é regido pela **segunda lei da termodinâmica**.
+
+## Entropia: a medida da dispersão
+
+::: {#def-entropia}
+## Entropia
+A **entropia** $S$ é a função de estado que mede o grau de **dispersão** da energia e da
+matéria de um sistema — quantos microestados (arranjos microscópicos) correspondem ao seu
+estado macroscópico. Quanto mais maneiras de distribuir a energia, maior $S$. Sua unidade
+é $\pu{J.K-1}$.
+:::
+
+Comparações úteis de entropia, todas no mesmo sentido (mais dispersão $\Rightarrow$ maior
+$S$):
+
+::: {.callout-note}
+- **Estado físico:** $S_{\text{gás}} \gg S_{\text{líquido}} > S_{\text{sólido}}$.
+- **Temperatura:** $S$ cresce com $T$ (mais agitação, mais microestados).
+- **Quantidade de partículas:** reações que **aumentam** o número de mols de gás
+  aumentam $S$.
+- **Dissolução e mistura:** em geral aumentam $S$ (mais espalhamento).
+:::
+
+## A segunda lei da termodinâmica
+
+::: {#def-segunda-lei}
+## Segunda lei da termodinâmica
+Em qualquer processo **espontâneo**, a entropia do **universo** (sistema + vizinhança)
+aumenta:
+$$ \Delta S_{\text{univ}} = \Delta S_{\text{sis}} + \Delta S_{\text{viz}} > 0. $$ {#eq-segunda-lei}
+No limite de um processo reversível, $\Delta S_{\text{univ}} = 0$. Nunca diminui.
+:::
+
+O ponto sutil: o que precisa aumentar é a entropia do **universo**, não a do sistema. O
+congelamento da água **diminui** $S_{\text{sis}}$, mas ocorre espontaneamente abaixo de
+$\pu{0 ^\circ C}$ porque libera calor que **aumenta** $S_{\text{viz}}$ ainda mais. A
+vizinhança entra pela troca de calor: $\Delta S_{\text{viz}} = -\dfrac{\Delta H_{\text{sis}}}{T}$.
+
+## A terceira lei e a entropia absoluta
+
+::: {#def-terceira-lei}
+## Terceira lei da termodinâmica
+A entropia de um cristal perfeito a $\pu{0 K}$ é **zero** — há um único microestado. Isso
+fornece um zero absoluto para a entropia, permitindo tabelar **entropias-padrão**
+$S^\circ$ (sempre positivas) e calcular
+$$ \Delta S^\circ_{\text{reação}} = \sum n\,S^\circ(\text{produtos})
+- \sum n\,S^\circ(\text{reagentes}). $$ {#eq-entropia-reacao}
+:::
+
+::: {#exm-sinal-entropia}
+## Prevendo o sinal de ΔS
+Sem cálculo, diga o sinal de $\Delta S$ de $\ce{2 H2(g) + O2(g) -> 2 H2O(l)}$.
+
+**Solução.** À esquerda há $\pu{3 mol}$ de **gás**; à direita, $\pu{2 mol}$ de
+**líquido**. O sistema perde mol de gás e condensa: a dispersão **diminui**, logo
+$\Delta S < 0$.
+:::
+
+::: {#exm-calculo-entropia}
+## Calculando ΔS°
+Calcule $\Delta S^\circ$ de $\ce{N2(g) + 3 H2(g) -> 2 NH3(g)}$, com $S^\circ$ (em
+$\pu{J.K-1.mol-1}$): $\ce{N2}=191{,}5$, $\ce{H2}=130{,}6$, $\ce{NH3}=192{,}5$.
+
+**Solução.** Pela @eq-entropia-reacao,
+$$ \Delta S^\circ = 2(192{,}5) - [191{,}5 + 3(130{,}6)] = 385{,}0 - 583{,}3 =
+-\pu{198,3 J.K-1}. $$
+Negativo, como esperado: $\pu{4 mol}$ de gás viram $\pu{2 mol}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Ordene por entropia molar crescente: $\ce{H2O}(s)$, $\ce{H2O}(g)$, $\ce{H2O}(l)$.
+:::
+
+::: {#exr-2}
+Preveja o sinal de $\Delta S$: (a) $\ce{CaCO3(s) -> CaO(s) + CO2(g)}$;
+(b) $\ce{2 NO2(g) -> N2O4(g)}$.
+:::
+
+::: {#exr-3}
+O congelamento da água tem $\Delta S_{\text{sis}} < 0$. Como ele pode ser espontâneo
+abaixo de $\pu{0 ^\circ C}$ sem violar a 2ª lei?
+:::
+
+::: {#exr-4}
+Calcule $\Delta S^\circ$ de $\ce{2 SO2(g) + O2(g) -> 2 SO3(g)}$, com $S^\circ$:
+$\ce{SO2}=248$, $\ce{O2}=205$, $\ce{SO3}=257$ ($\pu{J.K-1.mol-1}$).
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $S(s) < S(l) < S(g)$: $\ce{H2O}(s) < \ce{H2O}(l) < \ce{H2O}(g)$.
+
+**@exr-2.** (a) gera mol de gás: $\Delta S > 0$; (b) $\pu{2 mol}$ de gás viram
+$\pu{1 mol}$: $\Delta S < 0$.
+
+**@exr-3.** O critério é $\Delta S_{\text{univ}}$. O congelamento libera calor que
+**aumenta** $\Delta S_{\text{viz}} = -\Delta H/T$; abaixo de $\pu{0 ^\circ C}$ esse ganho
+supera a queda de $\Delta S_{\text{sis}}$, e $\Delta S_{\text{univ}} > 0$.
+
+**@exr-4.** $\Delta S^\circ = 2(257) - [2(248) + 205] = 514 - 701 = -\pu{187 J.K-1}$.
+:::
