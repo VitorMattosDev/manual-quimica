@@ -1,0 +1,108 @@
+---
+title: "Fissão, fusão e aplicações"
+---
+
+# Fissão, fusão e aplicações {#sec-reacoes-nucleares}
+
+## A energia que vem do núcleo
+
+O decaimento espontâneo (capítulo anterior) libera energia, mas as transformações nucleares
+mais energéticas são provocadas: a **fissão**, que quebra núcleos pesados, e a **fusão**, que
+une núcleos leves. Elas alimentam usinas, o Sol e as estrelas, e liberam milhões de vezes mais
+energia que uma reação química. A origem dessa energia colossal é uma das equações mais
+famosas da ciência — $E = mc^2$.
+
+## A origem da energia nuclear
+
+::: {#def-energia-nuclear}
+## Equivalência massa-energia
+Numa reação nuclear, uma pequena fração da massa se converte em energia, segundo
+$$ E = mc^2, $$ {#eq-massa-energia}
+onde $c$ é a velocidade da luz. Como $c^2$ é enorme, mesmo um **defeito de massa** ínfimo
+libera energia gigantesca. Essa energia é o que mantém o núcleo coeso (**energia de
+ligação nuclear**).
+:::
+
+## Fissão nuclear
+
+::: {#def-fissao}
+## Fissão
+Um núcleo **pesado** (ex.: $\ce{^{235}U}$) absorve um nêutron e se **parte** em dois núcleos
+menores, liberando energia e **mais nêutrons**. Esses nêutrons podem provocar novas fissões —
+uma **reação em cadeia**:
+$$ \ce{^{235}_{92}U + ^1_0n -> ^{141}_{56}Ba + ^{92}_{36}Kr + 3 ^1_0n}. $$
+Controlada, gera eletricidade (usinas); descontrolada, é a bomba atômica.
+:::
+
+::: {.callout-note}
+A diferença entre uma **usina** e uma **bomba** é o **controle** da reação em cadeia. Na
+usina, barras de controle absorvem nêutrons em excesso, mantendo a reação estável; sem esse
+controle, a cadeia se multiplica explosivamente. A física é a mesma — muda a engenharia.
+:::
+
+## Fusão nuclear
+
+::: {#def-fusao}
+## Fusão
+Dois núcleos **leves** se unem formando um mais pesado, liberando ainda **mais** energia por
+massa que a fissão. É o que ocorre no **Sol** (fusão de hidrogênio em hélio):
+$$ \ce{^2_1H + ^3_1H -> ^4_2He + ^1_0n} + \text{energia}. $$
+Exige temperaturas altíssimas (milhões de kelvin) para vencer a repulsão entre os núcleos —
+daí ainda não ser dominada como fonte controlada na Terra.
+:::
+
+::: {#exm-fissao-vs-fusao}
+## Comparando fissão e fusão
+Em que diferem, quanto aos núcleos envolvidos, a fissão e a fusão?
+
+**Solução.** A **fissão** **quebra** um núcleo **pesado** em fragmentos menores; a **fusão**
+**une** núcleos **leves** num maior. Ambas liberam energia porque os produtos têm maior
+energia de ligação por núcleon que os reagentes.
+:::
+
+## Aplicações da química nuclear
+
+::: {#def-aplicacoes-nucleares}
+## Usos da radioatividade
+- **Energia:** usinas nucleares (fissão controlada).
+- **Medicina:** radioterapia (câncer); traçadores e imagem (PET, cintilografia).
+- **Datação:** carbono-14 (arqueologia), urânio-chumbo (geologia).
+- **Indústria e pesquisa:** esterilização, controle de qualidade, marcação de moléculas.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+O que a equação $E = mc^2$ explica sobre a energia nuclear?
+:::
+
+::: {#exr-2}
+Diferencie fissão de fusão quanto ao tipo de núcleo (pesado/leve) e à operação
+(quebrar/unir).
+:::
+
+::: {#exr-3}
+O que distingue, na prática, uma usina nuclear de uma bomba atômica?
+:::
+
+::: {#exr-4}
+Cite duas aplicações médicas da radioatividade.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Que uma pequena **perda de massa** (defeito de massa) se converte em uma
+**quantidade enorme de energia** (pois $c^2$ é muito grande) — a fonte da energia nuclear.
+
+**@exr-2.** **Fissão:** quebra um núcleo **pesado** em menores. **Fusão:** une núcleos
+**leves** num maior.
+
+**@exr-3.** O **controle** da reação em cadeia: na usina, os nêutrons em excesso são
+absorvidos (reação estável); na bomba, a cadeia se multiplica sem controle.
+
+**@exr-4.** **Radioterapia** (tratamento de câncer) e **diagnóstico por imagem** (PET,
+cintilografia, com traçadores radioativos).
+:::
