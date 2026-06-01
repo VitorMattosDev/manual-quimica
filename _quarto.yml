@@ -132,6 +132,7 @@ book:
         - volumes/v14-analitica/02-quantitativa-dados.qmd
         - volumes/v14-analitica/03-gravimetria.qmd
         - volumes/v14-analitica/04-volumetria.qmd
+        - volumes/v14-analitica/05-instrumental.qmd
   appendices:
     - constantes.qmd
 

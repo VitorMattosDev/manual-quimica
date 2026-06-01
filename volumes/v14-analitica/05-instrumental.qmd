@@ -1,0 +1,99 @@
+---
+title: "Introdução à análise instrumental"
+---
+
+# Introdução à análise instrumental {#sec-instrumental}
+
+## Quando a balança e a bureta não bastam
+
+Gravimetria e volumetria são exatas, mas exigem quantidades apreciáveis de amostra e não
+detectam traços. A química moderna precisa medir poluentes em partes por bilhão, identificar
+substâncias em microgramas, automatizar milhares de análises. Entram os **métodos
+instrumentais**, que medem uma **propriedade física** proporcional à concentração. Fechando
+o Volume XIV e a Fase 4, abrimos a porta para a instrumentação — muitos desses métodos serão
+aprofundados na Fase 5 (espectroscopia, Volume XV).
+
+## O princípio geral
+
+::: {#def-instrumental}
+## Análise instrumental
+Mede-se uma **propriedade física** do analito (absorção de luz, corrente elétrica, massa
+dos íons…) que se relaciona, em geral **linearmente**, com sua concentração. Um instrumento
+converte essa propriedade em **sinal**, calibrado com **padrões** de concentração conhecida
+para construir a **curva de calibração**.
+:::
+
+## Os grandes grupos de métodos
+
+::: {#def-grupos-instrumentais}
+## Famílias de métodos instrumentais
+- **Espectroscópicos:** medem a interação da matéria com a **radiação** (UV-Vis, IR,
+  absorção/emissão atômica, RMN — Volume XV).
+- **Eletroanalíticos:** medem grandezas elétricas (potenciometria com eletrodos seletivos,
+  como o **pHmetro**; condutometria; voltametria — base no Volume IX).
+- **Cromatográficos:** **separam** os componentes de uma mistura antes de detectá-los
+  (cromatografia gasosa, HPLC).
+- **Espectrometria de massas:** separa íons por razão **massa/carga** (Volume XV).
+:::
+
+## A curva de calibração
+
+::: {#def-curva-calibracao}
+## Lei de Beer e calibração
+Em métodos de absorção (espectrofotometria), a **lei de Beer-Lambert** relaciona a
+absorbância à concentração:
+$$ A = \varepsilon\,b\,c, $$ {#eq-beer}
+onde $\varepsilon$ é a absortividade molar, $b$ o caminho óptico e $c$ a concentração. Como
+$A$ é proporcional a $c$, mede-se $A$ de padrões, traça-se a reta $A \times c$ e nela se lê
+a concentração da amostra.
+:::
+
+::: {.callout-note}
+A curva de calibração é o coração da análise instrumental: o instrumento dá um **sinal**, não
+uma concentração. Só os **padrões** convertem sinal em concentração. Sem calibração, a leitura
+é um número sem significado — instrumento bom não dispensa boa metrologia (Volume XIV, cap. 2).
+:::
+
+::: {#exm-beer}
+## Aplicando a lei de Beer
+Uma solução tem absorbância $A = 0{,}40$. Sabendo que $\varepsilon b = \pu{2000 L.mol-1}$,
+qual sua concentração?
+
+**Solução.** Pela @eq-beer, $c = \dfrac{A}{\varepsilon b} = \dfrac{0{,}40}{2000} =
+\pu{2,0e-4 mol/L}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Qual a ideia central comum a todos os métodos instrumentais?
+:::
+
+::: {#exr-2}
+Classifique quanto ao tipo: (a) pHmetro; (b) espectrofotômetro UV-Vis; (c) cromatógrafo.
+:::
+
+::: {#exr-3}
+Pela lei de Beer, a absorbância é proporcional a quê? Qual a utilidade dessa relação?
+:::
+
+::: {#exr-4}
+Uma amostra tem $A = 0{,}60$ e $\varepsilon b = \pu{3000 L.mol-1}$. Qual a concentração?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Medir uma **propriedade física** do analito que se relaciona (em geral
+linearmente) com a sua **concentração**, convertida em sinal e calibrada com padrões.
+
+**@exr-2.** (a) **eletroanalítico** (potenciometria); (b) **espectroscópico**; (c)
+**cromatográfico** (separação).
+
+**@exr-3.** À **concentração** ($A = \varepsilon b c$); permite construir uma **curva de
+calibração** e determinar a concentração de uma amostra a partir de sua absorbância.
+
+**@exr-4.** $c = \dfrac{A}{\varepsilon b} = \dfrac{0{,}60}{3000} = \pu{2,0e-4 mol/L}$.
+:::
