@@ -1,0 +1,97 @@
+---
+title: "Ácidos nucleicos e introdução à bioquímica"
+---
+
+# Ácidos nucleicos e introdução à bioquímica {#sec-acidos-nucleicos}
+
+## A molécula da informação
+
+Carboidratos guardam energia, proteínas trabalham — mas quem guarda a **informação** que diz
+como fazer cada proteína? Os **ácidos nucleicos**, DNA e RNA. Eles fecham nosso panorama das
+biomoléculas e o Volume XII (e a Fase 3), mostrando que o código da vida é, no fundo,
+química orgânica: polímeros de condensação cujas pontes de hidrogênio (Volume III) carregam
+e copiam a informação genética.
+
+## Nucleotídeos: as unidades
+
+::: {#def-nucleotideo}
+## Nucleotídeo
+A unidade dos ácidos nucleicos é o **nucleotídeo**, formado por três partes:
+
+1. um **açúcar** (pentose): **desoxirribose** no DNA, **ribose** no RNA;
+2. uma **base nitrogenada**: adenina (A), guanina (G), citosina (C), timina (T, no DNA) ou
+   uracila (U, no RNA);
+3. um **grupo fosfato**.
+
+Os nucleotídeos se unem por ligações **fosfodiéster** (entre o fosfato de um e o açúcar do
+seguinte), formando a longa cadeia do polímero.
+:::
+
+## A dupla-hélice e o pareamento de bases
+
+::: {#def-dupla-helice}
+## Estrutura do DNA
+O DNA é uma **dupla-hélice**: duas cadeias enroladas, unidas por **ligações de hidrogênio**
+entre bases **complementares**:
+$$ \ce{A} \cdots \ce{T} \ (\text{2 ligações de H}); \qquad
+\ce{G} \cdots \ce{C} \ (\text{3 ligações de H}). $$
+Esse pareamento específico (A–T, G–C) é a chave de tudo: cada fita é o **molde** da outra.
+:::
+
+::: {.callout-note}
+A complementaridade A–T e G–C explica a **replicação**: ao separar as fitas, cada uma serve
+de molde para construir a parceira, gerando duas cópias idênticas. A informação está na
+**sequência** de bases — uma estrutura primária, como nas proteínas. A vida copia-se por
+ligações de hidrogênio.
+:::
+
+::: {#exm-complementar}
+## Fita complementar
+Qual a sequência complementar da fita de DNA $\ce{A}$-$\ce{G}$-$\ce{C}$-$\ce{T}$?
+
+**Solução.** Aplicando o pareamento (A↔T, G↔C): $\ce{A}\to\ce{T}$, $\ce{G}\to\ce{C}$,
+$\ce{C}\to\ce{G}$, $\ce{T}\to\ce{A}$. A complementar é **$\ce{T}$-$\ce{C}$-$\ce{G}$-$\ce{A}$**.
+:::
+
+## Do gene à proteína: uma visão integrada
+
+A bioquímica reúne os três capítulos finais numa só narrativa: o **DNA** guarda a
+informação; o **RNA** a transcreve e carrega; os **ribossomos** a traduzem, montando
+**proteínas** aminoácido a aminoácido; as proteínas (enzimas) catalisam o metabolismo, que
+processa **carboidratos** e **lipídios** para extrair energia. Toda essa maquinaria obedece
+às leis da termodinâmica, da cinética e do equilíbrio das fases anteriores — a química é
+uma só, da matéria à vida.
+
+## Exercícios
+
+::: {#exr-1}
+Quais as três partes de um nucleotídeo?
+:::
+
+::: {#exr-2}
+Que açúcar e que base diferenciam o DNA do RNA?
+:::
+
+::: {#exr-3}
+Com que base a adenina se pareia? E a guanina? Que tipo de interação as mantém unidas?
+:::
+
+::: {#exr-4}
+Dê a fita complementar de $\ce{T}$-$\ce{A}$-$\ce{C}$-$\ce{G}$.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Um **açúcar** (pentose), uma **base nitrogenada** e um **grupo fosfato**.
+
+**@exr-2.** O **DNA** tem **desoxirribose** e usa **timina**; o **RNA** tem **ribose** e usa
+**uracila** no lugar da timina.
+
+**@exr-3.** Adenina pareia com **timina** (A–T); guanina com **citosina** (G–C). São unidas
+por **ligações de hidrogênio**.
+
+**@exr-4.** Aplicando A↔T e G↔C: **$\ce{A}$-$\ce{T}$-$\ce{G}$-$\ce{C}$**.
+:::

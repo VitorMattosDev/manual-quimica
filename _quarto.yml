@@ -117,6 +117,7 @@ book:
         - volumes/v12-aromaticos-bio/03-polimeros.qmd
         - volumes/v12-aromaticos-bio/04-carboidratos-lipidios.qmd
         - volumes/v12-aromaticos-bio/05-proteinas.qmd
+        - volumes/v12-aromaticos-bio/06-acidos-nucleicos.qmd
   appendices:
     - constantes.qmd
 
