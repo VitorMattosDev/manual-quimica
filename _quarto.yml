@@ -129,6 +129,7 @@ book:
     - part: "Volume XIV — Química Analítica"
       chapters:
         - volumes/v14-analitica/01-qualitativa.qmd
+        - volumes/v14-analitica/02-quantitativa-dados.qmd
   appendices:
     - constantes.qmd
 

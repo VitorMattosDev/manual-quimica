@@ -1,0 +1,111 @@
+---
+title: "Fundamentos quantitativos e tratamento de dados"
+---
+
+# Fundamentos quantitativos e tratamento de dados {#sec-quantitativa-dados}
+
+## Medir é mais que obter um número
+
+Identificado *o quê* há na amostra (capítulo anterior), a análise **quantitativa** pergunta
+*quanto*. Mas toda medida traz **erro**, e um resultado sem avaliação de sua confiabilidade
+é inútil. Antes das técnicas (gravimetria, volumetria), é preciso a linguagem do **tratamento
+de dados**: exatidão, precisão, erros e algarismos significativos — retomando e aprofundando
+o que o Volume I introduziu sobre medidas.
+
+## Exatidão e precisão
+
+::: {#def-exatidao-precisao}
+## Exatidão × precisão
+- **Exatidão:** proximidade entre o valor medido e o valor **verdadeiro**.
+- **Precisão:** concordância entre medidas **repetidas** entre si (reprodutibilidade).
+
+São independentes: pode-se ser preciso sem ser exato (medidas concordantes, mas todas
+deslocadas do verdadeiro) e vice-versa.
+:::
+
+::: {.callout-note}
+Imagem do alvo: tiros **agrupados** mas longe do centro são **precisos** porém **inexatos**
+(há erro sistemático); tiros **espalhados** em torno do centro são exatos na média mas
+imprecisos. O ideal é agrupado **e** no centro.
+:::
+
+## Tipos de erro
+
+::: {#def-erros}
+## Erros sistemáticos e aleatórios
+- **Erro sistemático (determinado):** sempre no **mesmo sentido**, por causa identificável
+  (instrumento mal calibrado, método enviesado). Afeta a **exatidão**; pode ser corrigido.
+- **Erro aleatório (indeterminado):** flutuações imprevisíveis, ora para mais ora para
+  menos. Afeta a **precisão**; reduz-se com **mais medidas** (média).
+:::
+
+## Tratamento estatístico
+
+::: {#def-estatistica}
+## Média e desvio-padrão
+De um conjunto de $n$ medidas:
+
+- **Média** $\bar{x} = \dfrac{1}{n}\sum x_i$ — o melhor valor representativo.
+- **Desvio-padrão** $s = \sqrt{\dfrac{\sum (x_i - \bar{x})^2}{n-1}}$ — mede a **dispersão**
+  (precisão); quanto menor, mais concordantes as medidas.
+:::
+
+::: {#exm-media-desvio}
+## Calculando média e dispersão
+Três medidas de uma massa: $\pu{10,1 g}$, $\pu{10,3 g}$, $\pu{10,2 g}$. Qual a média?
+
+**Solução.** $\bar{x} = \dfrac{10{,}1 + 10{,}3 + 10{,}2}{3} = \dfrac{30{,}6}{3} =
+\pu{10,2 g}$. Os desvios em torno dela ($\pm 0{,}1$) são pequenos — boa precisão.
+:::
+
+## Algarismos significativos em cálculos
+
+Retomando o Volume I: o resultado não pode ser mais preciso que a medida menos precisa que
+o gerou. Em **multiplicação/divisão**, o resultado tem o número de algarismos significativos
+do fator com **menos** deles; em **adição/subtração**, alinha-se pela **casa decimal** menos
+precisa.
+
+::: {#exm-significativos}
+## Significativos no resultado
+Quantos algarismos significativos deve ter $2{,}0 \times 3{,}14$?
+
+**Solução.** O fator $2{,}0$ tem **2** algarismos significativos; $3{,}14$ tem 3. O produto,
+$6{,}28$, deve ser arredondado a **2** algarismos: $\pu{6,3}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Diferencie exatidão de precisão.
+:::
+
+::: {#exr-2}
+Um erro que ocorre sempre no mesmo sentido, por um instrumento descalibrado, é sistemático
+ou aleatório? O que ele afeta?
+:::
+
+::: {#exr-3}
+Calcule a média de: $\pu{5,02 g}$, $\pu{5,06 g}$, $\pu{5,04 g}$.
+:::
+
+::: {#exr-4}
+Com quantos algarismos significativos se expressa o resultado de $\pu{12,1} \times \pu{3,0}$?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** **Exatidão** é a proximidade do valor **verdadeiro**; **precisão** é a
+concordância entre **medidas repetidas**.
+
+**@exr-2.** **Sistemático**; afeta a **exatidão** (desloca todas as medidas no mesmo
+sentido) e pode ser corrigido.
+
+**@exr-3.** $\bar{x} = \dfrac{5{,}02 + 5{,}06 + 5{,}04}{3} = \dfrac{15{,}12}{3} =
+\pu{5,04 g}$.
+
+**@exr-4.** **2** algarismos (o fator $3{,}0$ tem 2): $12{,}1\times 3{,}0 = 36{,}3 \to
+\pu{36}$.
+:::
