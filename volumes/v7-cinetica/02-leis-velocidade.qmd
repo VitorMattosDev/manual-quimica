@@ -1,0 +1,117 @@
+---
+title: "Leis de velocidade e ordem de reação"
+---
+
+# Leis de velocidade e ordem de reação {#sec-leis-velocidade}
+
+## Quanto cada reagente pesa na velocidade
+
+O capítulo anterior estabeleceu que a concentração afeta a velocidade. Mas *quanto*?
+Dobrar $[\ce{A}]$ dobra a velocidade, quadruplica, ou não muda nada? A resposta — diferente
+para cada reação e impossível de adivinhar pela equação balanceada — está na **lei de
+velocidade**, determinada experimentalmente. Ela introduz o conceito de **ordem de reação**,
+peça-chave para entender mecanismos.
+
+## A lei de velocidade
+
+::: {#def-lei-velocidade}
+## Lei de velocidade
+Para muitas reações, a velocidade depende das concentrações dos reagentes segundo
+$$ v = k\,[\ce{A}]^m\,[\ce{B}]^n, $$ {#eq-lei-velocidade}
+onde $k$ é a **constante de velocidade** (depende de $T$), e os expoentes $m$ e $n$ são as
+**ordens** em relação a cada reagente. A **ordem global** é $m + n$.
+:::
+
+::: {.callout-warning}
+As ordens $m$ e $n$ são **experimentais** e em geral **não** coincidem com os coeficientes
+da equação balanceada. Só num processo **elementar** (uma única etapa) é que a ordem iguala
+o coeficiente. Nunca leia a ordem direto da equação global.
+:::
+
+## Significado das ordens
+
+A ordem em relação a um reagente diz como a velocidade responde à sua concentração:
+
+::: {#def-significado-ordem}
+## Ordem zero, um e dois
+- **Ordem zero** ($m=0$): a velocidade **não depende** de $[\ce{A}]$ — dobrar $[\ce{A}]$
+  não muda $v$.
+- **Primeira ordem** ($m=1$): $v$ é **proporcional** a $[\ce{A}]$ — dobrar $[\ce{A}]$
+  dobra $v$.
+- **Segunda ordem** ($m=2$): $v \propto [\ce{A}]^2$ — dobrar $[\ce{A}]$ **quadruplica** $v$.
+:::
+
+A unidade de $k$ depende da ordem global, ajustando-se para que $v$ saia em
+$\pu{mol.L-1.s-1}$: ordem 0 $\to \pu{mol.L-1.s-1}$; ordem 1 $\to \pu{s-1}$;
+ordem 2 $\to \pu{L.mol-1.s-1}$.
+
+## Determinando a ordem: método das velocidades iniciais
+
+A ordem se obtém comparando velocidades iniciais em experimentos onde se varia **uma**
+concentração de cada vez.
+
+::: {#exm-velocidades-iniciais}
+## Achando a lei de velocidade
+Para $\ce{A + B -> produtos}$, mediram-se:
+
+| Exp. | $[\ce{A}]$ | $[\ce{B}]$ | $v$ ($\pu{mol.L-1.s-1}$) |
+|---|---|---|---|
+| 1 | 0,10 | 0,10 | $2{,}0\times 10^{-3}$ |
+| 2 | 0,20 | 0,10 | $4{,}0\times 10^{-3}$ |
+| 3 | 0,10 | 0,20 | $8{,}0\times 10^{-3}$ |
+
+Determine a lei de velocidade.
+
+**Solução.** **Exp. 1 → 2:** $[\ce{A}]$ dobra, $[\ce{B}]$ fixo, e $v$ **dobra** $\Rightarrow$
+ordem **1** em A. **Exp. 1 → 3:** $[\ce{B}]$ dobra, $[\ce{A}]$ fixo, e $v$ **quadruplica**
+$\Rightarrow$ ordem **2** em B. Logo $v = k\,[\ce{A}][\ce{B}]^2$, **ordem global 3**.
+Calculando $k$ pelo Exp. 1:
+$k = \dfrac{2{,}0\times 10^{-3}}{0{,}10\times(0{,}10)^2} = \pu{2,0 L^2.mol^{-2}.s^{-1}}$.
+:::
+
+::: {#exm-ordem-zero}
+## Reconhecendo ordem zero
+Numa reação $v = k[\ce{A}]^0[\ce{B}] = k[\ce{B}]$, o que ocorre com a velocidade ao
+triplicar $[\ce{A}]$?
+
+**Solução.** Como a ordem em A é **zero**, a velocidade **não muda** — depende apenas de
+$[\ce{B}]$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Uma reação tem $v = k[\ce{A}]^2$. O que acontece com $v$ se $[\ce{A}]$ for **triplicada**?
+:::
+
+::: {#exr-2}
+Qual a ordem global de $v = k[\ce{A}][\ce{B}]^2$? E a unidade de $k$ (para $v$ em
+$\pu{mol.L-1.s-1}$)?
+:::
+
+::: {#exr-3}
+Em $\ce{X + Y -> Z}$, dobrar $[\ce{X}]$ não altera $v$, mas dobrar $[\ce{Y}]$ dobra $v$.
+Escreva a lei de velocidade.
+:::
+
+::: {#exr-4}
+Por que, em geral, não se pode escrever a lei de velocidade direto dos coeficientes da
+equação balanceada?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $v \propto [\ce{A}]^2$; triplicar $[\ce{A}]$ multiplica $v$ por $3^2 = 9$.
+
+**@exr-2.** Ordem global $1 + 2 = 3$. Para ordem 3, $k$ tem unidade
+$\pu{L^2.mol^{-2}.s^{-1}}$.
+
+**@exr-3.** Ordem 0 em X, ordem 1 em Y: $v = k[\ce{Y}]$.
+
+**@exr-4.** Porque a maioria das reações ocorre em **várias etapas**; as ordens refletem o
+**mecanismo** (a etapa lenta), não a estequiometria global. Só processos elementares têm
+ordem igual ao coeficiente.
+:::

@@ -72,6 +72,7 @@ book:
     - part: "Volume VII — Cinética Química"
       chapters:
         - volumes/v7-cinetica/01-velocidade.qmd
+        - volumes/v7-cinetica/02-leis-velocidade.qmd
   appendices:
     - constantes.qmd
 
