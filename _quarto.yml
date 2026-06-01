@@ -93,6 +93,9 @@ book:
         - volumes/v9-eletroquimica/03-nernst.qmd
         - volumes/v9-eletroquimica/04-eletrolise.qmd
         - volumes/v9-eletroquimica/05-aplicacoes.qmd
+    - part: "Volume X — Fundamentos de Química Orgânica"
+      chapters:
+        - volumes/v10-organica-fund/01-carbono-cadeias.qmd
   appendices:
     - constantes.qmd
 

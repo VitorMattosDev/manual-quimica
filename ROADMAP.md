@@ -124,7 +124,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 ### Volume X — Fundamentos de Química Orgânica
 *Objetivo:* o carbono, as funções e a estrutura espacial. *Pré-requisito:* Vol. III.
 
-- [ ] `volumes/v10-organica-fund/01-carbono-cadeias.qmd` — O carbono e as cadeias carbônicas.
+- [x] `volumes/v10-organica-fund/01-carbono-cadeias.qmd` — O carbono e as cadeias carbônicas.
 - [ ] `volumes/v10-organica-fund/02-hidrocarbonetos.qmd` — Hidrocarbonetos: classificação e nomenclatura.
 - [ ] `volumes/v10-organica-fund/03-funcoes-oxigenadas.qmd` — Funções oxigenadas.
 - [ ] `volumes/v10-organica-fund/04-funcoes-nitrogenadas.qmd` — Funções nitrogenadas e demais.

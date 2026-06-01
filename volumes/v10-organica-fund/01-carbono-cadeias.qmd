@@ -1,0 +1,114 @@
+---
+title: "O carbono e as cadeias carbônicas"
+---
+
+# O carbono e as cadeias carbônicas {#sec-carbono-cadeias}
+
+## O elemento que constrói a vida
+
+Há mais compostos de carbono do que de todos os outros elementos somados. Por que um único
+elemento dá origem a milhões de substâncias — do metano ao DNA? A resposta está em
+propriedades singulares do átomo de carbono, herdadas de sua posição na tabela periódica
+(Volume II) e de suas ligações (Volume III). Abrir a **química orgânica** (Fase 3) exige
+entender essas propriedades e a linguagem das **cadeias carbônicas**, que classificaremos
+aqui.
+
+## As propriedades singulares do carbono
+
+::: {#def-carbono}
+## Por que o carbono é especial
+O carbono ($\ce{[He]2s^2 2p^2}$) faz sempre **quatro** ligações covalentes (é
+**tetravalente**) e tem eletronegatividade intermediária. Disso decorrem três capacidades:
+
+1. **Encadeamento (catenação):** liga-se a outros carbonos formando cadeias longas, anéis e
+   ramificações praticamente sem limite.
+2. **Ligações múltiplas:** forma ligações simples, duplas e triplas entre carbonos.
+3. **Variedade de parceiros:** liga-se a H, O, N, S, halogênios e muitos outros.
+:::
+
+Essa combinação explica a explosão de compostos orgânicos. O Volume III já mostrou que o
+carbono **hibridiza** ($sp^3$, $sp^2$, $sp$) para acomodar essas ligações — base das
+geometrias que veremos.
+
+## Classificação dos átomos de carbono
+
+::: {#def-tipos-carbono}
+## Carbono primário, secundário, terciário, quaternário
+Conforme o número de **outros carbonos** ligados diretamente a ele:
+
+- **Primário** — ligado a **1** (ou nenhum) carbono;
+- **Secundário** — ligado a **2** carbonos;
+- **Terciário** — ligado a **3** carbonos;
+- **Quaternário** — ligado a **4** carbonos.
+:::
+
+::: {#exm-tipos-carbono}
+## Classificando carbonos
+No isobutano, $\ce{(CH3)3CH}$, classifique cada carbono.
+
+**Solução.** O carbono central liga-se a **3** outros carbonos (os três $\ce{CH3}$): é
+**terciário**. Cada um dos três $\ce{CH3}$ liga-se a apenas **1** carbono (o central): são
+**primários**.
+:::
+
+## Classificação das cadeias carbônicas
+
+::: {#def-cadeias}
+## Tipos de cadeia carbônica
+- **Aberta (acíclica)** ou **fechada (cíclica):** conforme não formem ou formem um anel.
+- **Normal** (sem ramificações) ou **ramificada** (com ramificações).
+- **Saturada** (só ligações simples C–C) ou **insaturada** (com dupla ou tripla).
+- **Homogênea** (só carbonos na cadeia) ou **heterogênea** (com **heteroátomo** — O, N, S —
+  entre carbonos).
+:::
+
+::: {.callout-note}
+Um **heteroátomo** é qualquer átomo da cadeia que **não** seja carbono (nem o hidrogênio,
+que fica nas pontas). O oxigênio do éter $\ce{CH3-O-CH3}$, intercalado entre dois carbonos,
+torna a cadeia **heterogênea**.
+:::
+
+::: {#exm-classificar-cadeia}
+## Classificando uma cadeia
+Classifique a cadeia do propeno, $\ce{CH2=CH-CH3}$.
+
+**Solução.** É **aberta** (não tem anel), **normal** (sem ramificação), **insaturada**
+(tem uma dupla ligação) e **homogênea** (só carbonos na cadeia).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Cite as três propriedades do átomo de carbono que explicam a enorme variedade de compostos
+orgânicos.
+:::
+
+::: {#exr-2}
+No neopentano, $\ce{C(CH3)4}$, classifique o carbono central e os periféricos.
+:::
+
+::: {#exr-3}
+Classifique a cadeia do ciclo-hexano (anel de 6 carbonos, só ligações simples) quanto a
+aberta/fechada e saturada/insaturada.
+:::
+
+::: {#exr-4}
+A cadeia do éter $\ce{CH3-CH2-O-CH3}$ é homogênea ou heterogênea? Justifique.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Tetravalência com **encadeamento** (catenação), capacidade de formar **ligações
+múltiplas** e de se ligar a **diversos elementos** (H, O, N, S, halogênios).
+
+**@exr-2.** O central liga-se a 4 carbonos: **quaternário**. Os quatro $\ce{CH3}$
+periféricos ligam-se a 1 carbono cada: **primários**.
+
+**@exr-3.** **Fechada** (cíclica) e **saturada** (só ligações simples).
+
+**@exr-4.** **Heterogênea**: há um **heteroátomo** (o oxigênio) intercalado **entre**
+carbonos da cadeia.
+:::
