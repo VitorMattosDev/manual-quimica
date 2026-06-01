@@ -69,6 +69,9 @@ book:
         - volumes/v6-termodinamica/04-entropia.qmd
         - volumes/v6-termodinamica/05-gibbs.qmd
         - volumes/v6-termodinamica/06-gibbs-equilibrio.qmd
+    - part: "Volume VII — Cinética Química"
+      chapters:
+        - volumes/v7-cinetica/01-velocidade.qmd
   appendices:
     - constantes.qmd
 

@@ -1,0 +1,112 @@
+---
+title: "Velocidade de reação e fatores"
+---
+
+# Velocidade de reação e fatores {#sec-velocidade}
+
+## Termodinâmica diz "se"; cinética diz "quão rápido"
+
+A termodinâmica do Volume VI responde se uma reação **pode** acontecer ($\Delta G < 0$),
+mas não **quando**. O diamante é termodinamicamente instável frente à grafite e, ainda
+assim, dura milênios. O que falta é a dimensão do **tempo**: a **cinética química** estuda
+a *velocidade* das reações e os fatores que a controlam. Abrir o Volume VII com a definição
+de velocidade prepara o terreno para as leis de velocidade, os mecanismos e a catálise.
+
+## Definindo a velocidade de reação
+
+::: {#def-velocidade}
+## Velocidade de reação
+A **velocidade** de uma reação é a variação da concentração de um participante por unidade
+de tempo. Para $\ce{A -> B}$,
+$$ v = -\frac{\Delta[\ce{A}]}{\Delta t} = +\frac{\Delta[\ce{B}]}{\Delta t}, $$ {#eq-velocidade}
+em $\pu{mol.L-1.s-1}$. O sinal negativo no reagente compensa seu **consumo** ($\Delta[\ce{A}]<0$),
+de modo que $v$ resulte positiva.
+:::
+
+Quando os coeficientes não são unitários, divide-se cada taxa pelo respectivo coeficiente
+para obter uma velocidade **única**. Para $\ce{aA + bB -> cC}$:
+$$ v = -\frac{1}{a}\frac{\Delta[\ce{A}]}{\Delta t} = -\frac{1}{b}\frac{\Delta[\ce{B}]}{\Delta t}
+= +\frac{1}{c}\frac{\Delta[\ce{C}]}{\Delta t}. $$
+
+::: {#exm-velocidade}
+## Relacionando taxas
+Na síntese $\ce{N2 + 3 H2 -> 2 NH3}$, o $\ce{H2}$ é consumido a
+$\pu{6,0 \times 10^{-3} mol.L-1.s-1}$. Com que velocidade se forma o $\ce{NH3}$?
+
+**Solução.** Pela razão dos coeficientes,
+$\dfrac{1}{2}\dfrac{\Delta[\ce{NH3}]}{\Delta t} = \dfrac{1}{3}\left(-\dfrac{\Delta[\ce{H2}]}{\Delta t}\right)$,
+logo
+$\dfrac{\Delta[\ce{NH3}]}{\Delta t} = \dfrac{2}{3}\times 6{,}0\times 10^{-3} =
+\pu{4,0 \times 10^{-3} mol.L-1.s-1}$.
+:::
+
+## Os fatores que afetam a velocidade
+
+A teoria das colisões (capítulo de Arrhenius, adiante) explicará *por quê*; por ora,
+listamos *o quê* acelera uma reação. Toda reação exige **colisões eficazes** entre as
+partículas — com energia e orientação adequadas. Os fatores agem aumentando a frequência
+ou a eficácia dessas colisões.
+
+::: {#def-fatores}
+## Fatores que afetam a velocidade
+- **Concentração** (ou pressão, para gases): mais partículas por volume $\Rightarrow$ mais
+  colisões $\Rightarrow$ maior velocidade.
+- **Temperatura:** aquecer aumenta a energia e a frequência das colisões; em geral a
+  velocidade cresce rapidamente com $T$.
+- **Superfície de contato:** sólidos reagem mais rápido quando pulverizados (mais área
+  exposta).
+- **Catalisador:** acelera a reação oferecendo um **caminho alternativo** de menor energia,
+  sem ser consumido.
+:::
+
+::: {.callout-note}
+Catalisadores aceleram a reação **sem alterar** $\Delta H$, $\Delta G$ nem a constante de
+equilíbrio $K$ — só fazem o equilíbrio ser atingido mais **depressa**. Mudam a cinética,
+não a termodinâmica.
+:::
+
+::: {#exm-superficie}
+## Pó versus pedaço
+Por que palha de aço fina queima facilmente, mas um prego de mesma massa não?
+
+**Solução.** A palha de aço tem **área de contato** com o $\ce{O2}$ muito maior. Mais área
+exposta significa mais colisões por segundo entre o ferro e o oxigênio, acelerando a
+combustão a ponto de a palha pegar fogo.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Numa reação $\ce{2 A -> B}$, $[\ce{A}]$ cai $\pu{0,40 mol/L}$ em $\pu{20 s}$. Qual a
+velocidade média de consumo de A?
+:::
+
+::: {#exr-2}
+Na reação $\ce{N2 + 3 H2 -> 2 NH3}$, o $\ce{N2}$ é consumido a
+$\pu{2,0 \times 10^{-3} mol.L-1.s-1}$. A que taxa o $\ce{H2}$ é consumido?
+:::
+
+::: {#exr-3}
+Liste três maneiras de acelerar a dissolução de um comprimido efervescente em água.
+:::
+
+::: {#exr-4}
+Um catalisador altera $\Delta H$ ou $K$ da reação? Explique o que ele de fato muda.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $v_{\ce{A}} = \dfrac{0{,}40}{20} = \pu{0,020 mol.L-1.s-1}$.
+
+**@exr-2.** Pela razão de coeficientes, o $\ce{H2}$ é consumido $3\times$ mais rápido que
+o $\ce{N2}$: $3\times 2{,}0\times 10^{-3} = \pu{6,0 \times 10^{-3} mol.L-1.s-1}$.
+
+**@exr-3.** Triturar o comprimido (mais superfície), usar água mais quente (maior $T$),
+agitar/usar mais água (mantém alta a concentração de reagente em contato).
+
+**@exr-4.** **Não** altera $\Delta H$ nem $K$; oferece um caminho de **menor energia de
+ativação**, fazendo a reação atingir o mesmo equilíbrio mais depressa.
+:::
