@@ -1,0 +1,107 @@
+---
+title: "Nanoquímica e tópicos de fronteira"
+---
+
+# Nanoquímica e tópicos de fronteira {#sec-nanoquimica}
+
+## A química na escala do bilionésimo de metro
+
+Chegamos ao capítulo final do manual — e à fronteira da química. Na escala **nanométrica**
+($\pu{1}$ a $\pu{100 nm}$), a matéria comporta-se de modo surpreendente: o ouro fica
+vermelho, o carbono vira o material mais resistente conhecido, e propriedades dependem do
+**tamanho**, não só da composição. A **nanoquímica** reúne tudo o que estudamos — estrutura,
+ligação, quântica, materiais — para projetar matéria átomo a átomo. É o destino natural de um
+livro que foi "da matéria à química quântica".
+
+## Por que o tamanho muda tudo
+
+::: {#def-efeitos-nano}
+## Efeitos da escala nanométrica
+Na nanoescala, dois fatores tornam as propriedades **dependentes do tamanho**:
+
+- **Razão superfície/volume enorme:** quase todos os átomos estão na superfície, tornando o
+  material muito mais **reativo** e melhor catalisador.
+- **Confinamento quântico:** os níveis de energia (Volume XV) dependem das dimensões da
+  partícula, de modo que **cor**, condutividade e magnetismo mudam com o tamanho.
+:::
+
+::: {.callout-note}
+Um exemplo marcante: **nanopartículas de ouro** não são douradas — são vermelhas, roxas ou
+azuis conforme o tamanho, por causa da interação da luz com seus elétrons (confinamento). O
+mesmo elemento, propriedades ópticas diferentes, só pela escala. A nanoquímica explora
+exatamente esse controle.
+:::
+
+## Nanomateriais de carbono
+
+::: {#def-nanocarbono}
+## Alótropos nanométricos do carbono
+O carbono (Volume X, Volume XIII) tem alótropos nanométricos de propriedades extraordinárias:
+
+- **Fulerenos** ($\ce{C60}$): "bolas" de carbono, como uma gaiola.
+- **Nanotubos de carbono:** cilindros de grafeno, mais resistentes que o aço e excelentes
+  condutores.
+- **Grafeno:** folha de **um átomo** de espessura, o material mais forte já medido,
+  transparente e condutor.
+:::
+
+::: {#exm-superficie-nano}
+## Por que nanocatalisadores são tão eficazes
+Por que dividir um catalisador em nanopartículas aumenta drasticamente sua eficiência?
+
+**Solução.** Quanto menores as partículas, **maior a razão superfície/volume** — mais átomos
+ficam expostos na superfície, onde a catálise ocorre (Volume VII). Com quase toda a massa
+disponível para reagir, uma pequena quantidade de nanocatalisador rende muito mais que o
+material maciço.
+:::
+
+## Fronteiras e o fechamento do manual
+
+A nanoquímica conecta-se às fronteiras mais ativas da ciência: **nanomedicina** (entrega
+dirigida de fármacos), **energia** (células solares, baterias melhores), **catálise verde** e
+**eletrônica molecular**. Todas mobilizam o manual inteiro — da estequiometria à mecânica
+quântica, do equilíbrio à química orgânica. A química é **uma só ciência integrada**, e
+compreendê-la, da matéria comum ao mundo quântico, é o que este livro se propôs a oferecer.
+
+::: {.callout-note}
+**Fim do percurso.** Dos estados da matéria (Volume V) à nanoescala, cada volume preparou o
+seguinte. O leitor que chegou até aqui tem em mãos o mapa completo da química — e as
+ferramentas para explorar suas fronteiras, que se expandem a cada ano.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Cite os dois principais fatores que tornam as propriedades dependentes do tamanho na
+nanoescala.
+:::
+
+::: {#exr-2}
+Por que nanopartículas de ouro podem ter cor vermelha em vez de dourada?
+:::
+
+::: {#exr-3}
+Cite três nanomateriais de carbono e uma propriedade notável de cada.
+:::
+
+::: {#exr-4}
+Explique por que nanopartículas são melhores catalisadores que o mesmo material maciço.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** A enorme **razão superfície/volume** e o **confinamento quântico** (níveis de
+energia dependentes do tamanho).
+
+**@exr-2.** Por causa do **confinamento quântico** e da interação da luz com seus elétrons,
+que muda com o **tamanho** da partícula — a cor deixa de ser a do ouro maciço.
+
+**@exr-3.** **Fulereno** ($\ce{C60}$, gaiola molecular); **nanotubos** (mais resistentes que
+o aço, condutores); **grafeno** (uma camada atômica, o material mais forte medido).
+
+**@exr-4.** Porque têm **razão superfície/volume** muito maior: quase todos os átomos ficam
+expostos na superfície, onde ocorre a catálise — mais sítios ativos por massa.
+:::
