@@ -1,0 +1,115 @@
+---
+title: "Mecanismos de reação e catálise"
+---
+
+# Mecanismos de reação e catálise {#sec-mecanismos}
+
+## O que acontece de fato, passo a passo
+
+A equação global de uma reação é um resumo contábil: diz o que entra e o que sai, mas não
+*como*. Quase nenhuma reação ocorre numa única colisão; ela se desenrola em uma sequência
+de **etapas elementares** — o **mecanismo**. Entender o mecanismo explica por que a lei de
+velocidade tem a forma que tem e, sobretudo, como um **catalisador** consegue acelerar tudo.
+Este capítulo fecha o Volume VII reunindo cinética e mecanismo.
+
+## Etapas elementares e molecularidade
+
+::: {#def-etapa-elementar}
+## Etapa elementar e molecularidade
+Uma **etapa elementar** é uma transformação que ocorre numa única colisão, exatamente como
+escrita. Sua **molecularidade** é o número de partículas que colidem: **unimolecular** (1),
+**bimolecular** (2), raramente **termolecular** (3). Numa etapa elementar — e só nela — a
+ordem **iguala** a molecularidade.
+:::
+
+As espécies produzidas numa etapa e consumidas na seguinte, sem aparecer na equação global,
+são os **intermediários**.
+
+## A etapa lenta determina a velocidade
+
+::: {#def-etapa-determinante}
+## Etapa determinante da velocidade
+Numa sequência de etapas, a **mais lenta** funciona como gargalo: a velocidade global é
+governada por ela, a **etapa determinante**. A lei de velocidade da reação global é a lei
+de velocidade dessa etapa lenta — por isso as ordens experimentais raramente coincidem com
+os coeficientes globais.
+:::
+
+::: {#exm-mecanismo}
+## Conferindo um mecanismo
+A reação $\ce{NO2 + CO -> NO + CO2}$ tem lei experimental $v = k[\ce{NO2}]^2$ (o $\ce{CO}$
+não aparece!). O mecanismo proposto é:
+
+(1) $\ce{NO2 + NO2 -> NO3 + NO}$ (lenta);
+(2) $\ce{NO3 + CO -> NO2 + CO2}$ (rápida).
+
+Ele é compatível?
+
+**Solução.** A etapa **lenta** (1) é bimolecular em $\ce{NO2}$, dando $v = k[\ce{NO2}]^2$
+— exatamente a lei observada. O $\ce{CO}$ só entra na etapa rápida, por isso **não** afeta a
+velocidade. O $\ce{NO3}$ é o **intermediário**. O mecanismo é compatível.
+:::
+
+## Catálise
+
+::: {#def-catalisador}
+## Catalisador
+Um **catalisador** acelera a reação fornecendo um caminho de **menor energia de ativação**,
+sendo **regenerado** ao final (não é consumido). Não altera $\Delta H$, $\Delta G$ nem a
+constante de equilíbrio $K$ — apenas faz o equilíbrio ser alcançado mais depressa.
+:::
+
+Distinguem-se dois tipos:
+
+::: {.callout-note}
+- **Catálise homogênea:** catalisador e reagentes na **mesma** fase (ex.: íons em solução).
+- **Catálise heterogênea:** em fases diferentes; a reação ocorre na **superfície** do
+  catalisador (ex.: o conversor catalítico de automóveis, sólido, agindo sobre gases).
+- **Enzimas** são catalisadores biológicos, de altíssima especificidade — a catálise da
+  vida.
+:::
+
+::: {#exm-catalise}
+## Por que o catalisador acelera
+Como um catalisador com $E_a$ menor afeta a fração de colisões eficazes?
+
+**Solução.** Pela equação de Arrhenius (capítulo anterior), $k = A\,e^{-E_a/RT}$. Reduzir
+$E_a$ **aumenta** o fator $e^{-E_a/RT}$, ou seja, a fração de colisões com energia
+suficiente cresce — e $k$ aumenta, à mesma temperatura. A reação fica mais rápida sem
+aquecer.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+O que é a **etapa determinante** de um mecanismo, e o que ela controla?
+:::
+
+::: {#exr-2}
+Numa etapa elementar bimolecular $\ce{A + B -> C}$, qual a lei de velocidade?
+:::
+
+::: {#exr-3}
+Num mecanismo, uma espécie é produzida na etapa 1 e consumida na etapa 2, sem figurar na
+equação global. Como ela se chama?
+:::
+
+::: {#exr-4}
+Um catalisador altera o valor de $K$ de uma reação? E a energia de ativação? Explique.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** É a etapa **mais lenta** do mecanismo; funciona como gargalo e **determina a
+velocidade** (e a forma da lei de velocidade) da reação global.
+
+**@exr-2.** Por ser elementar, a ordem iguala a molecularidade: $v = k[\ce{A}][\ce{B}]$.
+
+**@exr-3.** É um **intermediário** de reação.
+
+**@exr-4.** **Não** altera $K$ (a termodinâmica é a mesma); **reduz** a energia de
+ativação, oferecendo um caminho alternativo mais rápido. Só muda a cinética.
+:::
