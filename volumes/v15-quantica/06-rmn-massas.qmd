@@ -1,0 +1,114 @@
+---
+title: "RMN e espectrometria de massas"
+---
+
+# RMN e espectrometria de massas {#sec-rmn-massas}
+
+## As duas técnicas que decifram estruturas
+
+Para determinar a estrutura completa de uma molécula desconhecida, dois métodos são
+insubstituíveis: a **ressonância magnética nuclear (RMN)**, que mapeia o esqueleto de
+carbono e hidrogênio átomo a átomo, e a **espectrometria de massas (EM)**, que pesa a
+molécula e seus fragmentos. Juntas com o IR (capítulo anterior), formam o tripé da
+elucidação estrutural. Encerram o Volume XV e a Fase 5 mostrando a química quântica em sua
+aplicação mais poderosa.
+
+## Ressonância magnética nuclear (RMN)
+
+::: {#def-rmn}
+## Princípio da RMN
+Núcleos com spin (como $\ce{^1H}$ e $\ce{^{13}C}$), colocados num **campo magnético** forte,
+alinham-se e podem absorver radiofrequência ao "virar" o spin. A frequência exata de cada
+núcleo depende de sua **vizinhança eletrônica** — o **deslocamento químico**. Assim, a RMN
+revela **quantos** tipos de hidrogênio (ou carbono) há e em que **ambiente** estão.
+:::
+
+::: {#def-rmn-informacoes}
+## O que a RMN de ¹H informa
+- **Número de sinais:** quantos hidrogênios **quimicamente diferentes** há.
+- **Deslocamento químico:** o **tipo** de ambiente (perto de O, de anel aromático etc.).
+- **Integração:** a **proporção** de hidrogênios de cada tipo.
+- **Multiplicidade (acoplamento):** quantos hidrogênios **vizinhos** existem (regra do
+  $n+1$).
+:::
+
+::: {#exm-rmn-etanol}
+## Sinais de RMN do etanol
+Quantos conjuntos de hidrogênios quimicamente distintos tem o etanol, $\ce{CH3-CH2-OH}$?
+
+**Solução.** Três ambientes diferentes: o $\ce{CH3}$, o $\ce{CH2}$ e o $\ce{OH}$. A RMN de
+$\ce{^1H}$ mostra **três** sinais, com integração na proporção **3 : 2 : 1** — exatamente o
+número de hidrogênios de cada tipo.
+:::
+
+## Espectrometria de massas (EM)
+
+::: {#def-em}
+## Princípio da espectrometria de massas
+A amostra é **ionizada** e fragmentada; os íons são acelerados e separados por sua razão
+**massa/carga** ($m/z$). O espectro mostra a abundância de cada $m/z$, do qual se extrai:
+
+- o **pico do íon molecular** ($M^+$), que dá a **massa molar**;
+- o **padrão de fragmentação**, que revela pedaços da estrutura.
+:::
+
+::: {.callout-note}
+A EM é extraordinariamente **sensível** — detecta quantidades ínfimas — e por isso é usada em
+exames antidoping, análises forenses e identificação de proteínas. Acoplada à cromatografia
+(Volume XIV), separa e identifica componentes de misturas complexas num só processo (GC-MS,
+LC-MS).
+:::
+
+::: {#exm-em-massa-molar}
+## Lendo a massa molar
+No espectro de massas de um composto, o íon molecular aparece em $m/z = 46$. Que composto
+simples poderia ser (entre os já vistos)?
+
+**Solução.** Massa molar $\approx \pu{46 g/mol}$. Compatível com o **etanol**
+($\ce{C2H6O}$, $M = 46$). O pico do íon molecular fornece diretamente a massa molar — ponto
+de partida da identificação.
+:::
+
+## Síntese: a química é uma só
+
+Das leis dos gases (Volume V) à RMN, o manual percorreu a química inteira — e em cada degrau
+os conceitos anteriores reaparecem: a quantização que explica o espectro é a mesma que
+ordena a tabela periódica; a energia que rege o equilíbrio é a que move as pilhas. A química
+quântica, no fim, é o fundamento de tudo o que veio antes. **Da matéria à química quântica,
+uma só ciência.**
+
+## Exercícios
+
+::: {#exr-1}
+Que propriedade da vizinhança de um núcleo a RMN mede através do deslocamento químico?
+:::
+
+::: {#exr-2}
+Quantos sinais de RMN de $\ce{^1H}$ você espera para a propanona, $\ce{CH3-CO-CH3}$?
+Justifique.
+:::
+
+::: {#exr-3}
+Na espectrometria de massas, o que fornece o pico do íon molecular ($M^+$)?
+:::
+
+::: {#exr-4}
+Por que a espectrometria de massas é tão usada em exames antidoping e forenses?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** O **ambiente eletrônico** do núcleo (a blindagem dos elétrons vizinhos), que
+desloca sua frequência de ressonância.
+
+**@exr-2.** **Um** só sinal: os dois grupos $\ce{CH3}$ são **equivalentes** (simétricos em
+relação à carbonila), logo todos os 6 hidrogênios estão no mesmo ambiente.
+
+**@exr-3.** A **massa molar** do composto (massa do íon da molécula inteira).
+
+**@exr-4.** Por sua altíssima **sensibilidade** (detecta quantidades ínfimas) e
+especificidade, identificando substâncias-traço com segurança.
+:::

@@ -140,6 +140,7 @@ book:
         - volumes/v15-quantica/03-tom.qmd
         - volumes/v15-quantica/04-simetria.qmd
         - volumes/v15-quantica/05-espectroscopia.qmd
+        - volumes/v15-quantica/06-rmn-massas.qmd
   appendices:
     - constantes.qmd
 
