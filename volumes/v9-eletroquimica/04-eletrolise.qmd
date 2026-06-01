@@ -1,0 +1,107 @@
+---
+title: "Eletrólise e leis de Faraday"
+---
+
+# Eletrólise e leis de Faraday {#sec-eletrolise}
+
+## Forçar a reação no sentido contrário
+
+A pilha usa uma reação espontânea para gerar corrente. A **eletrólise** faz o oposto: usa
+corrente elétrica de uma fonte externa para **forçar** uma reação **não espontânea**
+($\Delta G > 0$). É assim que se obtêm alumínio, cloro, soda cáustica e se faz a
+galvanoplastia (cromar, dourar, niquelar). E há uma pergunta quantitativa central: quanta
+substância se produz com determinada carga? A resposta são as **leis de Faraday**.
+
+## A célula eletrolítica
+
+::: {#def-eletrolise}
+## Eletrólise
+Processo em que uma corrente externa força uma reação redox **não espontânea** numa **célula
+eletrolítica**. Os papéis dos eletrodos quanto à reação se mantêm, mas as **polaridades se
+invertem** em relação à pilha:
+
+- **Cátodo** — ocorre a **redução** (como na pilha), mas agora é o polo **negativo**
+  (ligado ao terminal $-$ da fonte).
+- **Ânodo** — ocorre a **oxidação**, agora o polo **positivo**.
+:::
+
+::: {.callout-warning}
+Na pilha o cátodo é positivo; na eletrólise, **negativo**. O que **não** muda é a química:
+**cátodo = redução, ânodo = oxidação** em ambos os casos. Memorize a reação, não a
+polaridade — é ela que inverte entre os dois dispositivos.
+:::
+
+## As leis de Faraday
+
+A quantidade de substância transformada num eletrodo é proporcional à **carga elétrica** que
+passou, e esta é o produto da corrente pelo tempo.
+
+::: {#def-faraday}
+## Leis de Faraday
+A carga que atravessa a célula é
+$$ Q = I\,t \quad (\pu{C} = \pu{A}\times\pu{s}). $$ {#eq-carga}
+O número de mols de elétrons é $n_{e^-} = Q/F$, com $F = \pu{96485 C/mol}$ (carga de
+$\pu{1 mol}$ de elétrons). A massa depositada de um elemento de massa molar $M$ que recebe
+$z$ elétrons por átomo é
+$$ m = \frac{Q\,M}{z\,F} = \frac{I\,t\,M}{z\,F}. $$ {#eq-faraday}
+:::
+
+::: {#exm-faraday}
+## Massa de cobre depositada
+Que massa de cobre se deposita ao passar $\pu{2,0 A}$ por $\pu{30 min}$ numa solução de
+$\ce{Cu^2+}$? ($M_{\ce{Cu}} = \pu{63,5 g/mol}$, $z = 2$, $F = \pu{96485 C/mol}$.)
+
+**Solução.** $Q = It = 2{,}0\times(30\times 60) = \pu{3600 C}$. Pela @eq-faraday,
+$$ m = \frac{Q\,M}{z\,F} = \frac{3600\times 63{,}5}{2\times 96485} \approx \pu{1,18 g}. $$
+:::
+
+::: {#exm-mols-eletrons}
+## Quantos mols de elétrons
+Quantos mols de elétrons correspondem a uma carga de $\pu{96485 C}$? E a $\pu{48242 C}$?
+
+**Solução.** $n_{e^-} = Q/F$. Para $\pu{96485 C}$: $n_{e^-} = 1\,\pu{mol}$ (um faraday,
+por definição). Para $\pu{48242 C}$: $n_{e^-} = 48242/96485 \approx \pu{0,5 mol}$.
+:::
+
+## Aspectos quantitativos e aplicações
+
+Pela @eq-faraday, depositar a mesma carga libera **mais mols** de um íon monovalente
+($z=1$, como $\ce{Ag+}$) do que de um divalente ($z=2$, como $\ce{Cu^2+}$) — o íon de maior
+carga "consome" mais elétrons por átomo. As aplicações são vastas: obtenção de metais
+reativos (Al pela eletrólise da bauxita), purificação eletrolítica do cobre, produção de
+$\ce{Cl2}$ e $\ce{NaOH}$ (cloro-soda) e revestimentos metálicos.
+
+## Exercícios
+
+::: {#exr-1}
+Na eletrólise, em qual eletrodo ocorre a redução? Ele é o polo positivo ou negativo?
+:::
+
+::: {#exr-2}
+Calcule a carga (em C) ao passar $\pu{5,0 A}$ durante $\pu{20 min}$.
+:::
+
+::: {#exr-3}
+Que massa de prata ($M = \pu{108 g/mol}$, $z = 1$) se deposita com $\pu{9648,5 C}$?
+:::
+
+::: {#exr-4}
+Com a mesma carga, deposita-se mais mols de $\ce{Ag+}$ ($z=1$) ou de $\ce{Cu^2+}$ ($z=2$)?
+Por quê?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** No **cátodo** (redução), que na eletrólise é o polo **negativo**.
+
+**@exr-2.** $Q = It = 5{,}0\times(20\times 60) = 5{,}0\times 1200 = \pu{6000 C}$.
+
+**@exr-3.** $n_{e^-} = 9648{,}5/96485 = \pu{0,10 mol}$; com $z=1$, deposita-se
+$\pu{0,10 mol}$ de $\ce{Ag}$: $m = 0{,}10\times 108 = \pu{10,8 g}$.
+
+**@exr-4.** Mais mols de **$\ce{Ag+}$**: como $z=1$, cada átomo consome 1 elétron, enquanto
+o $\ce{Cu^2+}$ consome 2 — a mesma carga reduz o dobro de mols de prata.
+:::
