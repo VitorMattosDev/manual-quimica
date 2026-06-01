@@ -64,6 +64,7 @@ book:
     - part: "Volume VI — Termodinâmica Química"
       chapters:
         - volumes/v6-termodinamica/01-energia-1lei.qmd
+        - volumes/v6-termodinamica/02-entalpia.qmd
   appendices:
     - constantes.qmd
 

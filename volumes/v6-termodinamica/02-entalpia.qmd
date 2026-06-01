@@ -1,0 +1,117 @@
+---
+title: "Entalpia e termoquímica"
+---
+
+# Entalpia e termoquímica {#sec-entalpia}
+
+## O calor das reações a pressão constante
+
+O capítulo anterior mostrou que, a pressão constante, parte do calor de uma reação vira
+trabalho de expansão. Para não ter de descontar esse trabalho toda vez, define-se uma
+função de estado sob medida para a química de bancada: a **entalpia**. É ela que mede o
+calor liberado ou absorvido por uma reação ao ar livre — o objeto da **termoquímica**.
+
+## Entalpia
+
+::: {#def-entalpia}
+## Entalpia
+A **entalpia** é a função de estado $H = U + pV$. Sua variação a pressão constante iguala
+o calor trocado:
+$$ \Delta H = q_p. $$ {#eq-entalpia}
+Como $H$ é função de estado, $\Delta H$ depende só dos estados inicial e final, não do
+caminho da reação.
+:::
+
+A relação com a energia interna sai de $H = U + pV$: a pressão constante,
+$\Delta H = \Delta U + p\,\Delta V$. O termo $p\,\Delta V$ é o trabalho de expansão; em
+reações só entre sólidos e líquidos ele é desprezível, e $\Delta H \approx \Delta U$.
+
+## Reações exotérmicas e endotérmicas
+
+::: {#def-exo-endo}
+## Exo e endotérmico
+- **Exotérmica:** libera calor, $\Delta H < 0$. Os produtos têm menos entalpia que os
+  reagentes (combustões, neutralizações).
+- **Endotérmica:** absorve calor, $\Delta H > 0$. Os produtos têm mais entalpia que os
+  reagentes (fotossíntese, fusão do gelo).
+:::
+
+::: {.callout-note}
+O sinal segue o ponto de vista do **sistema**: exotérmica perde energia ($\Delta H < 0$),
+mesmo que a vizinhança **aqueça**. Não confunda "a chama esquenta a mão" (vizinhança ganha)
+com o sinal de $\Delta H$ (sistema perde).
+:::
+
+## Entalpia-padrão e tipos de entalpia
+
+Para tabelar e comparar, mede-se a entalpia em **condições-padrão** (símbolo $^\circ$):
+substâncias puras, $\pu{1 bar}$, e em geral $\pu{25 ^\circ C}$.
+
+::: {#def-tipos-entalpia}
+## Algumas entalpias-padrão
+- **Entalpia de formação** $\Delta H^\circ_f$: para formar $\pu{1 mol}$ da substância a
+  partir dos elementos no estado-padrão. Por definição, $\Delta H^\circ_f = 0$ para todo
+  elemento na sua forma mais estável (ex.: $\ce{O2}(g)$, $\ce{C}_{\text{(grafite)}}$).
+- **Entalpia de combustão** $\Delta H^\circ_c$: para queimar completamente $\pu{1 mol}$ da
+  substância. Sempre negativa.
+- **Entalpia de ligação:** energia média para romper $\pu{1 mol}$ de uma dada ligação no
+  estado gasoso. Romper ligações **consome** energia; formá-las **libera**.
+:::
+
+## Estimando ΔH por energias de ligação
+
+Como toda reação rompe ligações dos reagentes e forma ligações dos produtos, pode-se
+estimar $\Delta H$ pelo balanço energético:
+$$ \Delta H \approx \sum E_{\text{ligações rompidas}} - \sum E_{\text{ligações formadas}}. $$ {#eq-entalpia-ligacao}
+
+::: {#exm-entalpia-ligacao}
+## ΔH pela energia de ligação
+Estime $\Delta H$ de $\ce{H2(g) + Cl2(g) -> 2 HCl(g)}$, dadas as energias de ligação
+$E(\ce{H-H}) = \pu{436 kJ/mol}$, $E(\ce{Cl-Cl}) = \pu{242 kJ/mol}$ e
+$E(\ce{H-Cl}) = \pu{431 kJ/mol}$.
+
+**Solução.** Rompem-se 1 $\ce{H-H}$ e 1 $\ce{Cl-Cl}$; formam-se 2 $\ce{H-Cl}$. Pela
+@eq-entalpia-ligacao,
+$$ \Delta H \approx (436 + 242) - (2\times 431) = 678 - 862 = -\pu{184 kJ}. $$
+Negativo: a reação é **exotérmica**, como se observa.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Classifique como exo ou endotérmica e dê o sinal de $\Delta H$: (a) combustão da gasolina;
+(b) fusão do gelo; (c) fotossíntese.
+:::
+
+::: {#exr-2}
+Por que $\Delta H^\circ_f$ do gás $\ce{O2}$ é zero, mas o do $\ce{O3}$ (ozônio) não é?
+:::
+
+::: {#exr-3}
+Estime $\Delta H$ de $\ce{H2(g) + Br2(g) -> 2 HBr(g)}$ com
+$E(\ce{H-H})=\pu{436 kJ/mol}$, $E(\ce{Br-Br})=\pu{193 kJ/mol}$,
+$E(\ce{H-Br})=\pu{366 kJ/mol}$.
+:::
+
+::: {#exr-4}
+Uma reação tem $\Delta H = -\pu{120 kJ}$. Os produtos têm entalpia maior ou menor que os
+reagentes?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) **exotérmica**, $\Delta H < 0$; (b) **endotérmica**, $\Delta H > 0$;
+(c) **endotérmica**, $\Delta H > 0$ (armazena energia solar).
+
+**@exr-2.** $\Delta H^\circ_f$ é nula para o **elemento na forma mais estável**; o
+$\ce{O2}$ é essa forma. O $\ce{O3}$ é uma forma alotrópica menos estável, com
+$\Delta H^\circ_f \neq 0$.
+
+**@exr-3.** $\Delta H \approx (436+193) - (2\times 366) = 629 - 732 = -\pu{103 kJ}$.
+
+**@exr-4.** Como $\Delta H < 0$ (exotérmica), os produtos têm entalpia **menor** que os
+reagentes.
+:::
