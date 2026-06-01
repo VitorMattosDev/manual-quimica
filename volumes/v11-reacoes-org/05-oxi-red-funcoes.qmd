@@ -1,0 +1,103 @@
+---
+title: "Oxidação, redução e reações de funções"
+---
+
+# Oxidação, redução e reações de funções {#sec-oxi-red-funcoes}
+
+## Subindo e descendo a escada da oxidação
+
+Em química orgânica, **oxidar** costuma significar ganhar oxigênio (ou perder hidrogênio), e
+**reduzir**, o contrário. Essas reações ligam as funções entre si numa verdadeira "escada":
+um álcool sobe a aldeído, depois a ácido; um ácido desce a aldeído, a álcool. Conhecer essa
+escada e as reações entre funções (esterificação, hidrólise) é o que permite **planejar
+sínteses** — transformar uma molécula em outra.
+
+## A escada de oxidação
+
+::: {#def-escada-oxidacao}
+## Oxidação dos álcoois
+A oxidação progressiva segue a escada, conforme o tipo de álcool:
+
+- **Álcool primário** $\xrightarrow{[\text{O}]}$ **aldeído** $\xrightarrow{[\text{O}]}$
+  **ácido carboxílico**.
+- **Álcool secundário** $\xrightarrow{[\text{O}]}$ **cetona** (que resiste a oxidar mais).
+- **Álcool terciário:** **não** oxida facilmente (o carbono não tem H para perder).
+
+A **redução** percorre a escada no sentido inverso (ácido → aldeído → álcool).
+:::
+
+::: {.callout-note}
+A "escada" reflete o número de ligações C–O. Cada degrau de oxidação **adiciona** uma
+ligação ao oxigênio (ou remove um H). Por isso o álcool terciário, cujo carbono não tem
+hidrogênio para perder, fica preso no degrau — não oxida sem quebrar a cadeia.
+:::
+
+::: {#exm-oxidacao-alcool}
+## Oxidando álcoois
+Que produtos se obtêm ao oxidar (a) etanol e (b) propan-2-ol?
+
+**Solução.** (a) O etanol é álcool **primário**: oxida a **etanal** (aldeído) e, adiante, a
+**ácido etanoico**. (b) O propan-2-ol é **secundário**: oxida a **propanona** (cetona),
+que não prossegue. É a química por trás do bafômetro, que detecta etanol por oxidação.
+:::
+
+## Esterificação e hidrólise
+
+::: {#def-esterificacao}
+## Esterificação e hidrólise
+- **Esterificação:** ácido carboxílico + álcool $\rightleftharpoons$ **éster** + água
+  (catálise ácida). É reversível.
+  $$ \ce{CH3COOH + CH3CH2OH <=> CH3COOCH2CH3 + H2O}. $$
+- **Hidrólise:** o inverso — o éster reage com água, regenerando ácido e álcool. Em meio
+  básico (com $\ce{NaOH}$), a hidrólise de ésteres de ácidos graxos é a **saponificação**,
+  que produz sabão.
+:::
+
+::: {#exm-esterificacao}
+## Produto de uma esterificação
+Qual o éster formado entre o ácido etanoico e o metanol?
+
+**Solução.** $\ce{CH3COOH + CH3OH <=> CH3COOCH3 + H2O}$. O produto é o **etanoato de metila**
+(acetato de metila), um éster de cheiro frutado.
+:::
+
+## Reações de outras funções
+
+Aldeídos oxidam-se facilmente a ácidos (daí servirem de redutores, como no **teste de
+Tollens**, que forma um espelho de prata); cetonas resistem. Aminas reagem como bases e
+formam amidas com ácidos. Esse repertório de transformações entre funções é a base da
+síntese orgânica.
+
+## Exercícios
+
+::: {#exr-1}
+A oxidação de um álcool **primário** leva a quais produtos, em ordem?
+:::
+
+::: {#exr-2}
+Por que um álcool terciário não se oxida facilmente?
+:::
+
+::: {#exr-3}
+Escreva a reação de esterificação entre o ácido fórmico ($\ce{HCOOH}$) e o etanol.
+:::
+
+::: {#exr-4}
+O que é a saponificação e que produto ela gera?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Primeiro a **aldeído**, depois a **ácido carboxílico**.
+
+**@exr-2.** O carbono que carrega o $\ce{-OH}$ no álcool terciário **não tem hidrogênio**
+para perder; a oxidação exigiria quebrar a cadeia carbônica, o que não ocorre facilmente.
+
+**@exr-3.** $\ce{HCOOH + CH3CH2OH <=> HCOOCH2CH3 + H2O}$ (metanoato de etila).
+
+**@exr-4.** É a **hidrólise básica** de um éster (de ácido graxo) com $\ce{NaOH}$, gerando
+**sabão** (sal de ácido graxo) e glicerol.
+:::

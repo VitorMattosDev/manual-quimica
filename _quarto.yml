@@ -108,6 +108,7 @@ book:
         - volumes/v11-reacoes-org/02-substituicao.qmd
         - volumes/v11-reacoes-org/03-adicao.qmd
         - volumes/v11-reacoes-org/04-eliminacao.qmd
+        - volumes/v11-reacoes-org/05-oxi-red-funcoes.qmd
   appendices:
     - constantes.qmd
 
