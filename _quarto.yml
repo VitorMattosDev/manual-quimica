@@ -90,6 +90,7 @@ book:
       chapters:
         - volumes/v9-eletroquimica/01-balanceamento-redox.qmd
         - volumes/v9-eletroquimica/02-pilhas.qmd
+        - volumes/v9-eletroquimica/03-nernst.qmd
   appendices:
     - constantes.qmd
 

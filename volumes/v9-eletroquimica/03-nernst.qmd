@@ -1,0 +1,102 @@
+---
+title: "Equação de Nernst"
+---
+
+# Equação de Nernst {#sec-nernst}
+
+## Quando as condições não são padrão
+
+Os potenciais-padrão do capítulo anterior valem em condições muito específicas:
+concentrações de $\pu{1 mol/L}$, gases a $\pu{1 bar}$. Mas uma pilha real opera fora desse
+ideal, e seu potencial **muda** conforme as concentrações — e cai à medida que ela
+descarrega. A **equação de Nernst** quantifica essa dependência, ligando o potencial às
+concentrações reais. Com ela explicamos por que uma pilha "morre", como funciona um medidor
+de pH e como calcular constantes de equilíbrio a partir de medidas elétricas.
+
+## A equação de Nernst
+
+Partindo de $\Delta G = \Delta G^\circ + RT\ln Q$ (Volume VI) e de $\Delta G = -nFE$,
+divide-se tudo por $-nF$:
+
+::: {#def-nernst}
+## Equação de Nernst
+$$ E = E^\circ - \frac{RT}{nF}\ln Q, $$ {#eq-nernst}
+onde $Q$ é o quociente reacional com as concentrações **atuais**. A $\pu{25 ^\circ C}$,
+substituindo as constantes e passando a $\log_{10}$, ela toma a forma prática
+$$ E = E^\circ - \frac{0{,}0592}{n}\log Q \quad (\pu{25 ^\circ C}). $$ {#eq-nernst-25}
+:::
+
+A leitura é direta: se $Q < 1$ (poucos produtos), $\log Q < 0$ e $E > E^\circ$; conforme a
+reação avança e $Q$ cresce, $E$ **diminui**. A pilha entrega menos voltagem à medida que se
+gasta.
+
+::: {.callout-warning}
+O fator $0{,}0592/n$ só vale a $\pu{25 ^\circ C}$. Em outra temperatura, volte à forma
+geral $E = E^\circ - \dfrac{RT}{nF}\ln Q$. E lembre: o $n$ é o **número de elétrons trocados**
+na equação balanceada, não um número qualquer.
+:::
+
+::: {#exm-nernst}
+## Potencial fora do padrão
+Para a pilha de Daniell ($E^\circ = \pu{1,10 V}$, $n = 2$), qual o potencial quando
+$[\ce{Zn^2+}] = \pu{1,0 mol/L}$ e $[\ce{Cu^2+}] = \pu{0,010 mol/L}$?
+
+**Solução.** $Q = \dfrac{[\ce{Zn^2+}]}{[\ce{Cu^2+}]} = \dfrac{1{,}0}{0{,}010} = 100$. Pela
+@eq-nernst-25,
+$$ E = 1{,}10 - \frac{0{,}0592}{2}\log 100 = 1{,}10 - 0{,}0296\times 2 = 1{,}10 - 0{,}059 =
+\pu{1,04 V}. $$
+Menor que $E^\circ$, pois há pouco $\ce{Cu^2+}$ (reagente) — coerente.
+:::
+
+## Pilha no equilíbrio: a relação com K
+
+No **equilíbrio**, a pilha não fornece mais corrente: $E = 0$ e $Q = K$. Impondo isso na
+@eq-nernst obtém-se uma ponte preciosa entre eletroquímica e equilíbrio:
+$$ E^\circ = \frac{RT}{nF}\ln K \quad\Rightarrow\quad
+\log K = \frac{n\,E^\circ}{0{,}0592} \ (\pu{25 ^\circ C}). $$ {#eq-nernst-equilibrio}
+Medir um potencial-padrão fornece, assim, a constante de equilíbrio da reação.
+
+::: {#exm-nernst-k}
+## Constante de equilíbrio a partir de E°
+Calcule $K$ a $\pu{25 ^\circ C}$ para uma reação com $E^\circ = \pu{0,46 V}$ e $n = 1$.
+
+**Solução.** Pela @eq-nernst-equilibrio,
+$\log K = \dfrac{1\times 0{,}46}{0{,}0592} \approx 7{,}77$, logo
+$K \approx 10^{7{,}77} \approx 5{,}9\times 10^{7}$. Equilíbrio muito deslocado para os
+produtos.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Na @eq-nernst-25, o que acontece com $E$ quando $Q$ aumenta (a reação avança)?
+:::
+
+::: {#exr-2}
+Para uma célula com $E^\circ = \pu{0,80 V}$ e $n = 1$, calcule $E$ quando $Q = 10$
+($\pu{25 ^\circ C}$).
+:::
+
+::: {#exr-3}
+Quanto vale $E$ de uma pilha quando ela atinge o equilíbrio? E o que vale $Q$?
+:::
+
+::: {#exr-4}
+Calcule $K$ ($\pu{25 ^\circ C}$) para uma reação com $E^\circ = \pu{0,118 V}$ e $n = 2$.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $E$ **diminui**: com $Q$ maior, $\log Q$ cresce e o termo subtraído aumenta.
+
+**@exr-2.** $E = 0{,}80 - \dfrac{0{,}0592}{1}\log 10 = 0{,}80 - 0{,}0592 \approx
+\pu{0,74 V}$.
+
+**@exr-3.** No equilíbrio $E = 0$ e $Q = K$.
+
+**@exr-4.** $\log K = \dfrac{2\times 0{,}118}{0{,}0592} = 3{,}99 \approx 4$, logo
+$K \approx 10^{4} = 1\times 10^{4}$.
+:::

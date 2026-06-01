@@ -113,7 +113,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 
 - [x] `volumes/v9-eletroquimica/01-balanceamento-redox.qmd` — Balanceamento de reações redox.
 - [x] `volumes/v9-eletroquimica/02-pilhas.qmd` — Células galvânicas e potenciais-padrão.
-- [ ] `volumes/v9-eletroquimica/03-nernst.qmd` — Equação de Nernst.
+- [x] `volumes/v9-eletroquimica/03-nernst.qmd` — Equação de Nernst.
 - [ ] `volumes/v9-eletroquimica/04-eletrolise.qmd` — Eletrólise e leis de Faraday.
 - [ ] `volumes/v9-eletroquimica/05-aplicacoes.qmd` — Corrosão, baterias e aplicações.
 
