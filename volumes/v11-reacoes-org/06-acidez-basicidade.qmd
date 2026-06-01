@@ -1,0 +1,104 @@
+---
+title: "Acidez e basicidade em orgânica"
+---
+
+# Acidez e basicidade em orgânica {#sec-acidez-basicidade}
+
+## A mesma ideia, agora aplicada ao carbono
+
+O Volume VIII tratou de ácidos e bases de forma geral; aqui aplicamos esses conceitos às
+moléculas orgânicas. Por que o ácido acético é ácido e o etano não? Por que as aminas são
+básicas? A resposta unifica tudo o que vimos no Volume XI: **a força ácido-base depende da
+estabilidade da espécie carregada** que se forma — exatamente a lógica dos intermediários.
+Fechar o Volume XI com isso amarra reatividade e estrutura.
+
+## O princípio unificador: estabilidade da base conjugada
+
+::: {#def-acidez-organica}
+## O que torna um composto orgânico ácido
+Um ácido é tão mais forte quanto **mais estável** for sua **base conjugada** (o ânion
+formado ao perder $\ce{H+}$). Quatro fatores estabilizam essa base e, portanto, **aumentam**
+a acidez:
+
+1. **Ressonância:** deslocalização da carga negativa por várias posições (forte
+   estabilização).
+2. **Efeito indutivo:** grupos retiradores de elétrons ($-I$) próximos dispersam a carga.
+3. **Eletronegatividade/tamanho do átomo:** a carga é mais estável em átomos mais
+   eletronegativos ou maiores.
+4. **Hibridização:** carga em carbono $sp$ é mais estável que em $sp^2$ ou $sp^3$.
+:::
+
+::: {#exm-acidez-carboxilico}
+## Por que ácidos carboxílicos são ácidos
+Por que o ácido acético ($\ce{CH3COOH}$, $\mathrm{p}K_a \approx 4{,}8$) é muito mais ácido
+que o etanol ($\ce{CH3CH2OH}$, $\mathrm{p}K_a \approx 16$)?
+
+**Solução.** Ao perder $\ce{H+}$, o ácido forma o **carboxilato**, cuja carga negativa é
+**deslocalizada por ressonância** entre os dois oxigênios — base conjugada muito estável.
+O etóxido do etanol não tem essa ressonância: carga localizada, base instável, ácido fraco.
+:::
+
+## Basicidade em orgânica
+
+::: {#def-basicidade-organica}
+## Basicidade das aminas
+Uma base é mais forte quanto **mais disponível** estiver seu par de elétrons para captar
+$\ce{H+}$. As **aminas** são as bases orgânicas típicas: o par isolado do nitrogênio capta
+o próton. Fatores que **aumentam** a disponibilidade desse par aumentam a basicidade;
+fatores que o **deslocalizam** (ressonância com carbonila ou anel) a diminuem.
+:::
+
+::: {.callout-note}
+Por isso as **amidas** quase não são básicas: o par do nitrogênio está em **ressonância**
+com a carbonila, indisponível. E as aminas **aromáticas** (anilina) são bases mais fracas
+que as alifáticas, pois o par do N se deslocaliza no anel — a mesma lógica de estabilização
+por ressonância, agora reduzindo a basicidade.
+:::
+
+::: {#exm-basicidade}
+## Comparando basicidades
+Ordene por basicidade: etilamina ($\ce{CH3CH2NH2}$), anilina ($\ce{C6H5NH2}$) e etanamida
+($\ce{CH3CONH2}$).
+
+**Solução.** A **etilamina** tem o par do N totalmente disponível (mais básica). Na
+**anilina**, o par se deslocaliza no anel (menos básica). Na **amida**, o par está preso em
+ressonância com a carbonila (praticamente não básica). Ordem:
+**etilamina > anilina > etanamida**.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Qual o princípio geral que determina a força de um ácido orgânico?
+:::
+
+::: {#exr-2}
+Por que o ácido carboxílico é mais ácido que o álcool correspondente?
+:::
+
+::: {#exr-3}
+Por que as amidas praticamente não exibem caráter básico?
+:::
+
+::: {#exr-4}
+A anilina é mais ou menos básica que a etilamina? Explique pela disponibilidade do par
+eletrônico.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Quanto **mais estável a base conjugada** (o ânion formado ao perder $\ce{H+}$),
+**mais forte** o ácido.
+
+**@exr-2.** Porque sua base conjugada (carboxilato) é estabilizada por **ressonância** entre
+os dois oxigênios; o alcóxido do álcool não tem essa estabilização.
+
+**@exr-3.** O par de elétrons do nitrogênio está em **ressonância** com a carbonila,
+indisponível para captar $\ce{H+}$.
+
+**@exr-4.** **Menos** básica: na anilina o par do nitrogênio se **deslocaliza no anel
+aromático**, ficando menos disponível que o par totalmente livre da etilamina.
+:::
