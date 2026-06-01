@@ -1,0 +1,100 @@
+---
+title: "Isomeria constitucional (plana)"
+---
+
+# Isomeria constitucional (plana) {#sec-isomeria-plana}
+
+## Mesma fórmula, substâncias diferentes
+
+Um fato perturbador para quem chega à orgânica: $\ce{C2H6O}$ pode ser tanto o **etanol**
+(que se bebe) quanto o **éter dimetílico** (um gás anestésico). Mesma fórmula molecular,
+substâncias completamente distintas. São **isômeros** — e a existência deles é uma
+consequência direta da versatilidade de encadeamento do carbono. Este capítulo trata da
+**isomeria constitucional** (ou plana), em que os isômeros diferem na **conectividade** dos
+átomos; a isomeria espacial fica para o próximo.
+
+## O conceito de isomeria
+
+::: {#def-isomeria}
+## Isômeros
+**Isômeros** são compostos diferentes com a **mesma fórmula molecular**. Na isomeria
+**constitucional** (plana), eles diferem na **ordem de ligação** dos átomos — a "planta" da
+molécula. A simples contagem de átomos não basta para identificar um composto; é preciso
+saber **como** estão ligados.
+:::
+
+## Os tipos de isomeria plana
+
+::: {#def-tipos-isomeria-plana}
+## Casos de isomeria constitucional
+- **De cadeia:** mesma função, cadeias com arranjos diferentes (normal × ramificada).
+  Ex.: butano e metilpropano ($\ce{C4H10}$).
+- **De posição:** mesma função e cadeia, mas o grupo (ou insaturação) em **posição**
+  diferente. Ex.: propan-1-ol e propan-2-ol.
+- **De função (funcional):** mesma fórmula, **funções diferentes**. Ex.: etanol (álcool) e
+  éter dimetílico (éter), ambos $\ce{C2H6O}$.
+- **De compensação (metameria):** mesma função, mas o heteroátomo em posição diferente da
+  cadeia. Ex.: dois éteres com a mesma fórmula.
+- **Tautomeria:** isômeros funcionais em **equilíbrio dinâmico**, como o par
+  aldeído/enol ou cetona/enol.
+:::
+
+::: {#exm-isomeria-funcao}
+## Isomeria de função
+Mostre que $\ce{C2H6O}$ admite dois isômeros de função.
+
+**Solução.** Com 2 C, 6 H e 1 O, há duas conectividades possíveis: $\ce{CH3-CH2-OH}$
+(**etanol**, função álcool) e $\ce{CH3-O-CH3}$ (**éter dimetílico**, função éter). Mesma
+fórmula, **funções diferentes** — isomeria de função.
+:::
+
+::: {#exm-isomeria-cadeia}
+## Isomeria de cadeia
+Quais os isômeros de cadeia de $\ce{C4H10}$?
+
+**Solução.** Duas formas de encadear 4 carbonos: linear, $\ce{CH3-CH2-CH2-CH3}$ (**butano**),
+e ramificada, $\ce{CH3-CH(CH3)-CH3}$ (**metilpropano**, o isobutano). São isômeros de cadeia.
+:::
+
+::: {.callout-note}
+Isômeros têm **propriedades diferentes** — ponto de ebulição, reatividade, atividade
+biológica. O butano ferve a $\pu{-0,5 ^\circ C}$ e o isobutano a $\pu{-12 ^\circ C}$, embora
+tenham a mesma fórmula. A estrutura, não a fórmula, governa as propriedades.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+O que distingue isômeros **constitucionais** entre si?
+:::
+
+::: {#exr-2}
+Classifique a isomeria entre propan-1-ol e propan-2-ol.
+:::
+
+::: {#exr-3}
+$\ce{C3H6O}$ pode ser a propanona (cetona) ou o propanal (aldeído). Que tipo de isomeria é
+essa?
+:::
+
+::: {#exr-4}
+Escreva os dois isômeros de cadeia de $\ce{C4H10}$ e nomeie-os.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** A **conectividade** (a ordem em que os átomos estão ligados); têm a mesma
+fórmula molecular, mas "plantas" diferentes.
+
+**@exr-2.** Mesma função (álcool) e cadeia, $\ce{-OH}$ em posições diferentes (C1 e C2):
+isomeria **de posição**.
+
+**@exr-3.** Mesma fórmula, **funções diferentes** (aldeído × cetona): isomeria **de
+função** (funcional).
+
+**@exr-4.** $\ce{CH3-CH2-CH2-CH3}$ (**butano**) e $\ce{CH3-CH(CH3)-CH3}$
+(**metilpropano**/isobutano).
+:::

@@ -100,6 +100,7 @@ book:
         - volumes/v10-organica-fund/03-funcoes-oxigenadas.qmd
         - volumes/v10-organica-fund/04-funcoes-nitrogenadas.qmd
         - volumes/v10-organica-fund/05-nomenclatura.qmd
+        - volumes/v10-organica-fund/06-isomeria-plana.qmd
   appendices:
     - constantes.qmd
 
