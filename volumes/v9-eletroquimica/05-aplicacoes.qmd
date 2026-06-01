@@ -1,0 +1,105 @@
+---
+title: "Corrosão, baterias e aplicações"
+---
+
+# Corrosão, baterias e aplicações {#sec-aplicacoes}
+
+## A eletroquímica no mundo real
+
+Os capítulos anteriores montaram a teoria; este a coloca para funcionar. A eletroquímica
+está em toda parte: na ferrugem que corrói pontes e carros (e em como evitá-la), nas
+baterias que alimentam celulares e veículos elétricos, nas células a combustível. Fechando
+o Volume IX — e a Fase 2 do manual —, percorremos essas aplicações como casos particulares
+das pilhas e da eletrólise já estudadas.
+
+## Corrosão: uma pilha indesejada
+
+::: {#def-corrosao}
+## Corrosão
+A **corrosão** é a oxidação espontânea de um metal pelo ambiente — uma pilha em que o metal
+é o ânodo. Na ferrugem, o ferro se oxida na presença de $\ce{O2}$ e água:
+$$ \ce{Fe -> Fe^2+ + 2 e-} \ (\text{ânodo}); \qquad
+\ce{O2 + 2 H2O + 4 e- -> 4 OH-} \ (\text{cátodo}). $$
+O produto final é a ferrugem, $\ce{Fe2O3 \cdot x H2O}$.
+:::
+
+## Proteção contra a corrosão
+
+Como a corrosão é uma oxidação, protege-se o metal **impedindo** que ele seja o ânodo:
+
+::: {#def-protecao}
+## Métodos de proteção
+- **Barreira física:** pintura, óleo ou esmalte isolam o metal do $\ce{O2}$ e da água.
+- **Galvanização:** recobrir o ferro com **zinco**. Mesmo riscado, o zinco (mais facilmente
+  oxidável) corrói no lugar do ferro.
+- **Proteção catódica:** ligar o metal a um **metal de sacrifício** mais reativo (Zn, Mg),
+  que funciona como ânodo e se oxida, mantendo a estrutura como cátodo (protegida). Usada em
+  cascos de navios e tubulações.
+:::
+
+::: {#exm-protecao-catodica}
+## Por que o zinco protege o ferro
+No aço galvanizado, por que o zinco se corrói antes do ferro, mesmo onde a camada está
+arranhada?
+
+**Solução.** O zinco tem potencial de redução **menor** que o ferro
+($E^\circ(\ce{Zn^2+}/\ce{Zn}) = -0{,}76\,\pu{V} < E^\circ(\ce{Fe^2+}/\ce{Fe}) = -0{,}44\,\pu{V}$),
+logo se oxida mais facilmente. Ele atua como **ânodo de sacrifício**, sendo consumido
+enquanto o ferro permanece protegido (cátodo).
+:::
+
+## Baterias e células a combustível
+
+::: {#def-baterias}
+## Pilhas e baterias
+São aplicações comerciais da célula galvânica:
+
+- **Pilha seca (Leclanché):** $\ce{Zn}$ e $\ce{MnO2}$ em pasta; não recarregável.
+- **Bateria de chumbo-ácido:** $\ce{Pb}$/$\ce{PbO2}$ em $\ce{H2SO4}$; **recarregável** (a
+  recarga é uma eletrólise que inverte a reação). É a bateria do automóvel.
+- **Íon-lítio:** alta densidade de energia, recarregável; move celulares e carros elétricos.
+- **Célula a combustível:** converte $\ce{H2}$ e $\ce{O2}$ continuamente em água, gerando
+  corrente — só produz água como resíduo.
+:::
+
+::: {.callout-note}
+Uma bateria **recarregável** alterna entre os dois processos do Volume IX: ao **descarregar**,
+é uma pilha (reação espontânea gera corrente); ao **recarregar**, é uma eletrólise (corrente
+externa força a reação inversa). É a eletroquímica nos dois sentidos no mesmo dispositivo.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Na corrosão do ferro, ele atua como ânodo ou cátodo? O que acontece com seu nox?
+:::
+
+::: {#exr-2}
+Por que ligar um bloco de magnésio ao casco de aço de um navio protege o casco?
+:::
+
+::: {#exr-3}
+Ao **recarregar** uma bateria, o processo é uma pilha ou uma eletrólise? Justifique.
+:::
+
+::: {#exr-4}
+Qual a principal vantagem ambiental de uma célula a combustível de hidrogênio?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Como **ânodo** (oxidação): seu nox **aumenta** de $0$ para $+2$ ($\ce{Fe ->
+Fe^2+}$).
+
+**@exr-2.** O magnésio é mais reativo (menor $E^\circ$) e atua como **ânodo de sacrifício**:
+oxida-se no lugar do aço, que permanece como cátodo (proteção catódica).
+
+**@exr-3.** É uma **eletrólise**: uma fonte externa força a reação **não espontânea**
+(inversa à da descarga), restaurando os reagentes.
+
+**@exr-4.** Só produz **água** como resíduo (não emite $\ce{CO2}$ nem poluentes),
+convertendo energia química em elétrica com alta eficiência.
+:::
