@@ -1,0 +1,111 @@
+---
+title: "Lei de Hess e entalpias de formação"
+---
+
+# Lei de Hess e entalpias de formação {#sec-hess}
+
+## Calor que não se pode medir diretamente
+
+Algumas reações são difíceis ou impossíveis de realizar isoladamente para medir seu calor
+— a formação de $\ce{CO}$ sem traço de $\ce{CO2}$, por exemplo. A saída vem de uma
+propriedade que já conhecemos: a entalpia é **função de estado**, então $\Delta H$ só
+depende do início e do fim, não do caminho. Esse é o conteúdo da **Lei de Hess**, a
+ferramenta que permite calcular calores de reação a partir de outros já tabelados.
+
+## A Lei de Hess
+
+::: {#def-hess}
+## Lei de Hess
+A variação de entalpia de uma reação é a **mesma**, seja ela realizada numa única etapa ou
+em várias. Logo, se uma reação pode ser escrita como soma de etapas, seu $\Delta H$ é a
+**soma** dos $\Delta H$ das etapas:
+$$ \Delta H_{\text{global}} = \sum_i \Delta H_i. $$ {#eq-hess}
+:::
+
+Na prática, manipulam-se equações termoquímicas como equações algébricas, com duas regras:
+
+::: {.callout-note}
+- **Inverter** uma reação troca o sinal de $\Delta H$.
+- **Multiplicar** os coeficientes por um fator multiplica $\Delta H$ pelo mesmo fator.
+
+Some as equações ajustadas de modo que as espécies intermediárias se cancelem, sobrando a
+reação desejada.
+:::
+
+::: {#exm-hess}
+## Calor de formação do CO
+Calcule $\Delta H$ de $\ce{C}_{\text{(grafite)}} + \tfrac12 \ce{O2(g) -> CO(g)}$, dadas:
+
+(I) $\ce{C(grafite) + O2(g) -> CO2(g)}$, $\Delta H_1 = -\pu{393,5 kJ}$;
+(II) $\ce{CO(g) + \tfrac12 O2(g) -> CO2(g)}$, $\Delta H_2 = -\pu{283,0 kJ}$.
+
+**Solução.** Mantém-se (I) e **inverte-se** (II) (trocando o sinal):
+$$ \ce{C(grafite) + O2(g) -> CO2(g)} \qquad \Delta H_1 = -393{,}5 $$
+$$ \ce{CO2(g) -> CO(g) + \tfrac12 O2(g)} \qquad -\Delta H_2 = +283{,}0 $$
+Somando, $\ce{CO2}$ cancela e sobra a reação desejada:
+$$ \Delta H = \Delta H_1 - \Delta H_2 = -393{,}5 + 283{,}0 = -\pu{110,5 kJ}. $$
+:::
+
+## Entalpias de formação: o atalho geral
+
+A Lei de Hess gera um resultado prático poderoso. Toda reação pode ser pensada como
+**desmontar** os reagentes em seus elementos e **remontá-los** nos produtos. Daí:
+
+::: {#def-entalpia-reacao-formacao}
+## Entalpia de reação por entalpias de formação
+$$ \Delta H^\circ_{\text{reação}} = \sum n\,\Delta H^\circ_f(\text{produtos})
+- \sum n\,\Delta H^\circ_f(\text{reagentes}), $$ {#eq-hess-formacao}
+onde $n$ são os coeficientes estequiométricos. Lembre que $\Delta H^\circ_f$ de qualquer
+elemento na forma mais estável é **zero**.
+:::
+
+::: {#exm-formacao}
+## Combustão do metano
+Calcule $\Delta H^\circ$ de $\ce{CH4(g) + 2 O2(g) -> CO2(g) + 2 H2O(l)}$, dadas
+$\Delta H^\circ_f$: $\ce{CH4} = -74{,}8$; $\ce{CO2} = -393{,}5$;
+$\ce{H2O}(l) = -285{,}8$ (kJ/mol). ($\ce{O2}$ é elemento: zero.)
+
+**Solução.** Pela @eq-hess-formacao,
+$$ \Delta H^\circ = [(-393{,}5) + 2(-285{,}8)] - [(-74{,}8) + 0] = -965{,}1 + 74{,}8 =
+-\pu{890,3 kJ}. $$
+Fortemente exotérmica — coerente com um combustível.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Numa equação termoquímica, o que acontece com $\Delta H$ ao (a) inverter a reação e
+(b) dobrar todos os coeficientes?
+:::
+
+::: {#exr-2}
+Dadas (I) $\ce{H2 + \tfrac12 O2 -> H2O(l)}$, $\Delta H_1 = -286$; e
+(II) $\ce{H2O(l) -> H2O(g)}$, $\Delta H_2 = +44$ (kJ), calcule $\Delta H$ de
+$\ce{H2 + \tfrac12 O2 -> H2O(g)}$.
+:::
+
+::: {#exr-3}
+Calcule $\Delta H^\circ$ de $\ce{2 CO(g) + O2(g) -> 2 CO2(g)}$ usando
+$\Delta H^\circ_f(\ce{CO}) = -110{,}5$ e $\Delta H^\circ_f(\ce{CO2}) = -393{,}5$ (kJ/mol).
+:::
+
+::: {#exr-4}
+Por que a entalpia ser uma função de estado é o que **garante** a validade da Lei de Hess?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) o sinal de $\Delta H$ **inverte**; (b) $\Delta H$ **dobra**.
+
+**@exr-2.** Somando (I) e (II): $\Delta H = -286 + 44 = -\pu{242 kJ}$.
+
+**@exr-3.** $\Delta H^\circ = [2(-393{,}5)] - [2(-110{,}5) + 0] = -787 + 221 =
+-\pu{566 kJ}$.
+
+**@exr-4.** Por ser função de estado, $\Delta H$ só depende dos estados inicial e final;
+qualquer caminho (uma etapa ou várias) dá o **mesmo** valor — exatamente o que a Lei de
+Hess afirma.
+:::
