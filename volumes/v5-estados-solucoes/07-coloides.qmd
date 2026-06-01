@@ -1,0 +1,120 @@
+---
+title: "Coloides e dispersões"
+---
+
+# Coloides e dispersões {#sec-coloides}
+
+## Entre a solução e a suspensão
+
+Nem toda mistura é solução verdadeira. Entre a solução (partículas do tamanho de
+moléculas) e a suspensão grosseira (que decanta) existe um meio-termo riquíssimo: os
+**coloides**. Leite, gelatina, neblina, maionese, sangue e tinta são coloides. Este
+capítulo, que encerra o Volume V, classifica as dispersões pelo **tamanho das partículas**
+e descreve o que torna o estado coloidal tão peculiar.
+
+## Classificação pelo tamanho das partículas
+
+::: {#def-dispersoes}
+## Dispersões
+Misturas de uma fase **dispersa** num **dispersante**, classificadas pelo diâmetro das
+partículas dispersas:
+
+- **Solução verdadeira** — partículas $< \pu{1 nm}$ (íons, moléculas); não sedimentam,
+  não são retidas por filtros, não espalham luz.
+- **Coloide** (dispersão coloidal) — partículas de $\pu{1}$ a $\pu{1000 nm}$; não
+  sedimentam espontaneamente, mas espalham luz.
+- **Suspensão** — partículas $> \pu{1000 nm}$; sedimentam e são retidas por filtros
+  comuns.
+:::
+
+::: {.callout-note}
+A fronteira é o **tamanho**, não a natureza química. A mesma substância pode formar
+solução, coloide ou suspensão conforme o grau de subdivisão das partículas.
+:::
+
+## O efeito Tyndall
+
+A marca registrada de um coloide é espalhar a luz.
+
+::: {#def-tyndall}
+## Efeito Tyndall
+Partículas coloidais têm tamanho comparável ao comprimento de onda da luz visível e por
+isso **espalham** um feixe que as atravessa, tornando-o visível de lado. Numa solução
+verdadeira o feixe passa sem ser visto. É o efeito Tyndall que revela o facho de um farol
+na neblina ou a luz do sol entrando por uma fresta empoeirada.
+:::
+
+## Tipos de coloide
+
+Como dispersante e disperso podem ser sólidos, líquidos ou gases, há vários tipos com
+nomes próprios.
+
+::: {#def-tipos-coloide}
+## Alguns tipos de coloide
+- **Aerossol** — sólido ou líquido disperso em gás (neblina, fumaça).
+- **Espuma** — gás disperso em líquido ou sólido (chantilly, isopor).
+- **Emulsão** — líquido disperso em líquido (leite, maionese).
+- **Sol** — sólido disperso em líquido (tinta, sangue).
+- **Gel** — líquido disperso em sólido, com rede rígida (gelatina, geleia).
+:::
+
+::: {.callout-note}
+Não há coloide de gás em gás: gases se misturam em escala molecular, formando sempre
+**solução**. Por isso o ar é uma solução, não um coloide.
+:::
+
+## Estabilidade dos coloides
+
+Partículas coloidais não decantam porque estão em agitação constante (movimento
+browniano) e, em geral, carregam **cargas elétricas de mesmo sinal** que as fazem se
+repelir. Neutralizar essas cargas — por adição de eletrólito, aquecimento ou agitação —
+provoca a **coagulação** (ou floculação): as partículas se agregam e a dispersão se
+desfaz. É o que ocorre ao se adicionar sal a uma proteína coloidal ou ao tratar água com
+agentes floculantes para clarificá-la.
+
+::: {#exm-coagulacao}
+## Tratamento de água
+No tratamento de água, adiciona-se sulfato de alumínio. Os íons $\ce{Al^3+}$ neutralizam
+as cargas das partículas coloidais de sujeira em suspensão, que então **coagulam** em
+flocos maiores e decantam — clarificando a água. É a aplicação direta da desestabilização
+de coloides.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Classifique como solução, coloide ou suspensão: (a) água com açúcar dissolvido;
+(b) neblina; (c) areia agitada na água.
+:::
+
+::: {#exr-2}
+Como o efeito Tyndall distingue, na prática, uma solução verdadeira de um coloide?
+:::
+
+::: {#exr-3}
+Que tipo de coloide é a maionese (gotículas de óleo dispersas em meio aquoso)? E a
+gelatina?
+:::
+
+::: {#exr-4}
+Por que adicionar sulfato de alumínio ajuda a clarificar a água turva? Use o conceito de
+coagulação.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) **solução** (partículas $< \pu{1 nm}$); (b) **coloide** (aerossol);
+(c) **suspensão** (a areia decanta).
+
+**@exr-2.** Um feixe de luz atravessa a **solução** sem ser visto de lado, mas é
+**espalhado** (visível) ao atravessar o **coloide** — efeito Tyndall.
+
+**@exr-3.** Maionese é uma **emulsão** (líquido em líquido); gelatina é um **gel**
+(líquido disperso numa rede sólida).
+
+**@exr-4.** Os íons $\ce{Al^3+}$ neutralizam as cargas que mantinham as partículas
+coloidais separadas; elas **coagulam** em flocos maiores e decantam.
+:::

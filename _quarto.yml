@@ -60,6 +60,7 @@ book:
         - volumes/v5-estados-solucoes/04-solucoes.qmd
         - volumes/v5-estados-solucoes/05-diluicao.qmd
         - volumes/v5-estados-solucoes/06-coligativas.qmd
+        - volumes/v5-estados-solucoes/07-coloides.qmd
   appendices:
     - constantes.qmd
 
