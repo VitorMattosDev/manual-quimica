@@ -1,0 +1,110 @@
+---
+title: "Funções nitrogenadas e demais"
+---
+
+# Funções nitrogenadas e demais {#sec-funcoes-nitrogenadas}
+
+## O nitrogênio e outros heteroátomos
+
+Depois do oxigênio, o **nitrogênio** é o heteroátomo mais importante da química orgânica.
+Ele aparece nas aminas (das proteínas aos medicamentos), nas amidas (a ligação peptídica da
+vida) e em compostos de aroma e cor. Completar o panorama das funções — nitrogenadas,
+halogenadas e demais — fecha o vocabulário necessário para nomear e reconhecer qualquer
+composto orgânico nos capítulos seguintes.
+
+## As funções nitrogenadas
+
+::: {#def-nitrogenadas}
+## Principais funções nitrogenadas
+| Função | Grupo característico | Exemplo |
+|---|---|---|
+| Amina | $\ce{-NH2}$, $\ce{-NHR}$ ou $\ce{-NR2}$ | metilamina $\ce{CH3NH2}$ |
+| Amida | $\ce{-CO-NH2}$ (carbonila + N) | etanamida $\ce{CH3CONH2}$ |
+| Nitrila | $\ce{-C#N}$ | etanonitrila $\ce{CH3CN}$ |
+| Nitrocomposto | $\ce{-NO2}$ | nitrometano $\ce{CH3NO2}$ |
+:::
+
+As **aminas** classificam-se, como os carbonos, em primária, secundária ou terciária —
+mas o critério é o número de **grupos orgânicos ligados ao nitrogênio** (1, 2 ou 3), não ao
+carbono.
+
+::: {.callout-warning}
+Não confunda os critérios de "primário/secundário/terciário". Para **carbono**, conta-se
+quantos **carbonos** estão ligados a ele (capítulo do carbono); para **amina**, quantos
+**grupos orgânicos** estão ligados ao **nitrogênio**. São contagens em átomos diferentes.
+:::
+
+## Amina e amida: a diferença essencial
+
+::: {#def-amina-amida}
+## Amina × amida
+- **Amina:** nitrogênio ligado **só** a carbonos e/ou hidrogênios, **sem** carbonila. É
+  **básica** (o par de elétrons do N capta $\ce{H+}$).
+- **Amida:** nitrogênio ligado a uma **carbonila** ($\ce{-CO-N}$). A ressonância com a
+  carbonila tira a basicidade — amidas **não** são básicas como as aminas.
+:::
+
+::: {#exm-amina-amida}
+## Distinguindo amina de amida
+Classifique $\ce{CH3-CH2-NH2}$ e $\ce{CH3-CO-NH2}$.
+
+**Solução.** $\ce{CH3CH2-NH2}$: o N está ligado só a carbono e hidrogênios, sem carbonila →
+**amina** (etilamina). $\ce{CH3-CO-NH2}$: o N está ligado a uma carbonila → **amida**
+(etanamida).
+:::
+
+## Funções halogenadas e a ideia de função mista
+
+::: {#def-halogenadas}
+## Haletos orgânicos e compostos polifuncionais
+Os **haletos orgânicos** têm um halogênio ($\ce{-F}$, $\ce{-Cl}$, $\ce{-Br}$, $\ce{-I}$)
+ligado ao carbono, ex. clorometano $\ce{CH3Cl}$. Muitas moléculas reais têm **mais de uma
+função** (compostos **polifuncionais**): o ácido lático tem álcool **e** ácido; um
+aminoácido tem amina **e** ácido (Volume XII).
+:::
+
+::: {#exm-funcao-mista}
+## Reconhecendo funções num composto real
+Que funções há no aminoácido glicina, $\ce{H2N-CH2-COOH}$?
+
+**Solução.** O grupo $\ce{-NH2}$ é uma **amina**; o grupo $\ce{-COOH}$ é um **ácido
+carboxílico**. A glicina é, portanto, **polifuncional** (aminoácido) — daí seu
+comportamento ácido-base duplo.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Qual o grupo característico de (a) amina, (b) amida, (c) nitrila?
+:::
+
+::: {#exr-2}
+Classifique a amina $\ce{(CH3)2NH}$ quanto a primária, secundária ou terciária.
+:::
+
+::: {#exr-3}
+Por que as aminas são básicas e as amidas, não?
+:::
+
+::: {#exr-4}
+Identifique as funções presentes no ácido lático, $\ce{CH3-CH(OH)-COOH}$.
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $\ce{-NH2}$ (ou $\ce{-NHR}$/$\ce{-NR2}$); (b) $\ce{-CO-NH2}$ (carbonila
+ligada a N); (c) $\ce{-C#N}$.
+
+**@exr-2.** O nitrogênio está ligado a **dois** grupos orgânicos (dois metil): amina
+**secundária**.
+
+**@exr-3.** Na **amina** o nitrogênio tem um par de elétrons disponível para captar
+$\ce{H+}$ (básico). Na **amida**, esse par está deslocalizado por ressonância com a
+carbonila e fica indisponível — daí a perda de basicidade.
+
+**@exr-4.** **Álcool** ($\ce{-OH}$) e **ácido carboxílico** ($\ce{-COOH}$) — composto
+polifuncional.
+:::
