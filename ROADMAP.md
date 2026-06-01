@@ -92,7 +92,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 
 - [x] `volumes/v7-cinetica/01-velocidade.qmd` — Velocidade de reação e fatores.
 - [x] `volumes/v7-cinetica/02-leis-velocidade.qmd` — Leis de velocidade e ordem de reação.
-- [ ] `volumes/v7-cinetica/03-integradas.qmd` — Equações integradas e tempo de meia-vida.
+- [x] `volumes/v7-cinetica/03-integradas.qmd` — Equações integradas e tempo de meia-vida.
 - [ ] `volumes/v7-cinetica/04-arrhenius.qmd` — Teoria das colisões, estado de transição e Arrhenius.
 - [ ] `volumes/v7-cinetica/05-mecanismos.qmd` — Mecanismos de reação e catálise.
 

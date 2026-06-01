@@ -50,6 +50,9 @@ $$ \Delta T_e = i\,K_e\,W, \qquad \Delta T_c = i\,K_c\,W, \qquad \Pi = i\,cRT. $
 **Primeira lei da termodinâmica**
 $$ \Delta U = q + w, \qquad w = -p\,\Delta V. $$
 
+**Cinética química** (1ª ordem)
+$$ \ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt, \qquad t_{1/2} = \frac{\ln 2}{k}, \qquad k = A\,e^{-E_a/RT}. $$
+
 **Termoquímica**
 $$ \Delta H^\circ_{\text{reação}} = \sum \Delta H^\circ_f(\text{produtos}) - \sum \Delta H^\circ_f(\text{reagentes}). $$
 

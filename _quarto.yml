@@ -73,6 +73,7 @@ book:
       chapters:
         - volumes/v7-cinetica/01-velocidade.qmd
         - volumes/v7-cinetica/02-leis-velocidade.qmd
+        - volumes/v7-cinetica/03-integradas.qmd
   appendices:
     - constantes.qmd
 

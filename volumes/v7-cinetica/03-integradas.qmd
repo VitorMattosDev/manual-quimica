@@ -1,0 +1,103 @@
+---
+title: "Equações integradas e meia-vida"
+---
+
+# Equações integradas e meia-vida {#sec-integradas}
+
+## Da velocidade à concentração no tempo
+
+A lei de velocidade dá $v$ em um instante, mas a pergunta prática costuma ser outra:
+*quanto reagente sobra após um tempo $t$?* Para responder, integra-se a lei de velocidade,
+obtendo $[\ce{A}]$ como função do tempo. As **equações integradas** resultantes têm um
+bônus precioso: cada ordem produz um gráfico **linear** característico, o que permite
+**descobrir** a ordem a partir de dados experimentais.
+
+## As equações integradas
+
+::: {#def-integradas}
+## Leis de velocidade integradas
+Para a decomposição de A, conforme a ordem:
+
+- **Ordem zero:** $[\ce{A}] = [\ce{A}]_0 - kt$. Gráfico **linear de $[\ce{A}]$ vs. $t$**.
+- **Primeira ordem:** $\ln[\ce{A}] = \ln[\ce{A}]_0 - kt$. Gráfico **linear de
+  $\ln[\ce{A}]$ vs. $t$**.
+- **Segunda ordem:** $\dfrac{1}{[\ce{A}]} = \dfrac{1}{[\ce{A}]_0} + kt$. Gráfico **linear
+  de $1/[\ce{A}]$ vs. $t$**.
+:::
+
+::: {.callout-note}
+Daí o método gráfico para achar a ordem: faça os três gráficos com os dados; aquele que
+sair **reto** revela a ordem. A inclinação fornece $k$ (sinal $-k$ nas duas primeiras,
+$+k$ na segunda ordem).
+:::
+
+## Tempo de meia-vida
+
+::: {#def-meia-vida}
+## Meia-vida
+A **meia-vida** $t_{1/2}$ é o tempo para a concentração cair à metade. Para a **primeira
+ordem**,
+$$ t_{1/2} = \frac{\ln 2}{k} = \frac{0{,}693}{k}, $$ {#eq-meia-vida}
+**independente** da concentração inicial — característica marcante das reações de primeira
+ordem, como o decaimento radioativo (Volume XVI).
+:::
+
+Nas outras ordens a meia-vida **depende** de $[\ce{A}]_0$: ordem zero,
+$t_{1/2} = [\ce{A}]_0/2k$; segunda ordem, $t_{1/2} = 1/(k[\ce{A}]_0)$.
+
+::: {#exm-primeira-ordem}
+## Decaimento de primeira ordem
+Uma substância de primeira ordem tem $k = \pu{0,0231 min-1}$. Qual sua meia-vida? E que
+fração resta após duas meias-vidas?
+
+**Solução.** Pela @eq-meia-vida, $t_{1/2} = \dfrac{0{,}693}{0{,}0231} = \pu{30 min}$. Após
+**duas** meias-vidas resta $\left(\tfrac12\right)^2 = \tfrac14 = 25\%$ da substância.
+:::
+
+::: {#exm-quanto-resta}
+## Quanto resta após um tempo
+Partindo de $[\ce{A}]_0 = \pu{0,80 mol/L}$ numa reação de primeira ordem com
+$k = \pu{0,10 min-1}$, qual $[\ce{A}]$ após $\pu{20 min}$?
+
+**Solução.** $\ln[\ce{A}] = \ln(0{,}80) - 0{,}10\times 20 = -0{,}223 - 2{,}0 = -2{,}223$.
+Logo $[\ce{A}] = e^{-2{,}223} \approx \pu{0,108 mol/L}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Para descobrir a ordem de uma reação, qual gráfico deve sair **reto** se ela for de
+primeira ordem?
+:::
+
+::: {#exr-2}
+Uma reação de primeira ordem tem $t_{1/2} = \pu{10 min}$. Qual sua constante $k$?
+:::
+
+::: {#exr-3}
+Partindo de $\pu{1,0 mol/L}$, quanto resta de um reagente de primeira ordem após **três**
+meias-vidas?
+:::
+
+::: {#exr-4}
+Por que a meia-vida de uma reação de primeira ordem não depende da concentração inicial,
+mas a de segunda ordem sim?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** O gráfico de $\ln[\ce{A}]$ *vs.* $t$ (linear para primeira ordem), com
+inclinação $-k$.
+
+**@exr-2.** $k = \dfrac{0{,}693}{t_{1/2}} = \dfrac{0{,}693}{10} = \pu{0,0693 min-1}$.
+
+**@exr-3.** Após 3 meias-vidas resta $\left(\tfrac12\right)^3 = \tfrac18 = 0{,}125$, ou
+seja $\pu{0,125 mol/L}$.
+
+**@exr-4.** Em primeira ordem, $t_{1/2} = \ln 2/k$ não contém $[\ce{A}]_0$; em segunda
+ordem, $t_{1/2} = 1/(k[\ce{A}]_0)$ depende de $[\ce{A}]_0$ — quanto mais diluído, mais
+lenta a queda relativa.
+:::
