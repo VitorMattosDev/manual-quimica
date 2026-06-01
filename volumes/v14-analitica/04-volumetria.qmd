@@ -1,0 +1,102 @@
+---
+title: "Volumetria"
+---
+
+# Volumetria {#sec-volumetria}
+
+## Quantificar pelo volume
+
+A gravimetria pesa; a **volumetria** (ou titulometria) **mede volumes**. É a generalização da
+titulação ácido-base do Volume VIII: faz-se o analito reagir completamente com um reagente de
+concentração conhecida, e do **volume gasto** calcula-se a quantidade procurada. Mais rápida
+que a gravimetria, é o método quantitativo mais usado no dia a dia do laboratório, dos
+controles de qualidade às análises ambientais.
+
+## O princípio da volumetria
+
+::: {#def-volumetria}
+## Análise volumétrica
+Adiciona-se o **titulante** (concentração conhecida) ao **analito** até o **ponto de
+equivalência** — quando reagiram em proporção estequiométrica. Do volume gasto e da
+estequiometria, calcula-se a quantidade de analito:
+$$ n_{\text{titulante}} = c_{\text{titulante}}\,V_{\text{titulante}}, $$
+e a proporção da reação dá $n_{\text{analito}}$. Requisitos: reação **rápida**, **completa**,
+de **estequiometria definida** e com **ponto final detectável** (indicador, eletrodo).
+:::
+
+## Os tipos de volumetria
+
+::: {#def-tipos-volumetria}
+## Classes de titulação
+Conforme a reação envolvida:
+
+- **Ácido-base (neutralização):** $\ce{H+ + OH- -> H2O}$ (Volume VIII).
+- **Redox:** transferência de elétrons (ex.: permanganometria com $\ce{KMnO4}$).
+- **Complexação:** formação de complexo (ex.: com **EDTA**, para dureza da água).
+- **Precipitação:** formação de sólido (ex.: argentometria, $\ce{Ag+}$ + haletos).
+:::
+
+## Cálculos volumétricos
+
+::: {#exm-volumetria-redox}
+## Titulação redox
+$\pu{20,0 mL}$ de $\ce{Fe^2+}$ são titulados com $\pu{25,0 mL}$ de $\ce{KMnO4}$
+$\pu{0,0200 mol/L}$ em meio ácido. Qual a concentração de $\ce{Fe^2+}$? (Reação:
+$\ce{MnO4- + 5 Fe^2+ + 8 H+ -> Mn^2+ + 5 Fe^3+ + 4 H2O}$.)
+
+**Solução.** Mols de $\ce{MnO4-}$: $n = 0{,}0200 \times 0{,}0250 = \pu{5,00e-4 mol}$. A
+estequiometria é **1 : 5**, então $n_{\ce{Fe^2+}} = 5 \times 5{,}00\times 10^{-4} =
+\pu{2,50e-3 mol}$. Logo
+$c_{\ce{Fe^2+}} = \dfrac{2{,}50\times 10^{-3}}{0{,}0200} = \pu{0,125 mol/L}$.
+:::
+
+::: {.callout-note}
+A chave do cálculo volumétrico é **respeitar a proporção estequiométrica** da reação, nem
+sempre 1:1. Na permanganometria é 1:5; numa titulação de $\ce{H2SO4}$ por $\ce{NaOH}$, é
+1:2. Sempre escreva a equação balanceada antes de relacionar os mols.
+:::
+
+::: {#exm-edta}
+## Volumetria de complexação
+Por que o EDTA é tão usado em titulações de complexação?
+
+**Solução.** O EDTA é um ligante **hexadentado** (Volume XIII): liga-se ao íon metálico em
+proporção **1:1**, formando um complexo muito estável (efeito quelato). A estequiometria
+simples e a alta estabilidade tornam o ponto final nítido — ideal para medir $\ce{Ca^2+}$ e
+$\ce{Mg^2+}$ (dureza da água).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Quais os quatro requisitos de uma reação para servir à volumetria?
+:::
+
+::: {#exr-2}
+Cite os quatro tipos de volumetria conforme a reação envolvida.
+:::
+
+::: {#exr-3}
+$\pu{10,0 mL}$ de $\ce{HCl}$ são neutralizados por $\pu{20,0 mL}$ de $\ce{NaOH}$
+$\pu{0,100 mol/L}$. Qual a concentração do $\ce{HCl}$?
+:::
+
+::: {#exr-4}
+Numa titulação com EDTA, qual a proporção entre o EDTA e o íon metálico?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Reação **rápida**, **completa**, de **estequiometria definida** e com **ponto
+final detectável**.
+
+**@exr-2.** Ácido-base (neutralização), redox, complexação e precipitação.
+
+**@exr-3.** Reação 1:1. $n_{\ce{NaOH}} = 0{,}100\times 0{,}0200 = \pu{2,00e-3 mol} =
+n_{\ce{HCl}}$. $c_{\ce{HCl}} = \dfrac{2{,}00\times 10^{-3}}{0{,}0100} = \pu{0,200 mol/L}$.
+
+**@exr-4.** **1:1** (o EDTA é hexadentado e quela o metal numa única espécie).
+:::
