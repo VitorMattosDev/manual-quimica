@@ -182,6 +182,7 @@ crossref:
   custom:
     - kind: float
       key: rxn
+      latex-env: rxn
       reference-prefix: "Reação"
       caption-prefix: "Reação"
   thm-title: "Teorema"
