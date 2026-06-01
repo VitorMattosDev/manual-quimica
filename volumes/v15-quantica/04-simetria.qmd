@@ -1,0 +1,108 @@
+---
+title: "Simetria molecular e teoria de grupos"
+---
+
+# Simetria molecular e teoria de grupos {#sec-simetria}
+
+## A forma como ferramenta de previsão
+
+A simetria de uma molécula não é apenas estética: ela **determina** propriedades — se a
+molécula é polar, se é quiral, quais vibrações aparecem no infravermelho, como se combinam os
+orbitais. A **teoria de grupos** transforma a simetria numa ferramenta matemática rigorosa
+(ver a álgebra de grupos do *Manual de Matemática*). Este capítulo introduz seus elementos
+para a química, conectando geometria (Volume III) e espectroscopia (capítulos seguintes).
+
+## Elementos e operações de simetria
+
+::: {#def-operacoes-simetria}
+## Operações de simetria
+Uma **operação de simetria** transforma a molécula numa configuração **indistinguível** da
+original. Cada uma associa-se a um **elemento de simetria**:
+
+- **$E$** — identidade (não faz nada);
+- **$C_n$** — rotação de $360^\circ/n$ em torno de um eixo;
+- **$\sigma$** — reflexão num plano (especular);
+- **$i$** — inversão por um centro;
+- **$S_n$** — rotação imprópria (rotação seguida de reflexão).
+:::
+
+::: {#exm-elementos-agua}
+## Simetria da água
+Quais elementos de simetria tem a molécula de água?
+
+**Solução.** A água ($\ce{H2O}$, angular) tem: a **identidade** $E$; um eixo $C_2$ (rotação
+de $180^\circ$ que troca os dois H); e **dois planos** de reflexão $\sigma_v$ que contêm esse
+eixo. Esse conjunto define o grupo de ponto $C_{2v}$.
+:::
+
+## Grupos de ponto
+
+::: {#def-grupo-ponto}
+## Grupo de ponto
+O conjunto de **todas** as operações de simetria de uma molécula forma um **grupo de ponto**
+(no sentido algébrico: fechado, com identidade, inversos e associatividade). Exemplos:
+$C_{2v}$ (água), $C_{3v}$ (amônia), $T_d$ (metano), $D_{6h}$ (benzeno). Classificar a
+molécula em seu grupo de ponto resume toda a sua simetria num rótulo.
+:::
+
+::: {.callout-note}
+A teoria de grupos é a álgebra (*Manual de Matemática*) servindo à química: as operações de
+simetria satisfazem **exatamente** os axiomas de grupo. Por isso ferramentas algébricas —
+tabelas de caracteres, representações — preveem propriedades físicas sem resolver a equação
+de Schrödinger inteira.
+:::
+
+## O poder preditivo da simetria
+
+::: {#def-simetria-propriedades}
+## Simetria e propriedades
+- **Polaridade:** uma molécula só é **polar** se seu grupo de ponto permitir um momento de
+  dipolo permanente (ausência de certas simetrias, como o centro de inversão).
+- **Quiralidade:** uma molécula é **quiral** (opticamente ativa) se **não** tiver plano de
+  reflexão nem centro de inversão.
+- **Espectros:** a simetria diz quais vibrações são **ativas** no IR e no Raman (regras de
+  seleção, próximos capítulos).
+:::
+
+::: {#exm-polaridade-simetria}
+## Simetria e polaridade
+Por que o $\ce{CO2}$ é apolar e a água é polar, em termos de simetria?
+
+**Solução.** O $\ce{CO2}$ (linear) tem **centro de inversão** $i$: os dois dipolos C=O se
+cancelam, molécula **apolar**. A água ($C_{2v}$) **não** tem centro de inversão, e seus
+dipolos somam num resultante — molécula **polar**. A simetria decide (Volume III).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+O que caracteriza uma operação de simetria?
+:::
+
+::: {#exr-2}
+Identifique a operação: rotação de $120^\circ$ em torno de um eixo. Qual seu símbolo?
+:::
+
+::: {#exr-3}
+Por que o conjunto de operações de simetria de uma molécula forma um "grupo"?
+:::
+
+::: {#exr-4}
+Que elementos de simetria uma molécula **não** pode ter para ser quiral?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Transformar a molécula numa configuração **indistinguível** da original.
+
+**@exr-2.** É uma rotação própria de ordem 3: símbolo **$C_3$** ($360^\circ/3 = 120^\circ$).
+
+**@exr-3.** Porque satisfaz os **axiomas de grupo**: há identidade ($E$), cada operação tem
+inversa, a composição de duas operações é outra operação (fechamento) e é associativa.
+
+**@exr-4.** Não pode ter **plano de reflexão** ($\sigma$) nem **centro de inversão** ($i$)
+— nem, em geral, eixos impróprios $S_n$.
+:::

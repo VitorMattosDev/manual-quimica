@@ -138,6 +138,7 @@ book:
         - volumes/v15-quantica/01-fundamentos-mq.qmd
         - volumes/v15-quantica/02-atomos.qmd
         - volumes/v15-quantica/03-tom.qmd
+        - volumes/v15-quantica/04-simetria.qmd
   appendices:
     - constantes.qmd
 
