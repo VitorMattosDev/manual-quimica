@@ -69,7 +69,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v5-estados-solucoes/02-cinetica-gases.qmd` — Teoria cinética e gases reais.
 - [x] `volumes/v5-estados-solucoes/03-liquidos-solidos.qmd` — Líquidos, sólidos e diagramas de fase.
 - [x] `volumes/v5-estados-solucoes/04-solucoes.qmd` — Solubilidade e unidades de concentração.
-- [ ] `volumes/v5-estados-solucoes/05-diluicao.qmd` — Preparo e diluição de soluções.
+- [x] `volumes/v5-estados-solucoes/05-diluicao.qmd` — Preparo e diluição de soluções.
 - [ ] `volumes/v5-estados-solucoes/06-coligativas.qmd` — Propriedades coligativas.
 - [ ] `volumes/v5-estados-solucoes/07-coloides.qmd` — Coloides e dispersões.
 

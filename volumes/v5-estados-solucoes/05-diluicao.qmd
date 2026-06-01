@@ -1,0 +1,120 @@
+---
+title: "Preparo e diluição de soluções"
+---
+
+# Preparo e diluição de soluções {#sec-diluicao}
+
+## Da teoria à bancada
+
+O capítulo anterior definiu concentração; este é o seu lado prático. Toda solução de
+laboratório passa por dois procedimentos básicos: **preparar** uma solução a partir do
+soluto puro e **diluir** uma solução concentrada acrescentando solvente. Ambos se
+resolvem com uma única ideia conservada — a **quantidade de soluto** — e poucas contas.
+
+## Preparo a partir do soluto
+
+Preparar uma solução de concentração desejada é calcular a massa de soluto e dissolvê-la
+até o volume final num balão volumétrico.
+
+::: {#exm-preparo}
+## Preparando uma solução
+Como preparar $\pu{250 mL}$ de solução de $\ce{KMnO4}$ ($M = \pu{158 g/mol}$) a
+$\pu{0,10 mol/L}$?
+
+**Solução.** A quantidade de soluto é $n = cV = 0{,}10 \times 0{,}250 = \pu{0,025 mol}$,
+ou seja $m = nM = 0{,}025 \times 158 = \pu{3,95 g}$. Pesa-se $\pu{3,95 g}$ de $\ce{KMnO4}$,
+dissolve-se em pouca água e completa-se o **balão volumétrico** até a marca de
+$\pu{250 mL}$.
+:::
+
+::: {.callout-warning}
+Complete o volume **da solução**, não do solvente. Dissolver $\pu{3,95 g}$ em
+$\pu{250 mL}$ de água daria um volume final **maior** que $\pu{250 mL}$ e concentração
+errada. Por isso se usa o balão volumétrico, aferido para o volume total.
+:::
+
+## Diluição
+
+Diluir é acrescentar solvente sem mexer na quantidade de soluto. Como $n$ não muda e
+$n = cV$, vale a relação de diluição.
+
+::: {#def-diluicao}
+## Relação de diluição
+Acrescentando solvente a uma solução, a quantidade de soluto se conserva, logo
+$$ c_1 V_1 = c_2 V_2, $$ {#eq-diluicao}
+onde o índice 1 é o estado concentrado (inicial) e o 2, o diluído (final). Como
+$V_2 > V_1$, segue $c_2 < c_1$: diluir **reduz** a concentração na mesma proporção em que
+**aumenta** o volume.
+:::
+
+::: {#exm-diluicao}
+## Diluindo um ácido
+Que volume de $\ce{HCl}$ a $\pu{6,0 mol/L}$ é preciso para preparar $\pu{300 mL}$ de
+solução a $\pu{0,50 mol/L}$?
+
+**Solução.** Pela @eq-diluicao,
+$V_1 = \dfrac{c_2 V_2}{c_1} = \dfrac{0{,}50 \times 300}{6{,}0} = \pu{25 mL}$. Mede-se
+$\pu{25 mL}$ do ácido concentrado e completa-se com água até $\pu{300 mL}$.
+:::
+
+::: {.callout-warning}
+Ao diluir ácidos concentrados, adicione **o ácido sobre a água**, nunca o contrário. A
+dissolução libera muito calor; com a ordem invertida, a água pode entrar em ebulição
+local e espirrar ácido.
+:::
+
+## Mistura de soluções de mesmo soluto
+
+Misturar duas soluções do **mesmo** soluto soma as quantidades de soluto e os volumes
+(supostos aditivos): $c_f = \dfrac{c_1 V_1 + c_2 V_2}{V_1 + V_2}$. É uma média ponderada
+pelos volumes.
+
+::: {#exm-mistura}
+## Misturando duas soluções
+Misturam-se $\pu{200 mL}$ de $\ce{NaCl}$ a $\pu{1,0 mol/L}$ com $\pu{300 mL}$ a
+$\pu{2,0 mol/L}$. Qual a concentração final?
+
+**Solução.**
+$c_f = \dfrac{1{,}0\times 200 + 2{,}0\times 300}{200+300} = \dfrac{800}{500} =
+\pu{1,6 mol/L}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Que massa de $\ce{NaOH}$ ($M = \pu{40 g/mol}$) prepara $\pu{500 mL}$ de solução a
+$\pu{0,20 mol/L}$?
+:::
+
+::: {#exr-2}
+Diluindo $\pu{50 mL}$ de solução a $\pu{4,0 mol/L}$ até $\pu{200 mL}$, qual a nova
+concentração?
+:::
+
+::: {#exr-3}
+Quanto de água deve ser acrescentado a $\pu{100 mL}$ de solução $\pu{3,0 mol/L}$ para que
+ela fique $\pu{1,0 mol/L}$?
+:::
+
+::: {#exr-4}
+Misturam-se $\pu{100 mL}$ de glicose a $\pu{0,50 mol/L}$ com $\pu{100 mL}$ a
+$\pu{1,5 mol/L}$. Qual a concentração final?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $n = cV = 0{,}20\times 0{,}500 = \pu{0,1 mol}$;
+$m = nM = 0{,}1\times 40 = \pu{4,0 g}$.
+
+**@exr-2.** Pela @eq-diluicao, $c_2 = \dfrac{c_1 V_1}{V_2} =
+\dfrac{4{,}0\times 50}{200} = \pu{1,0 mol/L}$.
+
+**@exr-3.** $V_2 = \dfrac{c_1 V_1}{c_2} = \dfrac{3{,}0\times 100}{1{,}0} = \pu{300 mL}$.
+Como já há $\pu{100 mL}$, acrescenta-se $\pu{200 mL}$ de água.
+
+**@exr-4.** $c_f = \dfrac{0{,}50\times 100 + 1{,}5\times 100}{200} = \dfrac{200}{200} =
+\pu{1,0 mol/L}$.
+:::
