@@ -122,6 +122,7 @@ book:
       chapters:
         - volumes/v13-inorganica/01-representativos.qmd
         - volumes/v13-inorganica/02-descritiva.qmd
+        - volumes/v13-inorganica/03-transicao.qmd
   appendices:
     - constantes.qmd
 

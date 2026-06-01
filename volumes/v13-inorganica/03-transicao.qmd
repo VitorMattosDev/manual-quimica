@@ -1,0 +1,94 @@
+---
+title: "Metais de transição: propriedades gerais"
+---
+
+# Metais de transição: propriedades gerais {#sec-transicao}
+
+## O bloco d e suas peculiaridades
+
+No centro da tabela periódica está o **bloco d**: ferro, cobre, prata, ouro, titânio,
+cromo… os **metais de transição**, que dominam a tecnologia e a indústria. Eles têm
+propriedades que os representativos não exibem — cores vivas, magnetismo, múltiplos estados
+de oxidação, ação catalítica. A origem está nos **elétrons d** parcialmente preenchidos
+(Volume II). Este capítulo apresenta essas propriedades gerais, preparando o estudo dos
+complexos.
+
+## O que define um metal de transição
+
+::: {#def-transicao}
+## Metais de transição
+São os elementos do **bloco d**, com o **subnível $d$ parcialmente preenchido** (no átomo
+ou em algum de seus íons). Todos são **metais**: bons condutores, dúcteis, com altos pontos
+de fusão. As propriedades singulares decorrem dos elétrons $d$ de valência, próximos em
+energia aos $s$.
+:::
+
+## As propriedades características
+
+::: {#def-propriedades-transicao}
+## Quatro marcas dos metais de transição
+1. **Estados de oxidação variáveis:** perdem números diferentes de elétrons (ex.: o ferro é
+   $\ce{Fe^2+}$ e $\ce{Fe^3+}$; o manganês vai de $+2$ a $+7$).
+2. **Cor:** muitos compostos e íons são **coloridos** (transições de elétrons $d$).
+3. **Magnetismo:** elétrons $d$ desemparelhados tornam compostos **paramagnéticos**.
+4. **Atividade catalítica:** o $\ce{Fe}$ (Haber), o $\ce{Pt}$, o $\ce{V2O5}$ catalisam
+   reações industriais e biológicas.
+:::
+
+::: {.callout-note}
+A facilidade de variar o estado de oxidação é o segredo da **catálise** por metais de
+transição: eles cedem e recebem elétrons com facilidade, transitando entre estados, e por
+isso aceleram reações redox — exatamente o que se espera de um bom catalisador (Volume VII).
+:::
+
+::: {#exm-estados-oxidacao}
+## Estados de oxidação do manganês
+Identifique o nox do manganês em $\ce{MnO2}$ e em $\ce{KMnO4}$.
+
+**Solução.** Em $\ce{MnO2}$: $\ce{Mn} + 2(-2) = 0 \Rightarrow \ce{Mn} = +4$. Em
+$\ce{KMnO4}$: $(+1) + \ce{Mn} + 4(-2) = 0 \Rightarrow \ce{Mn} = +7$. O manganês exibe
+**vários** estados de oxidação — marca dos metais de transição.
+:::
+
+## Importância e aplicações
+
+Os metais de transição são a espinha dorsal da metalurgia (ferro e aço, cobre, titânio) e da
+biologia: o ferro da **hemoglobina** transporta oxigênio, o cobalto está na **vitamina
+B12**, o zinco e o cobre em muitas enzimas. Suas cores deram pigmentos à humanidade desde a
+antiguidade. A explicação da cor e do magnetismo exige entender como eles formam
+**complexos** — o próximo capítulo.
+
+## Exercícios
+
+::: {#exr-1}
+Que característica eletrônica define um metal de transição?
+:::
+
+::: {#exr-2}
+Cite as quatro propriedades típicas dos metais de transição.
+:::
+
+::: {#exr-3}
+Determine o nox do cromo em $\ce{Cr2O7^2-}$.
+:::
+
+::: {#exr-4}
+Por que a facilidade de variar o estado de oxidação favorece a ação catalítica desses
+metais?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Ter o subnível **$d$ parcialmente preenchido** (no átomo ou em um de seus íons).
+
+**@exr-2.** Estados de oxidação variáveis, cor, magnetismo (paramagnetismo) e atividade
+catalítica.
+
+**@exr-3.** $2\,\ce{Cr} + 7(-2) = -2 \Rightarrow 2\,\ce{Cr} = +12 \Rightarrow \ce{Cr} = +6$.
+
+**@exr-4.** Porque o metal **cede e recebe elétrons** facilmente, transitando entre estados
+de oxidação — o que acelera reações redox (catálise).
+:::
