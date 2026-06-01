@@ -45,6 +45,25 @@ Use o atributo `#tipo-nome`; um `## Título` interno é opcional.
 - Matemática: `$...$` em linha, `$$...$$` em destaque; equações importantes recebem
   rótulo `{#eq-nome}`.
 
+### Sintaxe `\ce{}` que compila no PDF (não só no site)
+
+O MathJax (site) é tolerante; o pacote `mhchem` do **LaTeX (PDF)** é estrito e quebra o
+deploy. Dentro de `\ce{...}`, **evite**:
+
+- **`>` ou `<` soltos** (séries de reatividade/espectroquímica): tire-os do `\ce`,
+  envolvendo cada espécie: `$\ce{F2} > \ce{Cl2} > \ce{Br2}$` (não `\ce{F2 > Cl2 > Br2}`).
+- **`\tfrac`/`\frac` como coeficiente:** use a fração nativa do mhchem — `\ce{1/2 O2}`
+  (não `\ce{\tfrac12 O2}`). Fora do `\ce`, `\tfrac12` é normal.
+- **`\cdot` em hidratos:** use o ponto de aduto `*` — `\ce{Fe2O3 * x H2O}`.
+- **`?` como incógnita:** use uma letra — `\ce{^{226}_{88}Ra -> X + ^4_2He}`.
+- **Setas como enfeite visual** (dipolos): não use `\ce{C->O}`; escreva em matemática
+  pura: `$\mathrm{C}\rightarrow\mathrm{O}$`.
+
+Funcionam bem no PDF: estados `(s)(l)(g)(aq)`, setas `->`/`<=>`/`<-[...]`/`->[\Delta]`,
+ligações `-`/`=`/`#` (tripla), radical `^.`, isótopos `^{A}_{Z}X`. Antes de fechar um
+volume, vale rodar `quarto render --to pdf` (exige TeX) para pegar essas quebras — o
+`quarto preview`/HTML **não** as detecta.
+
 ## Estruturas moleculares e diagramas
 
 - **Padrão seguro (HTML + PDF):** imagem embutida (`.svg` ou `.png`) na pasta do
