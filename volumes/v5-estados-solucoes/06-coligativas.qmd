@@ -1,0 +1,114 @@
+---
+title: "Propriedades coligativas"
+---
+
+# Propriedades coligativas {#sec-coligativas}
+
+## Quando só o número de partículas importa
+
+Há propriedades de uma solução que **não dependem** de qual é o soluto, apenas de *quantas*
+partículas ele dispersa no solvente. São as **propriedades coligativas** (do latim
+*colligere*, reunir). Elas explicam fatos do dia a dia — por que o sal derrete o gelo das
+estradas, por que o anticongelante protege o motor, por que a água do mar não congela a
+$\pu{0 ^\circ C}$ — e fornecem um método para medir massas molares.
+
+## A origem: o efeito do soluto sobre o solvente
+
+Dissolver um soluto **não volátil** dilui as moléculas de solvente na superfície e baixa
+sua tendência de escapar. O resultado é uma queda da pressão de vapor, da qual decorrem
+as demais propriedades. Em todas elas, o que conta é a **concentração de partículas**.
+
+::: {.callout-note}
+Para solutos **iônicos**, cada fórmula libera várias partículas: $\ce{NaCl -> Na+ + Cl-}$
+dá 2 partículas; $\ce{CaCl2}$ dá 3. Isso se quantifica pelo **fator de van't Hoff** $i$
+(número de partículas por fórmula). Para solutos moleculares, $i = 1$.
+:::
+
+## As quatro propriedades coligativas
+
+::: {#def-coligativas}
+## Propriedades coligativas
+Em relação ao solvente puro, um soluto não volátil de molalidade $W$ provoca:
+
+- **Tonoscopia** — abaixamento da pressão de vapor.
+- **Ebulioscopia** — elevação do ponto de ebulição:
+  $\Delta T_e = i\,K_e\,W$.
+- **Crioscopia** — abaixamento do ponto de congelamento:
+  $\Delta T_c = i\,K_c\,W$.
+- **Osmoscopia** — pressão osmótica: $\Pi = i\,cRT$.
+
+$K_e$ e $K_c$ são constantes **do solvente** (para a água, $K_e = \pu{0,52 ^\circ C.kg/mol}$
+e $K_c = \pu{1,86 ^\circ C.kg/mol}$).
+:::
+
+A **osmose** merece destaque: é a passagem espontânea de solvente através de uma membrana
+semipermeável, do lado **menos** concentrado para o **mais** concentrado. A pressão
+$\Pi = icRT$ é a que seria preciso aplicar para deter esse fluxo — sua forma lembra,
+não por acaso, a equação do gás ideal.
+
+::: {#exm-crioscopia}
+## Por que o sal derrete o gelo
+Que abaixamento do ponto de congelamento provoca $\pu{1,0 mol}$ de $\ce{NaCl}$ em
+$\pu{1,0 kg}$ de água?
+
+**Solução.** $W = \pu{1,0 mol/kg}$, $i = 2$ (o $\ce{NaCl}$ dá 2 íons),
+$K_c = \pu{1,86 ^\circ C.kg/mol}$. Logo
+$\Delta T_c = i\,K_c\,W = 2 \times 1{,}86 \times 1{,}0 = \pu{3,72 ^\circ C}$. A água
+passa a congelar a $\pu{-3,72 ^\circ C}$ — daí espalhar sal nas estradas geladas.
+:::
+
+::: {#exm-osmose}
+## Pressão osmótica
+Qual a pressão osmótica de uma solução de glicose ($i=1$) a $\pu{0,10 mol/L}$ e
+$\pu{27 ^\circ C}$?
+
+**Solução.** $T = \pu{300 K}$;
+$\Pi = icRT = 1 \times 0{,}10 \times 0{,}08206 \times 300 \approx \pu{2,46 atm}$.
+:::
+
+## Determinação de massa molar
+
+Como cada propriedade depende da quantidade de partículas, medindo $\Delta T_c$ ou $\Pi$
+recupera-se o número de mols — e daí a massa molar de um soluto desconhecido. A osmoscopia
+é especialmente sensível, ideal para macromoléculas (proteínas, polímeros).
+
+## Exercícios
+
+::: {#exr-1}
+Calcule a elevação do ponto de ebulição de uma solução de $\pu{2,0 mol}$ de sacarose
+($i=1$) em $\pu{1,0 kg}$ de água. ($K_e = \pu{0,52 ^\circ C.kg/mol}$.)
+:::
+
+::: {#exr-2}
+Duas soluções aquosas têm a mesma molalidade: uma de glicose ($i=1$), outra de $\ce{NaCl}$
+($i=2$). Qual congela a temperatura mais baixa? Por quê?
+:::
+
+::: {#exr-3}
+Qual a pressão osmótica de uma solução $\pu{0,20 mol/L}$ de $\ce{NaCl}$ ($i=2$) a
+$\pu{27 ^\circ C}$?
+:::
+
+::: {#exr-4}
+Por que a água do mar (rica em sais dissolvidos) congela a uma temperatura **abaixo** de
+$\pu{0 ^\circ C}$?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\Delta T_e = i\,K_e\,W = 1\times 0{,}52\times 2{,}0 = \pu{1,04 ^\circ C}$.
+Ferve a $\approx\pu{101,0 ^\circ C}$.
+
+**@exr-2.** O $\ce{NaCl}$ ($i=2$) gera o **dobro** de partículas, logo maior
+$\Delta T_c$: congela a temperatura **mais baixa**.
+
+**@exr-3.** $T = \pu{300 K}$;
+$\Pi = icRT = 2\times 0{,}20\times 0{,}08206\times 300 \approx \pu{9,8 atm}$.
+
+**@exr-4.** Os sais dissolvidos provocam **crioscopia**: abaixam o ponto de
+congelamento proporcionalmente ao número de partículas, então a água do mar só congela
+abaixo de $\pu{0 ^\circ C}$.
+:::

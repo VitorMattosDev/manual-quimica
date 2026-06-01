@@ -44,6 +44,9 @@ $$ \left(p + \frac{an^2}{V^2}\right)(V - nb) = nRT \quad (\text{van der Waals}).
 **Concentração**
 $$ c = \frac{n_{\text{soluto}}}{V_{\text{solução}}}, \qquad C_1 V_1 = C_2 V_2 \ (\text{diluição}). $$
 
+**Propriedades coligativas** ($i$ = fator de van't Hoff)
+$$ \Delta T_e = i\,K_e\,W, \qquad \Delta T_c = i\,K_c\,W, \qquad \Pi = i\,cRT. $$
+
 **Termoquímica**
 $$ \Delta H^\circ_{\text{reação}} = \sum \Delta H^\circ_f(\text{produtos}) - \sum \Delta H^\circ_f(\text{reagentes}). $$
 

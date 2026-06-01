@@ -59,6 +59,7 @@ book:
         - volumes/v5-estados-solucoes/03-liquidos-solidos.qmd
         - volumes/v5-estados-solucoes/04-solucoes.qmd
         - volumes/v5-estados-solucoes/05-diluicao.qmd
+        - volumes/v5-estados-solucoes/06-coligativas.qmd
   appendices:
     - constantes.qmd
 
