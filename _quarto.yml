@@ -85,6 +85,7 @@ book:
         - volumes/v8-equilibrio/05-fracos.qmd
         - volumes/v8-equilibrio/06-tampao.qmd
         - volumes/v8-equilibrio/07-titulacao.qmd
+        - volumes/v8-equilibrio/08-kps.qmd
   appendices:
     - constantes.qmd
 

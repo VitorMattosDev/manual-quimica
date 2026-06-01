@@ -1,0 +1,109 @@
+---
+title: "Equilíbrio de solubilidade (Kps)"
+---
+
+# Equilíbrio de solubilidade (Kps) {#sec-kps}
+
+## O equilíbrio entre o sólido e seus íons
+
+"Insolúvel" é um exagero: até o mais teimoso dos sais dissolve um pouquinho. Quando um sal
+pouco solúvel é posto em água, estabelece-se um **equilíbrio** entre o sólido não dissolvido
+e seus íons em solução. Tratá-lo com a maquinaria do equilíbrio químico fornece o
+**produto de solubilidade** $K_{ps}$ — a constante que governa precipitações, a formação de
+cálculos renais e estalactites, e a separação de íons na análise. É o capítulo que fecha o
+Volume VIII.
+
+## O produto de solubilidade
+
+::: {#def-kps}
+## Produto de solubilidade
+Para um sal pouco solúvel $\ce{A_xB_y(s) <=> x A^{m+} + y B^{n-}}$, o **produto de
+solubilidade** é
+$$ K_{ps} = [\ce{A^{m+}}]^x[\ce{B^{n-}}]^y, $$ {#eq-kps}
+com as concentrações de equilíbrio (o sólido, puro, não entra). Quanto **menor** $K_{ps}$,
+**menos solúvel** o sal.
+:::
+
+## Relação entre Kps e solubilidade
+
+Chamando de $s$ a **solubilidade molar** (mol de sal que se dissolve por litro), expressam-se
+as concentrações iônicas em função de $s$ e substitui-se na @eq-kps.
+
+::: {#exm-kps-solubilidade}
+## De s para Kps (sal 1:1)
+A solubilidade do $\ce{AgCl}$ é $s = 1{,}3\times 10^{-5}\,\pu{mol/L}$. Calcule $K_{ps}$.
+
+**Solução.** $\ce{AgCl <=> Ag+ + Cl-}$ dá $[\ce{Ag+}] = [\ce{Cl-}] = s$. Logo
+$K_{ps} = s\cdot s = s^2 = (1{,}3\times 10^{-5})^2 = 1{,}7\times 10^{-10}$.
+:::
+
+::: {#exm-kps-12}
+## De Kps para s (sal 1:2)
+O $K_{ps}$ do $\ce{PbI2}$ é $7{,}1\times 10^{-9}$. Qual sua solubilidade molar?
+
+**Solução.** $\ce{PbI2 <=> Pb^2+ + 2 I-}$ dá $[\ce{Pb^2+}] = s$ e $[\ce{I-}] = 2s$. Então
+$$ K_{ps} = (s)(2s)^2 = 4s^3 \Rightarrow s = \sqrt[3]{\frac{K_{ps}}{4}} =
+\sqrt[3]{\frac{7{,}1\times 10^{-9}}{4}} \approx 1{,}2\times 10^{-3}\,\pu{mol/L}. $$
+:::
+
+::: {.callout-warning}
+Cuidado com os coeficientes: o expoente **e** o fator multiplicativo. Para $\ce{PbI2}$, o
+$\ce{I-}$ entra ao **quadrado** (expoente 2) e com concentração $2s$ — daí o $4s^3$, não
+$s^3$ nem $s^2$. Cada estequiometria gera uma relação $K_{ps}$–$s$ diferente.
+:::
+
+## Efeito do íon comum e previsão de precipitação
+
+::: {#def-ion-comum}
+## Efeito do íon comum
+Adicionar à solução um íon que já participa do equilíbrio **desloca-o** (Le Chatelier) no
+sentido do sólido, **diminuindo** a solubilidade. Por isso o $\ce{AgCl}$ é ainda menos
+solúvel numa solução que já contém $\ce{Cl-}$.
+:::
+
+Para **prever se há precipitação**, compara-se o quociente $Q$ (produto das concentrações
+iniciais, na forma de $K_{ps}$) com $K_{ps}$:
+
+::: {.callout-note}
+- $Q < K_{ps}$: solução **insaturada** — não precipita (ainda dissolve mais).
+- $Q = K_{ps}$: solução **saturada**, no limiar.
+- $Q > K_{ps}$: **supersaturada** — ocorre **precipitação** até $Q = K_{ps}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Escreva a expressão de $K_{ps}$ para (a) $\ce{BaSO4}$ e (b) $\ce{Ca3(PO4)2}$.
+:::
+
+::: {#exr-2}
+A solubilidade do $\ce{CaCO3}$ é $s = 9{,}0\times 10^{-5}\,\pu{mol/L}$. Calcule seu
+$K_{ps}$.
+:::
+
+::: {#exr-3}
+O que acontece com a solubilidade do $\ce{AgCl}$ ao adicionar $\ce{NaCl}$ à solução?
+Justifique.
+:::
+
+::: {#exr-4}
+Para um sal com $K_{ps} = 1{,}0\times 10^{-10}$, misturam-se soluções tais que o produto
+iônico inicial $Q = 1{,}0\times 10^{-8}$. Haverá precipitação?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** (a) $K_{ps} = [\ce{Ba^2+}][\ce{SO4^2-}]$;
+(b) $K_{ps} = [\ce{Ca^2+}]^3[\ce{PO4^3-}]^2$.
+
+**@exr-2.** Sal 1:1, $K_{ps} = s^2 = (9{,}0\times 10^{-5})^2 = 8{,}1\times 10^{-9}$.
+
+**@exr-3.** **Diminui** (efeito do íon comum): o excesso de $\ce{Cl-}$ desloca
+$\ce{AgCl <=> Ag+ + Cl-}$ para o sólido, reduzindo a solubilidade.
+
+**@exr-4.** $Q = 10^{-8} > K_{ps} = 10^{-10}$, logo a solução está supersaturada e **há
+precipitação** até $Q = K_{ps}$.
+:::
