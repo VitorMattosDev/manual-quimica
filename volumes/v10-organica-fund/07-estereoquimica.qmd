@@ -1,0 +1,103 @@
+---
+title: "Estereoquímica: isomeria geométrica e óptica"
+---
+
+# Estereoquímica: isomeria geométrica e óptica {#sec-estereoquimica}
+
+## Isômeros que diferem só no espaço
+
+Há isômeros com a **mesma conectividade** — a mesma "planta" — que ainda assim são
+substâncias diferentes, porque seus átomos ocupam **posições distintas no espaço**. É a
+**estereoisomeria**, e ela tem consequências dramáticas: muitas vezes um estereoisômero é
+um remédio e o outro, um veneno. Compreendê-la fecha o Volume X e é indispensável para a
+bioquímica (Volume XII), onde a forma tridimensional decide tudo.
+
+## Isomeria geométrica (cis-trans)
+
+::: {#def-geometrica}
+## Isomeria geométrica
+Ocorre quando a **rotação é impedida** — numa dupla ligação ou num anel — e os grupos podem
+ficar do mesmo lado ou de lados opostos. Exige que **cada** carbono da dupla (ou cada
+posição relevante do anel) tenha **dois grupos diferentes**.
+
+- **cis (Z):** grupos iguais do **mesmo** lado.
+- **trans (E):** grupos iguais em lados **opostos**.
+:::
+
+::: {#exm-cis-trans}
+## Há ou não isomeria geométrica?
+O but-2-eno, $\ce{CH3-CH=CH-CH3}$, apresenta isomeria geométrica? E o but-1-eno,
+$\ce{CH2=CH-CH2-CH3}$?
+
+**Solução.** No **but-2-eno**, cada carbono da dupla tem um $\ce{H}$ e um $\ce{CH3}$
+(diferentes entre si): há **cis** (os dois $\ce{CH3}$ do mesmo lado) e **trans** (lados
+opostos) — **tem** isomeria geométrica. No **but-1-eno**, o carbono terminal tem **dois H
+iguais**: **não** tem isomeria geométrica.
+:::
+
+## Isomeria óptica e quiralidade
+
+::: {#def-quiralidade}
+## Carbono quiral e enantiômeros
+Um **carbono quiral** (assimétrico) está ligado a **quatro grupos diferentes**. Uma molécula
+com um carbono quiral é **quiral**: sua imagem no espelho **não** é sobreponível a ela,
+como as duas mãos. Os dois isômeros espelhados são **enantiômeros**.
+:::
+
+::: {#def-atividade-optica}
+## Atividade óptica
+Enantiômeros têm propriedades físicas idênticas (mesmo ponto de fusão, densidade), exceto
+por **desviar o plano da luz polarizada** em sentidos opostos: o **dextrogiro** (+) desvia
+à direita, o **levogiro** (−) à esquerda. A mistura em partes iguais (**racêmica**) não
+desvia a luz.
+:::
+
+::: {.callout-note}
+A quiralidade é a marca da vida: os aminoácidos das proteínas são quase todos da forma "L"
+(levogira no padrão), e os açúcares, "D". Um enantiômero de um fármaco pode curar enquanto o
+outro é inerte ou tóxico — o caso histórico da talidomida. **A forma 3D importa.**
+:::
+
+::: {#exm-carbono-quiral}
+## Identificando carbono quiral
+O ácido lático, $\ce{CH3-CH(OH)-COOH}$, tem carbono quiral?
+
+**Solução.** O carbono central liga-se a **quatro grupos diferentes**: $\ce{-H}$,
+$\ce{-OH}$, $\ce{-CH3}$ e $\ce{-COOH}$. Logo é **quiral**, e o ácido lático existe como dois
+enantiômeros (D e L).
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Qual condição uma dupla ligação deve satisfazer para haver isomeria geométrica?
+:::
+
+::: {#exr-2}
+O 1,2-dicloroeteno $\ce{ClCH=CHCl}$ apresenta isômeros cis e trans? Explique.
+:::
+
+::: {#exr-3}
+Quantos grupos diferentes deve ter um carbono para ser quiral?
+:::
+
+::: {#exr-4}
+O que caracteriza uma mistura racêmica quanto à luz polarizada?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Cada carbono da dupla deve ter **dois grupos diferentes** (e a rotação ser
+impedida pela própria dupla).
+
+**@exr-2.** **Sim**: cada carbono da dupla tem um $\ce{H}$ e um $\ce{Cl}$ (diferentes). O
+**cis** tem os dois $\ce{Cl}$ do mesmo lado; o **trans**, em lados opostos.
+
+**@exr-3.** **Quatro** grupos diferentes.
+
+**@exr-4.** Tem quantidades **iguais** dos dois enantiômeros; os desvios se cancelam e a
+mistura **não desvia** o plano da luz polarizada (opticamente inativa).
+:::

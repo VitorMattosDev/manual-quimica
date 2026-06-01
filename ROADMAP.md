@@ -130,7 +130,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v10-organica-fund/04-funcoes-nitrogenadas.qmd` — Funções nitrogenadas e demais.
 - [x] `volumes/v10-organica-fund/05-nomenclatura.qmd` — Nomenclatura IUPAC sistemática.
 - [x] `volumes/v10-organica-fund/06-isomeria-plana.qmd` — Isomeria constitucional (plana).
-- [ ] `volumes/v10-organica-fund/07-estereoquimica.qmd` — Estereoquímica: isomeria geométrica e óptica.
+- [x] `volumes/v10-organica-fund/07-estereoquimica.qmd` — Estereoquímica: isomeria geométrica e óptica.
 
 ### Volume XI — Reações Orgânicas
 *Objetivo:* mecanismos e transformações. *Pré-requisito:* Vol. X.
