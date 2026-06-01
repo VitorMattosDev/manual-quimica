@@ -1,0 +1,109 @@
+---
+title: "Colisões, estado de transição e Arrhenius"
+---
+
+# Colisões, estado de transição e Arrhenius {#sec-arrhenius}
+
+## Por que a temperatura tem efeito tão dramático
+
+Uma regra de bolso de laboratório diz que a velocidade de muitas reações **dobra** a cada
+$\pu{10 ^\circ C}$. Por que um aumento tão modesto de temperatura tem efeito tão grande?
+A resposta exige um modelo microscópico da reação — a **teoria das colisões** e a do
+**estado de transição** — que culmina na equação de **Arrhenius**, a lei que descreve como
+a constante de velocidade depende da temperatura.
+
+## A teoria das colisões
+
+::: {#def-colisoes}
+## Teoria das colisões
+Para reagir, as partículas precisam **colidir**, e a colisão só é **eficaz** se cumprir
+duas condições:
+
+1. **energia** igual ou superior a um mínimo, a **energia de ativação** $E_a$;
+2. **orientação** geométrica adequada para o rearranjo das ligações.
+
+Só a fração de colisões que satisfaz ambas resulta em reação. Daí a velocidade ser muito
+menor que a frequência total de colisões.
+:::
+
+## A energia de ativação e o estado de transição
+
+::: {#def-estado-transicao}
+## Energia de ativação e complexo ativado
+No curso da reação, os reagentes passam por um arranjo intermediário de máxima energia — o
+**complexo ativado** (ou **estado de transição**) — no topo de uma barreira energética. A
+altura dessa barreira, medida a partir dos reagentes, é a **energia de ativação** $E_a$:
+a energia mínima para a reação acontecer.
+:::
+
+::: {.callout-note}
+O diagrama de energia separa duas coisas que não se deve confundir: a **energia de ativação**
+$E_a$ (altura da barreira, controla a **velocidade**) e a **entalpia de reação** $\Delta H$
+(diferença entre produtos e reagentes, controla o **calor**). Uma reação pode ser muito
+exotérmica e ainda assim lentíssima, se $E_a$ for alta — é o caso do diamante.
+:::
+
+## A equação de Arrhenius
+
+Aquecer aumenta drasticamente a **fração** de moléculas com energia $\ge E_a$ (cauda da
+distribuição de energias). Svante Arrhenius condensou isso numa fórmula:
+
+::: {#def-arrhenius}
+## Equação de Arrhenius
+$$ k = A\,e^{-E_a/RT}, $$ {#eq-arrhenius}
+onde $A$ é o **fator de frequência** (ligado à frequência e à orientação das colisões) e
+$e^{-E_a/RT}$ é a fração de colisões com energia suficiente. Em forma logarítmica,
+$$ \ln k = \ln A - \frac{E_a}{R}\cdot\frac{1}{T}, $$ {#eq-arrhenius-log}
+que é uma **reta** de $\ln k$ contra $1/T$ com inclinação $-E_a/R$ — método para medir
+$E_a$.
+:::
+
+Comparando duas temperaturas, elimina-se $A$:
+$$ \ln\frac{k_2}{k_1} = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right). $$ {#eq-arrhenius-dois-pontos}
+
+::: {#exm-arrhenius}
+## Efeito da temperatura sobre k
+A constante de uma reação dobra ao passar de $\pu{300 K}$ para $\pu{310 K}$. Estime $E_a$.
+($R = \pu{8,314 J.mol-1.K-1}$.)
+
+**Solução.** Pela @eq-arrhenius-dois-pontos, com $k_2/k_1 = 2$:
+$$ \ln 2 = -\frac{E_a}{8{,}314}\left(\frac{1}{310} - \frac{1}{300}\right). $$
+O termo entre parênteses vale $-1{,}075\times 10^{-4}\,\pu{K-1}$. Então
+$E_a = \dfrac{0{,}693\times 8{,}314}{1{,}075\times 10^{-4}} \approx \pu{53,6 kJ/mol}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Quais são as duas condições para uma colisão ser **eficaz**?
+:::
+
+::: {#exr-2}
+Num gráfico de $\ln k$ *vs.* $1/T$, o que representa a inclinação da reta?
+:::
+
+::: {#exr-3}
+Uma reação muito exotérmica ($\Delta H \ll 0$) com $E_a$ alta pode ser lenta? Explique.
+:::
+
+::: {#exr-4}
+Pela @eq-arrhenius, o que acontece com $k$ quando $T$ aumenta? E quando $E_a$ é maior
+(comparando duas reações à mesma $T$)?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Energia $\ge E_a$ e **orientação** adequada das moléculas no choque.
+
+**@exr-2.** A inclinação é $-E_a/R$; dela se extrai a energia de ativação
+$E_a = -R\times(\text{inclinação})$.
+
+**@exr-3.** Sim. $E_a$ controla a **velocidade**, não $\Delta H$. Uma barreira alta torna a
+reação lenta por mais exotérmica que seja (o diamante é o exemplo clássico).
+
+**@exr-4.** Aumentar $T$ aumenta $k$ (o expoente $-E_a/RT$ fica menos negativo). Maior
+$E_a$ dá $k$ **menor** à mesma temperatura (barreira mais alta, menos colisões eficazes).
+:::

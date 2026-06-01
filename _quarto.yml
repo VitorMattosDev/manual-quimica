@@ -74,6 +74,7 @@ book:
         - volumes/v7-cinetica/01-velocidade.qmd
         - volumes/v7-cinetica/02-leis-velocidade.qmd
         - volumes/v7-cinetica/03-integradas.qmd
+        - volumes/v7-cinetica/04-arrhenius.qmd
   appendices:
     - constantes.qmd
 
