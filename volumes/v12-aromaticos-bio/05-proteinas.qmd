@@ -1,0 +1,106 @@
+---
+title: "Aminoácidos, peptídeos e proteínas"
+---
+
+# Aminoácidos, peptídeos e proteínas {#sec-proteinas}
+
+## As máquinas moleculares da vida
+
+As **proteínas** fazem quase todo o trabalho da célula: catalisam reações (enzimas, Volume
+VII), transportam (hemoglobina), estruturam (colágeno), defendem (anticorpos). E são, do
+ponto de vista químico, **poliamidas** (Volume XII) montadas a partir de monômeros
+especiais — os **aminoácidos**. Toda a sofisticação biológica emerge de regras simples de
+química orgânica: funções, acidez-basicidade e estrutura tridimensional.
+
+## Aminoácidos
+
+::: {#def-aminoacido}
+## Aminoácido
+Um **aminoácido** tem, no mesmo carbono (o carbono α), um grupo **amina** ($\ce{-NH2}$) e um
+grupo **ácido carboxílico** ($\ce{-COOH}$), além de um grupo lateral $\ce{R}$ que o
+distingue. São 20 os aminoácidos das proteínas. Exceto a glicina, todos têm o carbono α
+**quiral** (Volume X).
+:::
+
+::: {#def-zwitterion}
+## Caráter anfótero e zwitteríon
+Por ter ácido **e** base na mesma molécula, o aminoácido é **anfótero**. Em solução, o
+$\ce{-COOH}$ cede $\ce{H+}$ ao $\ce{-NH2}$, formando um íon duplo, o **zwitteríon**
+($\ce{-COO-}$ e $\ce{-NH3+}$). O pH em que a carga líquida é zero é o **ponto isoelétrico**.
+:::
+
+::: {.callout-note}
+O caráter anfótero faz dos aminoácidos **tampões** naturais (Volume VIII): resistem a
+variações de pH, captando ou cedendo $\ce{H+}$ conforme o meio. É parte do controle de pH do
+sangue.
+:::
+
+## A ligação peptídica
+
+::: {#def-ligacao-peptidica}
+## Ligação peptídica
+Dois aminoácidos se unem quando o $\ce{-COOH}$ de um reage com o $\ce{-NH2}$ do outro,
+formando uma **ligação amida** (chamada **peptídica**), com eliminação de água — uma
+**condensação**. O produto de muitos aminoácidos encadeados é um **polipeptídeo**; uma
+proteína é um (ou mais) polipeptídeo enovelado e funcional.
+:::
+
+::: {#exm-dipeptideo}
+## Formando um dipeptídeo
+O que une dois aminoácidos e o que se elimina na reação?
+
+**Solução.** Forma-se uma **ligação peptídica** (amida) entre o $\ce{-COOH}$ de um e o
+$\ce{-NH2}$ do outro, com eliminação de **água**. É a mesma condensação das poliamidas — a
+natureza fazendo náilon biológico.
+:::
+
+## Os níveis de estrutura das proteínas
+
+::: {#def-estrutura-proteina}
+## Estrutura primária a quaternária
+- **Primária:** a **sequência** de aminoácidos (ligações peptídicas).
+- **Secundária:** enrolamentos locais (hélice α, folha β) estabilizados por **ligações de
+  hidrogênio** (Volume III).
+- **Terciária:** o enovelamento tridimensional completo de uma cadeia, por interações entre
+  os grupos $\ce{R}$.
+- **Quaternária:** a associação de várias cadeias (ex.: a hemoglobina, com quatro).
+:::
+
+A forma 3D determina a função. Calor ou pH extremo rompem essas interações e **desnaturam** a
+proteína (como ao fritar um ovo) — a estrutura primária permanece, mas a função se perde.
+
+## Exercícios
+
+::: {#exr-1}
+Quais dois grupos funcionais definem um aminoácido, e em que carbono ficam?
+:::
+
+::: {#exr-2}
+O que é um zwitteríon e por que aminoácidos o formam?
+:::
+
+::: {#exr-3}
+Que tipo de ligação une aminoácidos numa proteína, e o que é eliminado?
+:::
+
+::: {#exr-4}
+A que nível estrutural corresponde a sequência de aminoácidos? E o que mantém a estrutura
+secundária?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Um grupo **amina** ($\ce{-NH2}$) e um **ácido carboxílico** ($\ce{-COOH}$),
+ambos no **carbono α**.
+
+**@exr-2.** É o íon duplo ($\ce{-COO-}$/$\ce{-NH3+}$) formado pela transferência interna de
+$\ce{H+}$; ocorre porque o aminoácido é **anfótero** (tem ácido e base na mesma molécula).
+
+**@exr-3.** A ligação **peptídica** (uma amida), com eliminação de **água**.
+
+**@exr-4.** A sequência é a estrutura **primária**; a **secundária** é mantida por
+**ligações de hidrogênio** (hélices α e folhas β).
+:::
