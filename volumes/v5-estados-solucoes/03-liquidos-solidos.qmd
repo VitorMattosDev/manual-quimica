@@ -1,0 +1,150 @@
+---
+title: "Líquidos, sólidos e diagramas de fase"
+---
+
+# Líquidos, sólidos e diagramas de fase {#sec-liquidos-solidos}
+
+## Quando as moléculas deixam de se ignorar
+
+No gás ideal as moléculas se ignoram (Volume V, capítulo anterior). Baixe a temperatura
+ou aumente a pressão e as **forças intermoleculares** (Volume III) deixam de ser
+desprezíveis: as moléculas se aproximam, se atraem e a matéria **condensa** em líquido e
+depois em sólido. Este capítulo descreve esses estados condensados e o mapa que diz, para
+cada par $(p, T)$, qual fase é estável: o **diagrama de fases**.
+
+## O estado líquido
+
+Num líquido as moléculas estão tão próximas quanto num sólido, mas mantêm liberdade de
+escorregar umas sobre as outras — daí ele ter volume próprio mas não forma própria. Três
+propriedades resumem o efeito das forças intermoleculares.
+
+::: {#def-propriedades-liquido}
+## Propriedades dos líquidos
+- **Tensão superficial:** energia para aumentar a superfície. Quanto mais fortes as
+  forças intermoleculares, maior — a superfície se comporta como uma "pele".
+- **Viscosidade:** resistência ao escoamento. Cresce com as forças intermoleculares e
+  cai com a temperatura.
+- **Pressão de vapor:** pressão do vapor em equilíbrio com o líquido. Cresce com a
+  temperatura e **cai** quando as forças intermoleculares são fortes.
+:::
+
+::: {#def-ebulicao}
+## Volatilidade e ebulição
+Um líquido **ferve** quando sua pressão de vapor iguala a pressão externa. Líquidos com
+forças intermoleculares fracas têm pressão de vapor alta (são **voláteis**) e fervem a
+baixas temperaturas; com ligações de hidrogênio fortes, como a água, fervem mais alto.
+:::
+
+::: {.callout-note}
+A altitude muda o ponto de ebulição: no alto de uma montanha a pressão externa é menor,
+então a água ferve abaixo de $\pu{100 ^\circ C}$ — e cozinhar demora mais.
+:::
+
+## O estado sólido
+
+No sólido as partículas só vibram em torno de posições fixas. Conforme essas posições se
+organizem ou não, distinguem-se dois tipos.
+
+::: {#def-solidos}
+## Sólidos cristalinos e amorfos
+- **Cristalino:** as partículas ocupam um arranjo **periódico** (rede), com geometria e
+  ponto de fusão bem definidos — sal, metais, gelo.
+- **Amorfo:** sem ordem de longo alcance; amolece numa faixa de temperatura em vez de
+  fundir num ponto — vidro, muitos plásticos.
+:::
+
+Os sólidos cristalinos classificam-se ainda pela natureza das partículas e da força que
+as une: **iônicos** (íons, atração eletrostática), **moleculares** (moléculas, forças de
+van der Waals ou ligação de H), **covalentes** (rede de ligações covalentes, como o
+diamante) e **metálicos** (cátions num "mar" de elétrons). Essa natureza determina dureza,
+ponto de fusão e condutividade.
+
+## Mudanças de estado e a energia envolvida
+
+As transições entre os três estados têm nomes próprios e absorvem ou liberam energia sem
+mudar a temperatura — a energia entra no rearranjo das forças intermoleculares.
+
+::: {#def-mudancas-estado}
+## Transições de fase
+$$ \text{sólido} \underset{\text{solidificação}}{\overset{\text{fusão}}{\rightleftarrows}}
+\text{líquido}
+\underset{\text{condensação}}{\overset{\text{vaporização}}{\rightleftarrows}}
+\text{gás}. $$
+A passagem direta sólido $\to$ gás é a **sublimação**; gás $\to$ sólido, a **deposição**.
+O calor por mol de cada transição é o **calor latente** ($\Delta H_{\text{fus}}$,
+$\Delta H_{\text{vap}}$).
+:::
+
+::: {#exm-calor-vaporizacao}
+## Energia para vaporizar água
+O calor de vaporização da água é $\Delta H_{\text{vap}} = \pu{40,7 kJ/mol}$. Quanta
+energia vaporiza $\pu{36 g}$ de água a $\pu{100 ^\circ C}$?
+
+**Solução.** $n = \dfrac{36}{18} = \pu{2 mol}$, logo
+$q = n\,\Delta H_{\text{vap}} = 2\times 40{,}7 = \pu{81,4 kJ}$.
+:::
+
+## O diagrama de fases
+
+Reunindo tudo num gráfico de pressão *versus* temperatura, cada região indica a fase
+estável e cada linha, o equilíbrio entre duas fases.
+
+::: {#def-diagrama-fases}
+## Diagrama de fases
+Gráfico $p \times T$ dividido em regiões (sólido, líquido, gás) por **curvas de
+equilíbrio**. Dois pontos são notáveis:
+
+- **Ponto triplo:** único $(p, T)$ em que as três fases coexistem.
+- **Ponto crítico:** acima dele desaparece a distinção líquido/gás — existe um
+  **fluido supercrítico**.
+:::
+
+::: {.callout-note}
+A água é uma exceção famosa: a curva de fusão tem inclinação **negativa** (o gelo é menos
+denso que a água líquida), e por isso aumentar a pressão pode **fundir** o gelo. Na
+maioria das substâncias a inclinação é positiva.
+:::
+
+::: {#exm-co2-seco}
+## Por que o gelo-seco não molha
+O ponto triplo do $\ce{CO2}$ está a $\pu{5,1 atm}$. À pressão ambiente ($\pu{1 atm}$), o
+$\ce{CO2}$ sólido nunca passa pela fase líquida: ele **sublima** direto para gás. Daí o
+nome "gelo-seco".
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Ordene quanto à pressão de vapor (do mais volátil ao menos): éter, água, glicerol —
+sabendo que a força intermolecular cresce nessa ordem inversa.
+:::
+
+::: {#exr-2}
+Por que cozinhar um ovo demora mais no alto de uma montanha do que no nível do mar?
+:::
+
+::: {#exr-3}
+O calor de fusão do gelo é $\pu{6,0 kJ/mol}$. Quanta energia funde $\pu{90 g}$ de gelo a
+$\pu{0 ^\circ C}$?
+:::
+
+::: {#exr-4}
+No diagrama de fases da água, o que distingue o **ponto triplo** do **ponto crítico**?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Pressão de vapor é inversa à força intermolecular: **éter > água >
+glicerol**.
+
+**@exr-2.** No alto a pressão externa é menor, então a água ferve abaixo de
+$\pu{100 ^\circ C}$. Com menos temperatura disponível, o cozimento é mais lento.
+
+**@exr-3.** $n = \dfrac{90}{18} = \pu{5 mol}$, logo $q = 5\times 6{,}0 = \pu{30 kJ}$.
+
+**@exr-4.** No **ponto triplo** coexistem sólido, líquido e gás. No **ponto crítico**
+some a distinção entre líquido e gás (forma-se fluido supercrítico).
+:::
