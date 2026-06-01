@@ -76,6 +76,9 @@ book:
         - volumes/v7-cinetica/03-integradas.qmd
         - volumes/v7-cinetica/04-arrhenius.qmd
         - volumes/v7-cinetica/05-mecanismos.qmd
+    - part: "Volume VIII — Equilíbrio Químico"
+      chapters:
+        - volumes/v8-equilibrio/01-equilibrio-k.qmd
   appendices:
     - constantes.qmd
 

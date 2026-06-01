@@ -59,6 +59,9 @@ $$ \Delta H^\circ_{\text{reação}} = \sum \Delta H^\circ_f(\text{produtos}) - \
 **Energia livre e equilíbrio**
 $$ \Delta G = \Delta H - T\Delta S, \qquad \Delta G^\circ = -RT \ln K. $$
 
+**Constante de equilíbrio** (para $\ce{aA + bB <=> cC + dD}$)
+$$ K_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}, \qquad K_p = K_c(RT)^{\Delta n}. $$
+
 **Equilíbrio iônico da água**
 $$ \mathrm{pH} = -\log[\mathrm{H^+}], \qquad \mathrm{pH} + \mathrm{pOH} = 14 \ (25\,^\circ\mathrm{C}). $$
 

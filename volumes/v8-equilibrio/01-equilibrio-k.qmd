@@ -1,0 +1,110 @@
+---
+title: "Equilíbrio químico e a constante K"
+---
+
+# Equilíbrio químico e a constante K {#sec-equilibrio-k}
+
+## Reações que não terminam
+
+Nem toda reação se completa. Muitíssimas param "no meio do caminho": reagentes e produtos
+coexistem indefinidamente, numa proporção fixa. Esse é o **equilíbrio químico**, um dos
+conceitos mais férteis da química — base da síntese industrial, da química ácido-base e da
+solubilidade (capítulos seguintes). O Volume VI já anunciou sua ligação com a energia livre
+($\Delta G^\circ = -RT\ln K$); aqui abrimos o Volume VIII estudando o equilíbrio por si.
+
+## O equilíbrio é dinâmico
+
+::: {#def-equilibrio}
+## Equilíbrio químico
+Numa reação **reversível** $\ce{A <=> B}$, o equilíbrio é o estado em que as velocidades
+das reações **direta** e **inversa** se igualam. As concentrações deixam de mudar, mas as
+reações **não param**: ambas continuam, em sentidos opostos e na mesma taxa. É um equilíbrio
+**dinâmico**, não estático.
+:::
+
+::: {.callout-note}
+Concentrações **constantes** não significam **iguais**. No equilíbrio, $[\ce{A}]$ e
+$[\ce{B}]$ permanecem fixas, mas em geral em valores diferentes — ditados pela constante
+de equilíbrio.
+:::
+
+## A constante de equilíbrio
+
+::: {#def-constante-k}
+## Constante de equilíbrio
+Para a reação $\ce{aA + bB <=> cC + dD}$, no equilíbrio vale a **lei da ação das massas**:
+$$ K_c = \frac{[\ce{C}]^c[\ce{D}]^d}{[\ce{A}]^a[\ce{B}]^b}, $$ {#eq-kc}
+onde as concentrações são as do **equilíbrio** e os expoentes, os **coeficientes**
+estequiométricos. $K_c$ depende só da temperatura.
+:::
+
+Para gases, é comum usar pressões parciais, definindo $K_p$; os dois se relacionam por
+$K_p = K_c(RT)^{\Delta n}$, com $\Delta n$ a variação do número de mols gasosos.
+
+::: {.callout-warning}
+Sólidos e líquidos puros **não entram** na expressão de $K$ — sua "concentração" (densidade)
+é constante. Em $\ce{CaCO3(s) <=> CaO(s) + CO2(g)}$, $K_c = [\ce{CO2}]$ apenas. Inclua só
+gases e espécies em solução.
+:::
+
+## O significado do valor de K
+
+::: {#def-magnitude-k}
+## Interpretando a magnitude de K
+- $K \gg 1$: equilíbrio deslocado para a **direita** — predominam **produtos**.
+- $K \ll 1$: deslocado para a **esquerda** — predominam **reagentes**.
+- $K \approx 1$: quantidades comparáveis de ambos.
+:::
+
+::: {#exm-kc}
+## Montando e calculando K
+Para $\ce{N2(g) + 3 H2(g) <=> 2 NH3(g)}$, no equilíbrio
+$[\ce{N2}] = \pu{0,20 mol/L}$, $[\ce{H2}] = \pu{0,10 mol/L}$,
+$[\ce{NH3}] = \pu{0,40 mol/L}$. Calcule $K_c$.
+
+**Solução.** Pela @eq-kc,
+$$ K_c = \frac{[\ce{NH3}]^2}{[\ce{N2}][\ce{H2}]^3} =
+\frac{(0{,}40)^2}{(0{,}20)(0{,}10)^3} = \frac{0{,}16}{2{,}0\times 10^{-4}} = 800. $$
+Como $K_c \gg 1$, o equilíbrio favorece o produto ($\ce{NH3}$).
+:::
+
+::: {#exm-kp-kc}
+## Relação entre Kp e Kc
+Para $\ce{N2 + 3H2 <=> 2NH3}$, qual a relação entre $K_p$ e $K_c$?
+
+**Solução.** $\Delta n = 2 - (1+3) = -2$, logo $K_p = K_c(RT)^{-2} = \dfrac{K_c}{(RT)^2}$.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Escreva a expressão de $K_c$ para $\ce{2 SO2(g) + O2(g) <=> 2 SO3(g)}$.
+:::
+
+::: {#exr-2}
+Escreva $K_c$ para $\ce{CaCO3(s) <=> CaO(s) + CO2(g)}$. Cuidado com sólidos.
+:::
+
+::: {#exr-3}
+Uma reação tem $K = 1\times 10^{-8}$. O equilíbrio favorece reagentes ou produtos?
+:::
+
+::: {#exr-4}
+No equilíbrio, as velocidades direta e inversa são iguais ou nulas? E as concentrações,
+são constantes ou iguais?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $K_c = \dfrac{[\ce{SO3}]^2}{[\ce{SO2}]^2[\ce{O2}]}$.
+
+**@exr-2.** Os sólidos não entram: $K_c = [\ce{CO2}]$.
+
+**@exr-3.** $K \ll 1$: favorece os **reagentes**.
+
+**@exr-4.** As velocidades são **iguais** (não nulas) — equilíbrio dinâmico. As
+concentrações são **constantes**, mas em geral **não** iguais entre si.
+:::
