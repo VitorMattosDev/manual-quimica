@@ -1,0 +1,122 @@
+---
+title: "Energia livre de Gibbs e espontaneidade"
+---
+
+# Energia livre de Gibbs e espontaneidade {#sec-gibbs}
+
+## Um critério só do sistema
+
+A 2ª lei dá o critério de espontaneidade — $\Delta S_{\text{univ}} > 0$ — mas exige
+calcular a entropia da **vizinhança**, o que é incômodo. Seria muito melhor decidir tudo
+olhando **só o sistema**. É exatamente o que a **energia livre de Gibbs** consegue: ela
+empacota entalpia e entropia numa única função cujo sinal, a $T$ e $p$ constantes, dita a
+espontaneidade. É a grandeza central da físico-química das reações.
+
+## A energia livre de Gibbs
+
+Partindo de $\Delta S_{\text{univ}} = \Delta S_{\text{sis}} - \Delta H_{\text{sis}}/T > 0$
+e multiplicando por $-T$ (que inverte a desigualdade), define-se:
+
+::: {#def-gibbs}
+## Energia livre de Gibbs
+$$ \Delta G = \Delta H - T\,\Delta S. $$ {#eq-gibbs}
+A $T$ e $p$ constantes, o sinal de $\Delta G$ decide a espontaneidade:
+
+- $\Delta G < 0$ — processo **espontâneo** (exergônico);
+- $\Delta G > 0$ — **não espontâneo** (espontâneo no sentido inverso);
+- $\Delta G = 0$ — sistema em **equilíbrio**.
+:::
+
+Tudo o que a 2ª lei dizia sobre o universo está agora embutido em variáveis **do sistema**.
+$\Delta G$ representa, além disso, a energia "útil" máxima que a reação pode fornecer como
+trabalho.
+
+## A disputa entre entalpia e entropia
+
+A @eq-gibbs mostra uma disputa: o termo $\Delta H$ favorece a espontaneidade quando
+negativo (exotérmico); o termo $-T\Delta S$, quando $\Delta S > 0$. A temperatura é o
+juiz — ela **pesa** o termo entrópico.
+
+::: {#def-tabela-gibbs}
+## Os quatro casos de espontaneidade
+| $\Delta H$ | $\Delta S$ | Resultado |
+|---|---|---|
+| $-$ | $+$ | espontâneo a **qualquer** $T$ |
+| $+$ | $-$ | **nunca** espontâneo |
+| $-$ | $-$ | espontâneo a **baixa** $T$ |
+| $+$ | $+$ | espontâneo a **alta** $T$ |
+:::
+
+Nos dois últimos casos há uma **temperatura de inversão** em que $\Delta G$ muda de sinal,
+quando $\Delta H = T\,\Delta S$, ou seja $T = \Delta H / \Delta S$.
+
+::: {.callout-warning}
+Cuidado com as unidades: $\Delta H$ costuma vir em $\pu{kJ}$ e $\Delta S$ em $\pu{J/K}$.
+Converta para a **mesma** unidade (em geral J) antes de aplicar a @eq-gibbs, ou errará por
+um fator 1000.
+:::
+
+::: {#exm-gibbs}
+## Calculando ΔG
+Para uma reação, $\Delta H = -\pu{92 kJ}$ e $\Delta S = -\pu{200 J/K}$. Ela é espontânea a
+$\pu{25 ^\circ C}$?
+
+**Solução.** $T = \pu{298 K}$; $\Delta S = -\pu{0,200 kJ/K}$. Pela @eq-gibbs,
+$$ \Delta G = -92 - 298\times(-0{,}200) = -92 + 59{,}6 = -\pu{32,4 kJ}. $$
+Como $\Delta G < 0$, é **espontânea** a $\pu{25 ^\circ C}$.
+:::
+
+::: {#exm-temperatura-inversao}
+## Temperatura de inversão
+A partir de que temperatura a reação do exemplo anterior deixa de ser espontânea?
+
+**Solução.** No limiar $\Delta G = 0$:
+$T = \dfrac{\Delta H}{\Delta S} = \dfrac{-92}{-0{,}200} = \pu{460 K}$. Acima de
+$\pu{460 K}$, $\Delta G > 0$ e a reação passa a **não** ser espontânea.
+:::
+
+## Energia livre-padrão por formação
+
+Como a entalpia, a energia livre tem entalpias-padrão de formação $\Delta G^\circ_f$
+(zero para os elementos), e
+$\Delta G^\circ_{\text{reação}} = \sum n\,\Delta G^\circ_f(\text{prod}) -
+\sum n\,\Delta G^\circ_f(\text{reag})$.
+
+## Exercícios
+
+::: {#exr-1}
+Uma reação tem $\Delta H < 0$ e $\Delta S > 0$. Ela é espontânea a que temperaturas?
+:::
+
+::: {#exr-2}
+Calcule $\Delta G$ a $\pu{300 K}$ para $\Delta H = +\pu{50 kJ}$ e $\Delta S = +\pu{100 J/K}$.
+É espontânea?
+:::
+
+::: {#exr-3}
+Para a reação do @exr-2, qual a temperatura de inversão acima da qual ela passa a ser
+espontânea?
+:::
+
+::: {#exr-4}
+O que significa, em termos de espontaneidade, $\Delta G = 0$?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $\Delta H < 0$ e $\Delta S > 0$ tornam $\Delta G = \Delta H - T\Delta S$
+sempre negativo: espontânea a **qualquer** temperatura.
+
+**@exr-2.** $\Delta S = \pu{0,100 kJ/K}$;
+$\Delta G = 50 - 300\times 0{,}100 = 50 - 30 = +\pu{20 kJ}$. Como $\Delta G > 0$, **não**
+é espontânea a $\pu{300 K}$.
+
+**@exr-3.** $T = \dfrac{\Delta H}{\Delta S} = \dfrac{50}{0{,}100} = \pu{500 K}$. Acima de
+$\pu{500 K}$ torna-se espontânea.
+
+**@exr-4.** O sistema está em **equilíbrio**: não há tendência espontânea líquida em
+nenhum dos sentidos.
+:::
