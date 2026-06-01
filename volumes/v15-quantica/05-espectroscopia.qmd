@@ -1,0 +1,115 @@
+---
+title: "Princípios; espectroscopias UV-Vis e IR"
+---
+
+# Princípios; espectroscopias UV-Vis e IR {#sec-espectroscopia}
+
+## Conversar com as moléculas usando luz
+
+A quantização da energia (capítulos anteriores) tem uma consequência prática espetacular:
+moléculas absorvem **apenas** a radiação cujo fóton corresponde exatamente a um salto entre
+seus níveis. Medindo **que** radiação cada substância absorve, lê-se sua estrutura — é a
+**espectroscopia**, a principal ferramenta de identificação da química moderna. Começamos
+pelos princípios gerais e duas técnicas: **UV-Vis** (eletrônica) e **IR** (vibracional).
+
+## O princípio espectroscópico
+
+::: {#def-espectroscopia}
+## Absorção e níveis de energia
+Uma molécula só absorve um fóton se sua energia $h\nu$ **igualar** a diferença entre dois de
+seus níveis quantizados, $\Delta E = h\nu = \dfrac{hc}{\lambda}$ (Volume II). Cada tipo de
+transição exige uma faixa de energia (e de radiação) diferente:
+
+| Região | Transição excitada |
+|---|---|
+| micro-ondas | rotação molecular |
+| infravermelho (IR) | vibração das ligações |
+| UV-visível | elétrons (orbitais) |
+:::
+
+## Espectroscopia UV-Vis
+
+::: {#def-uv-vis}
+## UV-Vis: transições eletrônicas
+A radiação **ultravioleta e visível** promove elétrons a orbitais de maior energia
+(transições $\pi \to \pi^*$, $n \to \pi^*$). É especialmente sensível a sistemas
+**conjugados** e a complexos de metais de transição (Volume XIII): quanto **maior** a
+conjugação, **menor** o $\Delta E$ e maior o comprimento de onda absorvido. Por absorver no
+visível, é a origem da **cor** de muitas substâncias.
+:::
+
+Quantitativamente, a UV-Vis segue a **lei de Beer-Lambert** $A = \varepsilon b c$ (Volume
+XIV), base da análise de concentração.
+
+::: {#exm-conjugacao}
+## Conjugação e cor
+Por que corantes orgânicos costumam ter longos sistemas de duplas conjugadas?
+
+**Solução.** Mais conjugação ⟹ orbitais $\pi$ mais próximos em energia ⟹ **menor**
+$\Delta E$ da transição ⟹ absorção em **maior** $\lambda$, deslocando-se para o visível. Por
+isso moléculas muito conjugadas absorvem luz visível e **aparecem coloridas**.
+:::
+
+## Espectroscopia no infravermelho (IR)
+
+::: {#def-ir}
+## IR: vibrações e grupos funcionais
+A radiação **infravermelha** excita **vibrações** (estiramentos e dobramentos) das ligações.
+Cada grupo funcional vibra numa frequência característica, então o espectro de IR funciona
+como uma **impressão digital** dos grupos presentes:
+
+- $\ce{O-H}$: banda larga em ~$\pu{3300 cm-1}$;
+- $\ce{C=O}$: banda forte em ~$\pu{1700 cm-1}$;
+- $\ce{C-H}$: ~$\pu{2900 cm-1}$.
+:::
+
+::: {.callout-note}
+Regra de seleção do IR: uma vibração só é **ativa** (absorve) se **alterar o momento de
+dipolo** da molécula — daí a conexão com a **simetria** (capítulo anterior). Por isso o
+$\ce{O2}$ e o $\ce{N2}$ (homonucleares, dipolo nulo) são "invisíveis" no IR, enquanto o
+$\ce{CO2}$ tem vibrações ativas.
+:::
+
+::: {#exm-ir-cetona}
+## Identificando uma carbonila
+Um composto desconhecido mostra forte absorção em $\pu{1715 cm-1}$. Que grupo isso sugere?
+
+**Solução.** A banda intensa perto de $\pu{1700 cm-1}$ é típica do estiramento da
+**carbonila** ($\ce{C=O}$) — o composto contém aldeído, cetona, ácido ou éster. É a
+assinatura mais reconhecível do IR.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Que condição um fóton deve satisfazer para ser absorvido por uma molécula?
+:::
+
+::: {#exr-2}
+Que tipo de transição cada região excita: (a) IR; (b) UV-Vis?
+:::
+
+::: {#exr-3}
+Por que aumentar a conjugação desloca a absorção UV-Vis para maiores comprimentos de onda?
+:::
+
+::: {#exr-4}
+Por que o $\ce{N2}$ não absorve no infravermelho?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Sua energia $h\nu$ deve **igualar** a diferença $\Delta E$ entre dois níveis
+quantizados da molécula.
+
+**@exr-2.** (a) IR → **vibrações** das ligações; (b) UV-Vis → transições **eletrônicas**.
+
+**@exr-3.** Mais conjugação aproxima os níveis $\pi$/$\pi^*$, **reduzindo** $\Delta E$; como
+$\lambda = hc/\Delta E$, a absorção vai para **maior** $\lambda$.
+
+**@exr-4.** Porque é homonuclear e sua vibração **não altera o momento de dipolo** (sempre
+nulo) — vibração inativa no IR.
+:::

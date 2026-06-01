@@ -187,7 +187,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 - [x] `volumes/v15-quantica/02-atomos.qmd` — Átomo de hidrogênio e átomos polieletrônicos.
 - [x] `volumes/v15-quantica/03-tom.qmd` — Teoria do orbital molecular (TOM).
 - [x] `volumes/v15-quantica/04-simetria.qmd` — Simetria molecular e teoria de grupos *(ver álgebra do Manual de Matemática)*.
-- [ ] `volumes/v15-quantica/05-espectroscopia.qmd` — Princípios; espectroscopias UV-Vis e IR.
+- [x] `volumes/v15-quantica/05-espectroscopia.qmd` — Princípios; espectroscopias UV-Vis e IR.
 - [ ] `volumes/v15-quantica/06-rmn-massas.qmd` — RMN e espectrometria de massas.
 
 ### Volume XVI — Química Nuclear, Materiais e Estado Sólido
