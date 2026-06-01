@@ -82,6 +82,7 @@ book:
         - volumes/v8-equilibrio/02-le-chatelier.qmd
         - volumes/v8-equilibrio/03-acidos-bases.qmd
         - volumes/v8-equilibrio/04-ph.qmd
+        - volumes/v8-equilibrio/05-fracos.qmd
   appendices:
     - constantes.qmd
 

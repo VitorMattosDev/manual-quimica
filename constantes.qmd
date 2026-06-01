@@ -65,6 +65,12 @@ $$ K_c = \frac{[\mathrm{C}]^c[\mathrm{D}]^d}{[\mathrm{A}]^a[\mathrm{B}]^b}, \qqu
 **Equilíbrio iônico da água**
 $$ \mathrm{pH} = -\log[\mathrm{H^+}], \qquad \mathrm{pH} + \mathrm{pOH} = 14 \ (25\,^\circ\mathrm{C}). $$
 
+**Ácidos e bases fracos**
+$$ K_a = \frac{[\mathrm{H^+}][\mathrm{A^-}]}{[\mathrm{HA}]}, \qquad [\mathrm{H^+}] \approx \sqrt{K_a\,c}, \qquad K_a K_b = K_w. $$
+
+**Tampão (Henderson–Hasselbalch)**
+$$ \mathrm{pH} = \mathrm{p}K_a + \log\frac{[\text{base}]}{[\text{ácido}]}. $$
+
 **Eletroquímica (Nernst)**
 $$ E = E^\circ - \frac{RT}{nF}\ln Q. $$
 

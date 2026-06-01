@@ -1,0 +1,103 @@
+---
+title: "Ácidos e bases fracos (Ka, Kb)"
+---
+
+# Ácidos e bases fracos (Ka, Kb) {#sec-fracos}
+
+## Quando a ionização é parcial
+
+O capítulo do pH tratou de ácidos e bases **fortes**, que se ionizam por completo — o
+$\ce{H+}$ sai direto da estequiometria. Mas a maioria é **fraca**: ioniza-se só
+parcialmente, estabelecendo um **equilíbrio** entre a forma molecular e os íons. O ácido
+acético do vinagre, o ácido carbônico do refrigerante, a amônia da limpeza — todos fracos.
+Calcular o pH desses sistemas exige tratar a ionização como o equilíbrio que ela é, com
+sua própria constante.
+
+## A constante de ionização
+
+::: {#def-ka}
+## Constante de acidez e de basicidade
+Para um ácido fraco $\ce{HA + H2O <=> H3O+ + A-}$, a **constante de acidez** é
+$$ K_a = \frac{[\ce{H+}][\ce{A-}]}{[\ce{HA}]}. $$ {#eq-ka}
+Para uma base fraca $\ce{B + H2O <=> BH+ + OH-}$, a **constante de basicidade** é
+$K_b = \dfrac{[\ce{BH+}][\ce{OH-}]}{[\ce{B}]}$. Quanto **maior** $K_a$ (ou $K_b$), **mais
+forte** o ácido (ou base).
+:::
+
+Costuma-se usar $\mathrm{p}K_a = -\log K_a$: quanto **menor** o $\mathrm{p}K_a$, mais forte
+o ácido. Para um **par conjugado**, vale a relação elegante
+$$ K_a \times K_b = K_w = 10^{-14} \quad\Rightarrow\quad \mathrm{p}K_a + \mathrm{p}K_b = 14. $$ {#eq-ka-kb}
+
+## Grau de ionização e a aproximação usual
+
+::: {#def-grau-ionizacao}
+## Grau de ionização
+O **grau de ionização** $\alpha$ é a fração do ácido que se ioniza. Para ácidos fracos
+($\alpha$ pequeno), de concentração inicial $c$, vale a aproximação
+$$ [\ce{H+}] \approx \sqrt{K_a\,c}, $$ {#eq-h-fraco}
+válida quando a ionização é pequena frente a $c$ (em geral $K_a/c < 10^{-3}$).
+:::
+
+::: {.callout-warning}
+A @eq-h-fraco supõe $[\ce{HA}]_{\text{eq}} \approx c$, ou seja, que **pouco** ácido se
+ionizou. Se $K_a$ for grande ou a solução muito diluída, a aproximação falha e é preciso
+resolver a equação do 2º grau completa. Cheque sempre se $[\ce{H+}] \ll c$ no fim.
+:::
+
+::: {#exm-ph-acido-fraco}
+## pH de ácido fraco
+Calcule o pH de uma solução de ácido acético $\pu{0,10 mol/L}$, $K_a = 1{,}8\times 10^{-5}$.
+
+**Solução.** Pela @eq-h-fraco,
+$[\ce{H+}] = \sqrt{K_a c} = \sqrt{1{,}8\times 10^{-5}\times 0{,}10} =
+\sqrt{1{,}8\times 10^{-6}} = 1{,}34\times 10^{-3}\,\pu{mol/L}$. Logo
+$\mathrm{pH} = -\log(1{,}34\times 10^{-3}) \approx 2{,}87$. (Confere: $[\ce{H+}] \ll 0{,}10$,
+aproximação válida.)
+:::
+
+::: {#exm-ka-kb}
+## Da constante do ácido à da base conjugada
+O $K_a$ do ácido acético é $1{,}8\times 10^{-5}$. Qual o $K_b$ do íon acetato (base
+conjugada)?
+
+**Solução.** Pela @eq-ka-kb,
+$K_b = \dfrac{K_w}{K_a} = \dfrac{10^{-14}}{1{,}8\times 10^{-5}} = 5{,}6\times 10^{-10}$.
+Base muito fraca — coerente com um ácido conjugado de força moderada.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Dois ácidos têm $K_a = 1\times 10^{-3}$ e $K_a = 1\times 10^{-7}$. Qual é o mais forte?
+:::
+
+::: {#exr-2}
+Calcule $[\ce{H+}]$ e o pH de um ácido fraco $\pu{0,040 mol/L}$ com
+$K_a = 1{,}0\times 10^{-5}$.
+:::
+
+::: {#exr-3}
+Um ácido tem $\mathrm{p}K_a = 4{,}74$. Qual o $\mathrm{p}K_b$ de sua base conjugada?
+:::
+
+::: {#exr-4}
+Por que a aproximação $[\ce{H+}] \approx \sqrt{K_a c}$ falha para ácidos não tão fracos ou
+soluções muito diluídas?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** Maior $K_a$ = mais forte: $K_a = 1\times 10^{-3}$ é o **mais forte**.
+
+**@exr-2.** $[\ce{H+}] = \sqrt{1{,}0\times 10^{-5}\times 0{,}040} = \sqrt{4{,}0\times 10^{-7}}
+= 6{,}3\times 10^{-4}\,\pu{mol/L}$; $\mathrm{pH} = -\log(6{,}3\times 10^{-4}) \approx 3{,}2$.
+
+**@exr-3.** Pela @eq-ka-kb, $\mathrm{p}K_b = 14 - \mathrm{p}K_a = 14 - 4{,}74 = 9{,}26$.
+
+**@exr-4.** Porque ela supõe que **pouco** ácido se ioniza ($[\ce{HA}]\approx c$); se a
+ionização é apreciável, $[\ce{HA}]$ cai bem abaixo de $c$ e a aproximação superestima
+$[\ce{H+}]$ — é preciso a equação completa.
+:::
