@@ -1,0 +1,110 @@
+---
+title: "Quociente reacional e Le Chatelier"
+---
+
+# Quociente reacional e Le Chatelier {#sec-le-chatelier}
+
+## Para que lado a reação vai — e como mexer nela
+
+Dado um sistema com certas concentrações, duas perguntas práticas surgem: ele já está em
+equilíbrio, e se não, para que lado vai caminhar? E, uma vez em equilíbrio, como
+**deslocá-lo** para favorecer o que se quer? A primeira resposta vem do **quociente
+reacional** $Q$; a segunda, do **princípio de Le Chatelier**. Juntas, são a base da
+otimização de processos químicos, como a síntese da amônia.
+
+## O quociente reacional Q
+
+::: {#def-quociente}
+## Quociente reacional
+O **quociente reacional** $Q$ tem a mesma forma de $K$, mas usa as concentrações de um
+**instante qualquer** (não necessariamente o equilíbrio). Comparando $Q$ com $K$ prevê-se o
+sentido da reação:
+
+- $Q < K$: faltam produtos — a reação avança para a **direita**;
+- $Q > K$: há produtos demais — a reação retrocede para a **esquerda**;
+- $Q = K$: o sistema **já está em equilíbrio**.
+:::
+
+::: {#exm-quociente}
+## Prevendo o sentido
+Para $\ce{A <=> B}$, $K_c = 4{,}0$. Num dado momento, $[\ce{A}] = \pu{2,0 mol/L}$ e
+$[\ce{B}] = \pu{2,0 mol/L}$. Para que lado a reação caminha?
+
+**Solução.** $Q = \dfrac{[\ce{B}]}{[\ce{A}]} = \dfrac{2{,}0}{2{,}0} = 1{,}0$. Como
+$Q < K$ ($1{,}0 < 4{,}0$), a reação avança para a **direita** (forma mais B) até
+$Q = K$.
+:::
+
+## O princípio de Le Chatelier
+
+::: {#def-le-chatelier}
+## Princípio de Le Chatelier
+Quando um sistema em equilíbrio sofre uma **perturbação** (mudança de concentração,
+pressão ou temperatura), ele se desloca no sentido que **atenua** essa perturbação,
+atingindo um novo equilíbrio.
+:::
+
+Aplicando o princípio a cada tipo de perturbação:
+
+::: {.callout-note}
+- **Concentração:** adicionar um reagente desloca para os **produtos**; remover produto
+  também. O sistema "consome" o excesso.
+- **Pressão** (gases): aumentar a pressão (comprimir) desloca para o lado de **menor**
+  número de mols gasosos. Se os dois lados têm o mesmo número de mols, não há efeito.
+- **Temperatura:** aquecer favorece o sentido **endotérmico**; resfriar, o **exotérmico**.
+  Trate o calor como um "reagente" ou "produto".
+:::
+
+::: {.callout-warning}
+Só a **temperatura** muda o valor de $K$. Concentração e pressão deslocam o equilíbrio sem
+alterar $K$ — o sistema reajusta as concentrações até reencontrar o **mesmo** $K$.
+Catalisadores não deslocam nada: só apressam a chegada ao equilíbrio.
+:::
+
+::: {#exm-le-chatelier}
+## Otimizando a síntese da amônia
+Na síntese $\ce{N2(g) + 3 H2(g) <=> 2 NH3(g)}$, $\Delta H < 0$ (exotérmica). Como deslocar
+o equilíbrio para produzir **mais** $\ce{NH3}$?
+
+**Solução.** Quatro mols de gás à esquerda viram dois à direita. Logo: **aumentar a
+pressão** desloca para o lado de menos mols (produtos); **resfriar** favorece o sentido
+exotérmico (produtos); **remover** $\ce{NH3}$ à medida que se forma puxa o equilíbrio para
+a direita. (Na prática usa-se alta pressão e temperatura moderada — um meio-termo com a
+cinética, o processo Haber-Bosch.)
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Para $\ce{A <=> B}$ com $K = 2{,}0$, num instante $[\ce{A}]=\pu{1,0 mol/L}$ e
+$[\ce{B}]=\pu{3,0 mol/L}$. Calcule $Q$ e diga para que lado a reação vai.
+:::
+
+::: {#exr-2}
+No equilíbrio $\ce{N2O4(g) <=> 2 NO2(g)}$, o que ocorre ao **comprimir** o sistema
+(aumentar a pressão)?
+:::
+
+::: {#exr-3}
+A reação $\ce{N2 + O2 <=> 2 NO}$ é endotérmica. Aquecer favorece reagentes ou produtos?
+:::
+
+::: {#exr-4}
+Qual perturbação realmente **muda o valor** de $K$: concentração, pressão ou temperatura?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $Q = \dfrac{3{,}0}{1{,}0} = 3{,}0$. Como $Q > K$ ($3{,}0 > 2{,}0$), a reação
+caminha para a **esquerda** (forma mais A).
+
+**@exr-2.** Comprimir desloca para o lado de **menos** mols de gás: $\pu{2 mol}$ ($\ce{NO2}$)
+$\to \pu{1 mol}$ ($\ce{N2O4}$). O equilíbrio vai para a **esquerda** (forma $\ce{N2O4}$).
+
+**@exr-3.** Endotérmica: aquecer favorece os **produtos** ($\ce{NO}$).
+
+**@exr-4.** Apenas a **temperatura** altera $K$.
+:::

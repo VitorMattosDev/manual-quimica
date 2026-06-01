@@ -79,6 +79,7 @@ book:
     - part: "Volume VIII — Equilíbrio Químico"
       chapters:
         - volumes/v8-equilibrio/01-equilibrio-k.qmd
+        - volumes/v8-equilibrio/02-le-chatelier.qmd
   appendices:
     - constantes.qmd
 
