@@ -1,0 +1,102 @@
+---
+title: "Teoria do orbital molecular (TOM)"
+---
+
+# Teoria do orbital molecular (TOM) {#sec-tom}
+
+## Além das ligações localizadas
+
+O Volume III descreveu a ligação covalente como um par de elétrons **entre dois átomos** (e
+a hibridização do orbital de valência). É um modelo útil, mas falha em casos importantes: por
+que o $\ce{O2}$ é **paramagnético**? Por que existe o íon $\ce{H2+}$, com um só elétron? A
+**teoria do orbital molecular (TOM)** responde, tratando os elétrons como pertencentes à
+**molécula inteira**, em orbitais que se estendem por todos os núcleos.
+
+## Orbitais ligantes e antiligantes
+
+::: {#def-tom}
+## Combinação de orbitais atômicos
+Quando dois orbitais atômicos se combinam, geram **dois orbitais moleculares**:
+
+- **ligante** ($\sigma$, $\pi$): de **menor** energia, com densidade eletrônica **entre** os
+  núcleos — estabiliza a molécula;
+- **antiligante** ($\sigma^*$, $\pi^*$): de **maior** energia, com um **nó** entre os
+  núcleos — desestabiliza.
+
+Os elétrons preenchem esses orbitais moleculares por Aufbau, Hund e Pauli, como nos átomos
+(Volume II).
+:::
+
+## A ordem de ligação
+
+::: {#def-ordem-ligacao}
+## Ordem de ligação
+A estabilidade da ligação mede-se pela **ordem de ligação**:
+$$ \text{ordem} = \frac{(\text{e}^- \text{ligantes}) - (\text{e}^- \text{antiligantes})}{2}. $$ {#eq-ordem-ligacao}
+Ordem maior ⟹ ligação mais forte e mais curta. Ordem **zero** significa que a molécula
+**não** se forma.
+:::
+
+::: {#exm-he2}
+## Por que o He2 não existe
+Use a TOM para explicar por que o $\ce{He2}$ não se forma, mas o $\ce{H2}$ sim.
+
+**Solução.** No $\ce{H2}$ (2 elétrons): ambos no orbital ligante $\sigma$, ordem
+$= (2-0)/2 = 1$ — liga. No $\ce{He2}$ (4 elétrons): 2 no $\sigma$ ligante e 2 no $\sigma^*$
+antiligante, ordem $= (2-2)/2 = 0$ — **não** liga. A TOM explica a inexistência do $\ce{He2}$.
+:::
+
+## O triunfo: o paramagnetismo do O2
+
+::: {.callout-note}
+O grande sucesso da TOM é o $\ce{O2}$. O modelo de Lewis prevê todos os elétrons emparelhados
+(diamagnético), mas o oxigênio é **paramagnético** — atraído por um ímã. A TOM acerta: os
+dois últimos elétrons ocupam, **desemparelhados**, dois orbitais $\pi^*$ degenerados (regra
+de Hund). Onde Lewis falha, a TOM prevê o comportamento magnético observado.
+:::
+
+::: {#exm-ordem-o2}
+## Ordem de ligação do O2
+O $\ce{O2}$ tem 8 elétrons de valência distribuídos como: $\sigma_{2s}^2\,\sigma_{2s}^{*2}\,
+\sigma_{2p}^2\,\pi_{2p}^4\,\pi_{2p}^{*2}$. Qual a ordem de ligação?
+
+**Solução.** Ligantes: $2 + 2 + 4 = 8$; antiligantes: $2 + 2 = 4$. Pela @eq-ordem-ligacao,
+ordem $= (8 - 4)/2 = 2$ — uma **ligação dupla**, coerente com $\ce{O=O}$. E os 2 elétrons
+$\pi^*$ desemparelhados explicam o paramagnetismo.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Qual a diferença entre um orbital molecular ligante e um antiligante?
+:::
+
+::: {#exr-2}
+Escreva a fórmula da ordem de ligação.
+:::
+
+::: {#exr-3}
+Calcule a ordem de ligação do íon $\ce{H2+}$ (1 elétron, no orbital $\sigma$ ligante). Ele
+existe?
+:::
+
+::: {#exr-4}
+Que propriedade do $\ce{O2}$ a TOM explica e o modelo de Lewis não?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** O **ligante** tem menor energia e concentra densidade eletrônica **entre** os
+núcleos (estabiliza); o **antiligante** tem maior energia e um **nó** entre os núcleos
+(desestabiliza).
+
+**@exr-2.** ordem $= \dfrac{(\text{e}^-\text{ligantes}) - (\text{e}^-\text{antiligantes})}{2}$.
+
+**@exr-3.** Ordem $= (1 - 0)/2 = 0{,}5$. Como é **maior que zero**, o íon $\ce{H2+}$
+**existe** (ligação fraca, de meio par).
+
+**@exr-4.** O **paramagnetismo** (dois elétrons desemparelhados nos orbitais $\pi^*$).
+:::
