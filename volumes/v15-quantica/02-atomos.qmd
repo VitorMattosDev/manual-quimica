@@ -1,0 +1,104 @@
+---
+title: "Átomo de hidrogênio e átomos polieletrônicos"
+---
+
+# Átomo de hidrogênio e átomos polieletrônicos {#sec-atomos}
+
+## O único átomo resolvido exatamente
+
+O átomo de hidrogênio é o "átomo de prova" da mecânica quântica: com um próton e um elétron,
+a equação de Schrödinger tem **solução exata**. Dessa solução brotam, com rigor, os
+**orbitais** e os **números quânticos** que o Volume II apresentou como receita. Entender o
+hidrogênio quântico e como ele se estende a átomos com muitos elétrons é a ponte entre a
+teoria do capítulo anterior e a tabela periódica.
+
+## A solução do átomo de hidrogênio
+
+::: {#def-atomo-h}
+## Orbitais do hidrogênio
+Resolver $\hat{H}\psi = E\psi$ para o hidrogênio dá funções de onda $\psi_{n\ell m}$ — os
+**orbitais atômicos** — rotuladas por três **números quânticos**:
+
+- **$n$** (principal): nível de energia e tamanho ($1, 2, 3, \ldots$);
+- **$\ell$** (azimutal): forma do orbital e subnível ($0=s$, $1=p$, $2=d$, $3=f$);
+- **$m_\ell$** (magnético): orientação espacial ($-\ell$ a $+\ell$).
+
+A energia, no hidrogênio, depende **só de $n$**:
+$E_n = -\dfrac{13{,}6}{n^2}\,\pu{eV}$.
+:::
+
+Acrescenta-se o quarto número, **$m_s$** (spin, $\pm\tfrac12$), não vindo desta equação mas
+da relatividade — completando a identidade de cada elétron.
+
+::: {#exm-energia-hidrogenio}
+## Energia de um nível
+Qual a energia do elétron no nível $n = 2$ do hidrogênio?
+
+**Solução.** $E_2 = -\dfrac{13{,}6}{2^2} = -\dfrac{13{,}6}{4} = -\pu{3,4 eV}$. A diferença
+para $n=1$ ($-\pu{13,6 eV}$) corresponde ao fóton emitido/absorvido na transição (série de
+espectro do hidrogênio).
+:::
+
+## Átomos polieletrônicos
+
+::: {#def-polieletronico}
+## A complicação dos muitos elétrons
+Com mais de um elétron, surge a **repulsão elétron-elétron**, e a equação **não** tem
+solução exata — usam-se aproximações. Duas consequências centrais:
+
+- A energia passa a depender de **$n$ e $\ell$** (não só de $n$): por isso $4s$ enche antes
+  de $3d$ (Volume II).
+- Cada elétron sente uma **carga nuclear efetiva** $Z_{\text{ef}}$, menor que $Z$ por causa
+  da **blindagem** dos elétrons internos.
+:::
+
+::: {.callout-note}
+A **carga nuclear efetiva** $Z_{\text{ef}}$ é a chave das propriedades periódicas (Volume
+II): ao longo de um período, $Z_{\text{ef}}$ cresce (mais prótons, blindagem quase
+constante), o raio diminui e a eletronegatividade aumenta. A periodicidade que parecia
+empírica é consequência direta da estrutura quântica.
+:::
+
+::: {#exm-aufbau}
+## Por que 4s antes de 3d
+Por que o potássio preenche o orbital $4s$ antes do $3d$?
+
+**Solução.** Em átomos polieletrônicos, a energia depende de $n + \ell$ (regra de Madelung):
+o $4s$ ($n+\ell = 4$) tem energia **menor** que o $3d$ ($n+\ell = 5$), apesar do $n$ maior.
+Por isso é preenchido primeiro — base da configuração eletrônica do Volume II.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Quais os três números quânticos que rotulam um orbital, e o que cada um indica?
+:::
+
+::: {#exr-2}
+No átomo de hidrogênio, de que número quântico depende a energia? E nos polieletrônicos?
+:::
+
+::: {#exr-3}
+Calcule a energia do nível $n = 3$ do hidrogênio.
+:::
+
+::: {#exr-4}
+O que é a carga nuclear efetiva, e por que ela é menor que a carga real do núcleo?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** $n$ (nível/tamanho), $\ell$ (forma/subnível) e $m_\ell$ (orientação espacial).
+
+**@exr-2.** No hidrogênio, **só de $n$**. Nos polieletrônicos, de **$n$ e $\ell$** (por
+causa da repulsão e da blindagem).
+
+**@exr-3.** $E_3 = -\dfrac{13{,}6}{3^2} = -\dfrac{13{,}6}{9} \approx -\pu{1,51 eV}$.
+
+**@exr-4.** É a carga nuclear **efetivamente** sentida por um elétron; é menor que a real
+porque os elétrons **internos blindam** (repelem) o elétron externo, reduzindo a atração do
+núcleo.
+:::

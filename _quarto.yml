@@ -136,6 +136,7 @@ book:
     - part: "Volume XV — Química Quântica e Espectroscopia"
       chapters:
         - volumes/v15-quantica/01-fundamentos-mq.qmd
+        - volumes/v15-quantica/02-atomos.qmd
   appendices:
     - constantes.qmd
 
