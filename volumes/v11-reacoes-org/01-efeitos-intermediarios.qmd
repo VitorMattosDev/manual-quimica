@@ -1,0 +1,114 @@
+---
+title: "Efeitos eletrônicos e intermediários"
+---
+
+# Efeitos eletrônicos e intermediários {#sec-efeitos-intermediarios}
+
+## Por que algumas posições reagem e outras não
+
+O Volume X classificou e nomeou os compostos orgânicos. O Volume XI explica como eles
+**reagem**. Antes dos mecanismos específicos, é preciso uma chave geral: por que uma reação
+ataca *este* carbono e não aquele? A resposta está em como os elétrons se distribuem na
+molécula — os **efeitos eletrônicos** — e na estabilidade das espécies fugazes que se
+formam no meio do caminho — os **intermediários**. Estes dois conceitos governam quase tudo
+o que vem a seguir.
+
+## Os efeitos eletrônicos
+
+::: {#def-efeitos-eletronicos}
+## Efeito indutivo e efeito mesomérico
+- **Efeito indutivo (I):** deslocamento de elétrons **pelas ligações sigma**, por diferença
+  de eletronegatividade. Grupos que **atraem** elétrons têm efeito $-I$ (ex.: $\ce{-Cl}$,
+  $\ce{-NO2}$); grupos que **cedem**, efeito $+I$ (ex.: grupos alquila).
+- **Efeito mesomérico (M) ou de ressonância:** deslocamento de elétrons **pi**, por
+  conjugação. Pode ser $-M$ (retira, ex.: $\ce{-C=O}$) ou $+M$ (doa, ex.: $\ce{-OH}$,
+  $\ce{-NH2}$).
+:::
+
+Esses efeitos explicam, por exemplo, por que o ácido cloroacético é mais forte que o
+acético: o $\ce{Cl}$ ($-I$) estabiliza a base conjugada, puxando densidade eletrônica.
+
+## Tipos de quebra de ligação
+
+::: {#def-cisao}
+## Cisão homolítica e heterolítica
+Uma ligação pode romper-se de dois modos:
+
+- **Homolítica:** cada átomo fica com **um** elétron, gerando **radicais livres** (espécies
+  com elétron desemparelhado). Típica em meio apolar, luz ou calor.
+- **Heterolítica:** **um** átomo leva **os dois** elétrons, gerando **íons** — um
+  **carbocátion** (C$^+$) e um **carbânion** (C$^-$). Típica em meio polar.
+:::
+
+## A estabilidade dos intermediários
+
+::: {#def-carbocation}
+## Estabilidade de carbocátions e radicais
+Tanto carbocátions quanto radicais são **mais estáveis** quanto **mais substituídos** —
+graças ao efeito $+I$ doador dos grupos alquila vizinhos (e à hiperconjugação). A ordem de
+estabilidade é:
+$$ \text{terciário} > \text{secundário} > \text{primário} > \text{metílico}. $$
+Essa ordem **decide** qual caminho a reação prefere — sempre o que passa pelo intermediário
+mais estável.
+:::
+
+::: {.callout-note}
+A regra de ouro das reações orgânicas: a reação tende a seguir o mecanismo que passa pelo
+**intermediário mais estável**. Saber ordenar carbocátions e radicais por estabilidade é,
+muitas vezes, prever o produto majoritário — como veremos na regra de Markovnikov (adição).
+:::
+
+::: {#exm-estabilidade-cation}
+## Comparando carbocátions
+Ordene por estabilidade os carbocátions: $\ce{CH3+}$, $\ce{CH3CH2+}$, $\ce{(CH3)3C+}$.
+
+**Solução.** Pelo número de grupos alquila doadores ($+I$): $\ce{(CH3)3C+}$ (terciário) >
+$\ce{CH3CH2+}$ (primário) > $\ce{CH3+}$ (metílico). O terciário é o mais estável.
+:::
+
+::: {#exm-efeito-acidez}
+## Efeito indutivo e acidez
+Por que o ácido tricloroacético ($\ce{CCl3COOH}$) é muito mais forte que o ácido acético
+($\ce{CH3COOH}$)?
+
+**Solução.** Os três $\ce{Cl}$ exercem forte efeito $-I$, retirando densidade eletrônica e
+**estabilizando** a base conjugada (o ânion carboxilato). Base conjugada mais estável ⟹
+ácido mais forte.
+:::
+
+## Exercícios
+
+::: {#exr-1}
+Diferencie efeito indutivo de efeito mesomérico quanto ao tipo de ligação por onde os
+elétrons se deslocam.
+:::
+
+::: {#exr-2}
+Que espécie se forma na cisão **homolítica** de uma ligação? E na **heterolítica**?
+:::
+
+::: {#exr-3}
+Ordene por estabilidade os radicais: metílico, secundário, terciário.
+:::
+
+::: {#exr-4}
+Um grupo $\ce{-NO2}$ ligado a uma cadeia retira ou doa elétrons? Como isso afeta a acidez de
+um ácido vizinho?
+:::
+
+## Soluções selecionadas
+
+::: {.callout-tip collapse="true"}
+## Ver soluções
+
+**@exr-1.** O **indutivo** atua pelas ligações **sigma** (por eletronegatividade); o
+**mesomérico** atua pelos elétrons **pi** (por ressonância/conjugação).
+
+**@exr-2.** Homolítica → **radicais livres** (cada átomo com 1 elétron); heterolítica →
+**íons** (carbocátion + carbânion ou íon vizinho).
+
+**@exr-3.** terciário > secundário > metílico (mais substituído, mais estável).
+
+**@exr-4.** **Retira** elétrons (efeito $-I$/$-M$); estabiliza a base conjugada e **aumenta**
+a acidez do ácido vizinho.
+:::

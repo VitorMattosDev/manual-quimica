@@ -135,7 +135,7 @@ Estado atual: **1 pronto · 2 esboços · 96 pendentes.**
 ### Volume XI — Reações Orgânicas
 *Objetivo:* mecanismos e transformações. *Pré-requisito:* Vol. X.
 
-- [ ] `volumes/v11-reacoes-org/01-efeitos-intermediarios.qmd` — Efeitos eletrônicos e intermediários.
+- [x] `volumes/v11-reacoes-org/01-efeitos-intermediarios.qmd` — Efeitos eletrônicos e intermediários.
 - [ ] `volumes/v11-reacoes-org/02-substituicao.qmd` — Reações de substituição (SN1/SN2, radicalar).
 - [ ] `volumes/v11-reacoes-org/03-adicao.qmd` — Reações de adição (alcenos, alcinos).
 - [ ] `volumes/v11-reacoes-org/04-eliminacao.qmd` — Reações de eliminação (E1/E2).

@@ -102,6 +102,9 @@ book:
         - volumes/v10-organica-fund/05-nomenclatura.qmd
         - volumes/v10-organica-fund/06-isomeria-plana.qmd
         - volumes/v10-organica-fund/07-estereoquimica.qmd
+    - part: "Volume XI — Reações Orgânicas"
+      chapters:
+        - volumes/v11-reacoes-org/01-efeitos-intermediarios.qmd
   appendices:
     - constantes.qmd
 
