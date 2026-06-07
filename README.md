@@ -3,6 +3,8 @@
 Livro aberto em [Quarto](https://quarto.org), terceiro título da série *Manuais de
 Ciências*. Da matéria à química quântica — básico ao avançado.
 
+**📖 Leia online:** https://vitormattosdev.github.io/manual-quimica/
+
 ## Setup em uma máquina nova
 
 1. **Quarto** (obrigatório): instale de <https://quarto.org/docs/get-started/>.
